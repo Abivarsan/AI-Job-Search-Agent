@@ -1,44 +1,66 @@
 {
-  "name": "Candidate",
+  "name": "Abivarsan Ketheeswaran",
   "target_roles": [
-    "Software Engineer",
     "Associate Software Engineer",
+    "Software Engineer",
     "Junior Software Engineer",
-    "Entry Level Software Engineer",
     "Graduate Software Engineer",
+    ".NET Developer",
+    "Java Developer",
     "Full Stack Developer",
     "Backend Developer"
   ],
   "experience_years": 1,
-  "experience_level": "Entry / Associate (0-2 years)",
+  "experience_level": "Entry / Associate / Graduate (0-2 years)",
   "primary_skills": [
-    "Python",
-    "JavaScript",
-    "TypeScript",
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "ASP.NET Core Web API",
+    "Entity Framework Core",
+    "Java",
+    "Spring Boot",
     "React",
-    "Node.js",
-    "FastAPI",
-    "SQL",
-    "PostgreSQL",
-    "Git",
-    "Docker"
+    "TypeScript",
+    "JavaScript",
+    "MS SQL Server",
+    "MySQL",
+    "Git"
   ],
   "secondary_skills": [
-    "REST APIs",
-    "CI/CD",
-    "Linux",
-    "Cloud (AWS / GCP)",
-    "Data Structures & Algorithms"
+    "Microservices",
+    "Apache Kafka",
+    "Docker",
+    "RESTful APIs",
+    "Python",
+    "Machine Learning (Scikit-learn, TensorFlow, XGBoost)",
+    "Playwright",
+    "Cucumber BDD",
+    "Firebase",
+    "Azure DevOps",
+    "Postman"
   ],
-  "education": "Bachelor's Degree in Computer Science or related engineering field",
+  "education": "BSc (Hons) in Information Technology and Management, University of Moratuwa (March 2022 - December 2026)",
+  "internship_experience": "Software Engineer Intern at Mindox Techno (March 2025 - August 2025): Semiconductor software systems, manual/software testing, and host application development.",
+  "location_preferences": {
+    "domestic_country": "Sri Lanka",
+    "domestic_workplace_types": [
+      "On-site",
+      "Hybrid",
+      "Remote"
+    ],
+    "international_workplace_types": [
+      "Remote"
+    ]
+  },
   "preferred_work_types": [
     "Remote",
     "Hybrid",
     "On-site"
   ],
   "target_locations": [
-    "Remote",
-    "United States"
+    "Sri Lanka",
+    "Remote"
   ],
   "negative_keywords_in_title": [
     "Senior",
@@ -50,14 +72,13 @@
     "Director",
     "Manager",
     "VP",
-    "AVP",
-    "Intern",
-    "Co-op"
+    "AVP"
   ],
   "deal_breakers": [
-    "Requires more than 3 years of professional experience",
+    "Requires on-site or hybrid presence outside Sri Lanka",
+    "Requires more than 3 years of post-degree commercial experience",
     "Requires active top-secret security clearance",
     "Unpaid or commission-only roles"
   ],
-  "summary": "Motivated software engineer with foundational knowledge in full-stack development, modern frameworks, database design, and cloud services. Seeking associate or junior software engineering opportunities with growth and mentorship potential."
+  "summary": "Software Engineer / ITM undergraduate from University of Moratuwa with internship experience at Mindox Techno. Strong full-stack and backend capabilities in C# / ASP.NET Core, Java / Spring Boot, React with TypeScript, MS SQL Server, and Microservices. Experienced in building enterprise web platforms, industrial automation tools, and predictive ML systems."
 }

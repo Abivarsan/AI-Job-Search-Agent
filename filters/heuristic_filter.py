@@ -59,4 +59,19 @@ class HeuristicFilter:
         if not is_relevant_role:
             return False, f"Title '{title}' does not match target software engineering titles"
 
+        # 3. Location & Workplace Type Validation:
+        # Rule: Within Sri Lanka -> On-site, Hybrid, and Remote are all allowed.
+        # Rule: Outside Sri Lanka -> ONLY 100% Remote is allowed.
+        loc_str = f"{job.location} {job.title}".lower()
+        is_sri_lanka = any(term in loc_str for term in ["sri lanka", "colombo", "moratuwa", "jaffna", "kandy", "galle"])
+        is_remote = (
+            job.workplace_type.lower() == "remote" 
+            or "remote" in job.title.lower() 
+            or "remote" in job.location.lower()
+        )
+
+        if not is_sri_lanka and not is_remote:
+            return False, f"International role is '{job.workplace_type}' in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
+
         return True, "Passed heuristic filter"
+

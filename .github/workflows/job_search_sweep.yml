@@ -78,8 +78,8 @@ jobs:
           TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
           WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-          SEARCH_KEYWORDS: ${{ vars.SEARCH_KEYWORDS || 'Software Engineer, Associate Software Engineer, Junior Software Engineer' }}
-          SEARCH_LOCATIONS: ${{ vars.SEARCH_LOCATIONS || 'Remote, United States' }}
+          SEARCH_KEYWORDS: ${{ vars.SEARCH_KEYWORDS || 'Associate Software Engineer, Software Engineer, Junior Software Engineer, .NET Developer, Java Developer' }}
+          SEARCH_LOCATIONS: ${{ vars.SEARCH_LOCATIONS || 'Sri Lanka, Remote' }}
         run: |
           python main.py --run-once
           python main.py --stats

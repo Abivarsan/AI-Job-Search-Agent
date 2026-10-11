@@ -36,11 +36,11 @@ class Settings:
         # Search Preferences
         self.search_keywords_raw: str = os.getenv(
             "SEARCH_KEYWORDS",
-            "Software Engineer, Associate Software Engineer, Junior Software Engineer"
+            "Associate Software Engineer, Software Engineer, Junior Software Engineer, .NET Developer, Java Developer"
         )
         self.search_locations_raw: str = os.getenv(
             "SEARCH_LOCATIONS",
-            "Remote, United States"
+            "Sri Lanka, Remote"
         )
         self.poll_interval_minutes: int = int(os.getenv("POLL_INTERVAL_MINUTES", "180"))
         self.database_url: str = os.getenv("DATABASE_URL", f"sqlite:///{BASE_DIR / 'jobs.db'}")

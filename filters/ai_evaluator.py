@@ -64,13 +64,20 @@ class AIEvaluator:
 You are an expert technical recruiter and career coach evaluating a job posting for an early-career software engineer.
 
 ### CANDIDATE PROFILE:
+- Name: {self.profile.get('name', 'Candidate')}
 - Target Roles: {', '.join(self.profile.get('target_roles', []))}
 - Experience Level: {self.profile.get('experience_level', 'Entry / Associate (0-2 years)')} ({self.profile.get('experience_years', 1)} years)
 - Primary Skills: {', '.join(self.profile.get('primary_skills', []))}
 - Secondary Skills: {', '.join(self.profile.get('secondary_skills', []))}
 - Education: {self.profile.get('education', '')}
+- Internship Experience: {self.profile.get('internship_experience', '')}
 - Summary: {self.profile.get('summary', '')}
 - Deal Breakers: {', '.join(self.profile.get('deal_breakers', []))}
+
+### LOCATION & WORKPLACE RULES:
+- Candidate is based in Sri Lanka.
+- Jobs inside Sri Lanka: On-site, Hybrid, and Remote are all fully acceptable.
+- Jobs outside Sri Lanka: MUST be 100% Remote. If an international role requires on-site/hybrid relocation, assign a match score < 50.
 
 ### JOB POSTING:
 - Title: {job.title}
@@ -81,11 +88,11 @@ You are an expert technical recruiter and career coach evaluating a job posting 
 
 ### EVALUATION CRITERIA:
 1. Match Score (0-100):
-   - 80-100: Ideal fit for associate / junior engineer, high skill overlap, 0-2 yrs requirement.
-   - 65-79: Moderate fit, reasonable overlap, slight stretch.
-   - <65: Mismatch (requires senior experience, unrelated tech stack, or violates deal breakers).
-2. Identify explicitly matching skills vs missing requirements.
-3. Keep summary punchy, factual, and ready for a WhatsApp message alert.
+   - 85-100: Strong match for C#/.NET, Java/Spring Boot, React/TypeScript, Full Stack, or early-career SWE roles in Sri Lanka or Global Remote.
+   - 70-84: Moderate match, reasonable tech stack overlap, junior/associate friendly.
+   - <70: Mismatch (requires 3+ years experience, requires relocation outside Sri Lanka, or unrelated stack).
+2. Highlight key matching skills (e.g. C#, ASP.NET, Java, Spring Boot, React, SQL) vs missing requirements.
+3. Keep summary punchy, factual, and formatted for Telegram notification alert.
 """
 
         try:
