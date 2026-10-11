@@ -1,0 +1,63 @@
+{
+  "name": "Candidate",
+  "target_roles": [
+    "Software Engineer",
+    "Associate Software Engineer",
+    "Junior Software Engineer",
+    "Entry Level Software Engineer",
+    "Graduate Software Engineer",
+    "Full Stack Developer",
+    "Backend Developer"
+  ],
+  "experience_years": 1,
+  "experience_level": "Entry / Associate (0-2 years)",
+  "primary_skills": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "FastAPI",
+    "SQL",
+    "PostgreSQL",
+    "Git",
+    "Docker"
+  ],
+  "secondary_skills": [
+    "REST APIs",
+    "CI/CD",
+    "Linux",
+    "Cloud (AWS / GCP)",
+    "Data Structures & Algorithms"
+  ],
+  "education": "Bachelor's Degree in Computer Science or related engineering field",
+  "preferred_work_types": [
+    "Remote",
+    "Hybrid",
+    "On-site"
+  ],
+  "target_locations": [
+    "Remote",
+    "United States"
+  ],
+  "negative_keywords_in_title": [
+    "Senior",
+    "Lead",
+    "Tech Lead",
+    "Principal",
+    "Staff",
+    "Architect",
+    "Director",
+    "Manager",
+    "VP",
+    "AVP",
+    "Intern",
+    "Co-op"
+  ],
+  "deal_breakers": [
+    "Requires more than 3 years of professional experience",
+    "Requires active top-secret security clearance",
+    "Unpaid or commission-only roles"
+  ],
+  "summary": "Motivated software engineer with foundational knowledge in full-stack development, modern frameworks, database design, and cloud services. Seeking associate or junior software engineering opportunities with growth and mentorship potential."
+}

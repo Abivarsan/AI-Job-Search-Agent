@@ -1,0 +1,79 @@
+name: AI Job Search 3-Hour Agent
+
+on:
+  schedule:
+    # Runs every 3 hours at minute 0 (8 times a day: 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC)
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      test_whatsapp_only:
+        description: 'Send test WhatsApp ping only (true/false)'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: job-search-3hr
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore Deduplication Database Cache
+        uses: actions/cache@v4
+        id: db-cache
+        with:
+          path: jobs.db
+          key: jobs-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            jobs-db-${{ runner.os }}-
+            jobs-db-
+
+      - name: Test WhatsApp Delivery (Optional Run)
+        if: ${{ inputs.test_whatsapp_only == true }}
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+        run: python main.py --test-whatsapp
+
+      - name: Run Job Search Sweep & Dispatch Alerts
+        if: ${{ inputs.test_whatsapp_only != true }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || 75 }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          SEARCH_KEYWORDS: ${{ vars.SEARCH_KEYWORDS || 'Software Engineer, Associate Software Engineer, Junior Software Engineer' }}
+          SEARCH_LOCATIONS: ${{ vars.SEARCH_LOCATIONS || 'Remote, United States' }}
+        run: |
+          python main.py --run-once
+          python main.py --stats
+
+      - name: Upload Database Backup Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jobs-database-backup
+          path: jobs.db
+          retention-days: 90
