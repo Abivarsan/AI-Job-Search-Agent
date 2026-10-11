@@ -104,6 +104,23 @@ def test_whatsapp():
         console.print(f"[bold red]Failed:[/bold red] {res}")
 
 
+def test_telegram():
+    """Sends a verification message to test Telegram Bot connectivity."""
+    from notifiers.telegram_notifier import TelegramNotifier
+    notifier = TelegramNotifier()
+    if not notifier.is_configured():
+        console.print("[red]Telegram is not configured in your .env file or environment.[/red]")
+        console.print("Please set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.")
+        return
+
+    console.print(f"Sending test Telegram message to Chat ID [cyan]{settings.telegram_chat_id}[/cyan]...")
+    success, res = notifier.send_test_message()
+    if success:
+        console.print(f"[bold green]Success![/bold green] {res}")
+    else:
+        console.print(f"[bold red]Failed:[/bold red] {res}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="AI Job Search & Notification Agent")
     parser.add_argument("--run-once", action="store_true", help="Execute a single search and alert cycle right now")
@@ -111,6 +128,7 @@ def main():
     parser.add_argument("--stats", action="store_true", help="Show statistics of indexed and alerted jobs")
     parser.add_argument("--list-matches", action="store_true", help="Show all high-matching jobs in the database")
     parser.add_argument("--test-whatsapp", action="store_true", help="Send a test WhatsApp alert via Twilio")
+    parser.add_argument("--test-telegram", action="store_true", help="Send a test Telegram alert via Telegram Bot")
 
     args = parser.parse_args()
 
@@ -126,16 +144,19 @@ def main():
         display_matched_jobs()
     elif args.test_whatsapp:
         test_whatsapp()
+    elif args.test_telegram:
+        test_telegram()
     else:
         # Default help and status view
         console.print(Panel(
             "[bold cyan]AI Job Search Agent[/bold cyan]\n\n"
-            "Automated job searching, Gemini AI matching, and WhatsApp alerts for Software Engineers.\n\n"
+            "Automated job searching, Gemini AI matching, and Telegram / WhatsApp alerts for Software Engineers.\n\n"
             "[bold white]Available Commands:[/bold white]\n"
             "  [green]python main.py --run-once[/green]       Run a search cycle immediately\n"
             "  [green]python main.py --daemon[/green]         Run background scheduler continuously\n"
             "  [green]python main.py --list-matches[/green]   View all matched jobs in database\n"
             "  [green]python main.py --stats[/green]          View pipeline statistics\n"
+            "  [green]python main.py --test-telegram[/green]  Verify Telegram Bot delivery\n"
             "  [green]python main.py --test-whatsapp[/green]  Verify Twilio WhatsApp delivery\n\n"
             "To configure your credentials, copy [yellow].env.example[/yellow] to [yellow].env[/yellow].",
             title="Welcome",

@@ -60,3 +60,29 @@ class TelegramNotifier(BaseNotifier):
                 return False, f"Telegram API error HTTP {res.status_code}: {res.text}"
         except Exception as e:
             return False, f"Failed to dispatch Telegram message: {e}"
+
+    def send_test_message(self) -> Tuple[bool, str]:
+        """Sends a verification ping to confirm Telegram bot connectivity."""
+        if not self.is_configured():
+            return False, "TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID must be set."
+
+        text = (
+            "🤖 *AI Job Search Agent Connected!*\n\n"
+            "Your Telegram notifications are successfully configured. "
+            "You will receive alerts here whenever matching Software Engineer positions are found."
+        )
+        payload = {
+            "chat_id": self.chat_id,
+            "text": text,
+            "parse_mode": "Markdown"
+        }
+
+        try:
+            with httpx.Client(timeout=10.0) as client:
+                res = client.post(self.base_url, json=payload)
+                if res.status_code == 200:
+                    return True, "Telegram test message delivered!"
+                return False, f"Telegram API error HTTP {res.status_code}: {res.text}"
+        except Exception as e:
+            return False, f"Failed to send test message: {e}"
+

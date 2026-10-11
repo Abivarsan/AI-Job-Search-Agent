@@ -6,6 +6,11 @@ on:
     - cron: '0 */3 * * *'
   workflow_dispatch:
     inputs:
+      test_telegram_only:
+        description: 'Send test Telegram ping only (true/false)'
+        required: false
+        default: false
+        type: boolean
       test_whatsapp_only:
         description: 'Send test WhatsApp ping only (true/false)'
         required: false
@@ -44,6 +49,13 @@ jobs:
             jobs-db-${{ runner.os }}-
             jobs-db-
 
+      - name: Test Telegram Delivery (Optional Run)
+        if: ${{ inputs.test_telegram_only == true }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --test-telegram
+
       - name: Test WhatsApp Delivery (Optional Run)
         if: ${{ inputs.test_whatsapp_only == true }}
         env:
@@ -54,11 +66,13 @@ jobs:
         run: python main.py --test-whatsapp
 
       - name: Run Job Search Sweep & Dispatch Alerts
-        if: ${{ inputs.test_whatsapp_only != true }}
+        if: ${{ inputs.test_telegram_only != true && inputs.test_whatsapp_only != true }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
           MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || 75 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
           TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
           TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
