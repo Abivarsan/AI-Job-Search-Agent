@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AI Job Search Agent • Dashboard</title>
+  
+  <!-- PWA & Mobile Meta -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#090d16">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="https://api.iconify.design/lucide:briefcase.svg?color=%230ea5e9">
+  
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e'
+            },
+            dark: {
+              bg: '#090d16',
+              card: '#111827',
+              border: '#1f293d',
+              hover: '#1e293b'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    /* Custom scrollbar & mobile tap highlights */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #090d16; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    * { -webkit-tap-highlight-color: transparent; }
+    .badge-portal-topjobs_lk { background: rgba(234, 88, 12, 0.15); color: #fb923c; border-color: rgba(234, 88, 12, 0.3); }
+    .badge-portal-itpro_lk { background: rgba(14, 165, 233, 0.15); color: #38bdf8; border-color: rgba(14, 165, 233, 0.3); }
+    .badge-portal-rooster_jobs { background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3); }
+    .badge-portal-xpress_jobs { background: rgba(236, 72, 153, 0.15); color: #f472b6; border-color: rgba(236, 72, 153, 0.3); }
+    .badge-portal-linkedin_guest { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3); }
+  </style>
+</head>
+<body class="bg-[#090d16] text-slate-100 min-h-screen pb-20 md:pb-8 flex flex-col font-sans selection:bg-brand-500 selection:text-white">
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-[#090d16]/90 backdrop-blur-md border-b border-dark-border px-4 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+      <!-- Brand & Profile -->
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-brand-500/20">
+          <i data-lucide="sparkles" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-base font-bold tracking-tight text-white">AI Job Agent</h1>
+            <span id="connectionBadge" class="text-[10px] px-2 py-0.5 rounded-full font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              Live Sync
+            </span>
+          </div>
+          <p class="text-xs text-slate-400">Abivarsan Ketheeswaran • Moratuwa ITM</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2">
+        <button id="btnExportCSV" title="Export jobs to CSV" class="hidden sm:flex items-center gap-1.5 text-xs bg-dark-card hover:bg-dark-hover border border-dark-border px-3 py-2 rounded-lg text-slate-300 transition">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          <span>Export CSV</span>
+        </button>
+        <button id="btnRefresh" title="Refresh data" class="p-2 text-slate-400 hover:text-white hover:bg-dark-card rounded-lg border border-dark-border/50 transition">
+          <i data-lucide="rotate-cw" class="w-4 h-4"></i>
+        </button>
+        <button id="btnTriggerSweep" title="Trigger manual scrape (Local Mode)" class="hidden items-center gap-1.5 text-xs bg-brand-600 hover:bg-brand-500 text-white font-medium px-3 py-2 rounded-lg transition shadow-sm">
+          <i data-lucide="play" class="w-3.5 h-3.5"></i>
+          <span class="hidden md:inline">Run Sweep</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl mx-auto w-full px-4 py-4 flex-1 flex flex-col gap-5">
+
+    <!-- KPI Summary Grid -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3">
+      <!-- Total Jobs -->
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-blue-500/10 text-blue-400">
+          <i data-lucide="briefcase" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">Total Jobs</p>
+          <p id="kpiTotalJobs" class="text-xl font-bold text-white tracking-tight">--</p>
+        </div>
+      </div>
+
+      <!-- High Match (>=70%) -->
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-emerald-500/10 text-emerald-400">
+          <i data-lucide="target" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">High Fit (>=70%)</p>
+          <p id="kpiHighMatches" class="text-xl font-bold text-emerald-400 tracking-tight">--</p>
+        </div>
+      </div>
+
+      <!-- Bookmarked -->
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-amber-500/10 text-amber-400">
+          <i data-lucide="star" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">Bookmarked</p>
+          <p id="kpiBookmarked" class="text-xl font-bold text-amber-400 tracking-tight">0</p>
+        </div>
+      </div>
+
+      <!-- Applied -->
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-purple-500/10 text-purple-400">
+          <i data-lucide="check-circle" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">Applied</p>
+          <p id="kpiApplied" class="text-xl font-bold text-purple-400 tracking-tight">0</p>
+        </div>
+      </div>
+
+      <!-- Active Portals -->
+      <div class="col-span-2 sm:col-span-4 lg:col-span-1 bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400">
+          <i data-lucide="globe" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">Portals Monitored</p>
+          <p class="text-xl font-bold text-cyan-400 tracking-tight">5 Platforms</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="bg-dark-card border border-dark-border p-4 rounded-xl flex flex-col gap-3.5 shadow-sm">
+      <!-- Search Input -->
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+        <input 
+          id="searchInput" 
+          type="text" 
+          placeholder="Search by role, company, skills (e.g. C#, .NET, Java, Spring Boot, React, Colombo)..." 
+          class="w-full bg-[#090d16] border border-dark-border rounded-lg pl-10 pr-10 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition"
+        >
+        <button id="btnClearSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- Filter Chips Row -->
+      <div class="flex flex-wrap items-center justify-between gap-3 pt-1 border-t border-dark-border/50">
+        <!-- Portal Source Filters -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 max-w-full">
+          <span class="text-xs text-slate-400 font-medium mr-1 hidden sm:inline">Portal:</span>
+          <button data-portal="all" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-brand-500 text-white transition">All</button>
+          <button data-portal="topjobs_lk" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">TopJobs.lk</button>
+          <button data-portal="itpro_lk" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">ITPro.lk</button>
+          <button data-portal="rooster_jobs" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">Rooster.jobs</button>
+          <button data-portal="xpress_jobs" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">Xpress.jobs</button>
+          <button data-portal="linkedin_guest" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">LinkedIn</button>
+        </div>
+
+        <!-- Score & View Options -->
+        <div class="flex items-center gap-3 text-xs text-slate-300">
+          <!-- Score Dropdown -->
+          <div class="flex items-center gap-1.5">
+            <span class="text-slate-400 font-medium">Score:</span>
+            <select id="scoreFilter" class="bg-[#090d16] border border-dark-border rounded-lg px-2.5 py-1 text-xs text-white focus:outline-none focus:border-brand-500">
+              <option value="0">All Scores</option>
+              <option value="70" selected>Score &gt;= 70%</option>
+              <option value="80">Score &gt;= 80%</option>
+              <option value="90">Score &gt;= 90%</option>
+            </select>
+          </div>
+
+          <!-- Workplace Type -->
+          <div class="flex items-center gap-1.5">
+            <span class="text-slate-400 font-medium hidden sm:inline">Type:</span>
+            <select id="workplaceFilter" class="bg-[#090d16] border border-dark-border rounded-lg px-2.5 py-1 text-xs text-white focus:outline-none focus:border-brand-500">
+              <option value="all">All Types</option>
+              <option value="remote">Remote Only</option>
+              <option value="hybrid">Hybrid</option>
+              <option value="on-site">On-site</option>
+            </select>
+          </div>
+
+          <!-- View Layout Toggle (Desktop) -->
+          <div class="hidden md:flex items-center bg-[#090d16] border border-dark-border rounded-lg p-0.5">
+            <button id="btnViewGrid" title="Card Grid View" class="p-1 rounded text-white bg-dark-hover">
+              <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
+            </button>
+            <button id="btnViewTable" title="Table View" class="p-1 rounded text-slate-400 hover:text-white">
+              <i data-lucide="table" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Tabs Bar -->
+    <div class="flex items-center justify-between border-b border-dark-border gap-2">
+      <div class="flex items-center gap-1 text-xs font-medium">
+        <button data-tab="all" class="tab-btn px-3 py-2 border-b-2 border-brand-500 text-brand-400 font-semibold transition">
+          All Listings (<span id="countTabAll">0</span>)
+        </button>
+        <button data-tab="high_match" class="tab-btn px-3 py-2 border-b-2 border-transparent text-slate-400 hover:text-white transition">
+          High Fit (<span id="countTabHigh">0</span>)
+        </button>
+        <button data-tab="bookmarked" class="tab-btn px-3 py-2 border-b-2 border-transparent text-slate-400 hover:text-white transition">
+          ⭐ Bookmarked (<span id="countTabBookmarked">0</span>)
+        </button>
+        <button data-tab="applied" class="tab-btn px-3 py-2 border-b-2 border-transparent text-slate-400 hover:text-white transition">
+          ✅ Applied (<span id="countTabApplied">0</span>)
+        </button>
+      </div>
+
+      <div class="text-xs text-slate-400 pb-1.5 hidden sm:block">
+        Showing <span id="visibleCount" class="font-bold text-white">0</span> matches
+      </div>
+    </div>
+
+    <!-- Jobs Card Grid -->
+    <section id="jobsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Loading Skeleton -->
+      <div class="col-span-full py-16 flex flex-col items-center justify-center text-slate-500">
+        <div class="w-8 h-8 border-2 border-brand-500 border-t-transparent rounded-full animate-spin mb-3"></div>
+        <p class="text-sm">Loading extracted jobs...</p>
+      </div>
+    </section>
+
+    <!-- Table View (Hidden by default, desktop only) -->
+    <section id="tableViewContainer" class="hidden overflow-x-auto bg-dark-card border border-dark-border rounded-xl">
+      <table class="w-full text-left text-xs">
+        <thead class="bg-[#090d16] text-slate-400 border-b border-dark-border">
+          <tr>
+            <th class="py-3 px-4 font-semibold">Match</th>
+            <th class="py-3 px-4 font-semibold">Title</th>
+            <th class="py-3 px-4 font-semibold">Company</th>
+            <th class="py-3 px-4 font-semibold">Portal</th>
+            <th class="py-3 px-4 font-semibold">Location</th>
+            <th class="py-3 px-4 font-semibold">Status</th>
+            <th class="py-3 px-4 font-semibold text-right">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody" class="divide-y divide-dark-border"></tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Job Detail Modal (Slide-up on Mobile, Centered on Desktop) -->
+  <div id="jobModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-all">
+    <div class="bg-dark-card border border-dark-border w-full sm:max-w-2xl max-h-[85vh] sm:max-h-[90vh] rounded-t-2xl sm:rounded-2xl flex flex-col shadow-2xl overflow-hidden animate-in slide-in-from-bottom sm:zoom-in-95">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-dark-border flex items-start justify-between gap-3 bg-[#090d16]">
+        <div>
+          <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+            <span id="modalScoreBadge" class="text-xs px-2.5 py-0.5 rounded-full font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">95% Match</span>
+            <span id="modalPortalBadge" class="text-xs px-2.5 py-0.5 rounded-full font-medium badge-portal-topjobs_lk">TopJobs.lk</span>
+            <span id="modalWorkplaceBadge" class="text-xs px-2 py-0.5 rounded-full font-medium bg-slate-800 text-slate-300">Hybrid</span>
+          </div>
+          <h2 id="modalTitle" class="text-lg font-bold text-white tracking-tight">Software Engineer</h2>
+          <p id="modalCompany" class="text-xs text-brand-500 font-medium">Company Name • Colombo, Sri Lanka</p>
+        </div>
+        <button id="btnCloseModal" class="p-2 text-slate-400 hover:text-white rounded-lg hover:bg-dark-hover transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div class="p-5 overflow-y-auto space-y-4 text-xs leading-relaxed flex-1">
+        <!-- AI Fit Section -->
+        <div class="bg-brand-500/5 border border-brand-500/20 rounded-xl p-3.5 space-y-2">
+          <div class="flex items-center gap-1.5 text-brand-400 font-semibold text-xs">
+            <i data-lucide="sparkles" class="w-4 h-4"></i>
+            <span>AI Recruiter Fit Analysis</span>
+          </div>
+          <p id="modalAISummary" class="text-slate-300 text-xs">Strong match for C# and React background...</p>
+        </div>
+
+        <!-- Skills Breakdown -->
+        <div class="space-y-2.5">
+          <div>
+            <p class="text-slate-400 font-semibold mb-1.5 flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              Matching Candidate Skills:
+            </p>
+            <div id="modalMatchingSkills" class="flex flex-wrap gap-1.5"></div>
+          </div>
+          <div id="modalMissingSkillsContainer">
+            <p class="text-slate-400 font-semibold mb-1.5 flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+              Mentioned Technologies / Requirements:
+            </p>
+            <div id="modalMissingSkills" class="flex flex-wrap gap-1.5"></div>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="space-y-1 pt-2 border-t border-dark-border/60">
+          <p class="text-slate-400 font-semibold">Job Overview:</p>
+          <div id="modalDescription" class="text-slate-300 whitespace-pre-line max-h-48 overflow-y-auto p-2.5 bg-[#090d16] rounded-lg border border-dark-border text-[11px]"></div>
+        </div>
+
+        <!-- Personal Tracker & Notes -->
+        <div class="bg-[#090d16] border border-dark-border rounded-xl p-3.5 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-300 font-semibold">Application Status:</span>
+            <select id="modalStatusSelect" class="bg-dark-card border border-dark-border rounded-lg px-2.5 py-1 text-xs text-white focus:outline-none focus:border-brand-500">
+              <option value="NEW">New</option>
+              <option value="BOOKMARKED">Bookmarked ⭐</option>
+              <option value="APPLIED">Applied ✅</option>
+              <option value="INTERVIEWING">Interviewing 🎯</option>
+              <option value="OFFER">Offer 🎉</option>
+              <option value="REJECTED">Archived / Rejected</option>
+            </select>
+          </div>
+          <div>
+            <textarea id="modalNotesInput" placeholder="Add personal application notes (e.g., Applied via careers page, recruiter contact, interview date)..." class="w-full bg-dark-card border border-dark-border rounded-lg p-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 resize-none h-16"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-dark-border bg-[#090d16] flex items-center justify-between gap-3">
+        <button id="modalBtnSaveNotes" class="text-xs bg-dark-hover hover:bg-slate-700 text-slate-300 font-medium px-3.5 py-2.5 rounded-lg border border-dark-border transition">
+          Save Tracker Notes
+        </button>
+        <a id="modalApplyLink" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 text-xs bg-brand-600 hover:bg-brand-500 text-white font-semibold px-5 py-2.5 rounded-lg shadow-lg shadow-brand-500/20 transition">
+          <span>Apply on Portal</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Tab Navigation -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090d16]/95 backdrop-blur-md border-t border-dark-border px-3 py-2 flex items-center justify-around text-[10px]">
+    <button data-nav="all" class="mobile-nav-btn flex flex-col items-center gap-1 text-brand-400 font-semibold">
+      <i data-lucide="briefcase" class="w-4 h-4"></i>
+      <span>All</span>
+    </button>
+    <button data-nav="high_match" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
+      <i data-lucide="target" class="w-4 h-4"></i>
+      <span>70%+ Fits</span>
+    </button>
+    <button data-nav="bookmarked" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
+      <i data-lucide="star" class="w-4 h-4"></i>
+      <span>Saved</span>
+    </button>
+    <button data-nav="applied" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
+      <i data-lucide="check-circle" class="w-4 h-4"></i>
+      <span>Applied</span>
+    </button>
+  </nav>
+
+  <!-- Offline Status Toast -->
+  <div id="offlineToast" class="fixed top-16 left-1/2 -translate-x-1/2 z-50 bg-amber-500/90 text-black font-semibold text-xs px-4 py-1.5 rounded-full shadow-lg hidden items-center gap-1.5">
+    <i data-lucide="wifi-off" class="w-3.5 h-3.5"></i>
+    <span>Offline Mode Active • Browsing Cached Jobs</span>
+  </div>
+
+  <!-- Application Logic -->
+  <script src="/app.js"></script>
+</body>
+</html>

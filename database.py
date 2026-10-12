@@ -14,7 +14,8 @@ from sqlalchemy import (
     Text,
     DateTime,
     ForeignKey,
-    Index
+    Index,
+    text
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from config import settings
@@ -28,7 +29,7 @@ class JobRecord(Base):
 
     id = Column(String, primary_key=True)  # LinkedIn job ID or content hash
     external_id = Column(String, index=True)
-    source = Column(String, default="linkedin_guest")  # linkedin_guest, rapidapi, etc.
+    source = Column(String, default="linkedin_guest")  # linkedin_guest, topjobs_lk, itpro_lk, etc.
     title = Column(String, nullable=False, index=True)
     company = Column(String, nullable=False, index=True)
     location = Column(String)
@@ -39,6 +40,9 @@ class JobRecord(Base):
     posted_date = Column(String)
     discovered_at = Column(DateTime, default=datetime.utcnow)
     status = Column(String, default="PENDING")  # PENDING, EVALUATED, NOTIFIED, SKIPPED
+    user_status = Column(String, default="NEW")  # NEW, BOOKMARKED, APPLIED, INTERVIEWING, REJECTED, OFFER
+    user_notes = Column(Text, default="")
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     # Relationships
     evaluation = relationship("JobEvaluationRecord", back_populates="job", uselist=False)
@@ -91,8 +95,20 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
 def init_db():
-    """Initializes tables in the SQLite database."""
+    """Initializes tables in the SQLite database and performs schema migrations."""
     Base.metadata.create_all(bind=engine)
+    # Lightweight column migration for existing databases
+    with engine.connect() as conn:
+        for col_name, col_type in [
+            ("user_status", "VARCHAR DEFAULT 'NEW'"),
+            ("user_notes", "TEXT DEFAULT ''"),
+            ("updated_at", "DATETIME")
+        ]:
+            try:
+                conn.execute(text(f"ALTER TABLE jobs ADD COLUMN {col_name} {col_type}"))
+                conn.commit()
+            except Exception:
+                pass
 
 
 class JobRepository:
@@ -202,3 +218,158 @@ class JobRepository:
                 if job:
                     job.status = "NOTIFIED"
             session.commit()
+
+    @staticmethod
+    def update_user_tracking(job_id: str, status: Optional[str] = None, notes: Optional[str] = None) -> bool:
+        """Updates personal tracking status (APPLIED, BOOKMARKED, etc.) and notes for a job."""
+        with SessionLocal() as session:
+            job = session.query(JobRecord).filter(JobRecord.id == job_id).first()
+            if not job:
+                return False
+            if status is not None:
+                job.user_status = status.upper()
+            if notes is not None:
+                job.user_notes = notes
+            job.updated_at = datetime.utcnow()
+            session.commit()
+            return True
+
+    @staticmethod
+    def get_all_jobs_with_evaluations(
+        search: str = "",
+        source: str = "",
+        min_score: int = 0,
+        user_status: str = "",
+        limit: int = 500,
+        offset: int = 0
+    ) -> List[Dict[str, Any]]:
+        """Retrieves jobs joined with AI evaluation details, ordered by match score."""
+        with SessionLocal() as session:
+            query = session.query(JobRecord, JobEvaluationRecord).outerjoin(
+                JobEvaluationRecord, JobRecord.id == JobEvaluationRecord.job_id
+            )
+
+            if source and source.lower() != "all":
+                query = query.filter(JobRecord.source == source)
+
+            if user_status and user_status.lower() != "all":
+                query = query.filter(JobRecord.user_status == user_status.upper())
+
+            if min_score > 0:
+                query = query.filter(JobEvaluationRecord.match_score >= min_score)
+
+            if search:
+                term = f"%{search.lower()}%"
+                query = query.filter(
+                    (JobRecord.title.ilike(term)) |
+                    (JobRecord.company.ilike(term)) |
+                    (JobRecord.location.ilike(term)) |
+                    (JobEvaluationRecord.matching_skills.ilike(term))
+                )
+
+            results = (
+                query.order_by(
+                    JobEvaluationRecord.match_score.desc().nullslast(),
+                    JobRecord.discovered_at.desc()
+                )
+                .offset(offset)
+                .limit(limit)
+                .all()
+            )
+
+            jobs_list = []
+            for job, eval_rec in results:
+                eval_data = {}
+                if eval_rec:
+                    eval_data = {
+                        "match_score": eval_rec.match_score,
+                        "match_verdict": eval_rec.match_verdict,
+                        "experience_fit": eval_rec.experience_fit or "",
+                        "matching_skills": json.loads(eval_rec.matching_skills) if eval_rec.matching_skills else [],
+                        "missing_skills": json.loads(eval_rec.missing_skills) if eval_rec.missing_skills else [],
+                        "pros": json.loads(eval_rec.pros) if eval_rec.pros else [],
+                        "concerns": json.loads(eval_rec.concerns) if eval_rec.concerns else [],
+                        "summary": eval_rec.summary or ""
+                    }
+                else:
+                    eval_data = {
+                        "match_score": 0,
+                        "match_verdict": "PENDING",
+                        "matching_skills": [],
+                        "missing_skills": [],
+                        "pros": [],
+                        "concerns": [],
+                        "summary": "Pending AI evaluation."
+                    }
+
+                jobs_list.append({
+                    "id": job.id,
+                    "external_id": job.external_id,
+                    "source": job.source,
+                    "title": job.title,
+                    "company": job.company,
+                    "location": job.location or "Sri Lanka",
+                    "workplace_type": job.workplace_type or "On-site",
+                    "apply_url": job.apply_url,
+                    "description": job.description or "",
+                    "experience_level": job.experience_level or "Associate",
+                    "posted_date": job.posted_date or "Recent",
+                    "discovered_at": job.discovered_at.isoformat() if job.discovered_at else "",
+                    "status": job.status,
+                    "user_status": job.user_status or "NEW",
+                    "user_notes": job.user_notes or "",
+                    "evaluation": eval_data
+                })
+
+            return jobs_list
+
+    @staticmethod
+    def get_stats_summary() -> Dict[str, Any]:
+        """Calculates high-level metrics and portal breakdown."""
+        with SessionLocal() as session:
+            total_jobs = session.query(JobRecord).count()
+            evaluated_jobs = session.query(JobEvaluationRecord).count()
+            high_matches = (
+                session.query(JobEvaluationRecord)
+                .filter(JobEvaluationRecord.match_score >= settings.min_match_score)
+                .count()
+            )
+            bookmarked = session.query(JobRecord).filter(JobRecord.user_status == "BOOKMARKED").count()
+            applied = session.query(JobRecord).filter(JobRecord.user_status == "APPLIED").count()
+            interviewing = session.query(JobRecord).filter(JobRecord.user_status == "INTERVIEWING").count()
+
+            # Group by sources
+            from sqlalchemy import func
+            sources = (
+                session.query(JobRecord.source, func.count(JobRecord.id))
+                .group_by(JobRecord.source)
+                .all()
+            )
+            source_breakdown = {s: count for s, count in sources}
+
+            return {
+                "total_jobs": total_jobs,
+                "evaluated_jobs": evaluated_jobs,
+                "high_matches": high_matches,
+                "bookmarked_count": bookmarked,
+                "applied_count": applied,
+                "interviewing_count": interviewing,
+                "source_breakdown": source_breakdown,
+                "min_match_score_threshold": settings.min_match_score
+            }
+
+    @staticmethod
+    def export_dashboard_payload() -> Dict[str, Any]:
+        """Builds a complete, standalone payload for offline / static web viewing."""
+        stats = JobRepository.get_stats_summary()
+        all_jobs = JobRepository.get_all_jobs_with_evaluations(limit=1000)
+        return {
+            "meta": {
+                "generated_at": datetime.utcnow().isoformat() + "Z",
+                "app_name": "AI Job Search Agent",
+                "candidate_name": "Abivarsan Ketheeswaran",
+                "total_count": len(all_jobs)
+            },
+            "stats": stats,
+            "jobs": all_jobs
+        }

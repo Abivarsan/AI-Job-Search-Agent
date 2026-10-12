@@ -121,10 +121,38 @@ def test_telegram():
         console.print(f"[bold red]Failed:[/bold red] {res}")
 
 
+def start_dashboard(host: str = "127.0.0.1", port: int = 8000):
+    """Launches the local FastAPI dashboard and opens it in the default web browser."""
+    import webbrowser
+    import threading
+    import uvicorn
+    from dashboard.exporter import export_to_json
+
+    # Pre-export latest data bundle
+    export_to_json()
+
+    url = f"http://{host}:{port}"
+    console.print(Panel(
+        f"[bold green]Starting Local AI Job Search Dashboard[/bold green]\n\n"
+        f"• Local URL: [bold cyan]{url}[/bold cyan]\n"
+        f"• Mode: [bold yellow]Full Read & Write (Local SQLite)[/bold yellow]\n"
+        f"• PWA Offline Ready: [bold green]Enabled[/bold green]\n\n"
+        f"Press [red]Ctrl+C[/red] to terminate the server.",
+        title="Dashboard Online",
+        expand=False
+    ))
+
+    # Auto-open browser after 1 second
+    threading.Timer(1.2, lambda: webbrowser.open(url)).start()
+    uvicorn.run("dashboard.app:app", host=host, port=port, log_level="info")
+
+
 def main():
     parser = argparse.ArgumentParser(description="AI Job Search & Notification Agent")
     parser.add_argument("--run-once", action="store_true", help="Execute a single search and alert cycle right now")
     parser.add_argument("--daemon", action="store_true", help="Run continuously in the background on configured schedule")
+    parser.add_argument("--dashboard", action="store_true", help="Launch interactive local web dashboard at http://localhost:8000")
+    parser.add_argument("--export-web", action="store_true", help="Export SQLite jobs to web/data/jobs.json for Vercel / PWA")
     parser.add_argument("--stats", action="store_true", help="Show statistics of indexed and alerted jobs")
     parser.add_argument("--list-matches", action="store_true", help="Show all high-matching jobs in the database")
     parser.add_argument("--test-whatsapp", action="store_true", help="Send a test WhatsApp alert via Twilio")
@@ -136,6 +164,12 @@ def main():
         pipeline = JobSearchPipeline()
         stats = pipeline.run_cycle()
         display_matched_jobs()
+    elif args.dashboard:
+        start_dashboard()
+    elif args.export_web:
+        from dashboard.exporter import export_to_json
+        path = export_to_json()
+        console.print(f"[bold green]Web export completed![/bold green] File generated at [cyan]{path}[/cyan]")
     elif args.daemon:
         start_scheduler()
     elif args.stats:
@@ -152,12 +186,13 @@ def main():
             "[bold cyan]AI Job Search Agent[/bold cyan]\n\n"
             "Automated job searching, Gemini AI matching, and Telegram / WhatsApp alerts for Software Engineers.\n\n"
             "[bold white]Available Commands:[/bold white]\n"
+            "  [green]python main.py --dashboard[/green]       Launch interactive local web dashboard\n"
             "  [green]python main.py --run-once[/green]       Run a search cycle immediately\n"
+            "  [green]python main.py --export-web[/green]      Export listings to web/data/jobs.json\n"
             "  [green]python main.py --daemon[/green]         Run background scheduler continuously\n"
             "  [green]python main.py --list-matches[/green]   View all matched jobs in database\n"
             "  [green]python main.py --stats[/green]          View pipeline statistics\n"
-            "  [green]python main.py --test-telegram[/green]  Verify Telegram Bot delivery\n"
-            "  [green]python main.py --test-whatsapp[/green]  Verify Twilio WhatsApp delivery\n\n"
+            "  [green]python main.py --test-telegram[/green]  Verify Telegram Bot delivery\n\n"
             "To configure your credentials, copy [yellow].env.example[/yellow] to [yellow].env[/yellow].",
             title="Welcome",
             expand=False

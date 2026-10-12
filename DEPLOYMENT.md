@@ -92,3 +92,33 @@ Once verified:
 * Click **Run workflow** again with both test checkboxes **unchecked** to run your first real job search sweep.
 * From then on, GitHub Actions runs automatically every **3 hours** (`0 */3 * * *` at 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC).
 * You can view past runs, execution times, and logs anytime in the **Actions** tab.
+
+---
+
+## 📱 Step 6: Connect Web & Mobile Dashboard (Vercel - 100% Free & Private)
+
+You can view all extracted jobs anytime from your smartphone, tablet, or laptop via your private Vercel deployment:
+
+### 1. Connect to Vercel (2 Minutes)
+1. Go to **[vercel.com](https://vercel.com/)** and sign in with your GitHub account.
+2. Click **"Add New..."** -> **"Project"**.
+3. Select your private repository: **`Abivarsan/AI-Job-Search-Agent`** and click **Import**.
+4. In the Project Configuration:
+   - Framework Preset: **Other**
+   - Root Directory: `./` (or leave default)
+   - Output Directory: `web`
+5. Click **Deploy**.
+6. Within 15 seconds, your personal dashboard URL will be live (e.g. `https://ai-job-search-agent.vercel.app`)!
+
+### 2. Install on Mobile Phone (Offline PWA)
+- **iPhone / Safari**: Open your Vercel link -> Tap **Share** icon -> Tap **"Add to Home Screen"**.
+- **Android / Chrome**: Open your Vercel link -> Tap menu (**⋮**) -> Tap **"Install app"** or **"Add to Home screen"**.
+- The app icon will appear on your phone screen and works **100% offline** even when you have no internet connection!
+
+### 3. Local Desktop Dashboard (Offline & Direct SQLite Access)
+To view and manage jobs locally on your computer with full status tracking:
+```powershell
+python main.py --dashboard
+```
+This automatically launches the interactive dashboard at **`http://localhost:8000`** with live search, filters, bookmarker, and application notes.
+
