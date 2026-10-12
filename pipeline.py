@@ -1,6 +1,7 @@
 """
 End-to-end Job Search Pipeline Controller.
-Orchestrates ingestion, deduplication, heuristic filtering, AI evaluation, and notification delivery.
+Orchestrates multi-portal ingestion (LinkedIn, TopJobs, ITPro, Rooster, XpressJobs),
+deduplication, heuristic filtering, AI evaluation, and notification delivery.
 """
 
 from typing import Dict, Any, List
@@ -9,6 +10,10 @@ from config import settings
 from database import JobRepository, init_db
 from extractors.linkedin_guest import LinkedInGuestExtractor
 from extractors.rapidapi_jsearch import JSearchExtractor
+from extractors.topjobs_lk import TopJobsExtractor
+from extractors.itpro_lk import ITProExtractor
+from extractors.rooster_jobs import RoosterExtractor
+from extractors.xpress_jobs import XpressJobsExtractor
 from extractors.base import JobItem
 from filters.heuristic_filter import HeuristicFilter
 from filters.ai_evaluator import AIEvaluator
@@ -17,12 +22,16 @@ from notifiers.telegram_notifier import TelegramNotifier
 
 
 class JobSearchPipeline:
-    """Coordinates all sub-systems of the AI Job Search Agent."""
+    """Coordinates multi-source ingestion and intelligent matching."""
 
     def __init__(self):
         init_db()
         self.linkedin_extractor = LinkedInGuestExtractor()
         self.jsearch_extractor = JSearchExtractor()
+        self.topjobs_extractor = TopJobsExtractor()
+        self.itpro_extractor = ITProExtractor()
+        self.rooster_extractor = RoosterExtractor()
+        self.xpress_extractor = XpressJobsExtractor()
         self.heuristic_filter = HeuristicFilter()
         self.ai_evaluator = AIEvaluator()
         self.whatsapp_notifier = WhatsAppTwilioNotifier()
@@ -30,11 +39,15 @@ class JobSearchPipeline:
 
     def run_cycle(self) -> Dict[str, Any]:
         """
-        Executes a complete search, evaluation, and alert cycle across
-        all configured keywords and target locations.
+        Executes a complete multi-portal search, evaluation, and alert cycle across:
+        1. LinkedIn (Guest Public Search)
+        2. TopJobs.lk (IT / Software QA)
+        3. ITPro.lk (Software Engineering)
+        4. Rooster.jobs (Tech REST API)
+        5. Xpress.jobs (Sitemap Feed)
         """
         logger.info("==================================================")
-        logger.info("Starting AI Job Search Agent pipeline cycle...")
+        logger.info("Starting Multi-Portal AI Job Search pipeline cycle...")
         logger.info("==================================================")
 
         stats = {
@@ -51,50 +64,83 @@ class JobSearchPipeline:
 
         all_candidate_jobs: List[JobItem] = []
 
+        # ----------------------------------------------------------------------
+        # 1. LinkedIn Ingestion
+        # ----------------------------------------------------------------------
         for kw in keywords_list:
             for loc in locations_list:
-                logger.info(f"Scanning for '{kw}' in '{loc}'...")
+                logger.info(f"[LinkedIn] Scanning for '{kw}' in '{loc}'...")
+                jobs = self.linkedin_extractor.search_jobs(keywords=kw, location=loc, limit=12)
                 
-                # 1. Primary: LinkedIn Public Guest Endpoint
-                jobs = self.linkedin_extractor.search_jobs(keywords=kw, location=loc, limit=15)
-                
-                # 2. Fallback: RapidAPI JSearch if guest search yielded zero or was throttled
+                # Fallback to JSearch API if guest search is throttled
                 if not jobs and settings.rapidapi_key:
-                    logger.info("Falling back to JSearch API...")
-                    jobs = self.jsearch_extractor.search_jobs(keywords=kw, location=loc, limit=15)
+                    logger.info("[LinkedIn Fallback] Querying JSearch API...")
+                    jobs = self.jsearch_extractor.search_jobs(keywords=kw, location=loc, limit=12)
 
                 all_candidate_jobs.extend(jobs)
 
-        stats["total_extracted"] = len(all_candidate_jobs)
-        logger.info(f"Extraction complete: {len(all_candidate_jobs)} raw candidate jobs discovered.")
+        # ----------------------------------------------------------------------
+        # 2. Sri Lankan Job Portals Ingestion
+        # ----------------------------------------------------------------------
+        # A. TopJobs.lk
+        try:
+            topjobs = self.topjobs_extractor.search_jobs(limit=35)
+            all_candidate_jobs.extend(topjobs)
+        except Exception as e:
+            logger.error(f"Error scraping TopJobs: {e}")
 
-        # Process each job
+        # B. ITPro.lk
+        try:
+            itpro_jobs = self.itpro_extractor.search_jobs(limit=35)
+            all_candidate_jobs.extend(itpro_jobs)
+        except Exception as e:
+            logger.error(f"Error scraping ITPro.lk: {e}")
+
+        # C. Rooster.jobs
+        try:
+            rooster_jobs = self.rooster_extractor.search_jobs(keywords="software", limit=25)
+            all_candidate_jobs.extend(rooster_jobs)
+        except Exception as e:
+            logger.error(f"Error querying Rooster: {e}")
+
+        # D. Xpress.jobs
+        try:
+            xpress_jobs = self.xpress_extractor.search_jobs(limit=30)
+            all_candidate_jobs.extend(xpress_jobs)
+        except Exception as e:
+            logger.error(f"Error scraping Xpress.jobs: {e}")
+
+        stats["total_extracted"] = len(all_candidate_jobs)
+        logger.info(f"Total multi-portal candidates discovered: {len(all_candidate_jobs)} jobs.")
+
+        # ----------------------------------------------------------------------
+        # 3. Deduplication, Filtering, AI Scoring & Alerting
+        # ----------------------------------------------------------------------
         for job in all_candidate_jobs:
-            # 3. Deduplication Check
+            # Deduplication Check
             if JobRepository.is_duplicate(job.id):
                 stats["duplicates_skipped"] += 1
-                logger.debug(f"Skipping duplicate job: [{job.id}] {job.title} at {job.company}")
+                logger.debug(f"Skipping duplicate: [{job.source}] {job.title} at {job.company}")
                 continue
 
-            # 4. Fast Heuristic Pre-Filter
+            # Deterministic Heuristic Filter (Seniority & Location rules)
             passes_heuristic, reason = self.heuristic_filter.evaluate(job)
             if not passes_heuristic:
                 stats["heuristically_rejected"] += 1
-                logger.debug(f"Heuristically rejected: {job.title} - {reason}")
+                logger.debug(f"Heuristically rejected: [{job.source}] {job.title} - {reason}")
                 continue
 
             # Save initial job record
-            job_record = JobRepository.save_job(job.model_dump())
+            JobRepository.save_job(job.model_dump())
 
-            # 5. Fetch full description if missing and supported
+            # Fetch full LinkedIn description if applicable and missing
             if not job.description and job.source == "linkedin_guest":
-                logger.info(f"Fetching full description for: {job.title} at {job.company}...")
                 desc = self.linkedin_extractor.fetch_job_description(job.id)
                 if desc:
                     job.description = desc
 
-            # 6. AI Semantic Evaluation (Google Gemini)
-            logger.info(f"Running AI fit evaluation on: '{job.title}' at '{job.company}'...")
+            # Google Gemini AI Semantic Evaluation
+            logger.info(f"Running AI fit evaluation on: [{job.source}] '{job.title}' at '{job.company}'...")
             evaluation = self.ai_evaluator.evaluate_job(job)
             stats["evaluated_by_ai"] += 1
 
@@ -103,28 +149,26 @@ class JobSearchPipeline:
 
             score = evaluation.get("match_score", 0)
             verdict = evaluation.get("match_verdict", "UNKNOWN")
-            logger.info(f"-> AI Evaluation Result: Score {score}% ({verdict}) for {job.title} at {job.company}")
+            logger.info(f"-> Result: Score {score}% ({verdict}) for {job.title} at {job.company}")
 
-            # 7. Alert Triggering (Threshold check)
+            # Threshold Gate (min_match_score)
             if score >= settings.min_match_score:
                 stats["matches_found"] += 1
                 logger.info(f"🎯 High match ({score}% >= {settings.min_match_score}%)! Dispatching alerts...")
 
-                # WhatsApp notification
-                if self.whatsapp_notifier.is_configured():
-                    success, res = self.whatsapp_notifier.send_job_alert(job, evaluation)
-                    status_str = "SENT" if success else "FAILED"
-                    JobRepository.mark_notified(job.id, "WHATSAPP", settings.whatsapp_to or "", status_str, res)
-                    if success:
-                        stats["alerts_sent"] += 1
-                else:
-                    logger.info("ℹ️ WhatsApp credentials not yet set in .env. Logging match without sending WhatsApp.")
-
-                # Telegram notification (if enabled)
+                # Telegram notification
                 if self.telegram_notifier.is_configured():
                     tg_success, tg_res = self.telegram_notifier.send_job_alert(job, evaluation)
                     tg_status = "SENT" if tg_success else "FAILED"
                     JobRepository.mark_notified(job.id, "TELEGRAM", settings.telegram_chat_id or "", tg_status, tg_res)
+                    if tg_success:
+                        stats["alerts_sent"] += 1
 
-        logger.info(f"Pipeline cycle finished. Metrics: {stats}")
+                # WhatsApp notification (if configured)
+                if self.whatsapp_notifier.is_configured():
+                    success, res = self.whatsapp_notifier.send_job_alert(job, evaluation)
+                    status_str = "SENT" if success else "FAILED"
+                    JobRepository.mark_notified(job.id, "WHATSAPP", settings.whatsapp_to or "", status_str, res)
+
+        logger.info(f"Multi-Portal Pipeline cycle finished. Metrics: {stats}")
         return stats

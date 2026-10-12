@@ -29,14 +29,24 @@ class TelegramNotifier(BaseNotifier):
         matched_skills = evaluation.get("matching_skills", [])
         skills_str = ", ".join(matched_skills[:5]) if matched_skills else "General SWE"
 
+        source_names = {
+            "linkedin_guest": "LinkedIn",
+            "topjobs_lk": "TopJobs.lk",
+            "itpro_lk": "ITPro.lk",
+            "rooster_jobs": "Rooster.jobs",
+            "xpress_jobs": "Xpress.jobs"
+        }
+        source_display = source_names.get(job.source, job.source.replace("_", " ").title())
+
         msg = (
             f"🎯 *NEW JOB MATCH: {job.title}*\n"
             f"🏢 *Company:* {job.company}\n"
             f"📍 *Location:* {job.location} ({job.workplace_type})\n"
+            f"🌐 *Source:* {source_display}\n"
             f"⭐ *AI Match Score:* {score}% ({verdict})\n\n"
             f"💡 *Summary:* {summary}\n"
             f"✅ *Skills:* {skills_str}\n\n"
-            f"🔗 [Apply on LinkedIn]({job.apply_url})"
+            f"🔗 [View & Apply on {source_display}]({job.apply_url})"
         )
         return msg
 

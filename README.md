@@ -1,18 +1,26 @@
 # AI Job Search & Notification Agent
 
-An automated, intelligent AI agent that continuously searches for **Software Engineer**, **Associate Software Engineer**, and early-career tech positions on LinkedIn, analyzes every opportunity against your personal profile using **Google Gemini AI**, and delivers real-time job alerts directly to your **WhatsApp** (or Telegram).
+An automated, intelligent AI agent that continuously searches for **Software Engineer**, **Associate Software Engineer**, and early-career tech positions across **LinkedIn, TopJobs.lk, ITPro.lk, Rooster.jobs, and Xpress.jobs**, analyzes every opportunity against your personal profile using **Google Gemini AI**, and delivers real-time job alerts directly to your **Telegram** (or WhatsApp).
 
 ---
 
 ## 🌟 Key Highlights & Engineering Features
 
-- **Safe, Ban-Free Extraction**: Uses LinkedIn's public guest search API (`/jobs-guest/jobs/api/seeMoreJobPostings/search`). **No login required**, completely eliminating any risk of personal account restrictions.
-- **Failover / Hybrid Extraction**: Automatically falls back to managed third-party APIs (RapidAPI JSearch) if guest endpoints encounter burst rate-limiting.
-- **Intelligent Pre-Filtering**: Deterministic heuristic rules instantly filter out senior, lead, staff, or executive roles before calling the AI, minimizing latency and saving LLM costs.
-- **Google Gemini Semantic Scoring**: Evaluates candidate fit, analyzes tech stack alignment, detects missing skills, and formats a concise 2-sentence rationale.
+- **Multi-Portal Sri Lankan & Global Ingestion**: Scrapes and indexes tech openings from:
+  - 💼 **LinkedIn** (Public Guest API, no login required)
+  - 🇱🇰 **TopJobs.lk** (Software Development & QA functional area)
+  - 💻 **ITPro.lk** (Sri Lanka's dedicated IT job portal)
+  - 🐓 **Rooster.jobs** (Direct REST API integration)
+  - ⚡ **Xpress.jobs** (Dynamic sitemap feed ingestion)
+- **Safe, Ban-Free Extraction**: Requires **no user account logins or cookies**, completely eliminating any risk of personal account restrictions.
+- **Failover / Hybrid Extraction**: Automatically falls back to managed third-party APIs (RapidAPI JSearch) if LinkedIn guest endpoints encounter burst rate-limiting.
+- **Intelligent Pre-Filtering & Location Rules**: 
+  - Sri Lanka roles: Accepts On-site, Hybrid, and Remote.
+  - International roles: Accepts **strictly 100% Remote** only (rejects international roles requiring relocation).
+- **Google Gemini Semantic Scoring**: Evaluates candidate fit against your CV, analyzes tech stack alignment (C#/.NET, Java/Spring Boot, React/TypeScript), detects missing skills, and formats a concise 2-sentence rationale.
 - **Robust Deduplication**: Tracks job IDs and content hashes in SQLite, ensuring you never receive duplicate notifications for reposted roles.
-- **Multi-Channel Alerting**: Direct WhatsApp notifications via the Twilio API (with support for Twilio Sandbox) plus zero-friction Telegram Bot support.
-- **Automated Scheduling**: In-process background scheduler (APScheduler) or standalone CLI commands.
+- **Zero-Friction Alerting**: Instant Telegram Bot alerts with clickable apply links (with optional Twilio WhatsApp support).
+- **24/7 Automated Scheduling**: Serverless cloud runner on GitHub Actions every 3 hours.
 
 ---
 
@@ -26,7 +34,7 @@ Agent 01/
 ├── candidate_profile.json     # Your skills, target roles, and preferences
 ├── config.py                  # Settings loader using python-dotenv
 ├── database.py                # SQLite schema and deduplication repository
-├── pipeline.py                # Core end-to-end orchestration pipeline
+├── pipeline.py                # Multi-portal orchestration pipeline
 ├── scheduler.py               # Background daemon using APScheduler
 ├── main.py                    # Command-line interface with rich output
 ├── DEPLOYMENT.md              # 24/7 Cloud deployment guide (GitHub Actions)
@@ -35,14 +43,18 @@ Agent 01/
 ├── extractors/
 │   ├── base.py                # BaseJobExtractor interface & JobItem model
 │   ├── linkedin_guest.py      # Unauthenticated LinkedIn public search extractor
+│   ├── topjobs_lk.py          # TopJobs.lk IT/Software extractor
+│   ├── itpro_lk.py            # ITPro.lk software engineering extractor
+│   ├── rooster_jobs.py        # Rooster.jobs REST API extractor
+│   ├── xpress_jobs.py         # Xpress.jobs sitemap feed extractor
 │   └── rapidapi_jsearch.py    # Fallback aggregator extractor
 ├── filters/
-│   ├── heuristic_filter.py    # Negative & positive title heuristics
+│   ├── heuristic_filter.py    # Negative seniority & location rules
 │   └── ai_evaluator.py        # Gemini AI semantic fit scoring engine
 └── notifiers/
     ├── base.py                # BaseNotifier interface
-    ├── whatsapp_twilio.py     # Twilio WhatsApp dispatcher
-    └── telegram_notifier.py   # Telegram Bot dispatcher
+    ├── telegram_notifier.py   # Telegram Bot dispatcher (Source-tagged alerts)
+    └── whatsapp_twilio.py     # Twilio WhatsApp dispatcher
 ```
 
 ---
