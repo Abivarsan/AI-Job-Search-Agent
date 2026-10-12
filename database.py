@@ -110,6 +110,12 @@ def init_db():
             except Exception:
                 pass
 
+    # Automatically purge historical foreign non-remote records
+    try:
+        JobRepository.purge_non_compliant_jobs()
+    except Exception:
+        pass
+
 
 class JobRepository:
     """Encapsulates all database operations for clean separation of concerns."""
@@ -373,3 +379,49 @@ class JobRepository:
             "stats": stats,
             "jobs": all_jobs
         }
+
+    @staticmethod
+    def purge_non_compliant_jobs() -> int:
+        """
+        Removes any historical jobs that violate location preferences:
+        Outside Sri Lanka, ONLY 100% Remote roles are allowed.
+        Any foreign on-site or hybrid roles are permanently purged from database.
+        """
+        sri_lanka_terms = [
+            "sri lanka", "colombo", "moratuwa", "jaffna", "kandy", "galle",
+            "dehiwala", "rajagiriya", "nugegoda", "battaramulla", "malabe",
+            "mount lavinia", "gampaha", "kurunegala", "negombo", "ratnapura",
+            "matara", "kalutara", "katunayake", "panadura", "wattala", "kelaniya"
+        ]
+        domestic_portals = {"topjobs_lk", "itpro_lk", "rooster_jobs", "xpress_jobs"}
+
+        with SessionLocal() as session:
+            all_jobs = session.query(JobRecord).all()
+            to_delete_ids = []
+
+            for job in all_jobs:
+                is_domestic = job.source in domestic_portals
+                loc_lower = f"{job.location or ''} {job.title or ''}".lower()
+                is_sri_lanka = is_domestic or any(t in loc_lower for t in sri_lanka_terms)
+
+                if not is_sri_lanka:
+                    wp_lower = (job.workplace_type or "").lower()
+                    title_lower = (job.title or "").lower()
+                    loc_only_lower = (job.location or "").lower()
+
+                    is_on_site_or_hybrid = (
+                        wp_lower in ["on-site", "onsite", "hybrid"] or
+                        "onsite" in title_lower or "on-site" in title_lower or "hybrid" in title_lower or "hybrid" in loc_only_lower
+                    )
+                    is_not_remote = wp_lower != "remote" and "remote" not in loc_only_lower and "remote" not in title_lower
+
+                    if is_on_site_or_hybrid or is_not_remote:
+                        to_delete_ids.append(job.id)
+
+            if to_delete_ids:
+                session.query(JobEvaluationRecord).filter(JobEvaluationRecord.job_id.in_(to_delete_ids)).delete(synchronize_session=False)
+                session.query(NotificationRecord).filter(NotificationRecord.job_id.in_(to_delete_ids)).delete(synchronize_session=False)
+                session.query(JobRecord).filter(JobRecord.id.in_(to_delete_ids)).delete(synchronize_session=False)
+                session.commit()
+
+            return len(to_delete_ids)

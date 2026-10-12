@@ -59,6 +59,10 @@ class LinkedInGuestExtractor(BaseJobExtractor):
             "f_E": "1,2,3"      # Internship (1), Entry level (2), Associate (3)
         }
 
+        # If searching for Remote, apply LinkedIn's dedicated remote workplace filter (f_WT=2)
+        if "remote" in location.lower():
+            params["f_WT"] = "2"
+
         try:
             with httpx.Client(headers=self._get_headers(), timeout=15.0, follow_redirects=True) as client:
                 response = client.get(self.BASE_SEARCH_URL, params=params)
@@ -76,7 +80,7 @@ class LinkedInGuestExtractor(BaseJobExtractor):
                 logger.info(f"Retrieved {len(job_cards)} raw job cards from LinkedIn guest endpoint.")
 
                 for card in job_cards[:limit]:
-                    job_item = self._parse_card(card)
+                    job_item = self._parse_card(card, query_location=location)
                     if job_item:
                         jobs.append(job_item)
 
@@ -86,7 +90,7 @@ class LinkedInGuestExtractor(BaseJobExtractor):
 
         return jobs
 
-    def _parse_card(self, card_soup: BeautifulSoup) -> Optional[JobItem]:
+    def _parse_card(self, card_soup: BeautifulSoup, query_location: str = "") -> Optional[JobItem]:
         """Extracts metadata from an individual LinkedIn job search card."""
         try:
             # 1. Title & Link
@@ -131,12 +135,16 @@ class LinkedInGuestExtractor(BaseJobExtractor):
             location = loc_tag.get_text(strip=True) if loc_tag else "Unknown"
 
             # Workplace type inference
-            workplace_type = "On-site"
             loc_lower = location.lower()
-            if "remote" in loc_lower or "remote" in title.lower():
-                workplace_type = "Remote"
-            elif "hybrid" in loc_lower or "hybrid" in title.lower():
+            title_lower = title.lower()
+            if "on-site" in title_lower or "onsite" in title_lower:
+                workplace_type = "On-site"
+            elif "hybrid" in loc_lower or "hybrid" in title_lower:
                 workplace_type = "Hybrid"
+            elif "remote" in loc_lower or "remote" in title_lower or "remote" in query_location.lower():
+                workplace_type = "Remote"
+            else:
+                workplace_type = "On-site"
 
             # 5. Posted Date
             time_tag = card_soup.find("time")

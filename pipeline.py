@@ -121,7 +121,15 @@ class JobSearchPipeline:
             score = 0
             verdict = "UNKNOWN"
 
-            # Check if already processed
+            # 1. Deterministic Heuristic Filter (Seniority & Strict Location Rules)
+            # Enforce for ALL jobs before any deduplication or notification
+            passes_heuristic, reason = self.heuristic_filter.evaluate(job)
+            if not passes_heuristic:
+                stats["heuristically_rejected"] += 1
+                logger.debug(f"Heuristically rejected: [{job.source}] {job.title} - {reason}")
+                continue
+
+            # 2. Check if already processed
             if JobRepository.is_duplicate(job.id):
                 # If already notified on Telegram, skip completely
                 if JobRepository.is_already_notified(job.id, "TELEGRAM"):
@@ -140,13 +148,6 @@ class JobSearchPipeline:
                     stats["duplicates_skipped"] += 1
                     continue
             else:
-                # Deterministic Heuristic Filter (Seniority & Location rules)
-                passes_heuristic, reason = self.heuristic_filter.evaluate(job)
-                if not passes_heuristic:
-                    stats["heuristically_rejected"] += 1
-                    logger.debug(f"Heuristically rejected: [{job.source}] {job.title} - {reason}")
-                    continue
-
                 # Save initial job record
                 JobRepository.save_job(job.model_dump())
 

@@ -61,17 +61,33 @@ class HeuristicFilter:
 
         # 3. Location & Workplace Type Validation:
         # Rule: Within Sri Lanka -> On-site, Hybrid, and Remote are all allowed.
-        # Rule: Outside Sri Lanka -> ONLY 100% Remote is allowed.
-        loc_str = f"{job.location} {job.title}".lower()
-        is_sri_lanka = any(term in loc_str for term in ["sri lanka", "colombo", "moratuwa", "jaffna", "kandy", "galle"])
-        is_remote = (
-            job.workplace_type.lower() == "remote" 
-            or "remote" in job.title.lower() 
-            or "remote" in job.location.lower()
-        )
+        # Rule: Outside Sri Lanka (Foreign) -> ONLY 100% Remote is allowed.
+        sri_lanka_terms = [
+            "sri lanka", "colombo", "moratuwa", "jaffna", "kandy", "galle",
+            "dehiwala", "rajagiriya", "nugegoda", "battaramulla", "malabe",
+            "mount lavinia", "gampaha", "kurunegala", "negombo", "ratnapura",
+            "matara", "kalutara", "katunayake", "panadura", "wattala", "kelaniya"
+        ]
 
-        if not is_sri_lanka and not is_remote:
-            return False, f"International role is '{job.workplace_type}' in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
+        # Sri Lankan native portals are always domestic Sri Lanka
+        is_domestic_portal = job.source in ["topjobs_lk", "itpro_lk", "rooster_jobs", "xpress_jobs"]
+        loc_str = f"{job.location} {job.title}".lower()
+        is_sri_lanka = is_domestic_portal or any(term in loc_str for term in sri_lanka_terms)
+
+        if not is_sri_lanka:
+            # Foreign job: MUST be strictly 100% Remote. Absolutely NO On-site or Hybrid.
+            wp_lower = (job.workplace_type or "").lower()
+            title_lower = job.title.lower()
+            loc_lower = (job.location or "").lower()
+
+            if wp_lower in ["on-site", "onsite", "hybrid"]:
+                return False, f"Foreign role is '{job.workplace_type}' in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
+
+            if "onsite" in title_lower or "on-site" in title_lower or "hybrid" in title_lower or "hybrid" in loc_lower:
+                return False, f"Foreign role indicates on-site/hybrid in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
+
+            if wp_lower != "remote" and "remote" not in loc_lower and "remote" not in title_lower:
+                return False, f"Foreign role is '{job.workplace_type}' in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
 
         return True, "Passed heuristic filter"
 

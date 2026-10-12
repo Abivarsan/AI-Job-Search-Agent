@@ -35,6 +35,8 @@ class JSearchExtractor(BaseJobExtractor):
             "num_pages": "1",
             "date_posted": "today"
         }
+        if "remote" in location.lower():
+            params["remote_jobs_only"] = "true"
 
         jobs: List[JobItem] = []
         try:
