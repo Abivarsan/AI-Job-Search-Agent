@@ -1,0 +1,12 @@
+# Ignore backend Python files so Vercel serves the static web dashboard directly
+main.py
+scheduler.py
+pipeline.py
+database.py
+config.py
+jobs.db
+dashboard/
+extractors/
+filters/
+notifiers/
+requirements.txt

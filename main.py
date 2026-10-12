@@ -29,6 +29,12 @@ from config import settings
 
 console = Console()
 
+# Optional top-level ASGI app export for Vercel / serverless runners
+try:
+    from dashboard.app import app
+except Exception:
+    app = None
+
 
 def display_stats():
     """Prints a summary table of database records and past matches."""
