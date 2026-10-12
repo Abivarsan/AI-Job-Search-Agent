@@ -18,7 +18,7 @@ class Settings:
         # AI Engine (Google Gemini)
         self.gemini_api_key: Optional[str] = os.getenv("GEMINI_API_KEY")
         self.gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-        self.min_match_score: int = int(os.getenv("MIN_MATCH_SCORE", "75"))
+        self.min_match_score: int = int(os.getenv("MIN_MATCH_SCORE", "70"))
 
         # Notification: Twilio WhatsApp
         self.twilio_account_sid: Optional[str] = os.getenv("TWILIO_ACCOUNT_SID")

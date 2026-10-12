@@ -72,7 +72,17 @@
     "Director",
     "Manager",
     "VP",
-    "AVP"
+    "AVP",
+    "Business Analyst",
+    "Quantity Surveyor",
+    "Pattern Maker",
+    "Content Developer",
+    "Graphic Designer",
+    "Barista",
+    "Chef",
+    "Accountant",
+    "Sales Executive",
+    "Driver"
   ],
   "deal_breakers": [
     "Requires on-site or hybrid presence outside Sri Lanka",

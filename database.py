@@ -105,6 +105,39 @@ class JobRepository:
             return session.query(JobRecord).filter(JobRecord.id == job_id).first() is not None
 
     @staticmethod
+    def is_already_notified(job_id: str, channel: str = "TELEGRAM") -> bool:
+        """Checks if a notification was already successfully delivered for this job."""
+        with SessionLocal() as session:
+            notif = (
+                session.query(NotificationRecord)
+                .filter(
+                    NotificationRecord.job_id == job_id,
+                    NotificationRecord.channel == channel,
+                    NotificationRecord.status == "SENT"
+                )
+                .first()
+            )
+            return notif is not None
+
+    @staticmethod
+    def get_saved_evaluation(job_id: str) -> Optional[Dict[str, Any]]:
+        """Retrieves an existing AI evaluation record if already computed."""
+        with SessionLocal() as session:
+            rec = session.query(JobEvaluationRecord).filter(JobEvaluationRecord.job_id == job_id).first()
+            if not rec:
+                return None
+            return {
+                "match_score": rec.match_score,
+                "match_verdict": rec.match_verdict,
+                "experience_fit": rec.experience_fit or "",
+                "matching_skills": json.loads(rec.matching_skills) if rec.matching_skills else [],
+                "missing_skills": json.loads(rec.missing_skills) if rec.missing_skills else [],
+                "pros": json.loads(rec.pros) if rec.pros else [],
+                "concerns": json.loads(rec.concerns) if rec.concerns else [],
+                "summary": rec.summary or ""
+            }
+
+    @staticmethod
     def save_job(job_data: Dict[str, Any]) -> JobRecord:
         """Saves a new job listing to the database."""
         with SessionLocal() as session:

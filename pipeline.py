@@ -117,52 +117,75 @@ class JobSearchPipeline:
         # 3. Deduplication, Filtering, AI Scoring & Alerting
         # ----------------------------------------------------------------------
         for job in all_candidate_jobs:
-            # Deduplication Check
+            evaluation = None
+            score = 0
+            verdict = "UNKNOWN"
+
+            # Check if already processed
             if JobRepository.is_duplicate(job.id):
-                stats["duplicates_skipped"] += 1
-                logger.debug(f"Skipping duplicate: [{job.source}] {job.title} at {job.company}")
-                continue
+                # If already notified on Telegram, skip completely
+                if JobRepository.is_already_notified(job.id, "TELEGRAM"):
+                    stats["duplicates_skipped"] += 1
+                    logger.debug(f"Skipping already notified job: [{job.source}] {job.title} at {job.company}")
+                    continue
 
-            # Deterministic Heuristic Filter (Seniority & Location rules)
-            passes_heuristic, reason = self.heuristic_filter.evaluate(job)
-            if not passes_heuristic:
-                stats["heuristically_rejected"] += 1
-                logger.debug(f"Heuristically rejected: [{job.source}] {job.title} - {reason}")
-                continue
+                # If previously evaluated with high match but alert was not delivered (e.g. earlier error)
+                saved_eval = JobRepository.get_saved_evaluation(job.id)
+                if saved_eval and saved_eval.get("match_score", 0) >= settings.min_match_score:
+                    logger.info(f"Retrying unnotified high match from database: [{job.source}] '{job.title}' ({saved_eval.get('match_score')}%)...")
+                    evaluation = saved_eval
+                    score = saved_eval.get("match_score", 0)
+                    verdict = saved_eval.get("match_verdict", "UNKNOWN")
+                else:
+                    stats["duplicates_skipped"] += 1
+                    continue
+            else:
+                # Deterministic Heuristic Filter (Seniority & Location rules)
+                passes_heuristic, reason = self.heuristic_filter.evaluate(job)
+                if not passes_heuristic:
+                    stats["heuristically_rejected"] += 1
+                    logger.debug(f"Heuristically rejected: [{job.source}] {job.title} - {reason}")
+                    continue
 
-            # Save initial job record
-            JobRepository.save_job(job.model_dump())
+                # Save initial job record
+                JobRepository.save_job(job.model_dump())
 
-            # Fetch full LinkedIn description if applicable and missing
-            if not job.description and job.source == "linkedin_guest":
-                desc = self.linkedin_extractor.fetch_job_description(job.id)
-                if desc:
-                    job.description = desc
+                # Fetch full LinkedIn description if applicable and missing
+                if not job.description and job.source == "linkedin_guest":
+                    desc = self.linkedin_extractor.fetch_job_description(job.id)
+                    if desc:
+                        job.description = desc
 
-            # Google Gemini AI Semantic Evaluation
-            logger.info(f"Running AI fit evaluation on: [{job.source}] '{job.title}' at '{job.company}'...")
-            evaluation = self.ai_evaluator.evaluate_job(job)
-            stats["evaluated_by_ai"] += 1
+                # Google Gemini AI Semantic Evaluation
+                logger.info(f"Running AI fit evaluation on: [{job.source}] '{job.title}' at '{job.company}'...")
+                evaluation = self.ai_evaluator.evaluate_job(job)
+                stats["evaluated_by_ai"] += 1
 
-            # Persist AI evaluation
-            JobRepository.save_evaluation(job.id, evaluation)
+                # Persist AI evaluation
+                JobRepository.save_evaluation(job.id, evaluation)
 
-            score = evaluation.get("match_score", 0)
-            verdict = evaluation.get("match_verdict", "UNKNOWN")
-            logger.info(f"-> Result: Score {score}% ({verdict}) for {job.title} at {job.company}")
+                score = evaluation.get("match_score", 0)
+                verdict = evaluation.get("match_verdict", "UNKNOWN")
+                logger.info(f"-> Result: Score {score}% ({verdict}) for {job.title} at {job.company}")
 
             # Threshold Gate (min_match_score)
-            if score >= settings.min_match_score:
+            if score >= settings.min_match_score and evaluation:
                 stats["matches_found"] += 1
                 logger.info(f"🎯 High match ({score}% >= {settings.min_match_score}%)! Dispatching alerts...")
 
                 # Telegram notification
                 if self.telegram_notifier.is_configured():
+                    logger.info(f"Dispatching Telegram alert for: {job.title} ({job.source})...")
                     tg_success, tg_res = self.telegram_notifier.send_job_alert(job, evaluation)
                     tg_status = "SENT" if tg_success else "FAILED"
-                    JobRepository.mark_notified(job.id, "TELEGRAM", settings.telegram_chat_id or "", tg_status, tg_res)
                     if tg_success:
+                        logger.info(f"✅ Telegram alert delivered: {job.title} at {job.company}")
                         stats["alerts_sent"] += 1
+                    else:
+                        logger.error(f"❌ Telegram alert FAILED for {job.title}: {tg_res}")
+                    JobRepository.mark_notified(job.id, "TELEGRAM", settings.telegram_chat_id or "", tg_status, tg_res)
+                else:
+                    logger.warning("Telegram notifier is NOT configured (TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID missing).")
 
                 # WhatsApp notification (if configured)
                 if self.whatsapp_notifier.is_configured():
