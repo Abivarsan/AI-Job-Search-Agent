@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T10:35:59.984458Z",
+    "generated_at": "2026-10-12T21:12:15.369058Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 77
+    "total_count": 79
   },
   "stats": {
-    "total_jobs": 77,
-    "evaluated_jobs": 77,
-    "high_matches": 77,
+    "total_jobs": 79,
+    "evaluated_jobs": 79,
+    "high_matches": 79,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 24,
-      "linkedin_guest": 36,
+      "linkedin_guest": 38,
       "rooster_jobs": 7,
       "topjobs_lk": 10
     },
@@ -175,6 +175,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BlackLine for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477596805",
+      "external_id": "4477596805",
+      "source": "linkedin_guest",
+      "title": "Full Stack Developer",
+      "company": "Therighttalent",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-developer-at-therighttalent-4477596805",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-12T21:12:07.768346",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Therighttalent"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Therighttalent for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1429,6 +1468,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Yunex Traffic for Full Stack Java Developer for Urban Mobility Platform (m/f). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4465766064",
+      "external_id": "4465766064",
+      "source": "linkedin_guest",
+      "title": "Python Developer | Generative AI / AI-ML",
+      "company": "TECEZE",
+      "location": "Jaffna, Northern Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/python-developer-generative-ai-ai-ml-at-teceze-4465766064",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-10-12T21:12:02.662465",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Python Developer | Generative AI / AI-ML",
+          "Company: TECEZE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TECEZE for Python Developer | Generative AI / AI-ML. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
