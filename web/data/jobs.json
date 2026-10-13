@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-13T06:38:30.558841Z",
+    "generated_at": "2026-10-13T16:53:33.936584Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 81
+    "total_count": 98
   },
   "stats": {
-    "total_jobs": 81,
-    "evaluated_jobs": 81,
-    "high_matches": 81,
+    "total_jobs": 98,
+    "evaluated_jobs": 98,
+    "high_matches": 98,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 24,
-      "linkedin_guest": 40,
+      "itpro_lk": 28,
+      "linkedin_guest": 51,
       "rooster_jobs": 7,
-      "topjobs_lk": 10
+      "topjobs_lk": 12
     },
     "min_match_score_threshold": 70
   },
@@ -134,6 +134,277 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001559071",
+      "external_id": "0001559071",
+      "source": "topjobs_lk",
+      "title": "Junior Software Developer",
+      "company": "UN Consortium",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001559071&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: UN Consortium. Location: Colombo 5, Sri Lanka. Closing: Tue Oct 27 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Oct 13 2026",
+      "discovered_at": "2026-10-13T16:53:23.444176",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer",
+          "Company: UN Consortium"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UN Consortium for Junior Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476460493",
+      "external_id": "4476460493",
+      "source": "linkedin_guest",
+      "title": "Dotnet Developer",
+      "company": "V-Soft Consulting Group, Inc.",
+      "location": "Mississauga, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/dotnet-developer-at-v-soft-consulting-group-inc-4476460493",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-13T16:53:10.247401",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Dotnet Developer",
+          "Company: V-Soft Consulting Group, Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at V-Soft Consulting Group, Inc. for Dotnet Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4433235951",
+      "external_id": "4433235951",
+      "source": "linkedin_guest",
+      "title": ".NET Developer",
+      "company": "GRUPPO FINSERVICE",
+      "location": "Mantua, Lombardy, Italy",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/jobs/view/net-developer-at-gruppo-finservice-4433235951",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-13T16:53:04.308932",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Developer",
+          "Company: GRUPPO FINSERVICE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GRUPPO FINSERVICE for .NET Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476421634",
+      "external_id": "4476421634",
+      "source": "linkedin_guest",
+      "title": "Sr.Developer - Asp.Net/SQL",
+      "company": "ANGLER Technologies India Pvt Ltd",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/sr-developer-asp-net-sql-at-angler-technologies-india-pvt-ltd-4476421634",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-13T16:52:58.510468",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Sr.Developer - Asp.Net/SQL",
+          "Company: ANGLER Technologies India Pvt Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ANGLER Technologies India Pvt Ltd for Sr.Developer - Asp.Net/SQL. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476423023",
+      "external_id": "4476423023",
+      "source": "linkedin_guest",
+      "title": "Backend Developer C# .NET",
+      "company": "Experis",
+      "location": "Monza e Brianza, Lombardy, Italy",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/jobs/view/backend-developer-c%23-net-at-experis-4476423023",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-13T16:52:46.771803",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Backend Developer C# .NET",
+          "Company: Experis"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Experis for Backend Developer C# .NET. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477976565",
+      "external_id": "4477976565",
+      "source": "linkedin_guest",
+      "title": "Dot Net Developer",
+      "company": "DBiz.ai",
+      "location": "Melbourne, Victoria, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/dot-net-developer-at-dbiz-ai-4477976565",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-13T16:52:41.383725",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Ms Sql Server",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Dot Net Developer",
+          "Company: DBiz.ai"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DBiz.ai for Dot Net Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479003149",
+      "external_id": "4479003149",
+      "source": "linkedin_guest",
+      "title": "C# Dot Net Developer",
+      "company": "Capco",
+      "location": "Mumbai, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/c%23-dot-net-developer-at-capco-4479003149",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-13T16:52:35.297244",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C# Dot Net Developer",
+          "Company: Capco"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Capco for C# Dot Net Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1238,6 +1509,376 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15445",
+      "external_id": "15445",
+      "source": "itpro_lk",
+      "title": "CRM Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15445/crm-developer-at-bistec-global-services/",
+      "description": "Software engineering opening on ITPro.lk: CRM Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-13T16:53:30.744631",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: CRM Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for CRM Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15447",
+      "external_id": "15447",
+      "source": "itpro_lk",
+      "title": "Intern Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15447/intern-software-engineer-at-knovik/",
+      "description": "Software engineering opening on ITPro.lk: Intern Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-13T16:53:28.929766",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15451",
+      "external_id": "15451",
+      "source": "itpro_lk",
+      "title": "Software Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Jaffna, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15451/software-developer-at-inspire-associates/",
+      "description": "Software engineering opening on ITPro.lk: Software Developer at Sri Lankan Tech Company (Jaffna, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-13T16:53:27.105926",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15452",
+      "external_id": "15452",
+      "source": "itpro_lk",
+      "title": "Backend Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15452/backend-engineer-intern-at-delivergate/",
+      "description": "Software engineering opening on ITPro.lk: Backend Engineer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-13T16:53:25.279947",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Backend Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001559256",
+      "external_id": "0001559256",
+      "source": "topjobs_lk",
+      "title": "Full-Stack Developer (Ruby On Rails)",
+      "company": "The Green Lion",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001559256&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: The Green Lion. Location: Sri Lanka. Closing: Tue Oct 27 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Oct 13 2026",
+      "discovered_at": "2026-10-13T16:53:21.573990",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer (Ruby On Rails)",
+          "Company: The Green Lion"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at The Green Lion for Full-Stack Developer (Ruby On Rails). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476099970",
+      "external_id": "4476099970",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer",
+      "company": "ITRAC",
+      "location": "London Area, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/java-software-engineer-at-itrac-4476099970",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-13T16:53:16.055469",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer",
+          "Company: ITRAC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITRAC for Java Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479009574",
+      "external_id": "4479009574",
+      "source": "linkedin_guest",
+      "title": "Sénior .Net Developer",
+      "company": "Bee Engineering ICT",
+      "location": "Lisbon, Lisbon, Portugal",
+      "workplace_type": "Remote",
+      "apply_url": "https://pt.linkedin.com/jobs/view/s%C3%A9nior-net-developer-at-bee-engineering-ict-4479009574",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-13T16:52:52.496567",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Sénior .Net Developer",
+          "Company: Bee Engineering ICT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Bee Engineering ICT for Sénior .Net Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478112190",
+      "external_id": "4478112190",
+      "source": "linkedin_guest",
+      "title": "Java Fullstack Engineer",
+      "company": "Ascendion",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-fullstack-engineer-at-ascendion-4478112190",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-13T16:52:29.652568",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Fullstack Engineer",
+          "Company: Ascendion"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ascendion for Java Fullstack Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478772592",
+      "external_id": "4478772592",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer III - Debit Technology",
+      "company": "JPMorganChase",
+      "location": "Atlanta, GA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/java-software-engineer-iii-debit-technology-at-jpmorganchase-4478772592",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-13T16:52:23.652150",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer III - Debit Technology",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Java Software Engineer III - Debit Technology. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478106089",
+      "external_id": "4478106089",
+      "source": "linkedin_guest",
+      "title": "AR Developer (AUGMENTED REALITY)",
+      "company": "Anthem Studios",
+      "location": "Galle, Southern Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ar-developer-augmented-reality-at-anthem-studios-4478106089",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-13T16:52:18.375687",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: AR Developer (AUGMENTED REALITY)",
+          "Company: Anthem Studios"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Anthem Studios for AR Developer (AUGMENTED REALITY). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
