@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-13T16:53:33.936584Z",
+    "generated_at": "2026-10-13T22:35:00.762059Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 98
+    "total_count": 102
   },
   "stats": {
-    "total_jobs": 98,
-    "evaluated_jobs": 98,
-    "high_matches": 98,
+    "total_jobs": 102,
+    "evaluated_jobs": 102,
+    "high_matches": 102,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 28,
-      "linkedin_guest": 51,
+      "linkedin_guest": 55,
       "rooster_jobs": 7,
       "topjobs_lk": 12
     },
@@ -1509,6 +1509,153 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479053675",
+      "external_id": "4479053675",
+      "source": "linkedin_guest",
+      "title": "Intern Systems Engineer",
+      "company": "ZILLIONe",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-systems-engineer-at-zillione-4479053675",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-13T22:34:52.535962",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Systems Engineer",
+          "Company: ZILLIONe"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ZILLIONe for Intern Systems Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460099703",
+      "external_id": "4460099703",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, 2027 New Grad",
+      "company": "Whatnot",
+      "location": "Los Angeles, CA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-2027-new-grad-at-whatnot-4460099703",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-13T22:34:47.236767",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, 2027 New Grad",
+          "Company: Whatnot"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Whatnot for Software Engineer, 2027 New Grad. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4461208858",
+      "external_id": "4461208858",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer (m/f/d)",
+      "company": "Variosystems",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-m-f-d-at-variosystems-4461208858",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-13T22:34:41.005300",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer (m/f/d)",
+          "Company: Variosystems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Variosystems for DevOps Engineer (m/f/d). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479056070",
+      "external_id": "4479056070",
+      "source": "linkedin_guest",
+      "title": "Visualisation Engineer",
+      "company": "Howden",
+      "location": "Kirkoswald Group, Central Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/visualisation-engineer-at-howden-4479056070",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-13T22:34:34.869473",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Visualisation Engineer",
+          "Company: Howden"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Howden for Visualisation Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
