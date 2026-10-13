@@ -303,6 +303,9 @@ function syncTopTabs(tab) {
 
 // Filtering Engine
 function applyFilters() {
+  const bookmarks = getLocalBookmarks();
+  const appliedList = getLocalApplied();
+
   filteredJobs = allJobs.filter((job) => {
     const evalData = job.evaluation || {};
     const score = evalData.match_score || 0;
@@ -310,6 +313,8 @@ function applyFilters() {
     const company = (job.company || '').toLowerCase();
     const location = (job.location || '').toLowerCase();
     const skills = (evalData.matching_skills || []).map(s => s.toLowerCase()).join(' ');
+    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
 
     // 1. Text Search Filter
     if (state.searchQuery) {
@@ -337,8 +342,8 @@ function applyFilters() {
 
     // 5. Category Tab Filter
     if (state.activeTab === 'high_match' && score < 70) return false;
-    if (state.activeTab === 'bookmarked' && job.user_status !== 'BOOKMARKED') return false;
-    if (state.activeTab === 'applied' && job.user_status !== 'APPLIED') return false;
+    if (state.activeTab === 'bookmarked' && !isBookmarked) return false;
+    if (state.activeTab === 'applied' && !isApplied) return false;
 
     return true;
   });
@@ -350,10 +355,13 @@ function applyFilters() {
 
 // Update KPI Stats
 function updateKPICounters() {
+  const bookmarks = getLocalBookmarks();
+  const appliedList = getLocalApplied();
+
   const total = allJobs.length;
   const high = allJobs.filter(j => (j.evaluation?.match_score || 0) >= 70).length;
-  const bookmarked = allJobs.filter(j => j.user_status === 'BOOKMARKED').length;
-  const applied = allJobs.filter(j => j.user_status === 'APPLIED').length;
+  const bookmarked = allJobs.filter(j => j.user_status === 'BOOKMARKED' || Boolean(bookmarks[j.id])).length;
+  const applied = allJobs.filter(j => j.user_status === 'APPLIED' || Boolean(appliedList[j.id])).length;
 
   document.getElementById('kpiTotalJobs').textContent = total;
   document.getElementById('kpiHighMatches').textContent = high;
@@ -385,12 +393,15 @@ function renderCards() {
     return;
   }
 
+  const bookmarks = getLocalBookmarks();
+  const appliedList = getLocalApplied();
+
   container.innerHTML = filteredJobs.map((job) => {
     const evalData = job.evaluation || {};
     const score = evalData.match_score || 0;
     const portal = PORTAL_META[job.source] || { label: job.source, class: 'bg-slate-800 text-slate-300' };
-    const isBookmarked = job.user_status === 'BOOKMARKED';
-    const isApplied = job.user_status === 'APPLIED';
+    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
 
     // Score color styling
     let scoreBadgeClass = "bg-emerald-500/15 text-emerald-400 border-emerald-500/30";
@@ -412,13 +423,20 @@ function renderCards() {
               <span class="text-[11px] px-2.5 py-0.5 rounded-full font-bold border ${scoreBadgeClass}">
                 ${score}% Fit
               </span>
-              <span class="text-[10px] px-2 py-0.5 rounded-full font-medium border ${portal.class}">
+              <span class="text-[10px] px-2.5 py-0.5 rounded-full font-medium border ${portal.class}">
                 ${portal.label}
               </span>
             </div>
-            <button onclick="toggleBookmark('${job.id}')" title="Bookmark job" class="p-1 rounded-md text-slate-400 hover:text-amber-400 transition">
-              <i data-lucide="star" class="w-4 h-4 ${isBookmarked ? 'fill-amber-400 text-amber-400' : ''}"></i>
-            </button>
+            
+            <!-- Quick Actions: Bookmark & Applied Tick -->
+            <div class="flex items-center gap-1">
+              <button onclick="toggleBookmark('${job.id}')" title="${isBookmarked ? 'Remove bookmark' : 'Bookmark job'}" class="p-1.5 rounded-lg text-slate-400 hover:text-amber-400 hover:bg-amber-500/10 transition">
+                <i data-lucide="star" class="w-4 h-4 ${isBookmarked ? 'fill-amber-400 text-amber-400' : ''}"></i>
+              </button>
+              <button onclick="toggleApplied('${job.id}')" title="${isApplied ? 'Applied (Click to unmark)' : 'Mark as Applied'}" class="p-1.5 rounded-lg transition ${isApplied ? 'text-emerald-400 bg-emerald-500/15 border border-emerald-500/30' : 'text-slate-400 hover:text-emerald-400 hover:bg-emerald-500/10 border border-transparent'}">
+                <i data-lucide="check-circle" class="w-4 h-4 ${isApplied ? 'fill-emerald-400/20 text-emerald-400' : ''}"></i>
+              </button>
+            </div>
           </div>
 
           <!-- Title & Company -->
@@ -439,7 +457,7 @@ function renderCards() {
         <div class="pt-3 border-t border-dark-border/60 flex items-center justify-between gap-2">
           <div class="flex items-center gap-1.5 text-[11px] text-slate-400">
             <span class="px-2 py-0.5 rounded bg-[#090d16] text-[10px] text-slate-400 font-medium">${escapeHtml(job.workplace_type || 'On-site')}</span>
-            ${isApplied ? '<span class="text-purple-400 font-semibold flex items-center gap-0.5"><i data-lucide="check" class="w-3 h-3"></i> Applied</span>' : ''}
+            ${isApplied ? '<span class="text-emerald-400 font-semibold flex items-center gap-1 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 text-[10px]"><i data-lucide="check" class="w-3 h-3"></i> Applied</span>' : ''}
           </div>
           
           <div class="flex items-center gap-1.5">
@@ -464,10 +482,15 @@ function renderTable() {
   const tbody = document.getElementById('tableBody');
   if (!tbody) return;
 
+  const bookmarks = getLocalBookmarks();
+  const appliedList = getLocalApplied();
+
   tbody.innerHTML = filteredJobs.map((job) => {
     const evalData = job.evaluation || {};
     const score = evalData.match_score || 0;
     const portal = PORTAL_META[job.source] || { label: job.source };
+    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
 
     return `
       <tr class="hover:bg-dark-hover/40 transition">
@@ -476,14 +499,25 @@ function renderTable() {
         <td class="py-3 px-4 text-slate-300">${escapeHtml(job.company)}</td>
         <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] ${portal.class || 'bg-slate-800'}">${portal.label}</span></td>
         <td class="py-3 px-4 text-slate-400">${escapeHtml(job.location)} (${escapeHtml(job.workplace_type)})</td>
-        <td class="py-3 px-4 text-slate-300">${escapeHtml(job.user_status || 'NEW')}</td>
-        <td class="py-3 px-4 text-right space-x-1.5">
-          <button onclick="openJobModal('${job.id}')" class="px-2 py-1 bg-dark-card border border-dark-border rounded text-slate-300 hover:text-white">View</button>
-          <a href="${job.apply_url}" target="_blank" class="px-2.5 py-1 bg-brand-600 rounded text-white font-semibold">Apply</a>
+        <td class="py-3 px-4 text-slate-300">
+          <span class="px-2 py-0.5 rounded text-[10px] font-semibold ${isApplied ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30' : (isBookmarked ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30' : 'bg-slate-800 text-slate-400')}">
+            ${isApplied ? 'APPLIED' : (isBookmarked ? 'BOOKMARKED' : escapeHtml(job.user_status || 'NEW'))}
+          </span>
+        </td>
+        <td class="py-3 px-4 text-right space-x-1">
+          <button onclick="toggleBookmark('${job.id}')" title="${isBookmarked ? 'Remove bookmark' : 'Bookmark job'}" class="p-1 rounded text-slate-400 hover:text-amber-400 hover:bg-amber-500/10 transition inline-flex items-center">
+            <i data-lucide="star" class="w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-400 text-amber-400' : ''}"></i>
+          </button>
+          <button onclick="toggleApplied('${job.id}')" title="${isApplied ? 'Applied (Click to unmark)' : 'Mark as Applied'}" class="p-1 rounded transition inline-flex items-center ${isApplied ? 'text-emerald-400 bg-emerald-500/15 border border-emerald-500/30' : 'text-slate-400 hover:text-emerald-400 hover:bg-emerald-500/10 border border-transparent'}">
+            <i data-lucide="check-circle" class="w-3.5 h-3.5 ${isApplied ? 'fill-emerald-400/20 text-emerald-400' : ''}"></i>
+          </button>
+          <button onclick="openJobModal('${job.id}')" class="px-2 py-1 bg-dark-card border border-dark-border rounded text-xs text-slate-300 hover:text-white transition">View</button>
+          <a href="${job.apply_url}" target="_blank" class="px-2.5 py-1 bg-brand-600 rounded text-xs text-white font-semibold hover:bg-brand-500 transition">Apply</a>
         </td>
       </tr>
     `;
   }).join('');
+  lucide.createIcons();
 }
 
 // Open Detail Modal
@@ -558,16 +592,20 @@ async function saveModalTracker() {
   }
 
   // Also persist in localStorage for offline resiliency
+  const b = getLocalBookmarks();
+  const a = getLocalApplied();
   if (newStatus === 'BOOKMARKED') {
-    const b = getLocalBookmarks();
     b[currentJobInModal.id] = true;
-    setLocalBookmarks(b);
-  }
-  if (newStatus === 'APPLIED') {
-    const a = getLocalApplied();
+    delete a[currentJobInModal.id];
+  } else if (newStatus === 'APPLIED') {
     a[currentJobInModal.id] = true;
-    setLocalApplied(a);
+  } else {
+    delete b[currentJobInModal.id];
+    delete a[currentJobInModal.id];
   }
+  setLocalBookmarks(b);
+  setLocalApplied(a);
+
   const n = getLocalNotes();
   n[currentJobInModal.id] = newNotes;
   setLocalNotes(n);
@@ -581,14 +619,21 @@ async function toggleBookmark(jobId) {
   const job = allJobs.find(j => j.id === jobId);
   if (!job) return;
 
-  const isCurrentlyBookmarked = job.user_status === 'BOOKMARKED';
-  const newStatus = isCurrentlyBookmarked ? 'NEW' : 'BOOKMARKED';
-  job.user_status = newStatus;
-
-  // Local storage sync
   const b = getLocalBookmarks();
-  if (newStatus === 'BOOKMARKED') b[jobId] = true;
-  else delete b[jobId];
+  const a = getLocalApplied();
+  const isCurrentlyBookmarked = Boolean(b[jobId]) || job.user_status === 'BOOKMARKED';
+
+  if (isCurrentlyBookmarked) {
+    delete b[jobId];
+    if (job.user_status === 'BOOKMARKED') {
+      job.user_status = a[jobId] ? 'APPLIED' : 'NEW';
+    }
+  } else {
+    b[jobId] = true;
+    if (job.user_status !== 'APPLIED') {
+      job.user_status = 'BOOKMARKED';
+    }
+  }
   setLocalBookmarks(b);
 
   // API sync if in API mode
@@ -597,7 +642,39 @@ async function toggleBookmark(jobId) {
       await fetch(`/api/jobs/${jobId}/status`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ status: newStatus })
+        body: JSON.stringify({ status: job.user_status })
+      });
+    } catch (e) {}
+  }
+
+  applyFilters();
+}
+
+// Quick Applied Toggle on Card
+async function toggleApplied(jobId) {
+  const job = allJobs.find(j => j.id === jobId);
+  if (!job) return;
+
+  const a = getLocalApplied();
+  const b = getLocalBookmarks();
+  const isCurrentlyApplied = Boolean(a[jobId]) || job.user_status === 'APPLIED';
+
+  if (isCurrentlyApplied) {
+    delete a[jobId];
+    job.user_status = b[jobId] ? 'BOOKMARKED' : 'NEW';
+  } else {
+    a[jobId] = true;
+    job.user_status = 'APPLIED';
+  }
+  setLocalApplied(a);
+
+  // API sync if in API mode
+  if (currentMode === 'api') {
+    try {
+      await fetch(`/api/jobs/${jobId}/status`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status: job.user_status })
       });
     } catch (e) {}
   }
