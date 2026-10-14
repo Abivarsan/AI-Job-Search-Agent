@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-13T22:35:00.762059Z",
+    "generated_at": "2026-10-14T04:37:30.805925Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 102
+    "total_count": 117
   },
   "stats": {
-    "total_jobs": 102,
-    "evaluated_jobs": 102,
-    "high_matches": 102,
+    "total_jobs": 117,
+    "evaluated_jobs": 117,
+    "high_matches": 117,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 28,
-      "linkedin_guest": 55,
+      "linkedin_guest": 70,
       "rooster_jobs": 7,
       "topjobs_lk": 12
     },
@@ -134,6 +134,164 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478162512",
+      "external_id": "4478162512",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - JAVA Developer (Spring, Microservices)",
+      "company": "Mettler-Toledo International, Inc",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-java-developer-spring-microservices-at-mettler-toledo-international-inc-4478162512",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-14T04:37:06.368441",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - JAVA Developer (Spring, Microservices)",
+          "Company: Mettler-Toledo International, Inc"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mettler-Toledo International, Inc for Software Engineer - JAVA Developer (Spring, Microservices). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4468238590",
+      "external_id": "4468238590",
+      "source": "linkedin_guest",
+      "title": "Developer .Net (inglés avanzado)",
+      "company": "Tata Consultancy Services",
+      "location": "Santiago Metropolitan Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://cl.linkedin.com/jobs/view/developer-net-ingl%C3%A9s-avanzado-at-tata-consultancy-services-4468238590",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-14T04:37:00.299775",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Java"
+        ],
+        "pros": [
+          "Target role match: Developer .Net (inglés avanzado)",
+          "Company: Tata Consultancy Services"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Tata Consultancy Services for Developer .Net (inglés avanzado). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478413065",
+      "external_id": "4478413065",
+      "source": "linkedin_guest",
+      "title": "Developers (Front-end and back-end) Industry Experience Bootcamp & Internship",
+      "company": "Ahken labs",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/developers-front-end-and-back-end-industry-experience-bootcamp-internship-at-ahken-labs-4478413065",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "14 minutes ago",
+      "discovered_at": "2026-10-14T04:36:37.488585",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Developers (Front-end and back-end) Industry Experience Bootcamp & Internship",
+          "Company: Ahken labs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ahken labs for Developers (Front-end and back-end) Industry Experience Bootcamp & Internship. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4467052655",
+      "external_id": "4467052655",
+      "source": "linkedin_guest",
+      "title": "Developer - (.NET)",
+      "company": "Next",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/developer-net-at-next-4467052655",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 minutes ago",
+      "discovered_at": "2026-10-14T04:36:31.203124",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Entity Framework Core",
+          "React",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Java",
+          "Spring Boot"
+        ],
+        "pros": [
+          "Target role match: Developer - (.NET)",
+          "Company: Next"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Next for Developer - (.NET). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1509,6 +1667,408 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478761598",
+      "external_id": "4478761598",
+      "source": "linkedin_guest",
+      "title": "Java Developer (Spring boot, Rest API)_2-4 Yrs_Indore",
+      "company": "Global Payments Inc.",
+      "location": "Indore, Madhya Pradesh, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-developer-spring-boot-rest-api-2-4-yrs-indore-at-global-payments-inc-4478761598",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "21 hours ago",
+      "discovered_at": "2026-10-14T04:37:22.798277",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer (Spring boot, Rest API)_2-4 Yrs_Indore",
+          "Company: Global Payments Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Global Payments Inc. for Java Developer (Spring boot, Rest API)_2-4 Yrs_Indore. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478166528",
+      "external_id": "4478166528",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Java",
+      "company": "Mettler-Toledo International, Inc",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-java-at-mettler-toledo-international-inc-4478166528",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-14T04:37:17.728195",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Java",
+          "Company: Mettler-Toledo International, Inc"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mettler-Toledo International, Inc for Software Engineer - Java. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479265093",
+      "external_id": "4479265093",
+      "source": "linkedin_guest",
+      "title": "Java & Kotlin Developer",
+      "company": "Luxoft",
+      "location": "Singapore, Singapore",
+      "workplace_type": "Remote",
+      "apply_url": "https://sg.linkedin.com/jobs/view/java-kotlin-developer-at-luxoft-4479265093",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T04:37:12.453560",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java & Kotlin Developer",
+          "Company: Luxoft"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Luxoft for Java & Kotlin Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476465046",
+      "external_id": "4476465046",
+      "source": "linkedin_guest",
+      "title": "Fullstack .Net Developer",
+      "company": "PSI CRO",
+      "location": "Tallinn, Harjumaa, Estonia",
+      "workplace_type": "Remote",
+      "apply_url": "https://ee.linkedin.com/jobs/view/fullstack-net-developer-at-psi-cro-4476465046",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-14T04:36:55.130707",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Fullstack .Net Developer",
+          "Company: PSI CRO"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PSI CRO for Fullstack .Net Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477858481",
+      "external_id": "4477858481",
+      "source": "linkedin_guest",
+      "title": "Software Engineer 2 (.NET Core / C# web applications)",
+      "company": "U.S. Bank",
+      "location": "Gresham, OR",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-2-net-core-c%23-web-applications-at-u-s-bank-4477858481",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T04:36:49.702768",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer 2 (.NET Core / C# web applications)",
+          "Company: U.S. Bank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at U.S. Bank for Software Engineer 2 (.NET Core / C# web applications). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476460265",
+      "external_id": "4476460265",
+      "source": "linkedin_guest",
+      "title": "Full stack .NET developer",
+      "company": "PSI CRO",
+      "location": "Riga, Riga, Latvia",
+      "workplace_type": "Remote",
+      "apply_url": "https://lv.linkedin.com/jobs/view/full-stack-net-developer-at-psi-cro-4476460265",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-14T04:36:43.608292",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full stack .NET developer",
+          "Company: PSI CRO"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PSI CRO for Full stack .NET developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478103580",
+      "external_id": "4478103580",
+      "source": "linkedin_guest",
+      "title": "Ingeniero de Software .NET - Trabajo Remoto",
+      "company": "BairesDev",
+      "location": "Santiago, Santiago Metropolitan Region, Chile",
+      "workplace_type": "Remote",
+      "apply_url": "https://cl.linkedin.com/jobs/view/ingeniero-de-software-net-trabajo-remoto-at-bairesdev-4478103580",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "15 hours ago",
+      "discovered_at": "2026-10-14T04:36:22.349461",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Ingeniero de Software .NET - Trabajo Remoto",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Ingeniero de Software .NET - Trabajo Remoto. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4414646675",
+      "external_id": "4414646675",
+      "source": "linkedin_guest",
+      "title": "Sr. Software Engineer I",
+      "company": "Alegeus",
+      "location": "Bengaluru East, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/sr-software-engineer-i-at-alegeus-4414646675",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-14T04:36:16.621301",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Sr. Software Engineer I",
+          "Company: Alegeus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Alegeus for Sr. Software Engineer I. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478786845",
+      "external_id": "4478786845",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer - II",
+      "company": "Amazon",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-at-amazon-4478786845",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "16 hours ago",
+      "discovered_at": "2026-10-14T04:36:10.816755",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer - II",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer - II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478116146",
+      "external_id": "4478116146",
+      "source": "linkedin_guest",
+      "title": "Engenheiro de Software .NET - Trabalho Remoto",
+      "company": "BairesDev",
+      "location": "Greater Curitiba",
+      "workplace_type": "Remote",
+      "apply_url": "https://br.linkedin.com/jobs/view/engenheiro-de-software-net-trabalho-remoto-at-bairesdev-4478116146",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "15 hours ago",
+      "discovered_at": "2026-10-14T04:36:04.850111",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Engenheiro de Software .NET - Trabalho Remoto",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Engenheiro de Software .NET - Trabalho Remoto. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4468556241",
+      "external_id": "4468556241",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II- Linux C/C++ systems programming",
+      "company": "JPMorganChase",
+      "location": "Jersey City, NJ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-linux-c-c%2B%2B-systems-programming-at-jpmorganchase-4468556241",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "19 hours ago",
+      "discovered_at": "2026-10-14T04:35:59.274730",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II- Linux C/C++ systems programming",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer II- Linux C/C++ systems programming. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
