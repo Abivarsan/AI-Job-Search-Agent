@@ -1,26 +1,64 @@
 {
   "meta": {
-    "generated_at": "2026-10-14T17:01:55.432387Z",
+    "generated_at": "2026-10-14T21:33:41.281091Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 156
+    "total_count": 170
   },
   "stats": {
-    "total_jobs": 156,
-    "evaluated_jobs": 156,
-    "high_matches": 156,
+    "total_jobs": 170,
+    "evaluated_jobs": 170,
+    "high_matches": 170,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 28,
-      "linkedin_guest": 106,
+      "itpro_lk": 30,
+      "linkedin_guest": 118,
       "rooster_jobs": 7,
       "topjobs_lk": 15
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4479574223",
+      "external_id": "4479574223",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TriNet",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-trinet-4479574223",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T21:32:31.502989",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TriNet"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TriNet for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4478414564",
       "external_id": "4478414564",
@@ -522,6 +560,317 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478411493",
+      "external_id": "4478411493",
+      "source": "linkedin_guest",
+      "title": "Dotnet Developer",
+      "company": "MSBU Konsultan",
+      "location": "Jakarta, Indonesia",
+      "workplace_type": "Remote",
+      "apply_url": "https://id.linkedin.com/jobs/view/dotnet-developer-at-msbu-konsultan-4478411493",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "16 hours ago",
+      "discovered_at": "2026-10-14T21:33:29.512579",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Dotnet Developer",
+          "Company: MSBU Konsultan"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MSBU Konsultan for Dotnet Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476674807",
+      "external_id": "4476674807",
+      "source": "linkedin_guest",
+      "title": "Jr Full Stack Developer",
+      "company": "Gen II Fund Services",
+      "location": "New York, NY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/jr-full-stack-developer-at-gen-ii-fund-services-4476674807",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-14T21:33:23.615633",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Jr Full Stack Developer",
+          "Company: Gen II Fund Services"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gen II Fund Services for Jr Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4467499553",
+      "external_id": "4467499553",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "GHX India",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-ghx-india-4467499553",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-14T21:33:17.537879",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: GHX India"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GHX India for Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4468993665",
+      "external_id": "4468993665",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "Mastercard",
+      "location": "Pune Division, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-mastercard-4468993665",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-14T21:33:05.870912",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: Mastercard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mastercard for Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478432176",
+      "external_id": "4478432176",
+      "source": "linkedin_guest",
+      "title": "Full Stack Java Developer",
+      "company": "Endava",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/full-stack-java-developer-at-endava-4478432176",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-14T21:32:48.263230",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Java Developer",
+          "Company: Endava"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Endava for Full Stack Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4465510219",
+      "external_id": "4465510219",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "GHX",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-ghx-4465510219",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-14T21:32:42.725071",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: GHX"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GHX for Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479701152",
+      "external_id": "4479701152",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "King",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "workplace_type": "Remote",
+      "apply_url": "https://se.linkedin.com/jobs/view/associate-software-engineer-at-king-4479701152",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T21:32:37.357019",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: King"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at King for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478483527",
+      "external_id": "4478483527",
+      "source": "linkedin_guest",
+      "title": "Associate Software Development Engineer",
+      "company": "Delta Air Lines",
+      "location": "Atlanta, GA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-development-engineer-at-delta-air-lines-4478483527",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T21:32:25.797563",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Development Engineer",
+          "Company: Delta Air Lines"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Delta Air Lines for Associate Software Development Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2660,6 +3009,191 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_14857",
+      "external_id": "14857",
+      "source": "itpro_lk",
+      "title": "Software Engineering Intern – Full-Stack Development",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/14857/software-engineering-intern-full-stack-development-at-urban-innovation-services/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Intern – Full-Stack Development at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-14T21:33:37.427867",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern – Full-Stack Development",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Intern – Full-Stack Development. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15465",
+      "external_id": "15465",
+      "source": "itpro_lk",
+      "title": "Automation Engineer (Business Process Automation)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15465/automation-engineer-business-process-automation-at-hatchyard/",
+      "description": "Software engineering opening on ITPro.lk: Automation Engineer (Business Process Automation) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-14T21:33:35.595071",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Automation Engineer (Business Process Automation)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Automation Engineer (Business Process Automation). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470913476",
+      "external_id": "4470913476",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "Guidewire Software",
+      "location": "Dublin, County Dublin, Ireland",
+      "workplace_type": "Remote",
+      "apply_url": "https://ie.linkedin.com/jobs/view/software-engineer-ii-at-guidewire-software-4470913476",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-14T21:33:11.726274",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: Guidewire Software"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Guidewire Software for Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476692726",
+      "external_id": "4476692726",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Backend",
+      "company": "Robinhood",
+      "location": "New York, NY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-backend-at-robinhood-4476692726",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T21:32:59.834911",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Backend",
+          "Company: Robinhood"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Robinhood for Software Engineer, Backend. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460205602",
+      "external_id": "4460205602",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, 2027 New Grad",
+      "company": "Whatnot",
+      "location": "New York, NY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-2027-new-grad-at-whatnot-4460205602",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-14T21:32:54.226545",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, 2027 New Grad",
+          "Company: Whatnot"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Whatnot for Software Engineer, 2027 New Grad. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
