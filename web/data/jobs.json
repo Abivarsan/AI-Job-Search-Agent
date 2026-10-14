@@ -1,26 +1,143 @@
 {
   "meta": {
-    "generated_at": "2026-10-14T04:37:30.805925Z",
+    "generated_at": "2026-10-14T11:39:54.314948Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 117
+    "total_count": 136
   },
   "stats": {
-    "total_jobs": 117,
-    "evaluated_jobs": 117,
-    "high_matches": 117,
+    "total_jobs": 136,
+    "evaluated_jobs": 136,
+    "high_matches": 136,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 28,
-      "linkedin_guest": 70,
+      "linkedin_guest": 86,
       "rooster_jobs": 7,
-      "topjobs_lk": 12
+      "topjobs_lk": 15
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4478142512",
+      "external_id": "4478142512",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer - IT",
+      "company": "Flex",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-it-at-flex-4478142512",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-14T11:39:18.450358",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer - IT",
+          "Company: Flex"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Flex for Associate Software Engineer - IT. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479503064",
+      "external_id": "4479503064",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer (m/w/d) Fullstack Mietwagen International",
+      "company": "CHECK24",
+      "location": "Munich, Bavaria, Germany",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/jobs/view/junior-software-engineer-m-w-d-fullstack-mietwagen-international-at-check24-4479503064",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T11:39:12.644328",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer (m/w/d) Fullstack Mietwagen International",
+          "Company: CHECK24"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CHECK24 for Junior Software Engineer (m/w/d) Fullstack Mietwagen International. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479291338",
+      "external_id": "4479291338",
+      "source": "linkedin_guest",
+      "title": "Associate Backend Engineer",
+      "company": "Relesys",
+      "location": "Kaunas, Kaunas, Lithuania",
+      "workplace_type": "Remote",
+      "apply_url": "https://lt.linkedin.com/jobs/view/associate-backend-engineer-at-relesys-4479291338",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-14T11:38:45.413328",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Associate Backend Engineer",
+          "Company: Relesys"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Relesys for Associate Backend Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4477517076",
       "external_id": "4477517076",
@@ -134,6 +251,228 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479245714",
+      "external_id": "4479245714",
+      "source": "linkedin_guest",
+      "title": "Full Stack Associate Software Engineer (UF Only)",
+      "company": "OneImaging",
+      "location": "Gainesville, FL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/full-stack-associate-software-engineer-uf-only-at-oneimaging-4479245714",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-10-14T11:39:07.488224",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Associate Software Engineer (UF Only)",
+          "Company: OneImaging"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at OneImaging for Full Stack Associate Software Engineer (UF Only). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479068325",
+      "external_id": "4479068325",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Hire Daily",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-hire-daily-4479068325",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-14T11:39:02.142359",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Hire Daily"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hire Daily for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478417624",
+      "external_id": "4478417624",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Emonics LLC",
+      "location": "Cook County, IL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-software-engineer-at-emonics-llc-4478417624",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T11:38:56.500422",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Emonics LLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Emonics LLC for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478112081",
+      "external_id": "4478112081",
+      "source": "linkedin_guest",
+      "title": "Associate Software Developer (Node.js & Python)",
+      "company": "Liberty Mutual Canada",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/associate-software-developer-node-js-python-at-liberty-mutual-canada-4478112081",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "22 hours ago",
+      "discovered_at": "2026-10-14T11:38:39.090801",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Developer (Node.js & Python)",
+          "Company: Liberty Mutual Canada"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Liberty Mutual Canada for Associate Software Developer (Node.js & Python). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479203631",
+      "external_id": "4479203631",
+      "source": "linkedin_guest",
+      "title": "Associate, Application Developer, Institutional Banking Group Technology",
+      "company": "DBS Bank",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-application-developer-institutional-banking-group-technology-at-dbs-bank-4479203631",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "14 hours ago",
+      "discovered_at": "2026-10-14T11:38:33.202061",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate, Application Developer, Institutional Banking Group Technology",
+          "Company: DBS Bank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DBS Bank for Associate, Application Developer, Institutional Banking Group Technology. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479280020",
+      "external_id": "4479280020",
+      "source": "linkedin_guest",
+      "title": "Java & Microservices Developer",
+      "company": "Unison Group",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/java-microservices-developer-at-unison-group-4479280020",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-14T11:38:15.597648",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java & Microservices Developer",
+          "Company: Unison Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Unison Group for Java & Microservices Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1667,6 +2006,374 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001559624",
+      "external_id": "0001559624",
+      "source": "topjobs_lk",
+      "title": "QA Engineer",
+      "company": "Levein",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001559624&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Levein. Location: Colombo 5, Sri Lanka. Closing: Wed Oct 28 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Oct 14 2026",
+      "discovered_at": "2026-10-14T11:39:50.381969",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: Levein"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Levein for QA Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001559644",
+      "external_id": "0001559644",
+      "source": "topjobs_lk",
+      "title": "QA Engineer",
+      "company": "Ceylon Institute of Softwarw Enginnering and Law",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001559644&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Ceylon Institute of Softwarw Enginnering and Law. Location: Colombo 3, Sri Lanka. Closing: Wed Oct 28 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Oct 14 2026",
+      "discovered_at": "2026-10-14T11:39:48.585482",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: Ceylon Institute of Softwarw Enginnering and Law"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ceylon Institute of Softwarw Enginnering and Law for QA Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001559723",
+      "external_id": "0001559723",
+      "source": "topjobs_lk",
+      "title": "Backend Software Engineer",
+      "company": "Hexacorp SL (Private) Limited",
+      "location": "All island, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001559723&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Hexacorp SL (Private) Limited. Location: All island, Sri Lanka. Closing: Wed Oct 28 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Oct 14 2026",
+      "discovered_at": "2026-10-14T11:39:46.748127",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Software Engineer",
+          "Company: Hexacorp SL (Private) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hexacorp SL (Private) Limited for Backend Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479274770",
+      "external_id": "4479274770",
+      "source": "linkedin_guest",
+      "title": ".Net Developer",
+      "company": "BNP Paribas",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/net-developer-at-bnp-paribas-4479274770",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-14T11:39:41.385753",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: .Net Developer",
+          "Company: BNP Paribas"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BNP Paribas for .Net Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470645227",
+      "external_id": "4470645227",
+      "source": "linkedin_guest",
+      "title": "SOFTWARE ENGINEER PL .NET",
+      "company": "Stone",
+      "location": "Greater São Paulo Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://br.linkedin.com/jobs/view/software-engineer-pl-net-at-stone-4470645227",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T11:39:35.354290",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: SOFTWARE ENGINEER PL .NET",
+          "Company: Stone"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Stone for SOFTWARE ENGINEER PL .NET. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479296233",
+      "external_id": "4479296233",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III - AWS, Cloud",
+      "company": "JPMorganChase",
+      "location": "Tampa, FL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-aws-cloud-at-jpmorganchase-4479296233",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T11:39:29.659664",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III - AWS, Cloud",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III - AWS, Cloud. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4452175798",
+      "external_id": "4452175798",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer II",
+      "company": "JPMorganChase",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/java-software-engineer-ii-at-jpmorganchase-4452175798",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T11:39:24.126017",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer II",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Java Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479056936",
+      "external_id": "4479056936",
+      "source": "linkedin_guest",
+      "title": "Full Stack Developer I",
+      "company": "Hire Daily",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/full-stack-developer-i-at-hire-daily-4479056936",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-14T11:38:50.523134",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer I",
+          "Company: Hire Daily"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hire Daily for Full Stack Developer I. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479288093",
+      "external_id": "4479288093",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Application & Software",
+      "company": "Renrui HR",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-application-software-at-renrui-hr-4479288093",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T11:38:27.196963",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Application & Software",
+          "Company: Renrui HR"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Renrui HR for Software Engineer - Application & Software. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478443130",
+      "external_id": "4478443130",
+      "source": "linkedin_guest",
+      "title": "Web Experience Engineer",
+      "company": "PeoplesHR",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/web-experience-engineer-at-peopleshr-4478443130",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T11:38:21.387912",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Web Experience Engineer",
+          "Company: PeoplesHR"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PeoplesHR for Web Experience Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
