@@ -1,26 +1,297 @@
 {
   "meta": {
-    "generated_at": "2026-10-14T11:39:54.314948Z",
+    "generated_at": "2026-10-14T17:01:55.432387Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 136
+    "total_count": 156
   },
   "stats": {
-    "total_jobs": 136,
-    "evaluated_jobs": 136,
-    "high_matches": 136,
+    "total_jobs": 156,
+    "evaluated_jobs": 156,
+    "high_matches": 156,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 28,
-      "linkedin_guest": 86,
+      "linkedin_guest": 106,
       "rooster_jobs": 7,
       "topjobs_lk": 15
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4478414564",
+      "external_id": "4478414564",
+      "source": "linkedin_guest",
+      "title": "Junior Full Stack Software Engineer",
+      "company": "Emonics LLC",
+      "location": "New York, NY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-full-stack-software-engineer-at-emonics-llc-4478414564",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-14T17:01:13.417881",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Full Stack Software Engineer",
+          "Company: Emonics LLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Emonics LLC for Junior Full Stack Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479053987",
+      "external_id": "4479053987",
+      "source": "linkedin_guest",
+      "title": "Junior Fullstack Developer",
+      "company": "Invitation Project",
+      "location": "Burnaby, British Columbia, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/junior-fullstack-developer-at-invitation-project-4479053987",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-14T17:01:07.478418",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Fullstack Developer",
+          "Company: Invitation Project"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Invitation Project for Junior Fullstack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478433237",
+      "external_id": "4478433237",
+      "source": "linkedin_guest",
+      "title": "Junior Python Developer",
+      "company": "Training Basket",
+      "location": "Noida, Uttar Pradesh, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/junior-python-developer-at-training-basket-4478433237",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-10-14T17:01:02.245106",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Python Developer",
+          "Company: Training Basket"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Training Basket for Junior Python Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476385909",
+      "external_id": "4476385909",
+      "source": "linkedin_guest",
+      "title": "Junior Fullstack React & Node Developer - Remote Work | REF#305551",
+      "company": "BairesDev",
+      "location": "Cajamarca, Peru",
+      "workplace_type": "Remote",
+      "apply_url": "https://pe.linkedin.com/jobs/view/junior-fullstack-react-node-developer-remote-work-ref%23305551-at-bairesdev-4476385909",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-14T17:00:33.505342",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Fullstack React & Node Developer - Remote Work | REF#305551",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479276774",
+      "external_id": "4479276774",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer, Software Engineering",
+      "company": "Semtech",
+      "location": "Burlington, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/associate-engineer-software-engineering-at-semtech-4479276774",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-14T17:00:27.896596",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer, Software Engineering",
+          "Company: Semtech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Semtech for Associate Engineer, Software Engineering. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479533480",
+      "external_id": "4479533480",
+      "source": "linkedin_guest",
+      "title": "Junior Software Developer – Customer Screening Solutions | SEB, Tallinn",
+      "company": "SEB Eesti",
+      "location": "Tallinn, Harjumaa, Estonia",
+      "workplace_type": "Remote",
+      "apply_url": "https://ee.linkedin.com/jobs/view/junior-software-developer-%E2%80%93-customer-screening-solutions-seb-tallinn-at-seb-eesti-4479533480",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-14T17:00:22.498889",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer – Customer Screening Solutions | SEB, Tallinn",
+          "Company: SEB Eesti"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SEB Eesti for Junior Software Developer – Customer Screening Solutions | SEB, Tallinn. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479055680",
+      "external_id": "4479055680",
+      "source": "linkedin_guest",
+      "title": "Junior Software Developer",
+      "company": "SECURE",
+      "location": "Calgary, Alberta, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/junior-software-developer-at-secure-4479055680",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 hours ago",
+      "discovered_at": "2026-10-14T17:00:10.728905",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer",
+          "Company: SECURE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SECURE for Junior Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4478142512",
       "external_id": "4478142512",
@@ -251,6 +522,389 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476681227",
+      "external_id": "4476681227",
+      "source": "linkedin_guest",
+      "title": "Software Developer – APIs & Data Services",
+      "company": "USAA",
+      "location": "Phoenix, AZ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-developer-%E2%80%93-apis-data-services-at-usaa-4476681227",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T17:01:42.652224",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer – APIs & Data Services",
+          "Company: USAA"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at USAA for Software Developer – APIs & Data Services. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476673542",
+      "external_id": "4476673542",
+      "source": "linkedin_guest",
+      "title": "Software Developer – APIs & Data Services",
+      "company": "USAA",
+      "location": "San Antonio, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-developer-%E2%80%93-apis-data-services-at-usaa-4476673542",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T17:01:36.641111",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer – APIs & Data Services",
+          "Company: USAA"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at USAA for Software Developer – APIs & Data Services. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476677481",
+      "external_id": "4476677481",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Java",
+      "company": "CreateFuture",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-java-at-createfuture-4476677481",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T17:01:30.613548",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Java",
+          "Company: CreateFuture"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CreateFuture for Software Engineer - Java. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476683240",
+      "external_id": "4476683240",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Java",
+      "company": "CreateFuture",
+      "location": "London, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-java-at-createfuture-4476683240",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-14T17:01:25.365136",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Java",
+          "Company: CreateFuture"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CreateFuture for Software Engineer - Java. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475220571",
+      "external_id": "4475220571",
+      "source": "linkedin_guest",
+      "title": "Software Developer C#/.NET",
+      "company": "Experis",
+      "location": "Monza, Lombardy, Italy",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/jobs/view/software-developer-c%23-net-at-experis-4475220571",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T17:01:19.371579",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer C#/.NET",
+          "Company: Experis"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Experis for Software Developer C#/.NET. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478447324",
+      "external_id": "4478447324",
+      "source": "linkedin_guest",
+      "title": "C# .NET Developer",
+      "company": "Siemens Healthineers",
+      "location": "Pune District, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/c%23-net-developer-at-siemens-healthineers-4478447324",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T17:00:45.033103",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C# .NET Developer",
+          "Company: Siemens Healthineers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Siemens Healthineers for C# .NET Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479501654",
+      "external_id": "4479501654",
+      "source": "linkedin_guest",
+      "title": "Back End Developer",
+      "company": "UNIBENCH",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/back-end-developer-at-unibench-4479501654",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T17:00:39.563888",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Back End Developer",
+          "Company: UNIBENCH"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UNIBENCH for Back End Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479508748",
+      "external_id": "4479508748",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer (C#)",
+      "company": "Starapple",
+      "location": "Breda, North Brabant, Netherlands",
+      "workplace_type": "Remote",
+      "apply_url": "https://nl.linkedin.com/jobs/view/junior-software-engineer-c%23-at-starapple-4479508748",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-14T17:00:16.402054",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer (C#)",
+          "Company: Starapple"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Starapple for Junior Software Engineer (C#). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479515425",
+      "external_id": "4479515425",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Cornerstone OnDemand",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-cornerstone-ondemand-4479515425",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T17:00:04.474488",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Cornerstone OnDemand"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cornerstone OnDemand for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4414654464",
+      "external_id": "4414654464",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Resmed",
+      "location": "Sydney, New South Wales, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/associate-software-engineer-at-resmed-4414654464",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-14T16:59:58.144481",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Resmed"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Resmed for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2006,6 +2660,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476631975",
+      "external_id": "4476631975",
+      "source": "linkedin_guest",
+      "title": "JAVA Developer(Corejava, Collections, Spring, Rest API, Oracle, PLSQL, SQL)",
+      "company": "UST",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-developer-corejava-collections-spring-rest-api-oracle-plsql-sql-at-ust-4476631975",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-14T17:01:48.010710",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: JAVA Developer(Corejava, Collections, Spring, Rest API, Oracle, PLSQL, SQL)",
+          "Company: UST"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UST for JAVA Developer(Corejava, Collections, Spring, Rest API, Oracle, PLSQL, SQL). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479506732",
+      "external_id": "4479506732",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer II, Amazon Health Wellness And Subscriptions",
+      "company": "Amazon",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-amazon-health-wellness-and-subscriptions-at-amazon-4479506732",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-14T17:00:56.319134",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer II, Amazon Health Wellness And Subscriptions",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer II, Amazon Health Wellness And Subscriptions. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460204620",
+      "external_id": "4460204620",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, 2027 New Grad",
+      "company": "Whatnot",
+      "location": "Seattle, WA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-2027-new-grad-at-whatnot-4460204620",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-14T17:00:50.192018",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, 2027 New Grad",
+          "Company: Whatnot"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Whatnot for Software Engineer, 2027 New Grad. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
