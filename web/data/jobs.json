@@ -1,26 +1,65 @@
 {
   "meta": {
-    "generated_at": "2026-10-14T21:33:41.281091Z",
+    "generated_at": "2026-10-15T04:19:11.712297Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 170
+    "total_count": 178
   },
   "stats": {
-    "total_jobs": 170,
-    "evaluated_jobs": 170,
-    "high_matches": 170,
+    "total_jobs": 178,
+    "evaluated_jobs": 178,
+    "high_matches": 178,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 30,
-      "linkedin_guest": 118,
+      "itpro_lk": 31,
+      "linkedin_guest": 125,
       "rooster_jobs": 7,
       "topjobs_lk": 15
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4477028041",
+      "external_id": "4477028041",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Analog Devices",
+      "location": "Wilmington, MA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-analog-devices-4477028041",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-15T04:18:39.113891",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Analog Devices"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Analog Devices for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4479574223",
       "external_id": "4479574223",
@@ -560,6 +599,79 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4449857879",
+      "external_id": "4449857879",
+      "source": "linkedin_guest",
+      "title": "Software Engineer Associate - Technology Development Program 2027, Atlanta, GA",
+      "company": "Cargill",
+      "location": "Atlanta, GA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-associate-technology-development-program-2027-atlanta-ga-at-cargill-4449857879",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-15T04:18:32.965187",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Associate - Technology Development Program 2027, Atlanta, GA",
+          "Company: Cargill"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cargill for Software Engineer Associate - Technology Development Program 2027, Atlanta, GA. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478405634",
+      "external_id": "4478405634",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Verified Metrics",
+      "location": "Lisbon, Portugal",
+      "workplace_type": "Remote",
+      "apply_url": "https://pt.linkedin.com/jobs/view/associate-software-engineer-at-verified-metrics-4478405634",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "22 hours ago",
+      "discovered_at": "2026-10-15T04:18:27.504646",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Verified Metrics"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Verified Metrics for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3009,6 +3121,190 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15466",
+      "external_id": "15466",
+      "source": "itpro_lk",
+      "title": "Software Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Kandy, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15466/software-developer-at-glenzsoft-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Developer at Sri Lankan Tech Company (Kandy, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-15T04:19:07.826480",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470971338",
+      "external_id": "4470971338",
+      "source": "linkedin_guest",
+      "title": "Java Developer",
+      "company": "Citi",
+      "location": "Mississauga, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/java-developer-at-citi-4470971338",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-15T04:19:02.609988",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer",
+          "Company: Citi"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Citi for Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479773201",
+      "external_id": "4479773201",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer - AI",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-ai-at-ifs-4479773201",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "20 minutes ago",
+      "discovered_at": "2026-10-15T04:18:56.739735",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer - AI",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for DevOps Engineer - AI. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478833549",
+      "external_id": "4478833549",
+      "source": "linkedin_guest",
+      "title": "Machine Learning Engineer Intern",
+      "company": "Ravigno",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/machine-learning-engineer-intern-at-ravigno-4478833549",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 minutes ago",
+      "discovered_at": "2026-10-15T04:18:50.634869",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Machine Learning Engineer Intern",
+          "Company: Ravigno"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ravigno for Machine Learning Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479765007",
+      "external_id": "4479765007",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III - Java and Cloud",
+      "company": "JPMorganChase",
+      "location": "Columbus, OH",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-java-and-cloud-at-jpmorganchase-4479765007",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "52 minutes ago",
+      "discovered_at": "2026-10-15T04:18:45.063368",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III - Java and Cloud",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III - Java and Cloud. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
