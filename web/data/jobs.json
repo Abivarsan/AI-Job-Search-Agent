@@ -1,26 +1,183 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T11:19:11.028299Z",
+    "generated_at": "2026-10-15T16:49:09.196341Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 200
+    "total_count": 215
   },
   "stats": {
-    "total_jobs": 200,
-    "evaluated_jobs": 200,
-    "high_matches": 200,
+    "total_jobs": 215,
+    "evaluated_jobs": 215,
+    "high_matches": 215,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 32,
-      "linkedin_guest": 145,
+      "linkedin_guest": 160,
       "rooster_jobs": 7,
       "topjobs_lk": 16
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4460674213",
+      "external_id": "4460674213",
+      "source": "linkedin_guest",
+      "title": "Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ",
+      "company": "American Express",
+      "location": "Phoenix, AZ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/campus-undergraduate-full-time-engineer-2027-software-engineer-i-enterprise-technology-services-phoenix-az-at-american-express-4460674213",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-15T16:48:34.312424",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ",
+          "Company: American Express"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at American Express for Campus Undergraduate Full-Time Engineer - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477099000",
+      "external_id": "4477099000",
+      "source": "linkedin_guest",
+      "title": "Junior Java Developer (m/w/d) - Konstanz",
+      "company": "SEITENBAU GmbH",
+      "location": "Constance, Baden-Württemberg, Germany",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/jobs/view/junior-java-developer-m-w-d-konstanz-at-seitenbau-gmbh-4477099000",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-15T16:48:16.877153",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Java Developer (m/w/d) - Konstanz",
+          "Company: SEITENBAU GmbH"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SEITENBAU GmbH for Junior Java Developer (m/w/d) - Konstanz. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471178679",
+      "external_id": "4471178679",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer (Front End)",
+      "company": "Xero",
+      "location": "Calgary, Alberta, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/associate-engineer-front-end-at-xero-4471178679",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-15T16:47:59.729503",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer (Front End)",
+          "Company: Xero"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Xero for Associate Engineer (Front End). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460473197",
+      "external_id": "4460473197",
+      "source": "linkedin_guest",
+      "title": "Junior .NET Developer for Netcompany Banking Services (f/m)",
+      "company": "Netcompany",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "workplace_type": "Remote",
+      "apply_url": "https://pl.linkedin.com/jobs/view/junior-net-developer-for-netcompany-banking-services-f-m-at-netcompany-4460473197",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-15T16:47:54.024459",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Entity Framework Core",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Java"
+        ],
+        "pros": [
+          "Target role match: Junior .NET Developer for Netcompany Banking Services (f/m)",
+          "Company: Netcompany"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Netcompany for Junior .NET Developer for Netcompany Banking Services (f/m). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4479516323",
       "external_id": "4479516323",
@@ -755,6 +912,313 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460601414",
+      "external_id": "4460601414",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Java, Global Payments Engineering (Future Opportunities)",
+      "company": "Scotiabank",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-java-global-payments-engineering-future-opportunities-at-scotiabank-4460601414",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-15T16:48:56.956030",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Java, Global Payments Engineering (Future Opportunities)",
+          "Company: Scotiabank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Scotiabank for Software Engineer, Java, Global Payments Engineering (Future Opportunities). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4442688549",
+      "external_id": "4442688549",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Global Payments Technology (Backend Java Developer)",
+      "company": "Scotiabank",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-global-payments-technology-backend-java-developer-at-scotiabank-4442688549",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-15T16:48:51.613140",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Global Payments Technology (Backend Java Developer)",
+          "Company: Scotiabank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Scotiabank for Software Engineer, Global Payments Technology (Backend Java Developer). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478831455",
+      "external_id": "4478831455",
+      "source": "linkedin_guest",
+      "title": "Sr. Software Engineer (C# .NET)",
+      "company": "OPENLANE",
+      "location": "Carmel, IN",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-c%23-net-at-openlane-4478831455",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-15T16:48:45.749997",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Sr. Software Engineer (C# .NET)",
+          "Company: OPENLANE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at OPENLANE for Sr. Software Engineer (C# .NET). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477074208",
+      "external_id": "4477074208",
+      "source": "linkedin_guest",
+      "title": ".Net/C# Software Engineer",
+      "company": "SoftConstruct",
+      "location": "Yerevan, Armenia",
+      "workplace_type": "Remote",
+      "apply_url": "https://am.linkedin.com/jobs/view/net-c%23-software-engineer-at-softconstruct-4477074208",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-15T16:48:39.815865",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .Net/C# Software Engineer",
+          "Company: SoftConstruct"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SoftConstruct for .Net/C# Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479892298",
+      "external_id": "4479892298",
+      "source": "linkedin_guest",
+      "title": "Junior Java Developer with German",
+      "company": "adesso Bulgaria",
+      "location": "Bulgaria",
+      "workplace_type": "Remote",
+      "apply_url": "https://bg.linkedin.com/jobs/view/junior-java-developer-with-german-at-adesso-bulgaria-4479892298",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 minutes ago",
+      "discovered_at": "2026-10-15T16:48:28.224551",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Java Developer with German",
+          "Company: adesso Bulgaria"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at adesso Bulgaria for Junior Java Developer with German. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475669519",
+      "external_id": "4475669519",
+      "source": "linkedin_guest",
+      "title": "Junior C# Developer",
+      "company": "Haystack",
+      "location": "London, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/junior-c%23-developer-at-haystack-4475669519",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-15T16:48:22.694114",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Junior C# Developer",
+          "Company: Haystack"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Haystack for Junior C# Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479126225",
+      "external_id": "4479126225",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-engineer-at-qualcomm-4479126225",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-15T16:47:48.388430",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer",
+          "Company: Qualcomm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Qualcomm for Associate Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479126281",
+      "external_id": "4479126281",
+      "source": "linkedin_guest",
+      "title": "Full Stack Engineer - Laravel",
+      "company": "iLabs",
+      "location": "Battaramulla, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-laravel-at-ilabs-4479126281",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-15T16:47:42.171231",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer - Laravel",
+          "Company: iLabs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at iLabs for Full Stack Engineer - Laravel. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3656,6 +4120,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479136501",
+      "external_id": "4479136501",
+      "source": "linkedin_guest",
+      "title": "Sr Java Developer",
+      "company": "Tata Consultancy Services",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/sr-java-developer-at-tata-consultancy-services-4479136501",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 minutes ago",
+      "discovered_at": "2026-10-15T16:49:02.561155",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sr Java Developer",
+          "Company: Tata Consultancy Services"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Tata Consultancy Services for Sr Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479814678",
+      "external_id": "4479814678",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II (.NET)",
+      "company": "NCR Voyix",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-net-at-ncr-voyix-4479814678",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-15T16:48:11.536909",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II (.NET)",
+          "Company: NCR Voyix"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at NCR Voyix for Software Engineer II (.NET). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4461788736",
+      "external_id": "4461788736",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Backend",
+      "company": "Plaid",
+      "location": "Greater Seattle Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-backend-at-plaid-4461788736",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-15T16:48:05.498995",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Backend",
+          "Company: Plaid"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Plaid for Software Engineer, Backend. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
