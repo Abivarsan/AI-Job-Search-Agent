@@ -1,26 +1,142 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T16:49:09.196341Z",
+    "generated_at": "2026-10-15T21:15:05.206537Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 215
+    "total_count": 226
   },
   "stats": {
-    "total_jobs": 215,
-    "evaluated_jobs": 215,
-    "high_matches": 215,
+    "total_jobs": 226,
+    "evaluated_jobs": 226,
+    "high_matches": 226,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 32,
-      "linkedin_guest": 160,
+      "itpro_lk": 33,
+      "linkedin_guest": 170,
       "rooster_jobs": 7,
       "topjobs_lk": 16
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4477321669",
+      "external_id": "4477321669",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Charles Schwab",
+      "location": "Austin, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-charles-schwab-4477321669",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "36 minutes ago",
+      "discovered_at": "2026-10-15T21:14:24.131186",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Charles Schwab"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Charles Schwab for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477309907",
+      "external_id": "4477309907",
+      "source": "linkedin_guest",
+      "title": "Junior Fullstack Engineer (m/w/d) - Festanstellung, Vollzeit München",
+      "company": "ticketbro",
+      "location": "Munich, Bavaria, Germany",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/jobs/view/junior-fullstack-engineer-m-w-d-festanstellung-vollzeit-m%C3%BCnchen-at-ticketbro-4477309907",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-15T21:14:18.924693",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Fullstack Engineer (m/w/d) - Festanstellung, Vollzeit München",
+          "Company: ticketbro"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ticketbro for Junior Fullstack Engineer (m/w/d) - Festanstellung, Vollzeit München. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480129845",
+      "external_id": "4480129845",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer - International",
+      "company": "Justworks",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/associate-software-engineer-international-at-justworks-4480129845",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-15T21:14:07.688954",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer - International",
+          "Company: Justworks"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Justworks for Associate Software Engineer - International. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4460674213",
       "external_id": "4460674213",
@@ -912,6 +1028,158 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478823352",
+      "external_id": "4478823352",
+      "source": "linkedin_guest",
+      "title": ".Net Developer",
+      "company": "Nuraltech",
+      "location": "Gurgaon, Haryana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/net-developer-4478823352",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "21 hours ago",
+      "discovered_at": "2026-10-15T21:14:56.321632",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "React",
+          "Javascript",
+          "Ms Sql Server"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .Net Developer",
+          "Company: Nuraltech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Nuraltech for .Net Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4469680576",
+      "external_id": "4469680576",
+      "source": "linkedin_guest",
+      "title": "Graduate Software Engineer",
+      "company": "Autodesk",
+      "location": "Oslo, Oslo, Norway",
+      "workplace_type": "Remote",
+      "apply_url": "https://no.linkedin.com/jobs/view/graduate-software-engineer-at-autodesk-4469680576",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-15T21:14:45.197721",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Graduate Software Engineer",
+          "Company: Autodesk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Autodesk for Graduate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471122640",
+      "external_id": "4471122640",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer, Early Career",
+      "company": "Audible",
+      "location": "Cambridge, MA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-development-engineer-early-career-at-audible-4471122640",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-15T21:14:40.004092",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Typescript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer, Early Career",
+          "Company: Audible"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Audible for Software Development Engineer, Early Career. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471637029",
+      "external_id": "4471637029",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer- Java full stack",
+      "company": "REI Systems",
+      "location": "Sterling, VA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-java-full-stack-at-rei-systems-4471637029",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-15T21:14:13.354461",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer- Java full stack",
+          "Company: REI Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at REI Systems for Associate Software Engineer- Java full stack. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4120,6 +4388,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15478",
+      "external_id": "15478",
+      "source": "itpro_lk",
+      "title": "Full Stack Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Jaffna, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15478/full-stack-developer-intern-at-mydynamica/",
+      "description": "Software engineering opening on ITPro.lk: Full Stack Developer Intern at Sri Lankan Tech Company (Jaffna, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-15T21:15:01.931900",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479143252",
+      "external_id": "4479143252",
+      "source": "linkedin_guest",
+      "title": "Dotnet Developer",
+      "company": "Asiatek Solusi Indonesia",
+      "location": "Jakarta, Jakarta, Indonesia",
+      "workplace_type": "Remote",
+      "apply_url": "https://id.linkedin.com/jobs/view/dotnet-developer-at-asiatek-solusi-indonesia-4479143252",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-15T21:14:50.899215",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Dotnet Developer",
+          "Company: Asiatek Solusi Indonesia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Asiatek Solusi Indonesia for Dotnet Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4469399031",
+      "external_id": "4469399031",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer II",
+      "company": "Expedia Group",
+      "location": "Chicago, IL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-development-engineer-ii-at-expedia-group-4469399031",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-15T21:14:34.844970",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer II",
+          "Company: Expedia Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Expedia Group for Software Development Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479817623",
+      "external_id": "4479817623",
+      "source": "linkedin_guest",
+      "title": "Software Dev Engineer II, Amazon Detail Page",
+      "company": "Amazon",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-dev-engineer-ii-amazon-detail-page-at-amazon-4479817623",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-15T21:14:29.477645",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Dev Engineer II, Amazon Detail Page",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Dev Engineer II, Amazon Detail Page. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
