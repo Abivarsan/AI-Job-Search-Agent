@@ -1,26 +1,104 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T11:13:01.300225Z",
+    "generated_at": "2026-10-16T16:31:54.524055Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 257
+    "total_count": 276
   },
   "stats": {
-    "total_jobs": 257,
-    "evaluated_jobs": 257,
-    "high_matches": 257,
+    "total_jobs": 276,
+    "evaluated_jobs": 276,
+    "high_matches": 276,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 36,
-      "linkedin_guest": 193,
+      "itpro_lk": 37,
+      "linkedin_guest": 209,
       "rooster_jobs": 7,
-      "topjobs_lk": 21
+      "topjobs_lk": 23
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4480396422",
+      "external_id": "4480396422",
+      "source": "linkedin_guest",
+      "title": ".NET Developer Junior",
+      "company": "Lottomatica",
+      "location": "Rome, Latium, Italy",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/jobs/view/net-developer-junior-at-lottomatica-4480396422",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "59 minutes ago",
+      "discovered_at": "2026-10-16T16:31:07.175076",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Developer Junior",
+          "Company: Lottomatica"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Lottomatica for .NET Developer Junior. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477390893",
+      "external_id": "4477390893",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Quartex",
+      "location": "Perth, Western Australia, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/associate-software-engineer-at-quartex-4477390893",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-16T16:30:27.894766",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Quartex"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Quartex for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4477365857",
       "external_id": "4477365857",
@@ -1151,6 +1229,348 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001560920",
+      "external_id": "0001560920",
+      "source": "topjobs_lk",
+      "title": "Associate - DevOps Engineer",
+      "company": "Legacy Health (Pvt) Ltd",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001560920&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Legacy Health (Pvt) Ltd. Location: Colombo 3, Sri Lanka. Closing: Fri Oct 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 16 2026",
+      "discovered_at": "2026-10-16T16:31:46.838555",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate - DevOps Engineer",
+          "Company: Legacy Health (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Legacy Health (Pvt) Ltd for Associate - DevOps Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479305934",
+      "external_id": "4479305934",
+      "source": "linkedin_guest",
+      "title": "Backend Software Engineer (Java)",
+      "company": "Capgemini",
+      "location": "Singapore, Singapore",
+      "workplace_type": "Remote",
+      "apply_url": "https://sg.linkedin.com/jobs/view/backend-software-engineer-java-at-capgemini-4479305934",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-16T16:31:34.838890",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Software Engineer (Java)",
+          "Company: Capgemini"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Capgemini for Backend Software Engineer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480363474",
+      "external_id": "4480363474",
+      "source": "linkedin_guest",
+      "title": "Java Back-end Developer",
+      "company": "Worldline",
+      "location": "Pune City, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-back-end-developer-at-worldline-4480363474",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T16:31:24.328355",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Back-end Developer",
+          "Company: Worldline"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Worldline for Java Back-end Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480356637",
+      "external_id": "4480356637",
+      "source": "linkedin_guest",
+      "title": "Java Back-end Developer",
+      "company": "Worldline",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-back-end-developer-at-worldline-4480356637",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T16:31:18.820812",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Back-end Developer",
+          "Company: Worldline"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Worldline for Java Back-end Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480506198",
+      "external_id": "4480506198",
+      "source": "linkedin_guest",
+      "title": "Engineer I - Software Development",
+      "company": "Accelya",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/engineer-i-software-development-at-accelya-4480506198",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "26 minutes ago",
+      "discovered_at": "2026-10-16T16:31:12.812129",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer I - Software Development",
+          "Company: Accelya"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Accelya for Engineer I - Software Development. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480363568",
+      "external_id": "4480363568",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "NCR Voyix",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-ncr-voyix-4480363568",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T16:30:55.639286",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: NCR Voyix"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at NCR Voyix for Software Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480358558",
+      "external_id": "4480358558",
+      "source": "linkedin_guest",
+      "title": "C#.Net Sr.Developer",
+      "company": "Wipro",
+      "location": "Pune Division, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/c%23-net-sr-developer-at-wipro-4480358558",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T16:30:50.091212",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C#.Net Sr.Developer",
+          "Company: Wipro"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Wipro for C#.Net Sr.Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4451969307",
+      "external_id": "4451969307",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Financial Platform - Issuing",
+      "company": "Cash App",
+      "location": "Melbourne, Victoria, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/software-engineer-financial-platform-issuing-at-cash-app-4451969307",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-16T16:30:44.692333",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Financial Platform - Issuing",
+          "Company: Cash App"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cash App for Software Engineer, Financial Platform - Issuing. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4394711121",
+      "external_id": "4394711121",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Better Direct",
+      "location": "Tempe, AZ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-better-direct-4394711121",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "27 minutes ago",
+      "discovered_at": "2026-10-16T16:30:33.276466",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Better Direct"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Better Direct for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5041,6 +5461,300 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15140",
+      "external_id": "15140",
+      "source": "itpro_lk",
+      "title": "Intern Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15140/intern-software-engineer-at-codimite/",
+      "description": "Software engineering opening on ITPro.lk: Intern Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-16T16:31:50.683919",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001560867",
+      "external_id": "0001560867",
+      "source": "topjobs_lk",
+      "title": "Full-Stack Engineer",
+      "company": "Levein",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001560867&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Levein. Location: Colombo 5, Sri Lanka. Closing: Fri Oct 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 16 2026",
+      "discovered_at": "2026-10-16T16:31:48.729145",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Engineer",
+          "Company: Levein"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Levein for Full-Stack Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478886779",
+      "external_id": "4478886779",
+      "source": "linkedin_guest",
+      "title": "Software Developer - Java",
+      "company": "Uline",
+      "location": "Milwaukee, WI",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-developer-java-at-uline-4478886779",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 hours ago",
+      "discovered_at": "2026-10-16T16:31:40.918559",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer - Java",
+          "Company: Uline"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Uline for Software Developer - Java. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479182093",
+      "external_id": "4479182093",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Citi",
+      "location": "Mississauga, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-at-citi-4479182093",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-16T16:31:29.645127",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Citi"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Citi for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4462805033",
+      "external_id": "4462805033",
+      "source": "linkedin_guest",
+      "title": "Engineering Assistant - Test Production Support Engineering (m/f/d)",
+      "company": "Variosystems",
+      "location": "Badalgama, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineering-assistant-test-production-support-engineering-m-f-d-at-variosystems-4462805033",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T16:31:01.636168",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Engineering Assistant - Test Production Support Engineering (m/f/d)",
+          "Company: Variosystems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Variosystems for Engineering Assistant - Test Production Support Engineering (m/f/d). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480359196",
+      "external_id": "4480359196",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Block Storage UK",
+      "company": "Hewlett Packard Enterprise",
+      "location": "Bristol, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-block-storage-uk-at-hewlett-packard-enterprise-4480359196",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-16T16:30:39.281564",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Block Storage UK",
+          "Company: Hewlett Packard Enterprise"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hewlett Packard Enterprise for Software Engineer - Block Storage UK. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471495603",
+      "external_id": "4471495603",
+      "source": "linkedin_guest",
+      "title": "Assistant Engineer - Business Excellence (m/f/d)",
+      "company": "Variosystems",
+      "location": "Badalgama, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/assistant-engineer-business-excellence-m-f-d-at-variosystems-4471495603",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T16:30:22.585528",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Assistant Engineer - Business Excellence (m/f/d)",
+          "Company: Variosystems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Variosystems for Assistant Engineer - Business Excellence (m/f/d). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4461971045",
+      "external_id": "4461971045",
+      "source": "linkedin_guest",
+      "title": "Security Operations Engineer",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/security-operations-engineer-at-lseg-4461971045",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "20 minutes ago",
+      "discovered_at": "2026-10-16T16:30:17.117627",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Security Operations Engineer",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Security Operations Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
