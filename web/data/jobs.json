@@ -1,26 +1,64 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T20:54:10.898791Z",
+    "generated_at": "2026-10-16T23:26:05.392441Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 284
+    "total_count": 287
   },
   "stats": {
-    "total_jobs": 284,
-    "evaluated_jobs": 284,
-    "high_matches": 284,
+    "total_jobs": 287,
+    "evaluated_jobs": 287,
+    "high_matches": 287,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 37,
-      "linkedin_guest": 217,
+      "linkedin_guest": 219,
       "rooster_jobs": 7,
-      "topjobs_lk": 23
+      "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4332274669",
+      "external_id": "4332274669",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Medpace",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "workplace_type": "Remote",
+      "apply_url": "https://pl.linkedin.com/jobs/view/junior-software-engineer-at-medpace-4332274669",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-16T23:25:50.025597",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Medpace"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Medpace for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4479381952",
       "external_id": "4479381952",
@@ -5616,6 +5654,78 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001561012",
+      "external_id": "0001561012",
+      "source": "topjobs_lk",
+      "title": "Trainee Mobile Developer - React Native & AI (EdTech)",
+      "company": "Company Name Withheld",
+      "location": "All island, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001561012&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Company Name Withheld. Location: All island, Sri Lanka. Closing: Fri Oct 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 16 2026",
+      "discovered_at": "2026-10-16T23:26:01.907930",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Mobile Developer - React Native & AI (EdTech)",
+          "Company: Company Name Withheld"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Company Name Withheld for Trainee Mobile Developer - React Native & AI (EdTech). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4453627694",
+      "external_id": "4453627694",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer III",
+      "company": "JPMorganChase",
+      "location": "Greater London, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/java-software-engineer-iii-at-jpmorganchase-4453627694",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-16T23:25:55.816841",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer III",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Java Software Engineer III. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
