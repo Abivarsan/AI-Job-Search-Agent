@@ -1,26 +1,143 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T16:31:54.524055Z",
+    "generated_at": "2026-10-16T20:54:10.898791Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 276
+    "total_count": 284
   },
   "stats": {
-    "total_jobs": 276,
-    "evaluated_jobs": 276,
-    "high_matches": 276,
+    "total_jobs": 284,
+    "evaluated_jobs": 284,
+    "high_matches": 284,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 37,
-      "linkedin_guest": 209,
+      "linkedin_guest": 217,
       "rooster_jobs": 7,
       "topjobs_lk": 23
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4479381952",
+      "external_id": "4479381952",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Eccalon, LLC",
+      "location": "Detroit, MI",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-software-engineer-at-eccalon-llc-4479381952",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T20:53:57.652536",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Eccalon, LLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Eccalon, LLC for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480537574",
+      "external_id": "4480537574",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Elekta",
+      "location": "Crawley, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/junior-software-engineer-at-elekta-4480537574",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-16T20:53:51.833042",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Elekta"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Elekta for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480549413",
+      "external_id": "4480549413",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "PFI Innovation Centre India",
+      "location": "Gurgaon, Haryana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-pfi-innovation-centre-india-4480549413",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 minutes ago",
+      "discovered_at": "2026-10-16T20:53:28.391433",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: PFI Innovation Centre India"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PFI Innovation Centre India for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4480396422",
       "external_id": "4480396422",
@@ -1229,6 +1346,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477714549",
+      "external_id": "4477714549",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II (Java/Spring)",
+      "company": "Mastercard",
+      "location": "Greater Dublin",
+      "workplace_type": "Remote",
+      "apply_url": "https://ie.linkedin.com/jobs/view/software-engineer-ii-java-spring-at-mastercard-4477714549",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-16T20:54:03.752177",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II (Java/Spring)",
+          "Company: Mastercard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mastercard for Software Engineer II (Java/Spring). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5461,6 +5616,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4453345547",
+      "external_id": "4453345547",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Java",
+      "company": "Gallagher",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-java-at-gallagher-4453345547",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T20:53:45.871197",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Java",
+          "Company: Gallagher"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gallagher for Software Engineer - Java. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4462829040",
+      "external_id": "4462829040",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer II, Alexa Endpoint Experiences, Alexa Devices",
+      "company": "Amazon",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-alexa-endpoint-experiences-alexa-devices-at-amazon-4462829040",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T20:53:40.378092",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer II, Alexa Endpoint Experiences, Alexa Devices",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer II, Alexa Endpoint Experiences, Alexa Devices. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471646111",
+      "external_id": "4471646111",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer II, Seller Partner Services Tech",
+      "company": "Amazon",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-seller-partner-services-tech-at-amazon-4471646111",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-16T20:53:34.659649",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer II, Seller Partner Services Tech",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer II, Seller Partner Services Tech. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480516177",
+      "external_id": "4480516177",
+      "source": "linkedin_guest",
+      "title": "Software Engineer 1",
+      "company": "Choice Hotels International",
+      "location": "Scottsdale, AZ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-1-at-choice-hotels-international-4480516177",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T20:53:22.642761",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer 1",
+          "Company: Choice Hotels International"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Choice Hotels International for Software Engineer 1. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
