@@ -1,26 +1,67 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T21:15:05.206537Z",
+    "generated_at": "2026-10-16T04:15:17.100736Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 226
+    "total_count": 241
   },
   "stats": {
-    "total_jobs": 226,
-    "evaluated_jobs": 226,
-    "high_matches": 226,
+    "total_jobs": 241,
+    "evaluated_jobs": 241,
+    "high_matches": 241,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 33,
-      "linkedin_guest": 170,
+      "linkedin_guest": 185,
       "rooster_jobs": 7,
       "topjobs_lk": 16
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4477313722",
+      "external_id": "4477313722",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Litera",
+      "location": "Denver, CO",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-litera-4477313722",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-16T04:14:01.362624",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Litera"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Litera for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4477321669",
       "external_id": "4477321669",
@@ -1028,6 +1069,382 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480314390",
+      "external_id": "4480314390",
+      "source": "linkedin_guest",
+      "title": "Java Developer",
+      "company": "foundit",
+      "location": "Bangalore Urban, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-developer-at-foundit-4480314390",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-16T04:15:03.521894",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer",
+          "Company: foundit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at foundit for Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480309502",
+      "external_id": "4480309502",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer with Equity Derivatives",
+      "company": "Luxoft",
+      "location": "Singapore, Singapore",
+      "workplace_type": "Remote",
+      "apply_url": "https://sg.linkedin.com/jobs/view/java-software-engineer-with-equity-derivatives-at-luxoft-4480309502",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-16T04:14:58.001717",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer with Equity Derivatives",
+          "Company: Luxoft"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Luxoft for Java Software Engineer with Equity Derivatives. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479189926",
+      "external_id": "4479189926",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I, Fullstack (Search)",
+      "company": "Affirm",
+      "location": "Calgary, Alberta, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-i-fullstack-search-at-affirm-4479189926",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T04:14:52.680538",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I, Fullstack (Search)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer I, Fullstack (Search). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479309096",
+      "external_id": "4479309096",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I, Fullstack (Search)",
+      "company": "Affirm",
+      "location": "Edmonton, Alberta, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-i-fullstack-search-at-affirm-4479309096",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T04:14:46.871150",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I, Fullstack (Search)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer I, Fullstack (Search). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479185903",
+      "external_id": "4479185903",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I, Fullstack (Search)",
+      "company": "Affirm",
+      "location": "Charlotte, NC",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-i-fullstack-search-at-affirm-4479185903",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T04:14:35.743311",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I, Fullstack (Search)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer I, Fullstack (Search). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479185899",
+      "external_id": "4479185899",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I, Fullstack (Search)",
+      "company": "Affirm",
+      "location": "Raleigh, NC",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-i-fullstack-search-at-affirm-4479185899",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T04:14:29.859902",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I, Fullstack (Search)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer I, Fullstack (Search). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477179993",
+      "external_id": "4477179993",
+      "source": "linkedin_guest",
+      "title": "Junior .NET Developer (AI)",
+      "company": "InnoTech",
+      "location": "Lisbon, Lisbon, Portugal",
+      "workplace_type": "Remote",
+      "apply_url": "https://pt.linkedin.com/jobs/view/junior-net-developer-ai-at-innotech-4477179993",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-16T04:14:18.686173",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior .NET Developer (AI)",
+          "Company: InnoTech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InnoTech for Junior .NET Developer (AI). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477320153",
+      "external_id": "4477320153",
+      "source": "linkedin_guest",
+      "title": "Application Development Associate - Azure",
+      "company": "Fisher Investments",
+      "location": "Plano, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/application-development-associate-azure-at-fisher-investments-4477320153",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-16T04:14:12.834476",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Application Development Associate - Azure",
+          "Company: Fisher Investments"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Fisher Investments for Application Development Associate - Azure. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479770392",
+      "external_id": "4479770392",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer, Technology I",
+      "company": "BioSpace",
+      "location": "North Chicago, IL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-engineer-technology-i-at-biospace-4479770392",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 hours ago",
+      "discovered_at": "2026-10-16T04:14:07.195686",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer, Technology I",
+          "Company: BioSpace"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BioSpace for Associate Engineer, Technology I. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479313583",
+      "external_id": "4479313583",
+      "source": "linkedin_guest",
+      "title": "Full Stack Developer - Intern (MERN + AWS)",
+      "company": "PrimeMarket.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-developer-intern-mern-%2B-aws-at-primemarket-lk-4479313583",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "26 minutes ago",
+      "discovered_at": "2026-10-16T04:13:50.159170",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer - Intern (MERN + AWS)",
+          "Company: PrimeMarket.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PrimeMarket.lk for Full Stack Developer - Intern (MERN + AWS). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4388,6 +4805,151 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479183113",
+      "external_id": "4479183113",
+      "source": "linkedin_guest",
+      "title": "Java Developer _FX",
+      "company": "Citi",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-developer-fx-at-citi-4479183113",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-16T04:15:09.279394",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer _FX",
+          "Company: Citi"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Citi for Java Developer _FX. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480183431",
+      "external_id": "4480183431",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer, AWS WorkSpaces",
+      "company": "Amazon Web Services (AWS)",
+      "location": "Seattle, WA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-development-engineer-aws-workspaces-at-amazon-web-services-aws-4480183431",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-16T04:14:41.454454",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer, AWS WorkSpaces",
+          "Company: Amazon Web Services (AWS)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon Web Services (AWS) for Software Development Engineer, AWS WorkSpaces. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480150200",
+      "external_id": "4480150200",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III - Java AWS",
+      "company": "JPMorganChase",
+      "location": "Pune Division, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-iii-java-aws-at-jpmorganchase-4480150200",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-16T04:14:24.628384",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III - Java AWS",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III - Java AWS. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479313577",
+      "external_id": "4479313577",
+      "source": "linkedin_guest",
+      "title": "Technical Operations Engineer",
+      "company": "Frontwalker Sri Lanka",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/technical-operations-engineer-at-frontwalker-sri-lanka-4479313577",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "34 minutes ago",
+      "discovered_at": "2026-10-16T04:13:55.993399",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Operations Engineer",
+          "Company: Frontwalker Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Frontwalker Sri Lanka for Technical Operations Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
