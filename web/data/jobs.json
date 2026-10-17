@@ -1,26 +1,104 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T10:31:12.141655Z",
+    "generated_at": "2026-10-17T15:24:51.448199Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 306
+    "total_count": 315
   },
   "stats": {
-    "total_jobs": 306,
-    "evaluated_jobs": 306,
-    "high_matches": 306,
+    "total_jobs": 315,
+    "evaluated_jobs": 315,
+    "high_matches": 315,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 37,
-      "linkedin_guest": 238,
+      "linkedin_guest": 247,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4472074062",
+      "external_id": "4472074062",
+      "source": "linkedin_guest",
+      "title": "Junior Software Developer - Mission Control",
+      "company": "Solace",
+      "location": "Ottawa, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/junior-software-developer-mission-control-at-solace-4472074062",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-17T15:24:28.707427",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer - Mission Control",
+          "Company: Solace"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Solace for Junior Software Developer - Mission Control. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4453378064",
+      "external_id": "4453378064",
+      "source": "linkedin_guest",
+      "title": "(Junior) Software Entwickler (m/w/d)",
+      "company": "CHECK24",
+      "location": "Dortmund, North Rhine-Westphalia, Germany",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/jobs/view/junior-software-entwickler-m-w-d-at-check24-4453378064",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T15:24:05.640257",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "React",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: (Junior) Software Entwickler (m/w/d)",
+          "Company: CHECK24"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CHECK24 for (Junior) Software Entwickler (m/w/d). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4477766729",
       "external_id": "4477766729",
@@ -1505,6 +1583,125 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480803689",
+      "external_id": "4480803689",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III - Java Full Stack, AWS",
+      "company": "JPMorganChase",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-iii-java-full-stack-aws-at-jpmorganchase-4480803689",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-10-17T15:24:22.503237",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III - Java Full Stack, AWS",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III - Java Full Stack, AWS. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4460720768",
+      "external_id": "4460720768",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Sony Interactive Entertainment",
+      "location": "Dublin, County Dublin, Ireland",
+      "workplace_type": "Remote",
+      "apply_url": "https://ie.linkedin.com/jobs/view/software-engineer-at-sony-interactive-entertainment-4460720768",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-17T15:24:17.244508",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sony Interactive Entertainment"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sony Interactive Entertainment for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480838157",
+      "external_id": "4480838157",
+      "source": "linkedin_guest",
+      "title": "Back End Developer",
+      "company": "Voigue",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/back-end-developer-at-voigue-4480838157",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "57 minutes ago",
+      "discovered_at": "2026-10-17T15:24:00.196181",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Back End Developer",
+          "Company: Voigue"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Voigue for Back End Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6076,6 +6273,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470188052",
+      "external_id": "4470188052",
+      "source": "linkedin_guest",
+      "title": "Software Engineer (Core Java , Microservices)",
+      "company": "Mobility Global",
+      "location": "Gurugram, Haryana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-core-java-microservices-at-mobility-global-4470188052",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-17T15:24:44.856959",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Core Java , Microservices)",
+          "Company: Mobility Global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mobility Global for Software Engineer (Core Java , Microservices). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479399990",
+      "external_id": "4479399990",
+      "source": "linkedin_guest",
+      "title": "Professional C# .NET Software Engineer (m/w/d)",
+      "company": "Rocken®",
+      "location": "Olten, Solothurn, Switzerland",
+      "workplace_type": "Remote",
+      "apply_url": "https://ch.linkedin.com/jobs/view/professional-c%23-net-software-engineer-m-w-d-at-rocken%C2%AE-4479399990",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "20 hours ago",
+      "discovered_at": "2026-10-17T15:24:39.321288",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Professional C# .NET Software Engineer (m/w/d)",
+          "Company: Rocken®"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Rocken® for Professional C# .NET Software Engineer (m/w/d). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4463605805",
+      "external_id": "4463605805",
+      "source": "linkedin_guest",
+      "title": "Developer_C# .NET_NOTILUS_F/H",
+      "company": "Cegid",
+      "location": "Casablanca, Casablanca-Settat, Morocco",
+      "workplace_type": "Remote",
+      "apply_url": "https://ma.linkedin.com/jobs/view/developer-c%23-net-notilus-f-h-at-cegid-4463605805",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-17T15:24:34.231394",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Developer_C# .NET_NOTILUS_F/H",
+          "Company: Cegid"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cegid for Developer_C# .NET_NOTILUS_F/H. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470536345",
+      "external_id": "4470536345",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I (.Net)",
+      "company": "Varsity Spirit",
+      "location": "Memphis, TN",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-i-net-at-varsity-spirit-4470536345",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-17T15:24:11.459201",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I (.Net)",
+          "Company: Varsity Spirit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Varsity Spirit for Software Engineer I (.Net). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
