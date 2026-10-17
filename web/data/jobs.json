@@ -1,26 +1,147 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T04:05:06.409298Z",
+    "generated_at": "2026-10-17T10:31:12.141655Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 295
+    "total_count": 306
   },
   "stats": {
-    "total_jobs": 295,
-    "evaluated_jobs": 295,
-    "high_matches": 295,
+    "total_jobs": 306,
+    "evaluated_jobs": 306,
+    "high_matches": 306,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 37,
-      "linkedin_guest": 227,
+      "linkedin_guest": 238,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4477766729",
+      "external_id": "4477766729",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Emergency Medicine Interest Group | Alfaisal University and KFSH&RC",
+      "location": "Dubai, United Arab Emirates",
+      "workplace_type": "Remote",
+      "apply_url": "https://ae.linkedin.com/jobs/view/junior-software-engineer-at-emergency-medicine-interest-group-alfaisal-university-and-kfsh-rc-4477766729",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "28 minutes ago",
+      "discovered_at": "2026-10-17T10:30:48.233374",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Emergency Medicine Interest Group | Alfaisal University and KFSH&RC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Emergency Medicine Interest Group | Alfaisal University and KFSH&RC for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4468608643",
+      "external_id": "4468608643",
+      "source": "linkedin_guest",
+      "title": "Junior Golang Developer with React",
+      "company": "NCR Voyix",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/junior-golang-developer-with-react-at-ncr-voyix-4468608643",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T10:30:26.241905",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior Golang Developer with React",
+          "Company: NCR Voyix"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at NCR Voyix for Junior Golang Developer with React. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477750195",
+      "external_id": "4477750195",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Delhi, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4477750195",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T10:30:09.814242",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4332274669",
       "external_id": "4332274669",
@@ -1384,6 +1505,269 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480342957",
+      "external_id": "4480342957",
+      "source": "linkedin_guest",
+      "title": "Java Developer",
+      "company": "Viamagus Select",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-developer-at-viamagus-select-4480342957",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 hours ago",
+      "discovered_at": "2026-10-17T10:31:05.079813",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer",
+          "Company: Viamagus Select"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Viamagus Select for Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480387992",
+      "external_id": "4480387992",
+      "source": "linkedin_guest",
+      "title": ".NET Developer",
+      "company": "Empa-T",
+      "location": "Lisbon, Portugal",
+      "workplace_type": "Remote",
+      "apply_url": "https://pt.linkedin.com/jobs/view/net-developer-at-empa-t-4480387992",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-17T10:30:59.624257",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Developer",
+          "Company: Empa-T"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Empa-T for .NET Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480369280",
+      "external_id": "4480369280",
+      "source": "linkedin_guest",
+      "title": ".NET Developer - Newcastle upon Tyne",
+      "company": "Noir",
+      "location": "Newcastle Upon Tyne, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/net-developer-newcastle-upon-tyne-at-noir-4480369280",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "21 hours ago",
+      "discovered_at": "2026-10-17T10:30:54.269293",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Java"
+        ],
+        "pros": [
+          "Target role match: .NET Developer - Newcastle upon Tyne",
+          "Company: Noir"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Noir for .NET Developer - Newcastle upon Tyne. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4461991238",
+      "external_id": "4461991238",
+      "source": "linkedin_guest",
+      "title": "Software Engineer, Entry-Level (Graduation Date Winter 2026 - Spring/Summer 2027)",
+      "company": "DoorDash",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-entry-level-graduation-date-winter-2026-spring-summer-2027-at-doordash-4461991238",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T10:30:42.745151",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer, Entry-Level (Graduation Date Winter 2026 - Spring/Summer 2027)",
+          "Company: DoorDash"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DoorDash for Software Engineer, Entry-Level (Graduation Date Winter 2026 - Spring/Summer 2027). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480345803",
+      "external_id": "4480345803",
+      "source": "linkedin_guest",
+      "title": "C#.Net  Developer",
+      "company": "Wipro",
+      "location": "Pune Division, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/c%23-net-developer-at-wipro-4480345803",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "22 hours ago",
+      "discovered_at": "2026-10-17T10:30:37.184545",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C#.Net  Developer",
+          "Company: Wipro"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Wipro for C#.Net  Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480588921",
+      "external_id": "4480588921",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Morningstar",
+      "location": "Chicago, IL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-morningstar-4480588921",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T10:30:20.619086",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Morningstar"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Morningstar for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477744413",
+      "external_id": "4477744413",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4477744413",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T10:30:15.590715",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5692,6 +6076,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4207823512",
+      "external_id": "4207823512",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III - Backend Engineering - Java/Kotlin",
+      "company": "JPMorganChase",
+      "location": "Greater London, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-iii-backend-engineering-java-kotlin-at-jpmorganchase-4207823512",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T10:30:31.964790",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III - Backend Engineering - Java/Kotlin",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III - Backend Engineering - Java/Kotlin. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
