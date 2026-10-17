@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T23:26:05.392441Z",
+    "generated_at": "2026-10-17T04:05:06.409298Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 287
+    "total_count": 295
   },
   "stats": {
-    "total_jobs": 287,
-    "evaluated_jobs": 287,
-    "high_matches": 287,
+    "total_jobs": 295,
+    "evaluated_jobs": 295,
+    "high_matches": 295,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 37,
-      "linkedin_guest": 219,
+      "linkedin_guest": 227,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
@@ -1384,6 +1384,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477713563",
+      "external_id": "4477713563",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II (Java/Spring)",
+      "company": "Mastercard",
+      "location": "Dublin, County Dublin, Ireland",
+      "workplace_type": "Remote",
+      "apply_url": "https://ie.linkedin.com/jobs/view/software-engineer-ii-java-spring-at-mastercard-4477713563",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-17T04:04:59.172378",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II (Java/Spring)",
+          "Company: Mastercard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mastercard for Software Engineer II (Java/Spring). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5654,6 +5692,258 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480327192",
+      "external_id": "4480327192",
+      "source": "linkedin_guest",
+      "title": "Software Engineer (Java)",
+      "company": "Capgemini",
+      "location": "Singapore",
+      "workplace_type": "Remote",
+      "apply_url": "https://sg.linkedin.com/jobs/view/software-engineer-java-at-capgemini-4480327192",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 hours ago",
+      "discovered_at": "2026-10-17T04:04:53.866412",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Java)",
+          "Company: Capgemini"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Capgemini for Software Engineer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477735254",
+      "external_id": "4477735254",
+      "source": "linkedin_guest",
+      "title": "Java Developer",
+      "company": "Triunity Software, Inc.",
+      "location": "Toronto, Ontario, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/java-developer-at-triunity-software-inc-4477735254",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T04:04:48.392627",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer",
+          "Company: Triunity Software, Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Triunity Software, Inc. for Java Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479642238",
+      "external_id": "4479642238",
+      "source": "linkedin_guest",
+      "title": "Java Developer, Officer",
+      "company": "Citi",
+      "location": "Tampa, FL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/java-developer-officer-at-citi-4479642238",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-17T04:04:43.085359",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developer, Officer",
+          "Company: Citi"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Citi for Java Developer, Officer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480332630",
+      "external_id": "4480332630",
+      "source": "linkedin_guest",
+      "title": "Engineer I",
+      "company": "Dreamscape Hospitality",
+      "location": "Houston, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/engineer-i-at-dreamscape-hospitality-4480332630",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "20 hours ago",
+      "discovered_at": "2026-10-17T04:04:37.317765",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer I",
+          "Company: Dreamscape Hospitality"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dreamscape Hospitality for Engineer I. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477712538",
+      "external_id": "4477712538",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I-1",
+      "company": "Mastercard",
+      "location": "Pune Division, Maharashtra, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-i-1-at-mastercard-4477712538",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-17T04:04:31.314319",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I-1",
+          "Company: Mastercard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mastercard for Software Engineer I-1. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470015756",
+      "external_id": "4470015756",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II, Backend (Identity Decisioning)",
+      "company": "Affirm",
+      "location": "Atlanta, GA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-identity-decisioning-at-affirm-4470015756",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-17T04:04:25.925746",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II, Backend (Identity Decisioning)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer II, Backend (Identity Decisioning). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4470016722",
+      "external_id": "4470016722",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II, Backend (Identity Decisioning)",
+      "company": "Affirm",
+      "location": "Salt Lake City, UT",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-identity-decisioning-at-affirm-4470016722",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-17T04:04:18.290400",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II, Backend (Identity Decisioning)",
+          "Company: Affirm"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Affirm for Software Engineer II, Backend (Identity Decisioning). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
