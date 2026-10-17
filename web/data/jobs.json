@@ -1,26 +1,64 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T15:24:51.448199Z",
+    "generated_at": "2026-10-17T20:28:19.148989Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 315
+    "total_count": 330
   },
   "stats": {
-    "total_jobs": 315,
-    "evaluated_jobs": 315,
-    "high_matches": 315,
+    "total_jobs": 330,
+    "evaluated_jobs": 330,
+    "high_matches": 330,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 37,
-      "linkedin_guest": 247,
+      "itpro_lk": 40,
+      "linkedin_guest": 259,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4463636114",
+      "external_id": "4463636114",
+      "source": "linkedin_guest",
+      "title": "Junior Backend Java Developer- Enterprise Payments and Credit Card",
+      "company": "Huntington National Bank",
+      "location": "Columbus, OH",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-backend-java-developer-enterprise-payments-and-credit-card-at-huntington-national-bank-4463636114",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-10-17T20:27:07.408918",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Backend Java Developer- Enterprise Payments and Credit Card",
+          "Company: Huntington National Bank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Huntington National Bank for Junior Backend Java Developer- Enterprise Payments and Credit Card. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4472074062",
       "external_id": "4472074062",
@@ -1583,6 +1621,352 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15494",
+      "external_id": "15494",
+      "source": "itpro_lk",
+      "title": "Junior Front-End Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15494/junior-front-end-developer-at-quantix/",
+      "description": "Software engineering opening on ITPro.lk: Junior Front-End Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-17T20:28:13.783030",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Front-End Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Junior Front-End Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4453532790",
+      "external_id": "4453532790",
+      "source": "linkedin_guest",
+      "title": "Sr. Java Developer IRC300496",
+      "company": "GlobalLogic",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/sr-java-developer-irc300496-at-globallogic-4453532790",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T20:28:06.755574",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sr. Java Developer IRC300496",
+          "Company: GlobalLogic"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GlobalLogic for Sr. Java Developer IRC300496. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4453522911",
+      "external_id": "4453522911",
+      "source": "linkedin_guest",
+      "title": "Sr. Java Developer IRC300496",
+      "company": "GlobalLogic",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/sr-java-developer-irc300496-at-globallogic-4453522911",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-17T20:28:00.711648",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sr. Java Developer IRC300496",
+          "Company: GlobalLogic"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GlobalLogic for Sr. Java Developer IRC300496. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480858102",
+      "external_id": "4480858102",
+      "source": "linkedin_guest",
+      "title": "Full Stack. NET Sr. Software Engineer",
+      "company": "Captiveaire - Region 114 Western PA",
+      "location": "Raleigh, NC",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/full-stack-net-sr-software-engineer-at-captiveaire-region-114-western-pa-4480858102",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "38 minutes ago",
+      "discovered_at": "2026-10-17T20:27:54.833834",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack. NET Sr. Software Engineer",
+          "Company: Captiveaire - Region 114 Western PA"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Captiveaire - Region 114 Western PA for Full Stack. NET Sr. Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4474836193",
+      "external_id": "4474836193",
+      "source": "linkedin_guest",
+      "title": "Entry Level C# Software Engineer",
+      "company": "CACI International Inc",
+      "location": "Virginia Beach, VA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/entry-level-c%23-software-engineer-at-caci-international-inc-4474836193",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T20:27:48.258448",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Entry Level C# Software Engineer",
+          "Company: CACI International Inc"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CACI International Inc for Entry Level C# Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4461163914",
+      "external_id": "4461163914",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
+      "company": "DoorDash",
+      "location": "New York, NY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-i-entry-level-graduation-date-fall-2026-summer-2027-us-at-doordash-4461163914",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-17T20:27:36.931454",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
+          "Company: DoorDash"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DoorDash for Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4434639696",
+      "external_id": "4434639696",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Backend Services",
+      "company": "Truveta",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-backend-services-at-truveta-4434639696",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-17T20:27:31.437589",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Java"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Backend Services",
+          "Company: Truveta"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Truveta for Software Engineer - Backend Services. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479602490",
+      "external_id": "4479602490",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III, Full Stack - Global Servicing Technology",
+      "company": "American Express",
+      "location": "Sunrise, FL",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-full-stack-global-servicing-technology-at-american-express-4479602490",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-17T20:27:25.296653",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III, Full Stack - Global Servicing Technology",
+          "Company: American Express"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at American Express for Software Engineer III, Full Stack - Global Servicing Technology. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479695143",
+      "external_id": "4479695143",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I",
+      "company": "Flywire",
+      "location": "Adelaide, South Australia, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/software-engineer-i-at-flywire-4479695143",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-17T20:27:01.445651",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I",
+          "Company: Flywire"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Flywire for Software Engineer I. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6273,6 +6657,190 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15492",
+      "external_id": "15492",
+      "source": "itpro_lk",
+      "title": "Intern Software Engineer (PHP Laravel)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15492/intern-software-engineer-php-laravel-at-quantix/",
+      "description": "Software engineering opening on ITPro.lk: Intern Software Engineer (PHP Laravel) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-17T20:28:15.700550",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Software Engineer (PHP Laravel)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern Software Engineer (PHP Laravel). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15498",
+      "external_id": "15498",
+      "source": "itpro_lk",
+      "title": "Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15498/developer-intern-at-focaldive/",
+      "description": "Software engineering opening on ITPro.lk: Developer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-17T20:28:11.881849",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4441842476",
+      "external_id": "4441842476",
+      "source": "linkedin_guest",
+      "title": "Software Engineer I (M/F/D)*",
+      "company": "TGW Logistics",
+      "location": "Grand Rapids, MI",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-i-m-f-d-at-tgw-logistics-4441842476",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-17T20:27:42.904224",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer I (M/F/D)*",
+          "Company: TGW Logistics"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TGW Logistics for Software Engineer I (M/F/D)*. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480806450",
+      "external_id": "4480806450",
+      "source": "linkedin_guest",
+      "title": "SW Development Engineer 1",
+      "company": "Dexcom",
+      "location": "Portland, OR",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/sw-development-engineer-1-at-dexcom-4480806450",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "15 hours ago",
+      "discovered_at": "2026-10-17T20:27:19.352237",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: SW Development Engineer 1",
+          "Company: Dexcom"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dexcom for SW Development Engineer 1. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4472204970",
+      "external_id": "4472204970",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer, Consumer Domains",
+      "company": "Audible",
+      "location": "Newark, NJ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-development-engineer-consumer-domains-at-audible-4472204970",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-17T20:27:13.776256",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer, Consumer Domains",
+          "Company: Audible"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Audible for Software Development Engineer, Consumer Domains. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
