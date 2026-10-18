@@ -1,26 +1,65 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T04:12:28.720881Z",
+    "generated_at": "2026-10-18T10:51:13.628925Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 335
+    "total_count": 346
   },
   "stats": {
-    "total_jobs": 335,
-    "evaluated_jobs": 335,
-    "high_matches": 335,
+    "total_jobs": 346,
+    "evaluated_jobs": 346,
+    "high_matches": 346,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 40,
-      "linkedin_guest": 264,
+      "linkedin_guest": 275,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4480869957",
+      "external_id": "4480869957",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Vista Empleos Argentina",
+      "location": "Dubai, United Arab Emirates",
+      "workplace_type": "Remote",
+      "apply_url": "https://ae.linkedin.com/jobs/view/junior-software-engineer-at-vista-empleos-argentina-4480869957",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:43.826905",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Vista Empleos Argentina"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Vista Empleos Argentina for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4477787985",
       "external_id": "4477787985",
@@ -1744,6 +1783,127 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4435010529",
+      "external_id": "4435010529",
+      "source": "linkedin_guest",
+      "title": "Java Developers",
+      "company": "Auto & General Australia",
+      "location": "Brisbane, Queensland, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/java-developers-at-auto-general-australia-4435010529",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "36 minutes ago",
+      "discovered_at": "2026-10-18T10:51:06.938667",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Developers",
+          "Company: Auto & General Australia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Auto & General Australia for Java Developers. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4406724229",
+      "external_id": "4406724229",
+      "source": "linkedin_guest",
+      "title": "C# Developer - Core Trading Technology",
+      "company": "Susquehanna International Group",
+      "location": "Sydney, New South Wales, Australia",
+      "workplace_type": "Remote",
+      "apply_url": "https://au.linkedin.com/jobs/view/c%23-developer-core-trading-technology-at-susquehanna-international-group-4406724229",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:55.424708",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C# Developer - Core Trading Technology",
+          "Company: Susquehanna International Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Susquehanna International Group for C# Developer - Core Trading Technology. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4411586387",
+      "external_id": "4411586387",
+      "source": "linkedin_guest",
+      "title": "Developer III - Software Engineering - .NET Fullstack",
+      "company": "UST",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/developer-iii-software-engineering-net-fullstack-at-ust-4411586387",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:33.350336",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Spring Boot"
+        ],
+        "pros": [
+          "Target role match: Developer III - Software Engineering - .NET Fullstack",
+          "Company: UST"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UST for Developer III - Software Engineering - .NET Fullstack. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6859,6 +7019,263 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479680885",
+      "external_id": "4479680885",
+      "source": "linkedin_guest",
+      "title": "Dotnet Developer",
+      "company": "HiredBuddy",
+      "location": "Settle, KY",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/dotnet-developer-at-hiredbuddy-4479680885",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "18 hours ago",
+      "discovered_at": "2026-10-18T10:51:01.057531",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Dotnet Developer",
+          "Company: HiredBuddy"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HiredBuddy for Dotnet Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4463392288",
+      "external_id": "4463392288",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - Early Career (m/f/x)",
+      "company": "Dynatrace",
+      "location": "Linz, Upper Austria, Austria",
+      "workplace_type": "Remote",
+      "apply_url": "https://at.linkedin.com/jobs/view/software-engineer-early-career-m-f-x-at-dynatrace-4463392288",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:49.532890",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Early Career (m/f/x)",
+          "Company: Dynatrace"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dynatrace for Software Engineer - Early Career (m/f/x). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4454551468",
+      "external_id": "4454551468",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II - C# .Net",
+      "company": "JPMorganChase",
+      "location": "Irvine, CA",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-c%23-net-at-jpmorganchase-4454551468",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:38.822161",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II - C# .Net",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer II - C# .Net. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4444208039",
+      "external_id": "4444208039",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II - Java, AWS",
+      "company": "JPMorganChase",
+      "location": "Bournemouth, England, United Kingdom",
+      "workplace_type": "Remote",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-ii-java-aws-at-jpmorganchase-4444208039",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T10:50:27.527827",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II - Java, AWS",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer II - Java, AWS. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479691266",
+      "external_id": "4479691266",
+      "source": "linkedin_guest",
+      "title": "Software Eng I",
+      "company": "Flywire",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "workplace_type": "Remote",
+      "apply_url": "https://ro.linkedin.com/jobs/view/software-eng-i-at-flywire-4479691266",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "20 hours ago",
+      "discovered_at": "2026-10-18T10:50:21.959727",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Eng I",
+          "Company: Flywire"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Flywire for Software Eng I. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480877843",
+      "external_id": "4480877843",
+      "source": "linkedin_guest",
+      "title": "Application Support Engineer",
+      "company": "GPV",
+      "location": "Kochchikade, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/application-support-engineer-at-gpv-4480877843",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "38 minutes ago",
+      "discovered_at": "2026-10-18T10:50:16.707334",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Application Support Engineer",
+          "Company: GPV"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at GPV for Application Support Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480879108",
+      "external_id": "4480879108",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "InTalent Asia",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-intalent-asia-4480879108",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-18T10:50:10.580752",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: InTalent Asia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InTalent Asia for Data Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
