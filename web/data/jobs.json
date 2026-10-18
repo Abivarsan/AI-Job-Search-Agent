@@ -1,26 +1,149 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T23:00:02.651603Z",
+    "generated_at": "2026-10-18T04:12:28.720881Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 330
+    "total_count": 335
   },
   "stats": {
-    "total_jobs": 330,
-    "evaluated_jobs": 330,
-    "high_matches": 330,
+    "total_jobs": 335,
+    "evaluated_jobs": 335,
+    "high_matches": 335,
     "bookmarked_count": 0,
     "applied_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 40,
-      "linkedin_guest": 259,
+      "linkedin_guest": 264,
       "rooster_jobs": 7,
       "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4477787985",
+      "external_id": "4477787985",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Miamin Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-miamin-systems-4477787985",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T04:12:09.577838",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Miamin Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Miamin Systems for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477791831",
+      "external_id": "4477791831",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4477791831",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T04:12:03.776736",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478208103",
+      "external_id": "4478208103",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Delhi, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4478208103",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-18T04:11:57.680199",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4463636114",
       "external_id": "4463636114",
@@ -1621,6 +1744,85 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4477790420",
+      "external_id": "4477790420",
+      "source": "linkedin_guest",
+      "title": "Java Software Engineer",
+      "company": "Garmin Hyderabad",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/java-software-engineer-at-garmin-hyderabad-4477790420",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-10-18T04:12:20.934935",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer",
+          "Company: Garmin Hyderabad"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Garmin Hyderabad for Java Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480801233",
+      "external_id": "4480801233",
+      "source": "linkedin_guest",
+      "title": "Full Stack Software Engineer (Mid)",
+      "company": "Xe.com",
+      "location": "Santiago, Santiago Metropolitan Region, Chile",
+      "workplace_type": "Remote",
+      "apply_url": "https://cl.linkedin.com/jobs/view/full-stack-software-engineer-mid-at-xe-com-4480801233",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 day ago",
+      "discovered_at": "2026-10-18T04:12:15.463668",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "React"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer (Mid)",
+          "Company: Xe.com"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Xe.com for Full Stack Software Engineer (Mid). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
