@@ -31,6 +31,7 @@ const PORTAL_META = {
 // Local Storage Keys for Static / Offline Persistence
 const STORAGE_BOOKMARKS_KEY = 'job_agent_bookmarks';
 const STORAGE_APPLIED_KEY = 'job_agent_applied';
+const STORAGE_OMITTED_KEY = 'job_agent_omitted';
 const STORAGE_NOTES_KEY = 'job_agent_notes';
 
 function getLocalBookmarks() {
@@ -44,6 +45,12 @@ function getLocalApplied() {
   catch { return {}; }
 }
 function setLocalApplied(data) { localStorage.setItem(STORAGE_APPLIED_KEY, JSON.stringify(data)); }
+
+function getLocalOmitted() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_OMITTED_KEY)) || {}; }
+  catch { return {}; }
+}
+function setLocalOmitted(data) { localStorage.setItem(STORAGE_OMITTED_KEY, JSON.stringify(data)); }
 
 function getLocalNotes() {
   try { return JSON.parse(localStorage.getItem(STORAGE_NOTES_KEY)) || {}; }
@@ -150,11 +157,13 @@ async function loadData() {
 function mergeLocalStorageTracking() {
   const bookmarks = getLocalBookmarks();
   const applied = getLocalApplied();
+  const omitted = getLocalOmitted();
   const notes = getLocalNotes();
 
   allJobs.forEach((job) => {
     if (bookmarks[job.id]) job.user_status = 'BOOKMARKED';
     if (applied[job.id]) job.user_status = 'APPLIED';
+    if (omitted[job.id]) job.user_status = 'OMITTED';
     if (notes[job.id]) job.user_notes = notes[job.id];
   });
 }
@@ -305,6 +314,7 @@ function syncTopTabs(tab) {
 function applyFilters() {
   const bookmarks = getLocalBookmarks();
   const appliedList = getLocalApplied();
+  const omitted = getLocalOmitted();
 
   filteredJobs = allJobs.filter((job) => {
     const evalData = job.evaluation || {};
@@ -313,8 +323,10 @@ function applyFilters() {
     const company = (job.company || '').toLowerCase();
     const location = (job.location || '').toLowerCase();
     const skills = (evalData.matching_skills || []).map(s => s.toLowerCase()).join(' ');
-    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    
+    const isOmitted = Boolean(omitted[job.id]) || job.user_status === 'OMITTED';
     const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
+    const isBookmarked = (Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED') && !isOmitted && !isApplied;
 
     // 1. Text Search Filter
     if (state.searchQuery) {
@@ -340,10 +352,23 @@ function applyFilters() {
       if (state.workplaceType === 'on-site' && !wp.includes('on-site') && !wp.includes('onsite')) return false;
     }
 
-    // 5. Category Tab Filter
-    if (state.activeTab === 'high_match' && score < 70) return false;
-    if (state.activeTab === 'bookmarked' && !isBookmarked) return false;
-    if (state.activeTab === 'applied' && !isApplied) return false;
+    // 5. Category Tab Filter (Strict Tab Segregation)
+    if (state.activeTab === 'omitted') {
+      // Omit tab displays ONLY omitted jobs
+      if (!isOmitted) return false;
+    } else if (state.activeTab === 'applied') {
+      // Applied tab displays ONLY applied jobs
+      if (!isApplied) return false;
+    } else if (state.activeTab === 'bookmarked') {
+      // Bookmarked tab displays active bookmarked jobs (excluding omitted & applied)
+      if (!isBookmarked || isOmitted || isApplied) return false;
+    } else if (state.activeTab === 'high_match') {
+      // High match tab displays active jobs >= 70% fit (excluding omitted & applied)
+      if (isOmitted || isApplied || score < 70) return false;
+    } else if (state.activeTab === 'all') {
+      // All Listings tab displays active jobs only (excluding omitted & applied)
+      if (isOmitted || isApplied) return false;
+    }
 
     return true;
   });
@@ -357,23 +382,56 @@ function applyFilters() {
 function updateKPICounters() {
   const bookmarks = getLocalBookmarks();
   const appliedList = getLocalApplied();
+  const omitted = getLocalOmitted();
 
-  const total = allJobs.length;
-  const high = allJobs.filter(j => (j.evaluation?.match_score || 0) >= 70).length;
-  const bookmarked = allJobs.filter(j => j.user_status === 'BOOKMARKED' || Boolean(bookmarks[j.id])).length;
-  const applied = allJobs.filter(j => j.user_status === 'APPLIED' || Boolean(appliedList[j.id])).length;
+  const omittedCount = allJobs.filter(j => j.user_status === 'OMITTED' || Boolean(omitted[j.id])).length;
+  const appliedCount = allJobs.filter(j => j.user_status === 'APPLIED' || Boolean(appliedList[j.id])).length;
+  
+  // Active jobs are those not omitted and not applied
+  const activeJobs = allJobs.filter(j => {
+    const isO = j.user_status === 'OMITTED' || Boolean(omitted[j.id]);
+    const isA = j.user_status === 'APPLIED' || Boolean(appliedList[j.id]);
+    return !isO && !isA;
+  });
 
-  document.getElementById('kpiTotalJobs').textContent = total;
-  document.getElementById('kpiHighMatches').textContent = high;
-  document.getElementById('kpiBookmarked').textContent = bookmarked;
-  document.getElementById('kpiApplied').textContent = applied;
+  const totalActive = activeJobs.length;
+  const high = activeJobs.filter(j => (j.evaluation?.match_score || 0) >= 70).length;
+  const bookmarked = activeJobs.filter(j => j.user_status === 'BOOKMARKED' || Boolean(bookmarks[j.id])).length;
 
-  document.getElementById('countTabAll').textContent = total;
-  document.getElementById('countTabHigh').textContent = high;
-  document.getElementById('countTabBookmarked').textContent = bookmarked;
-  document.getElementById('countTabApplied').textContent = applied;
+  // KPI Grid Cards
+  const kpiTotal = document.getElementById('kpiTotalJobs');
+  if (kpiTotal) kpiTotal.textContent = totalActive;
 
-  document.getElementById('visibleCount').textContent = filteredJobs.length;
+  const kpiHigh = document.getElementById('kpiHighMatches');
+  if (kpiHigh) kpiHigh.textContent = high;
+
+  const kpiBm = document.getElementById('kpiBookmarked');
+  if (kpiBm) kpiBm.textContent = bookmarked;
+
+  const kpiApp = document.getElementById('kpiApplied');
+  if (kpiApp) kpiApp.textContent = appliedCount;
+
+  const kpiOmit = document.getElementById('kpiOmitted');
+  if (kpiOmit) kpiOmit.textContent = omittedCount;
+
+  // Tab Badge Counters
+  const tabAll = document.getElementById('countTabAll');
+  if (tabAll) tabAll.textContent = totalActive;
+
+  const tabHigh = document.getElementById('countTabHigh');
+  if (tabHigh) tabHigh.textContent = high;
+
+  const tabBm = document.getElementById('countTabBookmarked');
+  if (tabBm) tabBm.textContent = bookmarked;
+
+  const tabApp = document.getElementById('countTabApplied');
+  if (tabApp) tabApp.textContent = appliedCount;
+
+  const tabOmit = document.getElementById('countTabOmitted');
+  if (tabOmit) tabOmit.textContent = omittedCount;
+
+  const vis = document.getElementById('visibleCount');
+  if (vis) vis.textContent = filteredJobs.length;
 }
 
 // Render Job Cards (Grid View)
@@ -395,13 +453,15 @@ function renderCards() {
 
   const bookmarks = getLocalBookmarks();
   const appliedList = getLocalApplied();
+  const omitted = getLocalOmitted();
 
   container.innerHTML = filteredJobs.map((job) => {
     const evalData = job.evaluation || {};
     const score = evalData.match_score || 0;
     const portal = PORTAL_META[job.source] || { label: job.source, class: 'bg-slate-800 text-slate-300' };
-    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    const isOmitted = Boolean(omitted[job.id]) || job.user_status === 'OMITTED';
     const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
+    const isBookmarked = (Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED') && !isOmitted && !isApplied;
 
     // Score color styling
     let scoreBadgeClass = "bg-emerald-500/15 text-emerald-400 border-emerald-500/30";
@@ -428,13 +488,16 @@ function renderCards() {
               </span>
             </div>
             
-            <!-- Quick Actions: Bookmark & Applied Tick -->
+            <!-- Quick Actions: Bookmark, Applied Tick, Omit -->
             <div class="flex items-center gap-1">
               <button onclick="toggleBookmark('${job.id}')" title="${isBookmarked ? 'Remove bookmark' : 'Bookmark job'}" class="p-1.5 rounded-lg text-slate-400 hover:text-amber-400 hover:bg-amber-500/10 transition">
                 <i data-lucide="star" class="w-4 h-4 ${isBookmarked ? 'fill-amber-400 text-amber-400' : ''}"></i>
               </button>
               <button onclick="toggleApplied('${job.id}')" title="${isApplied ? 'Applied (Click to unmark)' : 'Mark as Applied'}" class="p-1.5 rounded-lg transition ${isApplied ? 'text-emerald-400 bg-emerald-500/15 border border-emerald-500/30' : 'text-slate-400 hover:text-emerald-400 hover:bg-emerald-500/10 border border-transparent'}">
                 <i data-lucide="check-circle" class="w-4 h-4 ${isApplied ? 'fill-emerald-400/20 text-emerald-400' : ''}"></i>
+              </button>
+              <button onclick="toggleOmit('${job.id}')" title="${isOmitted ? 'Omitted (Click to restore)' : 'Omit job'}" class="p-1.5 rounded-lg transition ${isOmitted ? 'text-rose-400 bg-rose-500/15 border border-rose-500/30' : 'text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 border border-transparent'}">
+                <i data-lucide="eye-off" class="w-4 h-4 ${isOmitted ? 'fill-rose-400/20 text-rose-400' : ''}"></i>
               </button>
             </div>
           </div>
@@ -458,6 +521,7 @@ function renderCards() {
           <div class="flex items-center gap-1.5 text-[11px] text-slate-400">
             <span class="px-2 py-0.5 rounded bg-[#090d16] text-[10px] text-slate-400 font-medium">${escapeHtml(job.workplace_type || 'On-site')}</span>
             ${isApplied ? '<span class="text-emerald-400 font-semibold flex items-center gap-1 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 text-[10px]"><i data-lucide="check" class="w-3 h-3"></i> Applied</span>' : ''}
+            ${isOmitted ? '<span class="text-rose-400 font-semibold flex items-center gap-1 bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/20 text-[10px]"><i data-lucide="eye-off" class="w-3 h-3"></i> Omitted</span>' : ''}
           </div>
           
           <div class="flex items-center gap-1.5">
@@ -484,13 +548,15 @@ function renderTable() {
 
   const bookmarks = getLocalBookmarks();
   const appliedList = getLocalApplied();
+  const omitted = getLocalOmitted();
 
   tbody.innerHTML = filteredJobs.map((job) => {
     const evalData = job.evaluation || {};
     const score = evalData.match_score || 0;
     const portal = PORTAL_META[job.source] || { label: job.source };
-    const isBookmarked = Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED';
+    const isOmitted = Boolean(omitted[job.id]) || job.user_status === 'OMITTED';
     const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
+    const isBookmarked = (Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED') && !isOmitted && !isApplied;
 
     return `
       <tr class="hover:bg-dark-hover/40 transition">
@@ -500,8 +566,8 @@ function renderTable() {
         <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] ${portal.class || 'bg-slate-800'}">${portal.label}</span></td>
         <td class="py-3 px-4 text-slate-400">${escapeHtml(job.location)} (${escapeHtml(job.workplace_type)})</td>
         <td class="py-3 px-4 text-slate-300">
-          <span class="px-2 py-0.5 rounded text-[10px] font-semibold ${isApplied ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30' : (isBookmarked ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30' : 'bg-slate-800 text-slate-400')}">
-            ${isApplied ? 'APPLIED' : (isBookmarked ? 'BOOKMARKED' : escapeHtml(job.user_status || 'NEW'))}
+          <span class="px-2 py-0.5 rounded text-[10px] font-semibold ${isOmitted ? 'bg-rose-500/15 text-rose-400 border border-rose-500/30' : (isApplied ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30' : (isBookmarked ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30' : 'bg-slate-800 text-slate-400'))}">
+            ${isOmitted ? 'OMITTED' : (isApplied ? 'APPLIED' : (isBookmarked ? 'BOOKMARKED' : escapeHtml(job.user_status || 'NEW')))}
           </span>
         </td>
         <td class="py-3 px-4 text-right space-x-1">
@@ -510,6 +576,9 @@ function renderTable() {
           </button>
           <button onclick="toggleApplied('${job.id}')" title="${isApplied ? 'Applied (Click to unmark)' : 'Mark as Applied'}" class="p-1 rounded transition inline-flex items-center ${isApplied ? 'text-emerald-400 bg-emerald-500/15 border border-emerald-500/30' : 'text-slate-400 hover:text-emerald-400 hover:bg-emerald-500/10 border border-transparent'}">
             <i data-lucide="check-circle" class="w-3.5 h-3.5 ${isApplied ? 'fill-emerald-400/20 text-emerald-400' : ''}"></i>
+          </button>
+          <button onclick="toggleOmit('${job.id}')" title="${isOmitted ? 'Omitted (Click to restore)' : 'Omit job'}" class="p-1 rounded transition inline-flex items-center ${isOmitted ? 'text-rose-400 bg-rose-500/15 border border-rose-500/30' : 'text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 border border-transparent'}">
+            <i data-lucide="eye-off" class="w-3.5 h-3.5 ${isOmitted ? 'fill-rose-400/20 text-rose-400' : ''}"></i>
           </button>
           <button onclick="openJobModal('${job.id}')" class="px-2 py-1 bg-dark-card border border-dark-border rounded text-xs text-slate-300 hover:text-white transition">View</button>
           <a href="${job.apply_url}" target="_blank" class="px-2.5 py-1 bg-brand-600 rounded text-xs text-white font-semibold hover:bg-brand-500 transition">Apply</a>
@@ -594,17 +663,25 @@ async function saveModalTracker() {
   // Also persist in localStorage for offline resiliency
   const b = getLocalBookmarks();
   const a = getLocalApplied();
+  const o = getLocalOmitted();
   if (newStatus === 'BOOKMARKED') {
     b[currentJobInModal.id] = true;
     delete a[currentJobInModal.id];
+    delete o[currentJobInModal.id];
   } else if (newStatus === 'APPLIED') {
     a[currentJobInModal.id] = true;
+    delete o[currentJobInModal.id];
+  } else if (newStatus === 'OMITTED') {
+    o[currentJobInModal.id] = true;
+    delete a[currentJobInModal.id];
   } else {
     delete b[currentJobInModal.id];
     delete a[currentJobInModal.id];
+    delete o[currentJobInModal.id];
   }
   setLocalBookmarks(b);
   setLocalApplied(a);
+  setLocalOmitted(o);
 
   const n = getLocalNotes();
   n[currentJobInModal.id] = newNotes;
@@ -621,20 +698,23 @@ async function toggleBookmark(jobId) {
 
   const b = getLocalBookmarks();
   const a = getLocalApplied();
+  const o = getLocalOmitted();
   const isCurrentlyBookmarked = Boolean(b[jobId]) || job.user_status === 'BOOKMARKED';
 
   if (isCurrentlyBookmarked) {
     delete b[jobId];
     if (job.user_status === 'BOOKMARKED') {
-      job.user_status = a[jobId] ? 'APPLIED' : 'NEW';
+      job.user_status = a[jobId] ? 'APPLIED' : (o[jobId] ? 'OMITTED' : 'NEW');
     }
   } else {
     b[jobId] = true;
+    delete o[jobId]; // Bookmarking restores from omitted
     if (job.user_status !== 'APPLIED') {
       job.user_status = 'BOOKMARKED';
     }
   }
   setLocalBookmarks(b);
+  setLocalOmitted(o);
 
   // API sync if in API mode
   if (currentMode === 'api') {
@@ -657,6 +737,7 @@ async function toggleApplied(jobId) {
 
   const a = getLocalApplied();
   const b = getLocalBookmarks();
+  const o = getLocalOmitted();
   const isCurrentlyApplied = Boolean(a[jobId]) || job.user_status === 'APPLIED';
 
   if (isCurrentlyApplied) {
@@ -664,8 +745,47 @@ async function toggleApplied(jobId) {
     job.user_status = b[jobId] ? 'BOOKMARKED' : 'NEW';
   } else {
     a[jobId] = true;
+    delete o[jobId]; // Cannot be both applied and omitted
     job.user_status = 'APPLIED';
   }
+  setLocalApplied(a);
+  setLocalOmitted(o);
+
+  // API sync if in API mode
+  if (currentMode === 'api') {
+    try {
+      await fetch(`/api/jobs/${jobId}/status`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status: job.user_status })
+      });
+    } catch (e) {}
+  }
+
+  applyFilters();
+}
+
+// Quick Omit Toggle on Card / Table
+async function toggleOmit(jobId) {
+  const job = allJobs.find(j => j.id === jobId);
+  if (!job) return;
+
+  const o = getLocalOmitted();
+  const a = getLocalApplied();
+  const b = getLocalBookmarks();
+  const isCurrentlyOmitted = Boolean(o[jobId]) || job.user_status === 'OMITTED';
+
+  if (isCurrentlyOmitted) {
+    // Un-omit: restore back to bookmarked (if previously bookmarked) or NEW
+    delete o[jobId];
+    job.user_status = b[jobId] ? 'BOOKMARKED' : 'NEW';
+  } else {
+    // Mark as omitted: remove from applied, set as OMITTED
+    o[jobId] = true;
+    delete a[jobId];
+    job.user_status = 'OMITTED';
+  }
+  setLocalOmitted(o);
   setLocalApplied(a);
 
   // API sync if in API mode

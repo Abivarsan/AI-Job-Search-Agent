@@ -342,6 +342,7 @@ class JobRepository:
             )
             bookmarked = session.query(JobRecord).filter(JobRecord.user_status == "BOOKMARKED").count()
             applied = session.query(JobRecord).filter(JobRecord.user_status == "APPLIED").count()
+            omitted = session.query(JobRecord).filter(JobRecord.user_status == "OMITTED").count()
             interviewing = session.query(JobRecord).filter(JobRecord.user_status == "INTERVIEWING").count()
 
             # Group by sources
@@ -359,6 +360,7 @@ class JobRepository:
                 "high_matches": high_matches,
                 "bookmarked_count": bookmarked,
                 "applied_count": applied,
+                "omitted_count": omitted,
                 "interviewing_count": interviewing,
                 "source_breakdown": source_breakdown,
                 "min_match_score_threshold": settings.min_match_score

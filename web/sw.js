@@ -1,4 +1,4 @@
-const CACHE_NAME = 'job-agent-v2';
+const CACHE_NAME = 'job-agent-v3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

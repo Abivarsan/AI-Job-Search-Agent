@@ -96,14 +96,14 @@
   <main class="max-w-7xl mx-auto w-full px-4 py-4 flex-1 flex flex-col gap-5">
 
     <!-- KPI Summary Grid -->
-    <section class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3">
+    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
       <!-- Total Jobs -->
       <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
         <div class="p-2.5 rounded-lg bg-blue-500/10 text-blue-400">
           <i data-lucide="briefcase" class="w-5 h-5"></i>
         </div>
         <div>
-          <p class="text-xs text-slate-400 font-medium">Total Jobs</p>
+          <p class="text-xs text-slate-400 font-medium">Active Jobs</p>
           <p id="kpiTotalJobs" class="text-xl font-bold text-white tracking-tight">--</p>
         </div>
       </div>
@@ -141,8 +141,19 @@
         </div>
       </div>
 
+      <!-- Omitted -->
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+        <div class="p-2.5 rounded-lg bg-rose-500/10 text-rose-400">
+          <i data-lucide="eye-off" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400 font-medium">Omitted</p>
+          <p id="kpiOmitted" class="text-xl font-bold text-rose-400 tracking-tight">0</p>
+        </div>
+      </div>
+
       <!-- Active Portals -->
-      <div class="col-span-2 sm:col-span-4 lg:col-span-1 bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
+      <div class="bg-dark-card border border-dark-border p-3.5 rounded-xl flex items-center gap-3">
         <div class="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400">
           <i data-lucide="globe" class="w-5 h-5"></i>
         </div>
@@ -233,6 +244,9 @@
         </button>
         <button data-tab="applied" class="tab-btn px-3 py-2 border-b-2 border-transparent text-slate-400 hover:text-white transition">
           ✅ Applied (<span id="countTabApplied">0</span>)
+        </button>
+        <button data-tab="omitted" class="tab-btn px-3 py-2 border-b-2 border-transparent text-slate-400 hover:text-white transition">
+          🚫 Omit (<span id="countTabOmitted">0</span>)
         </button>
       </div>
 
@@ -333,6 +347,7 @@
               <option value="NEW">New</option>
               <option value="BOOKMARKED">Bookmarked ⭐</option>
               <option value="APPLIED">Applied ✅</option>
+              <option value="OMITTED">Omitted 🚫</option>
               <option value="INTERVIEWING">Interviewing 🎯</option>
               <option value="OFFER">Offer 🎉</option>
               <option value="REJECTED">Archived / Rejected</option>
@@ -359,14 +374,14 @@
   </div>
 
   <!-- Mobile Bottom Tab Navigation -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090d16]/95 backdrop-blur-md border-t border-dark-border px-3 py-2 flex items-center justify-around text-[10px]">
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090d16]/95 backdrop-blur-md border-t border-dark-border px-2 py-2 flex items-center justify-around text-[10px]">
     <button data-nav="all" class="mobile-nav-btn flex flex-col items-center gap-1 text-brand-400 font-semibold">
       <i data-lucide="briefcase" class="w-4 h-4"></i>
       <span>All</span>
     </button>
     <button data-nav="high_match" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
       <i data-lucide="target" class="w-4 h-4"></i>
-      <span>70%+ Fits</span>
+      <span>70%+</span>
     </button>
     <button data-nav="bookmarked" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
       <i data-lucide="star" class="w-4 h-4"></i>
@@ -375,6 +390,10 @@
     <button data-nav="applied" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
       <i data-lucide="check-circle" class="w-4 h-4"></i>
       <span>Applied</span>
+    </button>
+    <button data-nav="omitted" class="mobile-nav-btn flex flex-col items-center gap-1 text-slate-400">
+      <i data-lucide="eye-off" class="w-4 h-4"></i>
+      <span>Omit</span>
     </button>
   </nav>
 
