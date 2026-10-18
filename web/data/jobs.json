@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T15:46:37.331953Z",
+    "generated_at": "2026-10-18T20:28:05.293551Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 365
+    "total_count": 366
   },
   "stats": {
-    "total_jobs": 365,
-    "evaluated_jobs": 365,
-    "high_matches": 365,
+    "total_jobs": 366,
+    "evaluated_jobs": 366,
+    "high_matches": 366,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 40,
-      "linkedin_guest": 293,
+      "linkedin_guest": 294,
       "rooster_jobs": 7,
       "topjobs_lk": 25
     },
@@ -7529,6 +7529,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4472452177",
+      "external_id": "4472452177",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer II, Timehub Experience",
+      "company": "Amazon",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-timehub-experience-at-amazon-4472452177",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-18T20:27:57.254933",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer II, Timehub Experience",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer II, Timehub Experience. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
