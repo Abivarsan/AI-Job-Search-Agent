@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T20:28:05.293551Z",
+    "generated_at": "2026-10-18T22:58:36.930070Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 366
+    "total_count": 370
   },
   "stats": {
-    "total_jobs": 366,
-    "evaluated_jobs": 366,
-    "high_matches": 366,
+    "total_jobs": 370,
+    "evaluated_jobs": 370,
+    "high_matches": 370,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 40,
-      "linkedin_guest": 294,
+      "linkedin_guest": 298,
       "rooster_jobs": 7,
       "topjobs_lk": 25
     },
@@ -2016,6 +2016,125 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480891104",
+      "external_id": "4480891104",
+      "source": "linkedin_guest",
+      "title": ".NET Developer (Backend) z SQL Server",
+      "company": "Comarch",
+      "location": "Cracow, Małopolskie, Poland",
+      "workplace_type": "Remote",
+      "apply_url": "https://pl.linkedin.com/jobs/view/net-developer-backend-z-sql-server-at-comarch-4480891104",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-10-18T22:58:29.932910",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Ms Sql Server",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Developer (Backend) z SQL Server",
+          "Company: Comarch"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Comarch for .NET Developer (Backend) z SQL Server. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4296776175",
+      "external_id": "4296776175",
+      "source": "linkedin_guest",
+      "title": ".NET Full Stack Developer - Banking",
+      "company": "OBSS",
+      "location": "Istanbul, Türkiye",
+      "workplace_type": "Remote",
+      "apply_url": "https://tr.linkedin.com/jobs/view/net-full-stack-developer-banking-at-obss-4296776175",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-18T22:58:24.189506",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Full Stack Developer - Banking",
+          "Company: OBSS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at OBSS for .NET Full Stack Developer - Banking. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480926092",
+      "external_id": "4480926092",
+      "source": "linkedin_guest",
+      "title": "Full Stack C# .Net Software Engineer",
+      "company": "BNP Paribas",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/full-stack-c%23-net-software-engineer-at-bnp-paribas-4480926092",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-18T22:58:12.918713",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "Spring Boot",
+          "React",
+          "Typescript"
+        ],
+        "pros": [
+          "Target role match: Full Stack C# .Net Software Engineer",
+          "Company: BNP Paribas"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BNP Paribas for Full Stack C# .Net Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7529,6 +7648,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4408811070",
+      "external_id": "4408811070",
+      "source": "linkedin_guest",
+      "title": ".NET Full Stack Developer",
+      "company": "OBSS",
+      "location": "Ankara, Türkiye",
+      "workplace_type": "Remote",
+      "apply_url": "https://tr.linkedin.com/jobs/view/net-full-stack-developer-at-obss-4408811070",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-18T22:58:18.827184",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Full Stack Developer",
+          "Company: OBSS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at OBSS for .NET Full Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
