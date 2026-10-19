@@ -58,6 +58,22 @@ function getLocalNotes() {
 }
 function setLocalNotes(data) { localStorage.setItem(STORAGE_NOTES_KEY, JSON.stringify(data)); }
 
+// Sri Lanka region indicators to distinguish domestic vs foreign remote listings
+const SRI_LANKA_REGIONS = [
+  "sri lanka", "colombo", "moratuwa", "jaffna", "kandy", "galle",
+  "dehiwala", "rajagiriya", "nugegoda", "battaramulla", "malabe",
+  "mount lavinia", "gampaha", "kurunegala", "negombo", "ratnapura",
+  "matara", "kalutara", "katunayake", "panadura", "wattala", "kelaniya"
+];
+const DOMESTIC_PORTALS = new Set(["topjobs_lk", "itpro_lk", "rooster_jobs", "xpress_jobs"]);
+
+function isSriLankaJob(job) {
+  if (!job) return true;
+  if (DOMESTIC_PORTALS.has(job.source)) return true;
+  const loc = `${job.location || ''} ${job.title || ''}`.toLowerCase();
+  return SRI_LANKA_REGIONS.some(term => loc.includes(term));
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initServiceWorker();
@@ -507,7 +523,14 @@ function renderCards() {
             ${escapeHtml(job.title)}
           </h3>
           <p class="text-xs text-slate-400 line-clamp-1 font-medium mb-2.5">
-            ${escapeHtml(job.company)} • <span class="text-slate-500">${escapeHtml(job.location || 'Sri Lanka')}</span>
+            ${(() => {
+              const isSL = isSriLankaJob(job);
+              const isGlobalRemote = !isSL && (job.workplace_type || '').toLowerCase() === 'remote';
+              if (isGlobalRemote) {
+                return `${escapeHtml(job.company)} • <span class="text-cyan-400 font-semibold">Remote</span> <span class="text-slate-500 text-[11px]">(HQ: ${escapeHtml(job.location || 'Global')})</span>`;
+              }
+              return `${escapeHtml(job.company)} • <span class="text-slate-500">${escapeHtml(job.location || 'Sri Lanka')}</span>`;
+            })()}
           </p>
 
           <!-- Skills Chips -->
@@ -519,7 +542,14 @@ function renderCards() {
         <!-- Card Footer Actions -->
         <div class="pt-3 border-t border-dark-border/60 flex items-center justify-between gap-2">
           <div class="flex items-center gap-1.5 text-[11px] text-slate-400">
-            <span class="px-2 py-0.5 rounded bg-[#090d16] text-[10px] text-slate-400 font-medium">${escapeHtml(job.workplace_type || 'On-site')}</span>
+            ${(() => {
+              const isSL = isSriLankaJob(job);
+              const isGlobalRemote = !isSL && (job.workplace_type || '').toLowerCase() === 'remote';
+              if (isGlobalRemote) {
+                return `<span class="px-2 py-0.5 rounded bg-cyan-500/10 text-[10px] text-cyan-400 font-semibold border border-cyan-500/20 flex items-center gap-1"><i data-lucide="globe" class="w-3 h-3"></i> Global Remote</span>`;
+              }
+              return `<span class="px-2 py-0.5 rounded bg-[#090d16] text-[10px] text-slate-400 font-medium">${escapeHtml(job.workplace_type || 'On-site')}</span>`;
+            })()}
             ${isApplied ? '<span class="text-emerald-400 font-semibold flex items-center gap-1 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 text-[10px]"><i data-lucide="check" class="w-3 h-3"></i> Applied</span>' : ''}
             ${isOmitted ? '<span class="text-rose-400 font-semibold flex items-center gap-1 bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/20 text-[10px]"><i data-lucide="eye-off" class="w-3 h-3"></i> Omitted</span>' : ''}
           </div>
@@ -557,6 +587,12 @@ function renderTable() {
     const isOmitted = Boolean(omitted[job.id]) || job.user_status === 'OMITTED';
     const isApplied = Boolean(appliedList[job.id]) || job.user_status === 'APPLIED';
     const isBookmarked = (Boolean(bookmarks[job.id]) || job.user_status === 'BOOKMARKED') && !isOmitted && !isApplied;
+    const isSL = isSriLankaJob(job);
+    const isGlobalRemote = !isSL && (job.workplace_type || '').toLowerCase() === 'remote';
+
+    const locationCol = isGlobalRemote
+      ? `<span class="text-cyan-400 font-semibold">Remote</span> <span class="text-slate-500 text-[11px]">(HQ: ${escapeHtml(job.location || 'Global')})</span>`
+      : `${escapeHtml(job.location)} (${escapeHtml(job.workplace_type)})`;
 
     return `
       <tr class="hover:bg-dark-hover/40 transition">
@@ -564,7 +600,7 @@ function renderTable() {
         <td class="py-3 px-4 font-semibold text-white">${escapeHtml(job.title)}</td>
         <td class="py-3 px-4 text-slate-300">${escapeHtml(job.company)}</td>
         <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] ${portal.class || 'bg-slate-800'}">${portal.label}</span></td>
-        <td class="py-3 px-4 text-slate-400">${escapeHtml(job.location)} (${escapeHtml(job.workplace_type)})</td>
+        <td class="py-3 px-4 text-slate-400">${locationCol}</td>
         <td class="py-3 px-4 text-slate-300">
           <span class="px-2 py-0.5 rounded text-[10px] font-semibold ${isOmitted ? 'bg-rose-500/15 text-rose-400 border border-rose-500/30' : (isApplied ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30' : (isBookmarked ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30' : 'bg-slate-800 text-slate-400'))}">
             ${isOmitted ? 'OMITTED' : (isApplied ? 'APPLIED' : (isBookmarked ? 'BOOKMARKED' : escapeHtml(job.user_status || 'NEW')))}
@@ -598,12 +634,17 @@ function openJobModal(jobId) {
   const evalData = job.evaluation || {};
   const score = evalData.match_score || 0;
   const portal = PORTAL_META[job.source] || { label: job.source, class: '' };
+  const isSL = isSriLankaJob(job);
+  const isGlobalRemote = !isSL && (job.workplace_type || '').toLowerCase() === 'remote';
 
   document.getElementById('modalTitle').textContent = job.title;
-  document.getElementById('modalCompany').textContent = `${job.company} • ${job.location || 'Sri Lanka'}`;
+  document.getElementById('modalCompany').innerHTML = isGlobalRemote
+    ? `${escapeHtml(job.company)} • <span class="text-cyan-400 font-semibold">100% Global Remote</span> <span class="text-slate-400 text-xs">(HQ: ${escapeHtml(job.location || 'International')})</span>`
+    : `${escapeHtml(job.company)} • ${escapeHtml(job.location || 'Sri Lanka')}`;
+
   document.getElementById('modalScoreBadge').textContent = `${score}% Match`;
   document.getElementById('modalPortalBadge').textContent = portal.label;
-  document.getElementById('modalWorkplaceBadge').textContent = job.workplace_type || 'On-site';
+  document.getElementById('modalWorkplaceBadge').textContent = isGlobalRemote ? 'Global Remote' : (job.workplace_type || 'On-site');
   document.getElementById('modalAISummary').textContent = evalData.summary || 'Suitability for entry / associate software engineer.';
   document.getElementById('modalDescription').textContent = job.description || 'No additional job description text available. Apply directly through the portal URL.';
   document.getElementById('modalApplyLink').href = job.apply_url;

@@ -24,6 +24,11 @@ def export_to_json(output_file: Path = None) -> Path:
     target_path = output_file or (WEB_DATA_DIR / "jobs.json")
     target_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Automatically enforce location rules: purge foreign on-site or hybrid listings
+    purged = JobRepository.purge_non_compliant_jobs()
+    if purged > 0:
+        logger.info(f"Purged {purged} non-compliant foreign on-site/hybrid jobs prior to export.")
+
     logger.info("Exporting SQLite database records to static dashboard payload...")
     payload = JobRepository.export_dashboard_payload()
 
