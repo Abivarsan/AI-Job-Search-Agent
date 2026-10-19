@@ -1,27 +1,191 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T22:58:36.930070Z",
+    "generated_at": "2026-10-19T04:22:09.426112Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 370
+    "total_count": 382
   },
   "stats": {
-    "total_jobs": 370,
-    "evaluated_jobs": 370,
-    "high_matches": 370,
+    "total_jobs": 382,
+    "evaluated_jobs": 382,
+    "high_matches": 382,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 40,
-      "linkedin_guest": 298,
+      "itpro_lk": 41,
+      "linkedin_guest": 306,
       "rooster_jobs": 7,
-      "topjobs_lk": 25
+      "topjobs_lk": 28
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4478249288",
+      "external_id": "4478249288",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Miamin Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-miamin-systems-4478249288",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:42.620396",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Miamin Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Miamin Systems for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478251219",
+      "external_id": "4478251219",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Miamin Systems",
+      "location": "Vadodara, Gujarat, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-miamin-systems-4478251219",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:37.261378",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Miamin Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Miamin Systems for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478234834",
+      "external_id": "4478234834",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4478234834",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:26.358391",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478238728",
+      "external_id": "4478238728",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "TalentRabbit",
+      "location": "Gurugram, Haryana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-talentrabbit-4478238728",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:20.551257",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: TalentRabbit"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TalentRabbit for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4461985437",
       "external_id": "4461985437",
@@ -2016,6 +2180,118 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15501",
+      "external_id": "15501",
+      "source": "itpro_lk",
+      "title": "Junior Software Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Kandy, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15501/junior-software-developer-at-vision-designing/",
+      "description": "Software engineering opening on ITPro.lk: Junior Software Developer at Sri Lankan Tech Company (Kandy, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-19T04:22:05.897937",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Junior Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478237846",
+      "external_id": "4478237846",
+      "source": "linkedin_guest",
+      "title": "Backend Developer (Java + Spring Boot)",
+      "company": "Netcomm IT Solutions Pvt. Ltd.",
+      "location": "Chennai, Tamil Nadu, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/backend-developer-java-%2B-spring-boot-at-netcomm-it-solutions-pvt-ltd-4478237846",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 minutes ago",
+      "discovered_at": "2026-10-19T04:21:54.117863",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Developer (Java + Spring Boot)",
+          "Company: Netcomm IT Solutions Pvt. Ltd."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Netcomm IT Solutions Pvt. Ltd. for Backend Developer (Java + Spring Boot). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478252023",
+      "external_id": "4478252023",
+      "source": "linkedin_guest",
+      "title": "Associate - Java Developer",
+      "company": "Charles Schwab",
+      "location": "Southlake, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/associate-java-developer-at-charles-schwab-4478252023",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:31.698351",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate - Java Developer",
+          "Company: Charles Schwab"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Charles Schwab for Associate - Java Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7648,6 +7924,191 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001561054",
+      "external_id": "0001561054",
+      "source": "topjobs_lk",
+      "title": "Java Spring Boot Software Developer",
+      "company": "Kangaro Tech",
+      "location": "Colombo, Galle, Kandy, Kurunegala, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001561054&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Kangaro Tech. Location: Colombo, Galle, Kandy, Kurunegala, Sri Lanka. Closing: Mon Nov 02 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Oct 19 2026",
+      "discovered_at": "2026-10-19T04:22:03.981431",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Spring Boot Software Developer",
+          "Company: Kangaro Tech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kangaro Tech for Java Spring Boot Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001561115",
+      "external_id": "0001561115",
+      "source": "topjobs_lk",
+      "title": "Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001561115&ac=0000000064",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Oct 23 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Oct 19 2026",
+      "discovered_at": "2026-10-19T04:22:02.046044",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Platform & Integration Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001561128",
+      "external_id": "0001561128",
+      "source": "topjobs_lk",
+      "title": "Automation Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001561128&ac=0000000064",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Oct 23 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Oct 19 2026",
+      "discovered_at": "2026-10-19T04:22:00.172322",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Automation Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Automation Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479957262",
+      "external_id": "4479957262",
+      "source": "linkedin_guest",
+      "title": "Sr. Software Engineer",
+      "company": "RevComm Indonesia",
+      "location": "Jakarta, Indonesia",
+      "workplace_type": "Remote",
+      "apply_url": "https://id.linkedin.com/jobs/view/sr-software-engineer-at-revcomm-indonesia-4479957262",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-19T04:21:48.373452",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sr. Software Engineer",
+          "Company: RevComm Indonesia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at RevComm Indonesia for Sr. Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478237565",
+      "external_id": "4478237565",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Xact Accounting",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-at-xact-accounting-4478237565",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-19T04:21:13.702348",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Xact Accounting"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Xact Accounting for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
