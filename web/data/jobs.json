@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T08:25:52.052676Z",
+    "generated_at": "2026-10-20T14:16:16.590386Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 151
+    "total_count": 160
   },
   "stats": {
-    "total_jobs": 151,
-    "evaluated_jobs": 151,
-    "high_matches": 151,
+    "total_jobs": 160,
+    "evaluated_jobs": 160,
+    "high_matches": 160,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 49,
-      "linkedin_guest": 54,
-      "linkedin_posts": 8,
+      "linkedin_guest": 59,
+      "linkedin_posts": 11,
       "rooster_jobs": 7,
-      "topjobs_lk": 33
+      "topjobs_lk": 34
     },
     "min_match_score_threshold": 70
   },
@@ -98,6 +98,81 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001561757",
+      "external_id": "0001561757",
+      "source": "topjobs_lk",
+      "title": "Project Associate",
+      "company": "Company Name With held",
+      "location": "Piliyandala, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc=0001561757&ac=DEFZZZ",
+      "description": "Software opening on TopJobs.lk. Company: Company Name With held. Location: Piliyandala, Sri Lanka. Closing: Tue Nov 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Oct 20 2026",
+      "discovered_at": "2026-10-20T14:16:13.259754",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Project Associate",
+          "Company: Company Name With held"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Company Name With held for Project Associate. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481554127",
+      "external_id": "4481554127",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer",
+      "company": "ArkTalents",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-at-arktalents-4481554127",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-20T14:16:01.919038",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer",
+          "Company: ArkTalents"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ArkTalents for DevOps Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1741,6 +1816,264 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7516825776529502208",
+      "external_id": "7516825776529502208",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Recrute Action Inc. / Recruit Action Inc.",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://fr.linkedin.com/posts/recrute-action_hiring-activity-7516825776529502208-BbWt",
+      "description": "👤 Posted by: Recrute Action Inc. / Recruit Action Inc.\n\n---\nNous recrutons (#hiring) pour le poste de Senior Software Engineer – Python & AWS — Remote (Toronto, Ontario). Postulez dès maintenant ou partagez ce post avec votre réseau.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-16",
+      "discovered_at": "2026-10-20T14:16:11.345546",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Recrute Action Inc. / Recruit Action Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Recrute Action Inc. / Recruit Action Inc. for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7514695996988239872",
+      "external_id": "7514695996988239872",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Yendri Casado (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/yendricasado_software-engineers-ai-infrastructure-people-share-7514695996988239872-0E1l",
+      "description": "👤 Posted by: Yendri Casado\n\n---\nSOFTWARE ENGINEERS + AI INFRASTRUCTURE PEOPLE: Microsoft is hiring.\n\nSenior Software Engineer\nRemote, U.S. | Full-time\n$120K to $261K\nRecently posted\n\nAre you targeting Senior Software Engineering, Cloud Infrastructure, Distributed Systems, or AI Engineering roles but struggling to land interviews?\n\nStart FREE at journeytohired.com with your Career Snapshot and upload your resume for a personalized review.\n\nAt Journey to Hired, we help you identify suitable roles, strengthen your resume, find matched opportunities, and prepare for interviews.\n\nMy hiring-side advice: Microsoft’s AI infrastructure teams are scaling GPU capacity to support increasingly demanding AI workloads. This role focuses on the systems that turn physical GPU hardware into reliable Azure computing capacity.\n\nIf your resume only lists Python, C++, cloud technologies, or infrastructure tools, you may be underselling your experience.\n\nShow where you improved system reliability, automated infrastructure provisioning, solved complex performance problems, or built services that operated at scale.\n\nAt Senior Engineer level, hiring teams want evidence of technical ownership, engineering judgment, and measurable impact.\n\nSoftware Engineers, are you actively interviewing, or are your applications going unanswered? Tell me in the comments.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-10",
+      "discovered_at": "2026-10-20T14:16:09.511094",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Yendri Casado (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Yendri Casado (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518273973994987520",
+      "external_id": "7518273973994987520",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Open Source Contributor",
+      "company": "Dhanraj G (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/dhanraj-shinemaven_hiring-softwareengineer-opensource-activity-7518273973994987520-y2UL",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dY7vwhpA\n👤 Posted by: Dhanraj G\n\n---\nHIRING NOW | SOFTWARE ENGINEER | 100% REMOTE\nHave you contributed to open-source projects or built software that runs in production? This opportunity could be for you.\nWe're hiring Software Engineers (Open Source Contributors) to work on scalable backend systems, AI-driven applications and high-performance software infrastructure.\nPosition: Software Engineer – Open Source Contributor\nWork Mode: 100% Remote\nExperience: 3–5 Years (Mandatory)\nEmployment: Contract\nImmediate Joiners Preferred\nWhat we're looking for:\n• Strong programming skills in Python, Java, Node.js, TypeScript or C++\n• Experience building production-grade applications\n• Strong understanding of Data Structures & Algorithms\n• Backend development, APIs and database management\n• Experience with performance optimization and debugging\n• Open-source contributions are highly relevant\nInterested? Here's how to proceed.\nStep 1 – Apply Now: Submit your application through the official link.\nStep 2 – Check Your Email: If your profile matches the requirements, you can expect an AI interview invitation within 24 hours of applying.\nStep 3 – Complete Your Interview: Follow the instructions in your invitation and complete the interview within the specified deadline.\nImportant: Applying alone does not complete the selection process. Eligible candidates must complete the interview to move forward.\nApply Here:\nhttps://lnkd.in/dY7vwhpA\nApplications are being reviewed on a rolling basis. Apply now for early consideration.\nKnow a strong software engineer or open-source contributor? Tag them or reshare this opportunity with your network.\n#Hiring #SoftwareEngineer #OpenSource #RemoteJobs #Python #Java #BackendDeveloper #SoftwareDevelopment #QuickHyreAI",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-20",
+      "discovered_at": "2026-10-20T14:16:07.686877",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Open Source Contributor",
+          "Company: Dhanraj G (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dhanraj G (LinkedIn Post) for Software Engineer Open Source Contributor. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4462219651",
+      "external_id": "4462219651",
+      "source": "linkedin_guest",
+      "title": ".Net Developer - 100% Remote, Spain",
+      "company": "UST",
+      "location": "Madrid, Community of Madrid, Spain",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/jobs/view/net-developer-100%25-remote-spain-at-ust-4462219651",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-20T14:15:55.972344",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: .Net Developer - 100% Remote, Spain",
+          "Company: UST"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UST for .Net Developer - 100% Remote, Spain. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480430573",
+      "external_id": "4480430573",
+      "source": "linkedin_guest",
+      "title": "Pre-Sales Engineer - DJI & Robotics Solutions",
+      "company": "Trident Corporation Pvt Ltd.",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/pre-sales-engineer-dji-robotics-solutions-at-trident-corporation-pvt-ltd-4480430573",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-20T14:15:50.019699",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Pre-Sales Engineer - DJI & Robotics Solutions",
+          "Company: Trident Corporation Pvt Ltd."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Trident Corporation Pvt Ltd. for Pre-Sales Engineer - DJI & Robotics Solutions. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478661334",
+      "external_id": "4478661334",
+      "source": "linkedin_guest",
+      "title": "Data Communications Engineer",
+      "company": "Envoy Ortus",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-communications-engineer-at-envoy-ortus-4478661334",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-20T14:15:44.238007",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Communications Engineer",
+          "Company: Envoy Ortus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Envoy Ortus for Data Communications Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480457744",
+      "external_id": "4480457744",
+      "source": "linkedin_guest",
+      "title": "Progress OpenEdge Developer",
+      "company": "ZData Innovations",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/progress-openedge-developer-at-zdata-innovations-4480457744",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-20T14:15:38.614813",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Progress OpenEdge Developer",
+          "Company: ZData Innovations"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ZData Innovations for Progress OpenEdge Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
