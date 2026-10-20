@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T20:32:02.158341Z",
+    "generated_at": "2026-10-20T00:13:15.730904Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 417
+    "total_count": 426
   },
   "stats": {
-    "total_jobs": 417,
-    "evaluated_jobs": 417,
-    "high_matches": 417,
+    "total_jobs": 426,
+    "evaluated_jobs": 426,
+    "high_matches": 426,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 46,
-      "linkedin_guest": 332,
+      "linkedin_guest": 341,
       "rooster_jobs": 7,
       "topjobs_lk": 32
     },
@@ -2409,6 +2409,235 @@
         ],
         "concerns": [],
         "summary": "Opportunities at LMAX Group for Junior Software Developer (Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4478621832",
+      "external_id": "4478621832",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II (Backend Java)",
+      "company": "Mastercard",
+      "location": "Vancouver, British Columbia, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-engineer-ii-backend-java-at-mastercard-4478621832",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-20T00:13:07.893707",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II (Backend Java)",
+          "Company: Mastercard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mastercard for Software Engineer II (Backend Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480288325",
+      "external_id": "4480288325",
+      "source": "linkedin_guest",
+      "title": ".NET Developer – C# / Windows Forms",
+      "company": "Lutech",
+      "location": "Tirana, Tirana, Albania",
+      "workplace_type": "Remote",
+      "apply_url": "https://al.linkedin.com/jobs/view/net-developer-%E2%80%93-c%23-windows-forms-at-lutech-4480288325",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-20T00:13:02.517077",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: .NET Developer – C# / Windows Forms",
+          "Company: Lutech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Lutech for .NET Developer – C# / Windows Forms. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480212871",
+      "external_id": "4480212871",
+      "source": "linkedin_guest",
+      "title": "Engenheiro de Software .NET Core - Trabalho Remoto",
+      "company": "BairesDev",
+      "location": "Greater Curitiba",
+      "workplace_type": "Remote",
+      "apply_url": "https://br.linkedin.com/jobs/view/engenheiro-de-software-net-core-trabalho-remoto-at-bairesdev-4480212871",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-20T00:12:45.354147",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Engenheiro de Software .NET Core - Trabalho Remoto",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Engenheiro de Software .NET Core - Trabalho Remoto. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480219562",
+      "external_id": "4480219562",
+      "source": "linkedin_guest",
+      "title": "Engenheiro de Software .NET Core - Trabalho Remoto",
+      "company": "BairesDev",
+      "location": "Curitiba, Paraná, Brazil",
+      "workplace_type": "Remote",
+      "apply_url": "https://br.linkedin.com/jobs/view/engenheiro-de-software-net-core-trabalho-remoto-at-bairesdev-4480219562",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-20T00:12:39.950032",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Engenheiro de Software .NET Core - Trabalho Remoto",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Engenheiro de Software .NET Core - Trabalho Remoto. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481504270",
+      "external_id": "4481504270",
+      "source": "linkedin_guest",
+      "title": "Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+      "company": "State Street",
+      "location": "Clifton, NJ",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%93-backend-platforms-assistant-vice-president-wealth-custody-clearing-at-state-street-4481504270",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "29 minutes ago",
+      "discovered_at": "2026-10-20T00:12:29.040405",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+          "Company: State Street"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at State Street for Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481285935",
+      "external_id": "4481285935",
+      "source": "linkedin_guest",
+      "title": "Software Development Engineer, Early Career - 2027 (CAN)",
+      "company": "Amazon",
+      "location": "Vancouver, British Columbia, Canada",
+      "workplace_type": "Remote",
+      "apply_url": "https://ca.linkedin.com/jobs/view/software-development-engineer-early-career-2027-can-at-amazon-4481285935",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 minutes ago",
+      "discovered_at": "2026-10-20T00:12:22.843404",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Typescript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Development Engineer, Early Career - 2027 (CAN)",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Development Engineer, Early Career - 2027 (CAN). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -8573,6 +8802,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4463779884",
+      "external_id": "4463779884",
+      "source": "linkedin_guest",
+      "title": "Software Dev Engineer II, Paragon Workbench",
+      "company": "Amazon",
+      "location": "Bengaluru, Karnataka, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-dev-engineer-ii-paragon-workbench-at-amazon-4463779884",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-20T00:12:57.073012",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Dev Engineer II, Paragon Workbench",
+          "Company: Amazon"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Amazon for Software Dev Engineer II, Paragon Workbench. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481208108",
+      "external_id": "4481208108",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III- Java AWS",
+      "company": "JPMorganChase",
+      "location": "Hyderabad, Telangana, India",
+      "workplace_type": "Remote",
+      "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-iii-java-aws-at-jpmorganchase-4481208108",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-20T00:12:51.173322",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III- Java AWS",
+          "Company: JPMorganChase"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at JPMorganChase for Software Engineer III- Java AWS. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481285724",
+      "external_id": "4481285724",
+      "source": "linkedin_guest",
+      "title": "Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+      "company": "State Street",
+      "location": "Austin, TX",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%93-backend-platforms-assistant-vice-president-wealth-custody-clearing-at-state-street-4481285724",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "29 minutes ago",
+      "discovered_at": "2026-10-20T00:12:34.788640",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+          "Company: State Street"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at State Street for Software Engineer – Backend Platforms, Assistant Vice President (Wealth Custody & Clearing). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
