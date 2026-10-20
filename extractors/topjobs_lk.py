@@ -15,14 +15,17 @@ from extractors.base import BaseJobExtractor, JobItem
 class TopJobsExtractor(BaseJobExtractor):
     """Fetches Software Engineering vacancies from TopJobs.lk."""
 
-    BASE_URL = "http://www.careers.lk/applicant/vacancybyfunctionalarea.jsp?FA=SDQ&jst=OPEN"
-    DETAIL_URL = "http://www.topjobs.lk/employer/JobAdvertismentServlet?jc={jc}&ac={ac}"
+    BASE_URL = "https://www.topjobs.lk/applicant/vacancybyfunctionalarea.jsp?FA=SDQ&jst=OPEN"
+    DETAIL_URL = (
+        "https://www.topjobs.lk/employer/JobAdvertismentServlet"
+        "?rid={rid}&ac={ac}&jc={jc}&ec={ec}&pg=applicant/vacancybyfunctionalarea.jsp"
+    )
 
     def __init__(self):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Referer": "http://www.topjobs.lk/"
+            "Referer": "https://www.topjobs.lk/"
         }
 
     def search_jobs(self, keywords: str = "", location: str = "Sri Lanka", limit: int = 40) -> List[JobItem]:
@@ -62,13 +65,30 @@ class TopJobsExtractor(BaseJobExtractor):
 
     def _parse_row(self, row_soup: BeautifulSoup) -> Optional[JobItem]:
         try:
-            # 1. Job Code and Employer Code
+            # 1. Extract Row ID (rid), Agent Code (ac), Job Code (jc), and Employer Code (ec)
+            row_id_attr = row_soup.get("id", "")
+            rid_match = re.search(r"\d+", row_id_attr)
+            rid = rid_match.group(0) if rid_match else "0"
+
+            onclick_attr = row_soup.get("onclick", "")
+            alert_match = re.search(
+                r"createAlert\(\s*'([^']*)'\s*,\s*'([^']*)'\s*,\s*'([^']*)'\s*,\s*'([^']*)'",
+                onclick_attr
+            )
+
             jc_span = row_soup.find("span", id=re.compile(r"^hdnJC"))
             ec_span = row_soup.find("span", id=re.compile(r"^hdnEC"))
             ac_span = row_soup.find("span", id=re.compile(r"^hdnAC"))
 
-            jc = jc_span.get_text(strip=True) if jc_span else ""
-            ac = ac_span.get_text(strip=True) if ac_span else (ec_span.get_text(strip=True) if ec_span else "DEFZZZ")
+            if alert_match:
+                rid = alert_match.group(1).strip() or rid
+                ac = alert_match.group(2).strip()
+                jc = alert_match.group(3).strip()
+                ec = alert_match.group(4).strip()
+            else:
+                jc = jc_span.get_text(strip=True) if jc_span else ""
+                ac = ac_span.get_text(strip=True) if ac_span else "0000000000"
+                ec = ec_span.get_text(strip=True) if ec_span else ""
 
             if not jc:
                 # Fallback to td text
@@ -76,7 +96,7 @@ class TopJobsExtractor(BaseJobExtractor):
                 if len(tds) > 1:
                     jc = tds[1].get_text(strip=True)
 
-            if not jc:
+            if not jc or not ec:
                 return None
 
             # 2. Title & Company
@@ -111,7 +131,7 @@ class TopJobsExtractor(BaseJobExtractor):
             elif "hybrid" in title_lower or "hybrid" in loc_text.lower():
                 workplace = "Hybrid"
 
-            apply_url = self.DETAIL_URL.format(jc=jc, ac=ac)
+            apply_url = self.DETAIL_URL.format(rid=rid, ac=ac, jc=jc, ec=ec)
 
             return JobItem(
                 id=f"topjobs_{jc}",
