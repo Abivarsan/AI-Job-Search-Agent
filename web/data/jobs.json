@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T19:08:49.454079Z",
+    "generated_at": "2026-10-20T23:46:18.718058Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 139
+    "total_count": 140
   },
   "stats": {
-    "total_jobs": 139,
-    "evaluated_jobs": 139,
-    "high_matches": 139,
+    "total_jobs": 140,
+    "evaluated_jobs": 140,
+    "high_matches": 140,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 49,
       "linkedin_guest": 61,
-      "linkedin_posts": 14,
+      "linkedin_posts": 15,
       "rooster_jobs": 7,
       "topjobs_lk": 8
     },
@@ -1635,6 +1635,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7514920351332646914",
+      "external_id": "7514920351332646914",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Remote Job Hub",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/remote-job-hub-united-states-of-america_software-engineer-apply-on-job-activity-7514920351332646914-Y3ms",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ga8tykRz\n👤 Posted by: Remote Job Hub\n\n---\n💻 **Software engineers: earn $30–$100/hr working remotely on challenging coding tasks that help train next-generation AI systems.**\n\nmicro1 is looking for experienced developers to create realistic coding challenges, implement features and bug fixes, and build deterministic verifiers for AI systems.\n\n💼 **Job Title:** Software Engineer\n🌍 **Location:** Remote\n🏠 **Work Model:** Fully Remote\n💰 **Compensation:** $30–$100/hour\n📋 **Type:** Contractor\n⏰ **Commitment:** Approximately 15 hours/week\n🗓️ **Schedule:** Flexible — choose your hours and days\n👥 **Openings:** 100\n\n### What You'll Do\n\n* Create realistic and challenging coding tasks for AI models.\n* Work on feature implementation and bug-fixing tasks.\n* Build deterministic verifiers that accept valid solutions and reject invalid ones.\n* Debug software and investigate performance issues.\n* Refactor codebases and implement complex features.\n* Apply strong testing and code-review practices.\n\n### What They're Looking For\n\n* Strong backend development experience.\n* Experience with **Python, Java, Node.js, Go, Rust, TypeScript, C++**, or similar technologies.\n* Experience building scalable services and APIs.\n* Strong debugging, performance optimization, and automated testing skills.\n* Solid understanding of algorithms and data structures.\n* Strong code review and technical problem-solving instincts.\n* Testing experience is a major plus, particularly test strategy, large test suites, flaky-test diagnosis, and quality improvement.\n\n### Why Consider This Opportunity?\n\n✅ $30–$100/hour compensation range.\n\n✅ Remote contractor role with approximately 15 hours/week.\n\n✅ Flexible schedule — choose your working hours and days.\n\n✅ Work on coding challenges related to AI training.\n\n✅ No previous AI experience is required.\n\n### Application Process\n\n1. Apply and complete the screening questions.\n2. Complete an approximately 30-minute AI interview.\n3. Complete a technical assessment, if applicable.\n4. Hiring Manager review.\n\n**Important:** Compensation is output-based. Experts are paid per task that meets project specifications, with minimum submission requirements and a minimum number of tasks expected per week.\n\nRoles are typically filled quickly, and selected experts are expected to begin their first tasks within 24–48 hours of completing onboarding.\n\n🔗 **Apply Here:**\n\nhttps://lnkd.in/ga8tykRz\n\nKnow a backend engineer or software developer who may be a strong fit? Share this opportunity with them.\n\n#SoftwareEngineering #BackendDevelopment #AIJobs #PythonJobs #RemoteJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-11",
+      "discovered_at": "2026-10-20T23:46:14.817202",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Remote Job Hub"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Remote Job Hub for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
