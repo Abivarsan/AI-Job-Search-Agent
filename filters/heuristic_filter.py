@@ -33,6 +33,7 @@ class HeuristicFilter:
     def evaluate(self, job: JobItem) -> Tuple[bool, str]:
         """
         Determines whether the job should proceed to full AI evaluation.
+        Enforces identical rules across dedicated job portals and LinkedIn Posts.
         
         Returns:
             Tuple of (passes_filter: bool, reason: str)
@@ -47,19 +48,26 @@ class HeuristicFilter:
             if re.search(pattern, title_lower):
                 return False, f"Title contains excluded keyword: '{neg}'"
 
-        # 2. Positive title checks (must match at least one relevant role pattern)
+        # 2. Experience level gate (reject roles demanding 4+ years tenure)
+        exp_lower = (job.experience_level or "").lower()
+        if re.search(r"\b([4-9]|1\d)\+\s*years\b", exp_lower):
+            return False, f"Role requires senior tenure ({job.experience_level})"
+
+        # 3. Positive title checks (must match at least one relevant role pattern)
         is_relevant_role = False
         for target in self.target_roles:
             target_words = [w.lower() for w in target.split() if len(w) > 2]
-            # Match if key terms appear
-            if any(w in title_lower for w in ["software", "engineer", "developer", "programmer", "associate"]):
+            if any(w in title_lower for w in [
+                "software", "engineer", "developer", "programmer", "associate",
+                "full stack", "fullstack", "backend", "frontend", ".net", "java"
+            ]):
                 is_relevant_role = True
                 break
 
         if not is_relevant_role:
             return False, f"Title '{title}' does not match target software engineering titles"
 
-        # 3. Location & Workplace Type Validation:
+        # 4. Location & Workplace Type Validation:
         # Rule: Within Sri Lanka -> On-site, Hybrid, and Remote are all allowed.
         # Rule: Outside Sri Lanka (Foreign) -> ONLY 100% Remote is allowed.
         sri_lanka_terms = [

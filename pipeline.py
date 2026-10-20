@@ -1,6 +1,6 @@
 """
 End-to-end Job Search Pipeline Controller.
-Orchestrates multi-portal ingestion (LinkedIn, TopJobs, ITPro, Rooster, XpressJobs),
+Orchestrates multi-portal ingestion (LinkedIn Jobs, LinkedIn Posts, TopJobs, ITPro, Rooster, XpressJobs),
 deduplication, heuristic filtering, AI evaluation, and notification delivery.
 """
 
@@ -9,6 +9,7 @@ from loguru import logger
 from config import settings
 from database import JobRepository, init_db
 from extractors.linkedin_guest import LinkedInGuestExtractor
+from extractors.linkedin_posts import LinkedInPostsExtractor
 from extractors.rapidapi_jsearch import JSearchExtractor
 from extractors.topjobs_lk import TopJobsExtractor
 from extractors.itpro_lk import ITProExtractor
@@ -27,6 +28,7 @@ class JobSearchPipeline:
     def __init__(self):
         init_db()
         self.linkedin_extractor = LinkedInGuestExtractor()
+        self.linkedin_posts_extractor = LinkedInPostsExtractor()
         self.jsearch_extractor = JSearchExtractor()
         self.topjobs_extractor = TopJobsExtractor()
         self.itpro_extractor = ITProExtractor()
@@ -40,11 +42,12 @@ class JobSearchPipeline:
     def run_cycle(self) -> Dict[str, Any]:
         """
         Executes a complete multi-portal search, evaluation, and alert cycle across:
-        1. LinkedIn (Guest Public Search)
-        2. TopJobs.lk (IT / Software QA)
-        3. ITPro.lk (Software Engineering)
-        4. Rooster.jobs (Tech REST API)
-        5. Xpress.jobs (Sitemap Feed)
+        1. LinkedIn (Guest Public Job Listings)
+        2. LinkedIn (Public Shared Feed Posts)
+        3. TopJobs.lk (IT / Software QA)
+        4. ITPro.lk (Software Engineering)
+        5. Rooster.jobs (Tech REST API)
+        6. Xpress.jobs (Sitemap Feed)
         """
         logger.info("==================================================")
         logger.info("Starting Multi-Portal AI Job Search pipeline cycle...")
@@ -65,7 +68,7 @@ class JobSearchPipeline:
         all_candidate_jobs: List[JobItem] = []
 
         # ----------------------------------------------------------------------
-        # 1. LinkedIn Ingestion
+        # 1. LinkedIn Job Listings Ingestion
         # ----------------------------------------------------------------------
         for kw in keywords_list:
             for loc in locations_list:
@@ -78,6 +81,17 @@ class JobSearchPipeline:
                     jobs = self.jsearch_extractor.search_jobs(keywords=kw, location=loc, limit=12)
 
                 all_candidate_jobs.extend(jobs)
+
+        # ----------------------------------------------------------------------
+        # 1B. LinkedIn Public Posts Ingestion (Shared Hiring Posts)
+        # ----------------------------------------------------------------------
+        try:
+            for loc in locations_list:
+                for kw in ["Software Engineer", "Associate Software Engineer", "Full Stack Developer"]:
+                    post_jobs = self.linkedin_posts_extractor.search_jobs(keywords=kw, location=loc, limit=10)
+                    all_candidate_jobs.extend(post_jobs)
+        except Exception as e:
+            logger.error(f"Error extracting LinkedIn Posts: {e}")
 
         # ----------------------------------------------------------------------
         # 2. Sri Lankan Job Portals Ingestion

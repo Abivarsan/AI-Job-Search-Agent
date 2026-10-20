@@ -25,7 +25,8 @@ const PORTAL_META = {
   itpro_lk: { label: 'ITPro.lk', class: 'badge-portal-itpro_lk' },
   rooster_jobs: { label: 'Rooster.jobs', class: 'badge-portal-rooster_jobs' },
   xpress_jobs: { label: 'Xpress.jobs', class: 'badge-portal-xpress_jobs' },
-  linkedin_guest: { label: 'LinkedIn', class: 'badge-portal-linkedin_guest' }
+  linkedin_guest: { label: 'LinkedIn', class: 'badge-portal-linkedin_guest' },
+  linkedin_posts: { label: 'LinkedIn Posts', class: 'badge-portal-linkedin_posts' }
 };
 
 // Local Storage Keys for Static / Offline Persistence

@@ -51,6 +51,7 @@
     .badge-portal-rooster_jobs { background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3); }
     .badge-portal-xpress_jobs { background: rgba(236, 72, 153, 0.15); color: #f472b6; border-color: rgba(236, 72, 153, 0.3); }
     .badge-portal-linkedin_guest { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3); }
+    .badge-portal-linkedin_posts { background: rgba(99, 102, 241, 0.15); color: #818cf8; border-color: rgba(99, 102, 241, 0.3); }
   </style>
 </head>
 <body class="bg-[#090d16] text-slate-100 min-h-screen pb-20 md:pb-8 flex flex-col font-sans selection:bg-brand-500 selection:text-white">
@@ -114,7 +115,7 @@
           <i data-lucide="target" class="w-5 h-5"></i>
         </div>
         <div>
-          <p class="text-xs text-slate-400 font-medium">High Fit (>=70%)</p>
+          <p class="text-xs text-slate-400 font-medium">High Fit (&gt;=70%)</p>
           <p id="kpiHighMatches" class="text-xl font-bold text-emerald-400 tracking-tight">--</p>
         </div>
       </div>
@@ -159,7 +160,7 @@
         </div>
         <div>
           <p class="text-xs text-slate-400 font-medium">Portals Monitored</p>
-          <p class="text-xl font-bold text-cyan-400 tracking-tight">5 Platforms</p>
+          <p class="text-xl font-bold text-cyan-400 tracking-tight">6 Sources</p>
         </div>
       </div>
     </section>
@@ -191,6 +192,7 @@
           <button data-portal="rooster_jobs" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">Rooster.jobs</button>
           <button data-portal="xpress_jobs" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">Xpress.jobs</button>
           <button data-portal="linkedin_guest" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">LinkedIn</button>
+          <button data-portal="linkedin_posts" class="filter-portal-btn px-2.5 py-1 text-xs rounded-lg font-medium bg-[#090d16] text-slate-300 hover:bg-dark-hover border border-dark-border transition">LinkedIn Posts</button>
         </div>
 
         <!-- Score & View Options -->

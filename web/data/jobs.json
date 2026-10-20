@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T04:43:47.526942Z",
+    "generated_at": "2026-10-20T06:01:20.253775Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 144
+    "total_count": 147
   },
   "stats": {
-    "total_jobs": 144,
-    "evaluated_jobs": 144,
-    "high_matches": 144,
+    "total_jobs": 147,
+    "evaluated_jobs": 147,
+    "high_matches": 147,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,6 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 43,
       "linkedin_guest": 48,
+      "linkedin_posts": 3,
       "rooster_jobs": 7,
       "topjobs_lk": 32,
       "xpress_jobs": 14
@@ -98,6 +99,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at The Web Sushi for Associate WordPress Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7516097964638134272",
+      "external_id": "7516097964638134272",
+      "source": "linkedin_posts",
+      "title": "Full Stack Software Engineer (AI-Powered Apps)",
+      "company": "Sachin Hewavitharana (LinkedIn Post)",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/sachin-hewavitharana_hiring-aiengineer-fullstackdeveloper-share-7516097964638134272-L6LY",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gWnHhFZt\n👤 Posted by: Sachin Hewavitharana\n\n---\n🚀 We're Hiring: Full Stack Software Engineer (AI-Powered Apps) | Colombo, Sri Lanka\n\n📍 Colombo, Sri Lanka (100% Remote, AU-aligned hours) | 💼 Full-time\n\nWe are hiring a Full Stack Engineer to build AI-powered web applications for a growing Australian company — fully remote from Colombo. If you love shipping production AI features (agents, chatbots, automations) and not just toy demos, this one's worth a look 🔥\n\n🧩 What you'll do:\n ✅ Build frontends with React & Next.js\n ✅ Develop backend services and APIs with Node.js & TypeScript\n ✅ Integrate LLMs (OpenAI, Anthropic, Gemini) into real products\n ✅ Build AI agents, chat interfaces, and automation workflows\n ✅ Own architecture, performance, and database design\n ✅ Collaborate directly with an Australian product team\n\n💡 What you bring:\n 🔹 2+ years building full stack apps (React, Next.js, Node.js, TypeScript)\n 🔹 Hands-on experience with LLMs and AI-powered features\n 🔹 Experience with PostgreSQL/MySQL/MongoDB\n 🔹 Cloud platform experience (AWS, GCP, Vercel, or Railway)\n 🔹 Strong English communication skills\n\n⭐ Bonus points for prompt engineering chops and RAG experience.\n\nTag a developer building real AI products — or apply yourself. 👇\n\n🔗 Apply here: https://lnkd.in/gWnHhFZt\n\n#Hiring #AIEngineer #FullStackDeveloper #ReactJS #NextJS #NodeJS #LLM #RAG #PromptEngineering #SriLankaJobs #ColomboJobs #RemoteJobs #TechJobs #NextjobSL",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-14",
+      "discovered_at": "2026-10-20T06:00:17.393901",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer (AI-Powered Apps)",
+          "Company: Sachin Hewavitharana (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sachin Hewavitharana (LinkedIn Post) for Full Stack Software Engineer (AI-Powered Apps). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7516383897434132480",
+      "external_id": "7516383897434132480",
+      "source": "linkedin_posts",
+      "title": "Software Engineering Intern (Full-Stack)",
+      "company": "Coffee Ninja (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/coffee-ninja_coffeeninja-werehiring-softwareengineering-activity-7516383897434132480-pME4",
+      "description": "📩 Apply / Contact Email: coffeeninjabyjith@gmail.com.\n👤 Posted by: Coffee Ninja (Pvt) Ltd\n\n---\n🚀 We’re Hiring! | Full-Stack Software Engineering Intern\n\nWe’re looking for a passionate and motivated Software Engineering Intern to join the team at Coffee Ninja! ☕💻\n\nIf you enjoy building things, solving real-world problems, and turning ideas into working products, we’d love to hear from you.\n\n💼 The Opportunity\n\t•\tPosition: Software Engineering Intern (Full-Stack)\n\t•\tDuration: 10 Months\n\t•\tType: Paid Internship\n\t•\tWork Mode: 100% Remote\n\t•\tLocation: Sri Lanka 🇱🇰\n\t•\tTech Stack: Node.js | Next.js | PostgreSQL\n\n🔍 What We’re Looking For\n✅ Good understanding of JavaScript and web development fundamentals.\n✅ Basic knowledge of Node.js, Next.js, and relational databases.\n✅ Familiarity with REST APIs and Git.\n✅ Problem-solving skills and a willingness to learn.\n✅ Someone who takes initiative, enjoys challenges, and isn’t afraid to experiment.\n\n🚀 What You’ll Get\n✨ Hands-on experience working on real-world products used by actual customers.\n✨ Exposure to the complete software development lifecycle.\n✨ Opportunities to contribute to production applications from day one.\n✨ Mentorship, technical guidance, and room to grow.\n✨ A fully remote, flexible, and collaborative working environment.\n\nWe don’t expect you to know everything. We value curiosity, consistency, and the willingness to learn over a long list of technologies on your CV.\n\n📍 Important: This opportunity is exclusively for candidates currently based in Sri Lanka. Applications from candidates residing outside Sri Lanka will not be considered.\n\n📩 Interested?\nSend us your CV and GitHub profile (if available) via LinkedIn DM or email us at coffeeninjabyjith@gmail.com.\n\nKnow someone who might be a great fit? Tag them below or share this opportunity!\n\n#CoffeeNinja #WereHiring #SoftwareEngineering #FullStackDevelopment #InternshipSriLanka #RemoteInternship",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-15",
+      "discovered_at": "2026-10-20T06:00:17.269703",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern (Full-Stack)",
+          "Company: Coffee Ninja (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Coffee Ninja (Pvt) Ltd for Software Engineering Intern (Full-Stack). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1549,6 +1626,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at ChampSoft for Forward Deployed Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7513520184230359040",
+      "external_id": "7513520184230359040",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Intern",
+      "company": "Nex Tech Solutions",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/nex-tech-solutions_hiring-softwareengineerintern-internship-activity-7513520184230359040-fc9A",
+      "description": "📩 Apply / Contact Email: info@nextechsolutions.net\n👤 Posted by: Nex Tech Solutions\n\n---\n🚀 We’re Hiring: Software Engineer Intern\nNex Tech Solutions is looking for a motivated Software Engineer Intern to join our remote development team in Sri Lanka.\n💻 Technologies\n• Flutter\n• Next.js\n• UI/UX Design\n📍 Remote – Sri Lanka\n🎓 Internship – Unpaid\nYou’ll get hands-on experience working on real-world projects, building web and mobile applications, improving UI/UX, and contributing to our internal and client projects.\nWhat we're looking for:\n✅ Basic knowledge of Flutter and Next.js\n✅ Understanding of UI/UX principles\n✅ Willingness to learn\n✅ Good communication and teamwork skills\n✅ Ability to work independently\n\n📩 Interested?\n\nSend your CV/Portfolio to:\n\ninfo@nextechsolutions.net\n\nJoin us, learn, build, and grow with Nex Tech Solutions. 🚀\n#Hiring #SoftwareEngineerIntern #Internship #Flutter #NextJS #UIUX #SoftwareEngineering #SriLanka #RemoteInternship #NexTechSolutions",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-07",
+      "discovered_at": "2026-10-20T06:00:17.365309",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Nex Tech Solutions"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Nex Tech Solutions for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
