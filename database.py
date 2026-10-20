@@ -402,6 +402,11 @@ class JobRepository:
             to_delete_ids = []
 
             for job in all_jobs:
+                # Purge legacy TopJobs records lacking required '&ec=' servlet parameter (Error 601)
+                if job.source == "topjobs_lk" and "&ec=" not in (job.apply_url or ""):
+                    to_delete_ids.append(job.id)
+                    continue
+
                 is_domestic = job.source in domestic_portals
                 loc_lower = f"{job.location or ''} {job.title or ''}".lower()
                 is_sri_lanka = is_domestic or any(t in loc_lower for t in sri_lanka_terms)
