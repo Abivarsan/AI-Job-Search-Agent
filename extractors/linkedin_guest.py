@@ -134,14 +134,14 @@ class LinkedInGuestExtractor(BaseJobExtractor):
             loc_tag = card_soup.find("span", class_=re.compile("job-search-card__location"))
             location = loc_tag.get_text(strip=True) if loc_tag else "Unknown"
 
-            # Workplace type inference
+            # Workplace type inference (Strict: do NOT assume Remote simply from search query)
             loc_lower = location.lower()
             title_lower = title.lower()
-            if "on-site" in title_lower or "onsite" in title_lower:
+            if "on-site" in title_lower or "onsite" in title_lower or "on-site" in loc_lower or "onsite" in loc_lower:
                 workplace_type = "On-site"
             elif "hybrid" in loc_lower or "hybrid" in title_lower:
                 workplace_type = "Hybrid"
-            elif "remote" in loc_lower or "remote" in title_lower or "remote" in query_location.lower():
+            elif "remote" in loc_lower or "remote" in title_lower:
                 workplace_type = "Remote"
             else:
                 workplace_type = "On-site"

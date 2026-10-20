@@ -86,8 +86,13 @@ class HeuristicFilter:
             if "onsite" in title_lower or "on-site" in title_lower or "hybrid" in title_lower or "hybrid" in loc_lower:
                 return False, f"Foreign role indicates on-site/hybrid in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
 
-            if wp_lower != "remote" and "remote" not in loc_lower and "remote" not in title_lower:
-                return False, f"Foreign role is '{job.workplace_type}' in '{job.location}'. Only 100% Remote allowed outside Sri Lanka."
+            # Positive proof required: foreign jobs must explicitly designate Remote in title or location
+            is_verified_remote = (
+                "remote" in loc_lower or
+                "remote" in title_lower or
+                (wp_lower == "remote" and ("remote" in loc_lower or "remote" in title_lower))
+            )
+            if not is_verified_remote:
+                return False, f"Foreign role in '{job.location}' lacks verified 100% Remote status. Only 100% Remote allowed outside Sri Lanka."
 
         return True, "Passed heuristic filter"
-

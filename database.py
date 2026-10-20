@@ -415,9 +415,14 @@ class JobRepository:
                         wp_lower in ["on-site", "onsite", "hybrid"] or
                         "onsite" in title_lower or "on-site" in title_lower or "hybrid" in title_lower or "hybrid" in loc_only_lower
                     )
-                    is_not_remote = wp_lower != "remote" and "remote" not in loc_only_lower and "remote" not in title_lower
+                    # Foreign roles MUST have positive proof of remote status (in location or title)
+                    is_verified_remote = (
+                        "remote" in loc_only_lower or
+                        "remote" in title_lower or
+                        (wp_lower == "remote" and ("remote" in loc_only_lower or "remote" in title_lower))
+                    )
 
-                    if is_on_site_or_hybrid or is_not_remote:
+                    if is_on_site_or_hybrid or not is_verified_remote:
                         to_delete_ids.append(job.id)
 
             if to_delete_ids:
