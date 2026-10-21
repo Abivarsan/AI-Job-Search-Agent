@@ -15,7 +15,8 @@ from sqlalchemy import (
     DateTime,
     ForeignKey,
     Index,
-    text
+    text,
+    or_
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from config import settings
@@ -244,6 +245,7 @@ class JobRepository:
     def get_all_jobs_with_evaluations(
         search: str = "",
         source: str = "",
+        location: str = "",
         min_score: int = 0,
         user_status: str = "",
         limit: int = 500,
@@ -257,6 +259,50 @@ class JobRepository:
 
             if source and source.lower() != "all":
                 query = query.filter(JobRecord.source == source)
+
+            if location and location.lower() != "all":
+                loc_key = location.lower()
+                if loc_key == "colombo":
+                    colombo_terms = [
+                        'colombo', 'nugegoda', 'battaramulla', 'malabe', 'kaduwela',
+                        'kollupitiya', 'kottawa', 'piliyandala', 'dehiwala', 'rajagiriya',
+                        'mount lavinia', 'moratuwa', 'western province'
+                    ]
+                    query = query.filter(or_(*[JobRecord.location.ilike(f"%{t}%") for t in colombo_terms]))
+                elif loc_key == "jaffna":
+                    query = query.filter(
+                        (JobRecord.location.ilike("%jaffna%")) |
+                        (JobRecord.location.ilike("%northern province%"))
+                    )
+                elif loc_key == "kandy":
+                    query = query.filter(
+                        (JobRecord.location.ilike("%kandy%")) |
+                        (JobRecord.location.ilike("%central province%"))
+                    )
+                elif loc_key == "galle":
+                    query = query.filter(
+                        (JobRecord.location.ilike("%galle%")) |
+                        (JobRecord.location.ilike("%southern province%")) |
+                        (JobRecord.location.ilike("%matara%"))
+                    )
+                elif loc_key == "kurunegala":
+                    query = query.filter(
+                        (JobRecord.location.ilike("%kurunegala%")) |
+                        (JobRecord.location.ilike("%north western province%"))
+                    )
+                elif loc_key == "gampaha":
+                    gampaha_terms = ['gampaha', 'negombo', 'ja-ela', 'kandana', 'katunayake', 'wattala', 'kelaniya', 'kochchikade', 'badalgama']
+                    query = query.filter(or_(*[JobRecord.location.ilike(f"%{t}%") for t in gampaha_terms]))
+                elif loc_key == "remote":
+                    query = query.filter(
+                        (JobRecord.workplace_type.ilike("remote")) |
+                        (JobRecord.location.ilike("%remote%"))
+                    )
+                elif loc_key == "other_sl":
+                    query = query.filter(JobRecord.location.ilike("%sri lanka%"))
+                else:
+                    loc_pattern = f"%{loc_key}%"
+                    query = query.filter(JobRecord.location.ilike(loc_pattern))
 
             if user_status and user_status.lower() != "all":
                 query = query.filter(JobRecord.user_status == user_status.upper())

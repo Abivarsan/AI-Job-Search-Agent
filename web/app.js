@@ -15,6 +15,7 @@ let state = {
   selectedPortal: 'all',
   minScore: 70,
   workplaceType: 'all',
+  location: 'all',
   activeTab: 'all',
   viewMode: 'grid' // 'grid' | 'table'
 };
@@ -232,6 +233,15 @@ function initEventListeners() {
     applyFilters();
   });
 
+  // Location / City Filter
+  const locationFilter = document.getElementById('locationFilter');
+  if (locationFilter) {
+    locationFilter.addEventListener('change', (e) => {
+      state.location = e.target.value;
+      applyFilters();
+    });
+  }
+
   // Tabs (Desktop & Top Bar)
   document.querySelectorAll('.tab-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -367,6 +377,40 @@ function applyFilters() {
       if (state.workplaceType === 'remote' && !wp.includes('remote')) return false;
       if (state.workplaceType === 'hybrid' && !wp.includes('hybrid')) return false;
       if (state.workplaceType === 'on-site' && !wp.includes('on-site') && !wp.includes('onsite')) return false;
+    }
+
+    // 4B. Location / City Filter
+    if (state.location !== 'all') {
+      const loc = (job.location || '').toLowerCase();
+      const title = (job.title || '').toLowerCase();
+      const combinedLoc = `${loc} ${title}`;
+      const isRemote = (job.workplace_type || '').toLowerCase() === 'remote' || loc.includes('remote');
+
+      if (state.location === 'colombo') {
+        const colomboTerms = [
+          'colombo', 'nugegoda', 'battaramulla', 'malabe', 'kaduwela',
+          'kollupitiya', 'kottawa', 'piliyandala', 'dehiwala', 'rajagiriya',
+          'mount lavinia', 'moratuwa', 'western province'
+        ];
+        if (!colomboTerms.some(t => combinedLoc.includes(t))) return false;
+      } else if (state.location === 'jaffna') {
+        if (!combinedLoc.includes('jaffna') && !combinedLoc.includes('northern province')) return false;
+      } else if (state.location === 'kandy') {
+        if (!combinedLoc.includes('kandy') && !combinedLoc.includes('central province')) return false;
+      } else if (state.location === 'galle') {
+        if (!combinedLoc.includes('galle') && !combinedLoc.includes('southern province') && !combinedLoc.includes('matara')) return false;
+      } else if (state.location === 'kurunegala') {
+        if (!combinedLoc.includes('kurunegala') && !combinedLoc.includes('north western province')) return false;
+      } else if (state.location === 'gampaha') {
+        const gampahaTerms = ['gampaha', 'negombo', 'ja-ela', 'kandana', 'katunayake', 'wattala', 'kelaniya', 'kochchikade', 'badalgama'];
+        if (!gampahaTerms.some(t => combinedLoc.includes(t))) return false;
+      } else if (state.location === 'remote') {
+        if (!isRemote) return false;
+      } else if (state.location === 'other_sl') {
+        const majorHubs = ['colombo', 'jaffna', 'kandy', 'galle', 'kurunegala', 'gampaha', 'negombo'];
+        const hasSpecificHub = majorHubs.some(h => combinedLoc.includes(h));
+        if (hasSpecificHub && !combinedLoc.includes('all island') && !combinedLoc.includes('sri lanka')) return false;
+      }
     }
 
     // 5. Category Tab Filter (Strict Tab Segregation)

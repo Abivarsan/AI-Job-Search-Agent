@@ -61,6 +61,7 @@ def get_stats() -> Dict[str, Any]:
 def get_jobs(
     search: str = Query("", description="Keywords to match across titles, companies, skills"),
     source: str = Query("all", description="Job source portal"),
+    location: str = Query("all", description="Location / city filter"),
     min_score: int = Query(0, description="Minimum AI match score threshold"),
     user_status: str = Query("all", description="Tracking status (NEW, BOOKMARKED, APPLIED, etc.)"),
     limit: int = Query(200, ge=1, le=1000),
@@ -70,6 +71,7 @@ def get_jobs(
     jobs = JobRepository.get_all_jobs_with_evaluations(
         search=search,
         source=source,
+        location=location,
         min_score=min_score,
         user_status=user_status,
         limit=limit,
