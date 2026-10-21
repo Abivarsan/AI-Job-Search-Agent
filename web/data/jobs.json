@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T17:03:48.579045Z",
+    "generated_at": "2026-10-21T21:32:21.553356Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 161
+    "total_count": 164
   },
   "stats": {
-    "total_jobs": 161,
-    "evaluated_jobs": 161,
-    "high_matches": 161,
+    "total_jobs": 164,
+    "evaluated_jobs": 164,
+    "high_matches": 164,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 51,
-      "linkedin_guest": 72,
-      "linkedin_posts": 19,
+      "linkedin_guest": 74,
+      "linkedin_posts": 20,
       "rooster_jobs": 8,
       "topjobs_lk": 11
     },
@@ -296,6 +296,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7508893450512027648",
+      "external_id": "7508893450512027648",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "Kenora (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/kenorapvtltd_were-hiring-full-stack-developer-this-activity-7508893450512027648-8daE",
+      "description": "📩 Apply / Contact Email: careers@kenora.lk\n👤 Posted by: Kenora (Pvt) Ltd\n\n---\nWE’RE HIRING: Full Stack Developer\n\nThis position is open to candidates currently residing in Sri Lanka only.\n\nKenora (Pvt) Ltd is looking for a Full Stack Developer to build reliable, user-friendly web applications.\n\nIf you enjoy working across both frontend and backend development, solving technical problems, and building real-world applications, we'd love to hear from you.\n\nWhat You’ll Do:\nBuild responsive interfaces and reusable frontend components\nDevelop backend services and REST APIs\nDesign and work with databases\nIntegrate third-party services\nTest, debug, and improve application performance and reliability\nCollaborate with designers and developers\n\nTechnical Skills:\nFrontend: HTML, CSS, JavaScript, with experience in React or Next.js\nBackend: Experience building APIs with Laravel, Node.js, Python, or Java\nDatabases: MySQL or PostgreSQL; MongoDB experience is also welcome\nTools & Practices: Git, GitHub, API integration, testing, and basic cloud deployment concepts\n\nWe value problem-solving, maintainable code, clear communication, teamwork, and a willingness to learn.\n\nYou don't need experience with every technology listed.\n\nPosition: Full Stack Developer\nType: Full-Time | Remote\n\nTo Apply\nEmail careers@kenora.lk with your CV or résumé and include:\n\nCurrent Location\nYears of Experience\nTechnical Skills & Tools\nGitHub or Portfolio Link\nExpected Salary\nNotice Period / Availability\nContact Number\nEmail Address",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-09-24",
+      "discovered_at": "2026-10-21T21:32:17.803825",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Kenora (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kenora (Pvt) Ltd for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481150144",
+      "external_id": "4481150144",
+      "source": "linkedin_guest",
+      "title": "Associate DevOps Engineer",
+      "company": "ZOOMi Technologies Inc.",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-devops-engineer-at-zoomi-technologies-inc-4481150144",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-21T21:32:06.165827",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate DevOps Engineer",
+          "Company: ZOOMi Technologies Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ZOOMi Technologies Inc. for Associate DevOps Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2174,6 +2250,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471725949",
+      "external_id": "4471725949",
+      "source": "linkedin_guest",
+      "title": "GDS Consulting_Senior AI Engineer",
+      "company": "EY",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/gds-consulting-senior-ai-engineer-at-ey-4471725949",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-21T21:32:12.001673",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GDS Consulting_Senior AI Engineer",
+          "Company: EY"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at EY for GDS Consulting_Senior AI Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
