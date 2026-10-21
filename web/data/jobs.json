@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T23:46:18.718058Z",
+    "generated_at": "2026-10-21T04:24:42.455696Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 140
+    "total_count": 145
   },
   "stats": {
-    "total_jobs": 140,
-    "evaluated_jobs": 140,
-    "high_matches": 140,
+    "total_jobs": 145,
+    "evaluated_jobs": 145,
+    "high_matches": 145,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 49,
-      "linkedin_guest": 61,
-      "linkedin_posts": 15,
+      "itpro_lk": 50,
+      "linkedin_guest": 63,
+      "linkedin_posts": 17,
       "rooster_jobs": 7,
       "topjobs_lk": 8
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7518178924489510912",
+      "external_id": "7518178924489510912",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer Trainee",
+      "company": "Janani Kumar (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/janani-kumar-9732b0368_first-advantage-is-hiring-role-associate-activity-7518178924489510912-x68e",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gatsTJTc\n👤 Posted by: Janani Kumar\n\n---\nFirst Advantage is Hiring\n\nRole: Associate Software Engineer Trainee\nEstimated Salary: Rs. 5.2 – 5.7 LPA \nEligibility: Bachelor’s Engineering degree in computer science, Information Technology, or a related field or equivalent\nExperience: Freshers\nRequisition ID: 21994\nLocation: Remote (Work from Home) – Hiring office in Bangalore\n\nRoles and Responsibilities: \n• On-the-Job Training: Actively participate in workshops and training sessions to learn new programming languages, frameworks, and methodologies like Agile or Scrum. \n• Software Development: Assist in writing clean, efficient, and well-documented code for non-complex modules under the guidance of senior developers. \n• Testing and Debugging: Help identify, troubleshoot, and resolve software defects through unit and integration testing. \n• Collaboration: Participate in daily stand-ups and code reviews to gain exposure to professional project workflows and team dynamics.\n\nRequired Skills:\n• Basic knowledge of programming languages such as asp.net,Python, C#, or C++. \n• Foundational understanding of Object-Oriented Programming (OOP) and Data Structures. \n• Familiarity with version control systems like Git. \n• Basic understanding of the Software Development Lifecycle (SDLC).\n\nFull Details & Apply Link: https://lnkd.in/gatsTJTc",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-20",
+      "discovered_at": "2026-10-21T04:24:35.613340",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer Trainee",
+          "Company: Janani Kumar (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Janani Kumar (LinkedIn Post) for Associate Software Engineer Trainee. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "lipost_7515719278923550720",
       "external_id": "7515719278923550720",
@@ -176,6 +214,120 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7507812262603214848",
+      "external_id": "7507812262603214848",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "Sina K. (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/sina-khani_hiring-fullstackdeveloper-javascript-activity-7507812262603214848-eg-V",
+      "description": "👤 Posted by: Sina K.\n\n---\n🚀 We’re hiring: Full Stack Developer | Remote\n\nBrightBlock Tech is growing, and we’re looking for a smart, hands-on Full Stack Developer who enjoys building products from idea to production.\n\nWhat you’ll do:\n• Build and maintain full-stack web applications\n• Develop backend services and APIs using Node.js\n• Build modern, responsive front-end experiences using JavaScript frameworks\n• Work with databases, APIs and third-party integrations\n• Collaborate with the team to turn ideas into scalable products\n• Debug, improve and optimize applications\n\nWhat we’re looking for:\n• Strong JavaScript fundamentals\n• Solid experience with Node.js\n• Experience with modern front-end frameworks such as React, Next.js, Vue or Angular\n• Experience building and integrating REST APIs\n• Familiarity with databases and Git\n• Good understanding of software development practices\n• Most importantly: smart, curious, proactive and able to learn quickly\n\n📍 Remote | Full-time\nI\nf you're smart, motivated and enjoy building things, or you know someone who would be a great fit, send your CV directly to me here on LinkedIn.\n\n#Hiring #FullStackDeveloper #JavaScript #NodeJS #React #NextJS #WebDevelopment #SoftwareEngineer #RemoteJobs #TechJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-09-21",
+      "discovered_at": "2026-10-21T04:24:37.453797",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Sina K. (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sina K. (LinkedIn Post) for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480472416",
+      "external_id": "4480472416",
+      "source": "linkedin_guest",
+      "title": "Game Developer Unreal 5 (Entry Level)",
+      "company": "Black Mirage Labs",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/game-developer-unreal-5-entry-level-at-black-mirage-labs-4480472416",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "28 minutes ago",
+      "discovered_at": "2026-10-21T04:24:29.853444",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Game Developer Unreal 5 (Entry Level)",
+          "Company: Black Mirage Labs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Black Mirage Labs for Game Developer Unreal 5 (Entry Level). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480736547",
+      "external_id": "4480736547",
+      "source": "linkedin_guest",
+      "title": "Full-Stack Software Engineering Internship",
+      "company": "TessellationLabs",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-software-engineering-internship-4480736547",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-21T04:24:23.063315",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Software Engineering Internship",
+          "Company: TessellationLabs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TessellationLabs for Full-Stack Software Engineering Internship. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -1635,6 +1787,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15526",
+      "external_id": "15526",
+      "source": "itpro_lk",
+      "title": "Progress OpenEdge Developer - Contract",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15526/progress-openedge-developer-contract-at-zdata-innovations/",
+      "description": "Software engineering opening on ITPro.lk: Progress OpenEdge Developer - Contract at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-21T04:24:39.287139",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Progress OpenEdge Developer - Contract",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Progress OpenEdge Developer - Contract. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
