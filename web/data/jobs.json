@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T11:37:43.179549Z",
+    "generated_at": "2026-10-21T17:03:48.579045Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 156
+    "total_count": 161
   },
   "stats": {
-    "total_jobs": 156,
-    "evaluated_jobs": 156,
-    "high_matches": 156,
+    "total_jobs": 161,
+    "evaluated_jobs": 161,
+    "high_matches": 161,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 51,
-      "linkedin_guest": 68,
-      "linkedin_posts": 18,
+      "linkedin_guest": 72,
+      "linkedin_posts": 19,
       "rooster_jobs": 8,
       "topjobs_lk": 11
     },
@@ -296,6 +296,123 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7513212145208078336",
+      "external_id": "7513212145208078336",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "AZE IT",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/aze-it-tech_hiring-srilankajobs-fullstackdeveloper-activity-7513212145208078336-4ufW",
+      "description": "📩 Apply / Contact Email: careers@azeit.tech\n👤 Posted by: AZE IT\n\n---\n🚀 WE’RE HIRING | MULTIPLE ROLES IN SRI LANKA\n\nWe’re hiring for 2 AI-first developer positions:\n\n1️⃣ AI-FIRST FULL-STACK DEVELOPER\n\n1 Full-Time | Permanent Position\n1 Project based role\n\nWe’re looking for 2 Associate-level / early-career full-stack developers who can work independently in an existing production codebase and use AI coding tools to accelerate development, debugging, testing, and delivery.\nWhat we’re looking for:\n• Strong full-stack fundamentals\n• APIs, databases & authentication\n• Production codebase experience\n• Git/GitHub\n• Strong debugging & problem-solving\n• Frontend, backend & database experience\n• Experience with Cursor, Claude Code, GitHub Copilot or similar\n• Ability to review, test and improve AI-generated code\n\nStack: Java 17 • Spring Boot • PostgreSQL • React Native • TypeScript • Next.js • Tailwind CSS • Stripe • Twilio\n\n-----------------------------------------------------------------------------\n2️⃣ AI-FIRST E-COMMERCE DEVELOPER\n\n1 Project-Based Position\n\nWe’re looking for an AI-First E-Commerce Developer to build and develop a modern shopping platform using AI-assisted development.\nWhat we’re looking for:\n• Hands-on e-commerce development experience\n• Shopify, WooCommerce, Magento, BigCommerce, Medusa, Saleor or similar\n• Understanding of products, variants, inventory, cart, checkout, orders, payments & shipping\n• APIs, integrations & webhooks\n• Strong frontend & backend fundamentals\n• React, Next.js, Node.js or similar\n• Experience with AI coding tools/agents\n• Ability to review, test, debug and improve AI-generated code\n• Ability to work independently with a Lead Developer\n\n🤖 AI-First Mindset:\nWe want developers who combine real e-commerce/full-stack engineering experience with AI-assisted development and can use AI to move faster while taking ownership of code quality and delivery.\n\n📌 Project details: Shared with shortlisted candidates\n📩 Apply: careers@azeit.tech\n🌐 azeit.tech\n📍 Sri Lanka (Remote)\n\n#Hiring #SriLankaJobs #FullStackDeveloper #EcommerceDeveloper #AIEngineering #AIFirst #SoftwareDevelopment",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-06",
+      "discovered_at": "2026-10-21T17:03:44.931915",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: AZE IT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at AZE IT for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480789378",
+      "external_id": "4480789378",
+      "source": "linkedin_guest",
+      "title": "Full Stack Engineer Intern",
+      "company": "Axio360 Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-intern-at-axio360-ventures-4480789378",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-21T17:03:28.835629",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer Intern",
+          "Company: Axio360 Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Axio360 Ventures for Full Stack Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482078513",
+      "external_id": "4482078513",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer - TechOps",
+      "company": "CodeGen International",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-engineer-techops-at-codegen-international-4482078513",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-21T17:03:23.412506",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer - TechOps",
+          "Company: CodeGen International"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CodeGen International for Associate Engineer - TechOps. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2057,6 +2174,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482120180",
+      "external_id": "4482120180",
+      "source": "linkedin_guest",
+      "title": "WSO2 Integration Engineer",
+      "company": "Claria",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/wso2-integration-engineer-at-claria-4482120180",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-21T17:03:39.689446",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: WSO2 Integration Engineer",
+          "Company: Claria"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Claria for WSO2 Integration Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480782698",
+      "external_id": "4480782698",
+      "source": "linkedin_guest",
+      "title": "Mobile Developer (Android/IOS) Intern",
+      "company": "Axio360 Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/mobile-developer-android-ios-intern-at-axio360-ventures-4480782698",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-21T17:03:34.198306",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Mobile Developer (Android/IOS) Intern",
+          "Company: Axio360 Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Axio360 Ventures for Mobile Developer (Android/IOS) Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
