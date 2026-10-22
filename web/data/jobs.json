@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T11:37:50.605949Z",
+    "generated_at": "2026-10-22T17:02:37.013703Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 173
+    "total_count": 178
   },
   "stats": {
-    "total_jobs": 173,
-    "evaluated_jobs": 173,
-    "high_matches": 173,
+    "total_jobs": 178,
+    "evaluated_jobs": 178,
+    "high_matches": 178,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 52,
-      "linkedin_guest": 80,
-      "linkedin_posts": 21,
+      "linkedin_guest": 83,
+      "linkedin_posts": 22,
       "rooster_jobs": 8,
-      "topjobs_lk": 12
+      "topjobs_lk": 13
     },
     "min_match_score_threshold": 70
   },
@@ -334,6 +334,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4436387508",
+      "external_id": "4436387508",
+      "source": "linkedin_guest",
+      "title": "Product Security Engineer",
+      "company": "H2O.ai",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/product-security-engineer-at-h2o-ai-4436387508",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-22T17:02:18.377426",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Product Security Engineer",
+          "Company: H2O.ai"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H2O.ai for Product Security Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2401,6 +2439,152 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001563019",
+      "external_id": "0001563019",
+      "source": "topjobs_lk",
+      "title": "Trainee Developers - Odoo",
+      "company": "Softserve (Private) Limited",
+      "location": "Rajagiriya, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001563019&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Softserve (Private) Limited. Location: Rajagiriya, Sri Lanka. Closing: Thu Nov 05 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 22 2026",
+      "discovered_at": "2026-10-22T17:02:32.974763",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Developers - Odoo",
+          "Company: Softserve (Private) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Softserve (Private) Limited for Trainee Developers - Odoo. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7506786310427291648",
+      "external_id": "7506786310427291648",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hr-desmond_hiring-remote-software-engineers-activity-7506786310427291648-_Pp_",
+      "description": "📩 Apply / Contact Email: careerwcw@gmail.com\n🔗 Direct Link in Post: https://lnkd.in/eMjRYbnX\n👤 Posted by: Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP\n\n---\nHiring!!!\nRemote \n\n\nSOFTWARE ENGINEERS  \n​wwcodework is expanding our technology team and we're looking for experienced Software Engineers to join TheGoldTeam.  \n​WHAT WE'RE LOOKING FOR\n· Strong software development experience in at least one relevant area\n· Good understanding of programming concepts and problem-solving\n· Ability to build, improve, test, and maintain software applications\n· Experience working with modern development tools and technologies\n· Ability to work independently and collaborate with a remote team\n· Strong attention to code quality and project requirements  \n​IMPORTANT\nYou do not need to know every programming language or technology. Strong practical experience in one or more relevant areas is what matters most.  \n​WORK TYPE\n100% Remote  \n​EXPERIENCE\nExperienced professionals only \n\n \n​TO APPLY\nSend your CV to: careerwcw@gmail.com\n\n\nFollow borderless community for more opportunities \nhttps://lnkd.in/eMjRYbnX",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-09-18",
+      "discovered_at": "2026-10-22T17:02:30.967128",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481377241",
+      "external_id": "4481377241",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "Double H global",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-double-h-global-4481377241",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-22T17:02:24.655366",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: Double H global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Double H global for Data Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481368928",
+      "external_id": "4481368928",
+      "source": "linkedin_guest",
+      "title": "Software Development and Video Editor Internship (1 Year)",
+      "company": "Studyingermany.lk (Pvt) Ltd",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-development-and-video-editor-internship-1-year-at-studyingermany-lk-pvt-ltd-4481368928",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "28 minutes ago",
+      "discovered_at": "2026-10-22T17:02:11.875391",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development and Video Editor Internship (1 Year)",
+          "Company: Studyingermany.lk (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Studyingermany.lk (Pvt) Ltd for Software Development and Video Editor Internship (1 Year). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
