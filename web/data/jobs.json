@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T04:23:16.398411Z",
+    "generated_at": "2026-10-22T11:37:50.605949Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 166
+    "total_count": 173
   },
   "stats": {
-    "total_jobs": 166,
-    "evaluated_jobs": 166,
-    "high_matches": 166,
+    "total_jobs": 173,
+    "evaluated_jobs": 173,
+    "high_matches": 173,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 51,
-      "linkedin_guest": 75,
+      "itpro_lk": 52,
+      "linkedin_guest": 80,
       "linkedin_posts": 21,
       "rooster_jobs": 8,
-      "topjobs_lk": 11
+      "topjobs_lk": 12
     },
     "min_match_score_threshold": 70
   },
@@ -334,6 +334,119 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481349097",
+      "external_id": "4481349097",
+      "source": "linkedin_guest",
+      "title": "Software Engineer Intern",
+      "company": "Pentagon i Runway",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-intern-at-pentagon-i-runway-4481349097",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 minutes ago",
+      "discovered_at": "2026-10-22T11:37:26.990233",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Pentagon i Runway"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pentagon i Runway for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4479492576",
+      "external_id": "4479492576",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "Mind Plus",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-mind-plus-4479492576",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-22T11:37:21.436613",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: Mind Plus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mind Plus for Data Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480028726",
+      "external_id": "4480028726",
+      "source": "linkedin_guest",
+      "title": "Junior Python Engineer",
+      "company": "Pelago",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/junior-python-engineer-at-pelago-4480028726",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 minutes ago",
+      "discovered_at": "2026-10-22T11:37:15.207248",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Python Engineer",
+          "Company: Pelago"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pelago for Junior Python Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2288,6 +2401,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15538",
+      "external_id": "15538",
+      "source": "itpro_lk",
+      "title": "Software Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15538/software-engineer-intern-at-sans-technologies/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-22T11:37:46.810774",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001562628",
+      "external_id": "0001562628",
+      "source": "topjobs_lk",
+      "title": "Backend Developer",
+      "company": "True Foam (Pvt) Ltd",
+      "location": "Buttala, Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001562628&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: True Foam (Pvt) Ltd. Location: Buttala, Colombo, Sri Lanka. Closing: Thu Nov 05 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 22 2026",
+      "discovered_at": "2026-10-22T11:37:44.956471",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Developer",
+          "Company: True Foam (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at True Foam (Pvt) Ltd for Backend Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482470430",
+      "external_id": "4482470430",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer - AI",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-ai-at-ifs-4482470430",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "27 minutes ago",
+      "discovered_at": "2026-10-22T11:37:38.959959",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer - AI",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for DevOps Engineer - AI. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481193737",
+      "external_id": "4481193737",
+      "source": "linkedin_guest",
+      "title": "Engineer - Cyber Security",
+      "company": "LOLC Technologies",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-cyber-security-at-lolc-technologies-4481193737",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-22T11:37:32.902118",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer - Cyber Security",
+          "Company: LOLC Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LOLC Technologies for Engineer - Cyber Security. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
