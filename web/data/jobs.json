@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T17:02:37.013703Z",
+    "generated_at": "2026-10-22T21:27:44.741392Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 178
+    "total_count": 182
   },
   "stats": {
-    "total_jobs": 178,
-    "evaluated_jobs": 178,
-    "high_matches": 178,
+    "total_jobs": 182,
+    "evaluated_jobs": 182,
+    "high_matches": 182,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 52,
-      "linkedin_guest": 83,
-      "linkedin_posts": 22,
+      "linkedin_guest": 84,
+      "linkedin_posts": 25,
       "rooster_jobs": 8,
       "topjobs_lk": 13
     },
@@ -334,6 +334,83 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7517909090057076736",
+      "external_id": "7517909090057076736",
+      "source": "linkedin_posts",
+      "title": "Software Engineers Remote USA",
+      "company": "Jason Oneal (LinkedIn Post)",
+      "location": "Location",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/jason-oneal-b87b66368_techinrent-hiring-softwareengineer-activity-7517909090057076736-kUr1",
+      "description": "👤 Posted by: Jason Oneal\n\n---\nTech in Rent Is Hiring: Software Engineers – Remote USA\n\nis looking for skilled Software Engineers for remote opportunities across the USA!\n\n📍 Location: Remote – USA  \n💼 Experience: Mid-Level  \n💰 Rate: Up to $70/hour  \n📋 Employment Type: C2C / W2 / Full-Time  \n🔹 Software Engineer – Required Skills\n\n- Strong programming and software development experience\n- Experience with Python, Java, or other programming languages\n- Backend development and REST API integration\n- Familiarity with Django, Flask, FastAPI, or Spring Boot\n- Knowledge of SQL databases such as PostgreSQL and MySQL\n- Understanding of software architecture and microservices\n- Experience with Git, debugging, unit testing, and code optimization\n- Strong problem-solving and analytical skills\n- Excellent communication and collaboration skills\n\n✅ Ability to develop, test, debug, and maintain scalable software applications.\n\n✅ Candidates must meet applicable US work authorization and engagement requirements.\n\n📩 **Interested?** Connect with us on LinkedIn and share your updated resume. Referrals and qualified C2C candidates are also welcome!\n\nLet's connect and grow together! 🤝\n\n#TechinRent #Hiring #SoftwareEngineer #SoftwareDevelopment #BackendDeveloper #PythonDeveloper #JavaDeveloper #RemoteJobs #USAJobs #C2C #W2 #ITJobs #TechCareers #Recruitment",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-19",
+      "discovered_at": "2026-10-22T21:27:38.942845",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineers Remote USA",
+          "Company: Jason Oneal (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Jason Oneal (LinkedIn Post) for Software Engineers Remote USA. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518877728792633344",
+      "external_id": "7518877728792633344",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Mira - AI HR Operations Executive",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/hiring-softwareengineer-srilankajobs-share-7518877728792633344-9Bqh",
+      "description": "📩 Apply / Contact Email: careers@hiremira.ai\n👤 Posted by: Mira - AI HR Operations Executive\n\n---\nWe're hiring. \n\nMira is growing, and we're looking for a Software Engineer to help build what comes next.\n\nYou'll work on a real AI product used by real businesses, building software that gives HR teams more time for the work that needs a human.\n\nWe value strong fundamentals, curiosity about AI, a willingness to learn and ownership of what you build.\n\nFull-time | On-site | Sri Lanka\n\nTypeScript · Node.js · React · PostgreSQL\n\nThink you fit in?\n\nSend your CV and GitHub/portfolio (if available) to careers@hiremira.ai by 30 October 2026.\n\n🌐 hiremira.ai\nMira is a product of Navira (Pvt) Ltd.\n#Hiring #SoftwareEngineer #SriLankaJobs #AIforHR",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-10-22T21:27:37.114334",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Mira - AI HR Operations Executive"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mira - AI HR Operations Executive for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2439,6 +2516,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518643933372133377",
+      "external_id": "7518643933372133377",
+      "source": "linkedin_posts",
+      "title": "Full Stack Node.js Developer (NestJS + React Remote Full-time)",
+      "company": "Oleksandr Kobylinskyi (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/oleksandr-kobylinskyi-2a2b1b428_fullstackdeveloper-nodejs-nestjs-activity-7518643933372133377-IL3k",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ekwMck2V\n👤 Posted by: Oleksandr Kobylinskyi\n\n---\n🚀 We are hiring: Full Stack Node.js Developer (NestJS + React, Remote, Full-time)\n🔎 Вакансія: Full Stack Node.js Developer (TypeScript, NestJS, React, PostgreSQL) | Remote\n💼 B2B contract | Middle+ / Senior | Full-time\n\nКого шукають:\n✔ Node.js і TypeScript щодня: межі модулів, структура сервісного шару - тут рішення, а не те, що склалось само собою\n✔ NestJS для тих, кому подобається, коли API зібраний у явні модулі, а не розкиданий по папках\n✔ React на щодень: свій екран людина доводить сама і не чекає, поки хтось докрутить верстку\n✔ PostgreSQL без страху: схема, зв'язки, міграції та розуміння, чому запит раптом почав коштувати секунду\n✔ Проєктування REST API з обох боків одразу: як зручно віддавати і як зручно споживати\nПлюсом буде:\n✔ Досвід, коли фічу вели від міграції в базі до кнопки на екрані - і вона не розсипалась по дорозі\n\nУмови:\n📍 Remote\n🗣 English B2 і вище\n💼 Full-time, B2B\n\nПодайте заявку, вам напише рекрутер: https://lnkd.in/ekwMck2V\nПитання до фулстеків: де у вас проходить межа фулстека - берете будь-яку частину продукту чи все одно є сторона, яку любите більше? \n\n#FullStackDeveloper #NodeJS #NestJS #React #TypeScript #PostgreSQL #RemoteJobs #Hiring #WeAreHiring #Вакансія",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-21",
+      "discovered_at": "2026-10-22T21:27:40.768864",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Node.js Developer (NestJS + React Remote Full-time)",
+          "Company: Oleksandr Kobylinskyi (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Oleksandr Kobylinskyi (LinkedIn Post) for Full Stack Node.js Developer (NestJS + React Remote Full-time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481600418",
+      "external_id": "4481600418",
+      "source": "linkedin_guest",
+      "title": "QA Engineer Intern (Windows & Android)",
+      "company": "MessageFuture Inc.",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/qa-engineer-intern-windows-android-at-messagefuture-inc-4481600418",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-22T21:27:30.838327",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer Intern (Windows & Android)",
+          "Company: MessageFuture Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MessageFuture Inc. for QA Engineer Intern (Windows & Android). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
