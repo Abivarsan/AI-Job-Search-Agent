@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T21:32:21.553356Z",
+    "generated_at": "2026-10-22T04:23:16.398411Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 164
+    "total_count": 166
   },
   "stats": {
-    "total_jobs": 164,
-    "evaluated_jobs": 164,
-    "high_matches": 164,
+    "total_jobs": 166,
+    "evaluated_jobs": 166,
+    "high_matches": 166,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 51,
-      "linkedin_guest": 74,
-      "linkedin_posts": 20,
+      "linkedin_guest": 75,
+      "linkedin_posts": 21,
       "rooster_jobs": 8,
       "topjobs_lk": 11
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7518178922950230017",
+      "external_id": "7518178922950230017",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer Trainee",
+      "company": "Janani Kumar (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/janani-kumar-9732b0368_first-advantage-is-hiring-role-associate-share-7518178922950230017-9Att",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gatsTJTc\n👤 Posted by: Janani Kumar\n\n---\nFirst Advantage is Hiring\n\nRole: Associate Software Engineer Trainee\nEstimated Salary: Rs. 5.2 – 5.7 LPA \nEligibility: Bachelor’s Engineering degree in computer science, Information Technology, or a related field or equivalent\nExperience: Freshers\nRequisition ID: 21994\nLocation: Remote (Work from Home) – Hiring office in Bangalore\n\nRoles and Responsibilities: \n• On-the-Job Training: Actively participate in workshops and training sessions to learn new programming languages, frameworks, and methodologies like Agile or Scrum. \n• Software Development: Assist in writing clean, efficient, and well-documented code for non-complex modules under the guidance of senior developers. \n• Testing and Debugging: Help identify, troubleshoot, and resolve software defects through unit and integration testing. \n• Collaboration: Participate in daily stand-ups and code reviews to gain exposure to professional project workflows and team dynamics.\n\nRequired Skills:\n• Basic knowledge of programming languages such as asp.net,Python, C#, or C++. \n• Foundational understanding of Object-Oriented Programming (OOP) and Data Structures. \n• Familiarity with version control systems like Git. \n• Basic understanding of the Software Development Lifecycle (SDLC).\n\nFull Details & Apply Link: https://lnkd.in/gatsTJTc",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-20",
+      "discovered_at": "2026-10-22T04:23:12.234538",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer Trainee",
+          "Company: Janani Kumar (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Janani Kumar (LinkedIn Post) for Associate Software Engineer Trainee. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "rooster_519938",
       "external_id": "519938",
@@ -2250,6 +2288,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4480774419",
+      "external_id": "4480774419",
+      "source": "linkedin_guest",
+      "title": "Engineer, Application Services",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-application-services-at-lseg-4480774419",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "22 hours ago",
+      "discovered_at": "2026-10-22T04:23:06.204522",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer, Application Services",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Engineer, Application Services. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
