@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T16:55:18.454986Z",
+    "generated_at": "2026-10-23T21:18:43.327641Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 200
+    "total_count": 203
   },
   "stats": {
-    "total_jobs": 200,
-    "evaluated_jobs": 200,
-    "high_matches": 200,
+    "total_jobs": 203,
+    "evaluated_jobs": 203,
+    "high_matches": 203,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 90,
-      "linkedin_posts": 26,
+      "linkedin_guest": 92,
+      "linkedin_posts": 27,
       "rooster_jobs": 8,
       "topjobs_lk": 20
     },
@@ -378,6 +378,84 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519149837850898432",
+      "external_id": "7519149837850898432",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer",
+      "company": "Michelle (Murphy) Byrne  PHR (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/michelle-murphy-byrne-phr-3382871_associate-software-engineer-infrastructure-activity-7519149837850898432-g0GV",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/grxuQiVf\n👤 Posted by: Michelle (Murphy) Byrne  PHR\n\n---\nLooking to jumpstart or grow your tech career? New Relic is hiring for Associate Software Engineer and Software Engineer roles based in the Portland area!\nThese roles offer 100% remote flexibility while giving you the chance to make a direct impact. As a key member of our Infrastructure team, you will design and operate a scalable, resilient ingress data plane that directly impacts the value we provide to our customers.\nIf you're excited about building high-performance observability tools, automating with cloud tech, and solving complex challenges with a supportive team, we’d love to connect.\nCheck out the openings and apply today, or send a direct message if you have any questions    https://lnkd.in/grxuQiVf \n \n#Hiring #Infrastructure #SoftwareEngineer #PortlandJobs #RemoteJobs #TechJobs #NewRelic #EngineeringJobs    \n\n#newrelic #hiring",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-10-23T21:18:39.341296",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Michelle (Murphy) Byrne  PHR (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Michelle (Murphy) Byrne  PHR (LinkedIn Post) for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481942135",
+      "external_id": "4481942135",
+      "source": "linkedin_guest",
+      "title": "Mobile App Developer Intern",
+      "company": "VisionRoot",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/mobile-app-developer-intern-at-visionroot-4481942135",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-23T21:18:33.763750",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Mobile App Developer Intern",
+          "Company: VisionRoot"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at VisionRoot for Mobile App Developer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2716,6 +2794,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481934053",
+      "external_id": "4481934053",
+      "source": "linkedin_guest",
+      "title": "Engineer - Data Engineering",
+      "company": "Hatchyard",
+      "location": "Nugegoda, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-data-engineering-at-hatchyard-4481934053",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-23T21:18:27.777068",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer - Data Engineering",
+          "Company: Hatchyard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hatchyard for Engineer - Data Engineering. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
