@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T21:27:44.741392Z",
+    "generated_at": "2026-10-23T04:28:26.390324Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 182
+    "total_count": 187
   },
   "stats": {
-    "total_jobs": 182,
-    "evaluated_jobs": 182,
-    "high_matches": 182,
+    "total_jobs": 187,
+    "evaluated_jobs": 187,
+    "high_matches": 187,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 52,
-      "linkedin_guest": 84,
+      "itpro_lk": 54,
+      "linkedin_guest": 86,
       "linkedin_posts": 25,
       "rooster_jobs": 8,
-      "topjobs_lk": 13
+      "topjobs_lk": 14
     },
     "min_match_score_threshold": 70
   },
@@ -334,6 +334,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481654047",
+      "external_id": "4481654047",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - .NET",
+      "company": "Talent Express Recruitments",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-net-at-talent-express-recruitments-4481654047",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "42 minutes ago",
+      "discovered_at": "2026-10-23T04:28:06.717213",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Java",
+          "Javascript",
+          "Ms Sql Server"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - .NET",
+          "Company: Talent Express Recruitments"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Talent Express Recruitments for Software Engineer - .NET. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2516,6 +2555,153 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15546",
+      "external_id": "15546",
+      "source": "itpro_lk",
+      "title": "Intern Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15546/intern-software-engineer-at-join-solutionex-technologies-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Intern Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-23T04:28:22.488569",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15548",
+      "external_id": "15548",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15548/software-engineer-at-mira/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-23T04:28:20.609251",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001563102",
+      "external_id": "0001563102",
+      "source": "topjobs_lk",
+      "title": "GEO - Technical Engineer / Technologist",
+      "company": "ELS Group of Companieis",
+      "location": "Boralesgamuwa, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001563102&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: ELS Group of Companieis. Location: Boralesgamuwa, Sri Lanka. Closing: Fri Nov 06 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 23 2026",
+      "discovered_at": "2026-10-23T04:28:18.722016",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GEO - Technical Engineer / Technologist",
+          "Company: ELS Group of Companieis"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ELS Group of Companieis for GEO - Technical Engineer / Technologist. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4465666097",
+      "external_id": "4465666097",
+      "source": "linkedin_guest",
+      "title": "AI Engineer",
+      "company": "Gallagher",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-engineer-at-gallagher-4465666097",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-10-23T04:28:12.551052",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineer",
+          "Company: Gallagher"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gallagher for AI Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
