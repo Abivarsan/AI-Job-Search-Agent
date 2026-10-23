@@ -124,6 +124,10 @@ if WEB_DIR.exists():
     def serve_index():
         return FileResponse(WEB_DIR / "index.html")
 
+    @app.get("/app.js")
+    def serve_app_js():
+        return FileResponse(WEB_DIR / "app.js", media_type="application/javascript")
+
     @app.get("/manifest.json")
     def serve_manifest():
         return FileResponse(WEB_DIR / "manifest.json", media_type="application/manifest+json")
