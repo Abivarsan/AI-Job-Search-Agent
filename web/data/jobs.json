@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T04:28:26.390324Z",
+    "generated_at": "2026-10-23T11:26:55.521285Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 187
+    "total_count": 190
   },
   "stats": {
-    "total_jobs": 187,
-    "evaluated_jobs": 187,
-    "high_matches": 187,
+    "total_jobs": 190,
+    "evaluated_jobs": 190,
+    "high_matches": 190,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 54,
-      "linkedin_guest": 86,
+      "itpro_lk": 55,
+      "linkedin_guest": 88,
       "linkedin_posts": 25,
       "rooster_jobs": 8,
       "topjobs_lk": 14
@@ -23,6 +23,50 @@
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4481653778",
+      "external_id": "4481653778",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer (.NET / Java)",
+      "company": "Skaleart",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-software-engineer-net-java-at-skaleart-4481653778",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-23T11:26:39.625366",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Ms Sql Server"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer (.NET / Java)",
+          "Company: Skaleart"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Skaleart for Associate Software Engineer (.NET / Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "lipost_7518178922950230017",
       "external_id": "7518178922950230017",
@@ -2555,6 +2599,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15552",
+      "external_id": "15552",
+      "source": "itpro_lk",
+      "title": "Software Engineering Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Galle, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15552/software-engineering-intern-at-nextgen-codex-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Intern at Sri Lankan Tech Company (Galle, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-23T11:26:51.533358",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4481390040",
+      "external_id": "4481390040",
+      "source": "linkedin_guest",
+      "title": "QA Engineer Intern (iOS & Web – Mac Required)",
+      "company": "MessageFuture Inc.",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/qa-engineer-intern-ios-web-%E2%80%93-mac-required-at-messagefuture-inc-4481390040",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 minutes ago",
+      "discovered_at": "2026-10-23T11:26:45.811377",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer Intern (iOS & Web – Mac Required)",
+          "Company: MessageFuture Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MessageFuture Inc. for QA Engineer Intern (iOS & Web – Mac Required). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
