@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T10:45:10.260232Z",
+    "generated_at": "2026-10-24T15:47:32.424463Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 208
+    "total_count": 211
   },
   "stats": {
-    "total_jobs": 208,
-    "evaluated_jobs": 208,
-    "high_matches": 208,
+    "total_jobs": 211,
+    "evaluated_jobs": 211,
+    "high_matches": 211,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 94,
+      "linkedin_guest": 96,
       "linkedin_posts": 29,
       "rooster_jobs": 9,
-      "topjobs_lk": 20
+      "topjobs_lk": 21
     },
     "min_match_score_threshold": 70
   },
@@ -378,6 +378,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482653251",
+      "external_id": "4482653251",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "LushWare",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-at-lushware-4482653251",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "47 minutes ago",
+      "discovered_at": "2026-10-24T15:47:23.667257",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: LushWare"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LushWare for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482634716",
+      "external_id": "4482634716",
+      "source": "linkedin_guest",
+      "title": "Junior Web Developer (Frontend & Creative)",
+      "company": "HiveCepta",
+      "location": "Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/junior-web-developer-frontend-creative-at-hivecepta-4482634716",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-24T15:47:18.199880",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Web Developer (Frontend & Creative)",
+          "Company: HiveCepta"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HiveCepta for Junior Web Developer (Frontend & Creative). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2870,6 +2944,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001260585",
+      "external_id": "0001260585",
+      "source": "topjobs_lk",
+      "title": "Product Support Engineer (1)",
+      "company": "Sumathi Group",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=0000000421&jc=0001260585&ec=0000000555&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Sumathi Group. Location: Sri Lanka. Closing: Sat Nov 07 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Sat Oct 24 2026",
+      "discovered_at": "2026-10-24T15:47:29.220892",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Product Support Engineer (1)",
+          "Company: Sumathi Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sumathi Group for Product Support Engineer (1). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
