@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T15:47:32.424463Z",
+    "generated_at": "2026-10-24T20:35:54.910975Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 211
+    "total_count": 213
   },
   "stats": {
-    "total_jobs": 211,
-    "evaluated_jobs": 211,
-    "high_matches": 211,
+    "total_jobs": 213,
+    "evaluated_jobs": 213,
+    "high_matches": 213,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 96,
-      "linkedin_posts": 29,
+      "linkedin_guest": 97,
+      "linkedin_posts": 30,
       "rooster_jobs": 9,
       "topjobs_lk": 21
     },
@@ -2944,6 +2944,79 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519055577914941440",
+      "external_id": "7519055577914941440",
+      "source": "linkedin_posts",
+      "title": "Python Developer",
+      "company": "PulpoLine",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/pulpoline_remotejobs-latamtalent-developers-activity-7519055577914941440-yXb0",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/eyMS6sfJ, https://lnkd.in/ek_V8cUr\n👤 Posted by: PulpoLine\n\n---\n¿Eres desarrollador/a en LATAM y tienes un buen nivel de inglés?\nTenemos 8 vacantes abiertas para desarrolladores senior, 100% remotas, para trabajar con empresas internacionales.\n\n💻 Conoce las posiciones disponibles:\nPython Developer: https://lnkd.in/eyMS6sfJ\nFull Stack Developer: https://lnkd.in/ek_V8cUr\nPHP Developer: https://lnkd.in/ekSYZmdv\nFrontend Developer (React): https://lnkd.in/eHn_MFNs\nAI Engineer: https://lnkd.in/emU8djWs\nDevOps Engineer: https://lnkd.in/ecEgqppb\nLaravel Developer: https://lnkd.in/egCVuywC\nAngular Developer: https://lnkd.in/eqbz4Ayk\n\n¿Qué buscamos?\nMás de 5 años de experiencia.\nInglés B2 o superior.\nExperiencia práctica utilizando herramientas de IA en el trabajo diario.\n\nRevisa las vacantes y postúlate a la que mejor se adapte a tu perfil.\n\n¿Conoces a alguien que encaje con alguna de estas posiciones? ¡Etiquétalo en los comentarios!\n\n\n#RemoteJobs \n#LATAMTalent\n#Developers \n#Hiring \n#DevTalenty",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-10-24T20:35:51.131919",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Python Developer",
+          "Company: PulpoLine"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PulpoLine for Python Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482654554",
+      "external_id": "4482654554",
+      "source": "linkedin_guest",
+      "title": "Full-Stack Engineer Intern",
+      "company": "Qorvenz Technologies",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-intern-at-qorvenz-technologies-4482654554",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-24T20:35:45.524634",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Engineer Intern",
+          "Company: Qorvenz Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Qorvenz Technologies for Full-Stack Engineer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
