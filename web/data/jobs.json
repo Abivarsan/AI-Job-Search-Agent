@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T04:18:43.795134Z",
+    "generated_at": "2026-10-24T10:45:10.260232Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 205
+    "total_count": 208
   },
   "stats": {
-    "total_jobs": 205,
-    "evaluated_jobs": 205,
-    "high_matches": 205,
+    "total_jobs": 208,
+    "evaluated_jobs": 208,
+    "high_matches": 208,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 93,
-      "linkedin_posts": 28,
-      "rooster_jobs": 8,
+      "linkedin_guest": 94,
+      "linkedin_posts": 29,
+      "rooster_jobs": 9,
       "topjobs_lk": 20
     },
     "min_match_score_threshold": 70
@@ -378,6 +378,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_508375",
+      "external_id": "508375",
+      "source": "rooster_jobs",
+      "title": "Intern - Software Engineer",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/508375",
+      "description": "Welcome to **Twist Digital**, where our brand essence revolves around the belief in the transformative power of twisting the fate of businesses. At the core of our values, we are dedicated to unlocking the hidden potential within enterprises and delivering results that bring about positive change.\n\nOur commitment lies in providing a comprehensive digital suite tailored to businesses, empowering them to thrive in the ever-evolving digital landscape. We specialize in unraveling new possibilities, reshaping strategies, and guiding brands toward unprecedented success.\n\n### **Position Overview**\n\nWe are seeking a motivated and detail-oriented **Intern Software Engineer** to join our growing team. The ideal candidate will have a passion for full-stack web development, a strong foundation in modern JavaScript frameworks and libraries (especially ReactJS, NextJS, Node.js, and MongoDB), and a willingness to learn and grow in a fast-paced environment.\n\n### **Key Responsibilities:**\n\n- Assist in developing, maintaining, and optimizing web applications using ReactJS/NextJS (frontend) and Node.js/Express (backend).\n- Work with MongoDB to manage and query data for dynamic applications.\n- Collaborate with design and development teams to create scalable and responsive user interfaces.\n- Troubleshoot and debug application issues to ensure optimal performance and user experience.\n- Support in building and integrating RESTful APIs and third-party services.\n- Participate in code reviews, team discussions, and sprint planning.\n- Stay updated with the latest industry trends, tools, and best practices in web development.\n\n### **Qualifications:**\n\n- Basic experience or academic exposure to ReactJS, NextJS, Node.js, Express, and MongoDB.\n- Understanding of JavaScript fundamentals, HTML5, and CSS3.\n- Familiarity with version control tools such as Git and collaborative platforms like GitHub.\n- Strong problem-solving skills and attention to detail.\n- Ability to work both independently and in a team environment.\n- Excellent communication skills and a collaborative mindset.\n- Passion for learning new technologies and continuously improving development skills.\n\nJoin us in our mission to revolutionize the way businesses approach their digital journey. Whether you are an innovator, a creative mind, or someone passionate about transformative results, Twist Digital is the place for you. Embrace the power of change, unlock your potential, and shape the future with us.\n\nAre you ready to become a Twister? Apply now and be a part of the transformation!",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-24T10:45:06.902865",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Engineer",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Intern - Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -2831,6 +2870,79 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519367122322604032",
+      "external_id": "7519367122322604032",
+      "source": "linkedin_posts",
+      "title": "Full Stack Software Developer",
+      "company": "HELIONT",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/posts/heliont_heliont-wearehiring-techjobs-activity-7519367122322604032--bKw",
+      "description": "🔗 Direct Link in Post: https://heliont.tech/\n👤 Posted by: HELIONT\n\n---\nif (hai_voglia_di_cambiare) {\n  sfoglia_le_slide();\n  invia_cv();\n}\n\nNessun bug nel programma: ci sono posizioni aperte. 😄\n\nCerchiamo:\n ☁️ Experienced Cloud Engineer\n 🛠️ Junior Cloud Support Technician\n 💻 Full Stack Software Developer\n 🤖 AI Engineer\n ...e non solo: Blazor, Genesys, .NET\n\nFull remote o ibrido, tempo indeterminato o freelance, team strutturati e progetti enterprise.\n\nIl tuo profilo non coincide al 100% con le richieste? Va bene lo stesso: a noi interessano entusiasmo e voglia di fare, e il CV puoi mandarcelo comunque.\n\n👉 Tutte le posizioni aperte: https://heliont.tech/\n\n#Heliont #WeAreHiring #TechJobs #ITJobs #DotNet #Cloud #AI",
+      "experience_level": "Junior (1-2 Years)",
+      "posted_date": "2026-10-23",
+      "discovered_at": "2026-10-24T10:45:05.022471",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Developer",
+          "Company: HELIONT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HELIONT for Full Stack Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482607733",
+      "external_id": "4482607733",
+      "source": "linkedin_guest",
+      "title": "Software Engineer and Video Editor Internship (1 Year)",
+      "company": "Studyingermany.lk (Pvt) Ltd",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-and-video-editor-internship-1-year-at-studyingermany-lk-pvt-ltd-4482607733",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-24T10:44:59.329296",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer and Video Editor Internship (1 Year)",
+          "Company: Studyingermany.lk (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Studyingermany.lk (Pvt) Ltd for Software Engineer and Video Editor Internship (1 Year). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
