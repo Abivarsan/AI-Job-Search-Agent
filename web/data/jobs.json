@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T15:59:06.097649Z",
+    "generated_at": "2026-10-25T20:43:32.925119Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 217
+    "total_count": 219
   },
   "stats": {
-    "total_jobs": 217,
-    "evaluated_jobs": 217,
-    "high_matches": 217,
+    "total_jobs": 219,
+    "evaluated_jobs": 219,
+    "high_matches": 219,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 97,
-      "linkedin_posts": 33,
+      "linkedin_guest": 98,
+      "linkedin_posts": 34,
       "rooster_jobs": 9,
       "topjobs_lk": 22
     },
@@ -378,6 +378,86 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7515628660884934657",
+      "external_id": "7515628660884934657",
+      "source": "linkedin_posts",
+      "title": "Web Developer",
+      "company": "Frontwalker",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/sekaranoja_hiring-techjobs-srilanka-share-7515628660884934657-vDHF",
+      "description": "📩 Apply / Contact Email: anoja.sekar@frontwalker.com\n👤 Posted by: Sekar Anoja\n\n---\nWe’re hiring - (Sri Lanka - Colombo)\n1. Web Developer - (2–4 years’ experience)\n 🔸 Strong WordPress: custom themes, plugins and integrations\n 🔸 HTML, CSS, JavaScript, PHP and REST APIs\n 🔸 Performance, SEO, accessibility and security know-how\n 🔸 Git and modern deployment workflows\n 🔸 Practical use of Generative AI, with the judgement to review its code\n⭐ Bonus: React or Next.js, WooCommerce\n\n2. Senior DevOps / Cloud Engineer (Azure) - (4–5+ years’ commercial experience)\n 🔸 Hands-on Azure: networking, identity, security and app services\n 🔸 Front Door, WAF, App Service, Functions, Logic Apps, Azure SQL and AKS\n 🔸 Containers and Kubernetes\n 🔸 CI/CD with Azure DevOps and/or GitHub Actions\n 🔸 Terraform or Bicep\n 🔸 Azure Monitor, Application Insights or Grafana\n 🔸 Production troubleshooting and post-incident analysis\n 🔸 Practical use of AI tools, with a clear grasp of the risks around secrets and production data\n\n3. Senior DevOps / Cloud Engineer (AWS) - (4–5+ years’ commercial experience)\n 🔸 AWS in production: IAM, EC2, ECS/EKS, Lambda, S3, RDS, CloudWatch and networking\n 🔸 Cloud architecture, security and high availability\n 🔸 Terraform, CloudFormation or AWS CDK\n 🔸 CI/CD pipelines, Docker and Kubernetes\n 🔸 Monitoring, incident management and root-cause analysis\n 🔸 Cost optimization\n 🔸 Practical use of Generative AI, with the judgement to validate its output before it reaches production\n\n4. Cloud Engineer (4+ years)\n 🔸 Microsoft Azure and cloud infrastructure\n 🔸 Microsoft Entra ID and access management\n 🔸 Azure DevOps and deployment pipelines\n 🔸 PowerShell and automation\n 🔸 Server monitoring, troubleshooting and security\n 🔸 AZ-104 certified, or working towards it\n\n Know a great engineer? Tag them below, or send your CV to anoja.sekar@frontwalker.com or DM\n\nSamidi Amarasinghe| Kapil Jayalakshman| Shabnam Nalawangsa\n\n#hiring #TechJobs #SriLanka #CloudEngineer #DevOps #Azure #AWS #Kubernetes #WebDeveloper #WordPress #PHP #AZ104",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-13",
+      "discovered_at": "2026-10-25T20:43:28.955096",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Web Developer",
+          "Company: Frontwalker"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Frontwalker for Web Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482672990",
+      "external_id": "4482672990",
+      "source": "linkedin_guest",
+      "title": "Software Engineer III",
+      "company": "Pearson",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-iii-at-pearson-4482672990",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-25T20:43:23.541137",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer III",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Software Engineer III. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
