@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T11:10:45.553612Z",
+    "generated_at": "2026-10-25T15:59:06.097649Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 215
+    "total_count": 217
   },
   "stats": {
-    "total_jobs": 215,
-    "evaluated_jobs": 215,
-    "high_matches": 215,
+    "total_jobs": 217,
+    "evaluated_jobs": 217,
+    "high_matches": 217,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,9 +16,9 @@
     "source_breakdown": {
       "itpro_lk": 56,
       "linkedin_guest": 97,
-      "linkedin_posts": 32,
+      "linkedin_posts": 33,
       "rooster_jobs": 9,
-      "topjobs_lk": 21
+      "topjobs_lk": 22
     },
     "min_match_score_threshold": 70
   },
@@ -3021,6 +3021,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001563744",
+      "external_id": "0001563744",
+      "source": "topjobs_lk",
+      "title": "Full - Stack Engineer - Java & React",
+      "company": "Acentura Pvt Ltd",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=0000000494&jc=0001563744&ec=0000000666&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Acentura Pvt Ltd. Location: Colombo, Sri Lanka. Closing: Sun Nov 08 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Sun Oct 25 2026",
+      "discovered_at": "2026-10-25T15:59:01.868767",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full - Stack Engineer - Java & React",
+          "Company: Acentura Pvt Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Acentura Pvt Ltd for Full - Stack Engineer - Java & React. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518694704297766912",
+      "external_id": "7518694704297766912",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Equitable Search",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/equitable-search_were-hiring-a-remote-software-engineer-for-activity-7518694704297766912-0qQ0",
+      "description": "👤 Posted by: Equitable Search\n\n---\nWe're hiring a remote Software Engineer for a growing professional services software company. $150-180k base plus equity. \n\nKnow someone who'd be a fit? Reach out!",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-21",
+      "discovered_at": "2026-10-25T15:58:59.788016",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Equitable Search"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Equitable Search for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
