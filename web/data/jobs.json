@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T23:04:33.043772Z",
+    "generated_at": "2026-10-25T04:21:46.632937Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 213
+    "total_count": 214
   },
   "stats": {
-    "total_jobs": 213,
-    "evaluated_jobs": 213,
-    "high_matches": 213,
+    "total_jobs": 214,
+    "evaluated_jobs": 214,
+    "high_matches": 214,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 56,
       "linkedin_guest": 97,
-      "linkedin_posts": 30,
+      "linkedin_posts": 31,
       "rooster_jobs": 9,
       "topjobs_lk": 21
     },
@@ -378,6 +378,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519161161012056064",
+      "external_id": "7519161161012056064",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (Trainee Internship)",
+      "company": "ITX Digital Services (PVT) LTD",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/itxdigitalservicess_were-hiring-full-stack-developer-trainee-activity-7519161161012056064-0sd-",
+      "description": "📩 Apply / Contact Email: careers@itxdigitalservices.com\n🔗 Direct Link in Post: https://lnkd.in/dBB8a5ED, https://lnkd.in/g-7ppeVf\n👤 Posted by: ITX Digital Services (PVT) LTD\n\n---\nWE’RE HIRING – FULL STACK DEVELOPER (TRAINEE INTERNSHIP)\n\nITX Digital Services (PVT) LTD is looking for a motivated and enthusiastic Full Stack Developer Trainee to join our growing team.\n\nThis is an excellent opportunity for university undergraduates to gain real-world industry experience, work on live client projects, and develop practical skills in modern web technologies.\n\nKey Responsibilities\n\nAssist in developing and maintaining web applications\nWork with HTML, CSS, JavaScript, PHP, and Node.js\nWork with MySQL databases\nCollaborate on UI/UX implementation\nTest, debug, and optimize applications\nSupport deployment and server-side tasks\n\nRequirements\n\nUndergraduate in IT, Computer Science, Software Engineering, or a related field\nBasic knowledge of front-end and back-end development\nFamiliarity with HTML, CSS, JavaScript, PHP, and MySQL\nWillingness to learn and work as part of a team\nGood problem-solving and time-management skills\nGitHub profile, portfolio, or academic projects will be an advantage\n\nLocation: ITX Digital Services (PVT) LTD, 174/1/A, Viskampura Road, Hokandara South, Sri Lanka, 10118.\n\nHow to Apply\nSend your CV to: careers@itxdigitalservices.com\nApply online: https://lnkd.in/dBB8a5ED\nApply - https://lnkd.in/g-7ppeVf\n\nStart your professional journey with ITX Digital Services and turn your technical knowledge into real-world experience. We look forward to welcoming passionate future developers to our team.\n\nITX Digital Services (PVT) LTD\nITX Digital Services Group of Companies",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-10-25T04:21:42.417248",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Trainee Internship)",
+          "Company: ITX Digital Services (PVT) LTD"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITX Digital Services (PVT) LTD for Full Stack Developer (Trainee Internship). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
