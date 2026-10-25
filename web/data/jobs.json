@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T04:21:46.632937Z",
+    "generated_at": "2026-10-25T11:10:45.553612Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 214
+    "total_count": 215
   },
   "stats": {
-    "total_jobs": 214,
-    "evaluated_jobs": 214,
-    "high_matches": 214,
+    "total_jobs": 215,
+    "evaluated_jobs": 215,
+    "high_matches": 215,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 56,
       "linkedin_guest": 97,
-      "linkedin_posts": 31,
+      "linkedin_posts": 32,
       "rooster_jobs": 9,
       "topjobs_lk": 21
     },
@@ -378,6 +378,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519080890979942401",
+      "external_id": "7519080890979942401",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (.NET Core / React)",
+      "company": "Khady T. (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/khady-t-73b633197_hiring-fullstackdeveloper-dotnet-activity-7519080890979942401-iiXq",
+      "description": "👤 Posted by: Khady T.\n\n---\n🚨 NOW HIRING: Full Stack Developer (.NET Core / React)\n📍 Remote | Central Time Zone\nI’m looking for a Full Stack Developer for an exciting opportunity supporting digital development initiatives in the financial services industry!\n\n💻 Must-Have Skills:\nStrong experience with .NET Core and React\nHands-on experience with Microsoft Azure\nSQL database knowledge\nExperience with unit testing\n\n⭐ Nice to Have:\nFinancial services or insurance industry experience\nCI/CD and deployment experience\nFamiliarity with AI system development\nYou’ll help build and enhance customer-facing web applications, smart forms, and self-service website features while collaborating with an established development team.\n\n✅ Remote opportunity\n✅ Collaborative team environment\n✅ Contract opportunity with potential for extension\n\nInterested or know someone who could be a great fit? Send me a DM! 📩\n#Hiring #FullStackDeveloper #DotNet #ReactJS #Azure #SQL #SoftwareDevelopment #RemoteJobs #TechJobs #Optomi",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-10-25T11:10:42.039744",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (.NET Core / React)",
+          "Company: Khady T. (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Khady T. (LinkedIn Post) for Full Stack Developer (.NET Core / React). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
