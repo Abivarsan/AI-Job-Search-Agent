@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T04:25:19.317789Z",
+    "generated_at": "2026-10-26T12:45:22.605971Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 220
+    "total_count": 234
   },
   "stats": {
-    "total_jobs": 220,
-    "evaluated_jobs": 220,
-    "high_matches": 220,
+    "total_jobs": 234,
+    "evaluated_jobs": 234,
+    "high_matches": 234,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 56,
-      "linkedin_guest": 99,
-      "linkedin_posts": 34,
-      "rooster_jobs": 9,
-      "topjobs_lk": 22
+      "itpro_lk": 58,
+      "linkedin_guest": 107,
+      "linkedin_posts": 35,
+      "rooster_jobs": 10,
+      "topjobs_lk": 24
     },
     "min_match_score_threshold": 70
   },
@@ -378,6 +378,124 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475548345",
+      "external_id": "4475548345",
+      "source": "linkedin_guest",
+      "title": "Java Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/java-engineer-at-sme-careers-4475548345",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-26T12:44:51.241448",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Java Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475535962",
+      "external_id": "4475535962",
+      "source": "linkedin_guest",
+      "title": "C# Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/c%23-engineer-at-sme-careers-4475535962",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-26T12:44:45.348653",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Entity Framework Core",
+          "Java"
+        ],
+        "pros": [
+          "Target role match: C# Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for C# Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482937826",
+      "external_id": "4482937826",
+      "source": "linkedin_guest",
+      "title": "Full‑Stack Developer",
+      "company": "TECEZE",
+      "location": "Jaffna, Northern Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full%E2%80%91stack-developer-at-teceze-4482937826",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-26T12:44:39.442408",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full‑Stack Developer",
+          "Company: TECEZE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at TECEZE for Full‑Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3101,6 +3219,411 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_508917",
+      "external_id": "508917",
+      "source": "rooster_jobs",
+      "title": "Intern - Software Engineer AI",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/508917",
+      "description": "**Swivel Group** headquartered in Australia is best known for building and implementing custom solutions for businesses to enable them to innovate, scale and compete at a global standard. We've been around since 2019, with a team growing beyond 160+ employees that help us challenge and innovate for our partners across the software, digital, and finance landscapes.\n\n**Our Brands**: Swivel Tech, Swivel Finance, Swivel Talent, and Swivel Foundation.\n\n**Role Description:** We are looking for a motivated and curious undergraduate student who is passionate about Artificial Intelligence and Machine Learning to join our AI team as an intern. This is an excellent opportunity to gain hands-on experience in real-world AI applications, contribute to ongoing projects, and learn from industry experts.\n\n**Key Responsibilities :**\n\n- Collaborate with the development team to design, develop, test and maintain software  applications.\n- Collaborate with team members to gather and analyze requirements. • Debug and troubleshoot software issues.\n- Participate in team meetings and sprint planning meetings.\n- Work on assigned tasks and projects under the guidance of senior engineers.\n- Write clean, maintainable, efficient, and testable code following best practices.\n- Write and conduct unit testing, integration testing, and end-to-end testing to ensure application  reliability.\n- Stay up-to-date with latest industry trends and technologies.\n- Contribute to produce technical documentation.\n- Effective interpersonal and communication skills.\n\n**Mandatory Skills:**\n\n• Knowledge of core software programming concepts such as object-oriented design, algorithm  design and data structures\n\n**Nice to Have:**\n\n- React JS\n- Next JS\n- React Native\n- Node JS\n- Flutter\n- Knowledge on Artificial intelligence (AI) and Machine learning (ML)\n- Knowledge on Gen AI\n- Exposure in Google Cloud, AWS or Azure\n\nRequired Attributes:\n\n- Strong interest in learning and ability to adapt to new technologies.\n- Analytical and problem-solving skills\n- Excellent communication skills\n- Actively participate in company training opportunities to further develop skills applicable to the  team.\n\n**Engagement**\n\n• Internship\n\n**Work model**\n\n• Hybrid\n\n**Benefits**\n\n**What We Can Offer You:**\n\n- A dynamic and supportive working environment\n- Full medical benefits\n- Training & Development\n- Flexible and hybrid working arrangements\n- Attractive remuneration\n\n**Work Culture**\n\nSwivel promotes a culture of positivity, openness, growth, collaboration, and fairness within our work environment. Individual development matters to us. We put in a sincere effort to help our team grow on professional and personal levels.\n\n**Swivel Values**\n\n**Trust :** A confident relationship in our staff, that would adhere to transparency and honesty in our dealings\n\n**Innovation :** Initiative, collaboration, challenging the industry and continuously evolving\n\n**Premium:** Top talent, going above and beyond and treating your workplace as your own business\n\n**Respect:** Everyone matters and so do their ideas\n\n**Team:** Be supportive, welcoming, community, family-oriented and as strong as our weakest\n\n**Our Channels**\n\nWebsite - [https://swiveltech.io](https://swiveltech.io/)\n\nInstagram - [https://www.instagram.com/swivel.group/](https://www.instagram.com/swivel.group/)\n\nFacebook - [https://www.facebook.com/swivelgroupau](https://www.facebook.com/swivelgroupau)\n\nLinkedIn - [https://www.linkedin.com/company/swivelgroupau/](https://www.linkedin.com/company/swivelgroupau/)",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-26T12:45:18.524038",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Engineer AI",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Intern - Software Engineer AI. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15582",
+      "external_id": "15582",
+      "source": "itpro_lk",
+      "title": "Software Engineering Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15582/software-engineering-intern-at-infora-tech/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-26T12:45:16.455389",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_14928",
+      "external_id": "14928",
+      "source": "itpro_lk",
+      "title": "Full Stack Developer - Trainee",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/14928/full-stack-developer-trainee-at-enhanzer/",
+      "description": "Software engineering opening on ITPro.lk: Full Stack Developer - Trainee at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-26T12:45:14.467282",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer - Trainee",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full Stack Developer - Trainee. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001563895",
+      "external_id": "0001563895",
+      "source": "topjobs_lk",
+      "title": "Shopify Developer (with Word Press Experience) (Remote)",
+      "company": "Asiawise Lanka (Pvt) Ltd",
+      "location": "All island, Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001563895&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Asiawise Lanka (Pvt) Ltd. Location: All island, Sri Lanka. Closing: Thu Nov 26 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Oct 26 2026",
+      "discovered_at": "2026-10-26T12:45:12.458168",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Shopify Developer (with Word Press Experience) (Remote)",
+          "Company: Asiawise Lanka (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Asiawise Lanka (Pvt) Ltd for Shopify Developer (with Word Press Experience) (Remote). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001564184",
+      "external_id": "0001564184",
+      "source": "topjobs_lk",
+      "title": "Systems Support Engineer",
+      "company": "Intrepid",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001564184&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Intrepid. Location: Colombo, Sri Lanka. Closing: Mon Nov 09 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Oct 26 2026",
+      "discovered_at": "2026-10-26T12:45:10.403391",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Systems Support Engineer",
+          "Company: Intrepid"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Intrepid for Systems Support Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7516087458409713666",
+      "external_id": "7516087458409713666",
+      "source": "linkedin_posts",
+      "title": "Software Engineer DeFi / Intents",
+      "company": "Alexander Grebenkin (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ru.linkedin.com/posts/alexnkineberg_defi-web3jobs-softwareengineer-activity-7516087458409713666-HY4V",
+      "description": "👤 Posted by: Alexander Grebenkin\n\n---\n🚀 Hiring: Software Engineer — DeFi / Intents\n📍 Remote \n🧩 Full-time \n\nИщу Software Engineer в команду, которая занимается HFT и алгоритмическим трейдингом на CeFi- и DeFi-рынках.\n\nОсновной фокус роли — развитие DeFi execution infrastructure и работа с intent-based протоколами.\n\nЧто предстоит:\n— разрабатывать и поддерживать DeFi intent-based execution systems;\n— создавать backend-сервисы и интеграции с DeFi-протоколами;\n— улучшать производительность, стабильность и надёжность инфраструктуры;\n— самостоятельно доводить инженерные решения до production.\n\nЧто важно:\n— практический опыт работы с DeFi intents, solvers или intent-based execution infrastructure (от 1 года);\n— сильный Python;\n— production-опыт разработки DeFi-систем;\n— опыт работы с EVM-сетями и DeFi-протоколами;\n— понимание надёжности и безопасности production-систем.\n\nБудет плюсом:\n— Rust;\n— опыт разработки low-latency / HFT trading systems.\n\n📩 Пишите в личные сообщения или Telegram: @alexnkineberg\n\n#DeFi #Web3Jobs #SoftwareEngineer #Python #BlockchainJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-14",
+      "discovered_at": "2026-10-26T12:45:08.373205",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer DeFi / Intents",
+          "Company: Alexander Grebenkin (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Alexander Grebenkin (LinkedIn Post) for Software Engineer DeFi / Intents. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475556067",
+      "external_id": "4475556067",
+      "source": "linkedin_guest",
+      "title": "Android Engineer (Kotlin and Java)",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/android-engineer-kotlin-and-java-at-sme-careers-4475556067",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-26T12:45:02.336777",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Android Engineer (Kotlin and Java)",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Android Engineer (Kotlin and Java). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475542594",
+      "external_id": "4475542594",
+      "source": "linkedin_guest",
+      "title": "PHP Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/php-engineer-at-sme-careers-4475542594",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-26T12:44:56.526128",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: PHP Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for PHP Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4474252980",
+      "external_id": "4474252980",
+      "source": "linkedin_guest",
+      "title": "Integration Engineer",
+      "company": "Ericsson",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/integration-engineer-at-ericsson-4474252980",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-26T12:44:33.955477",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Integration Engineer",
+          "Company: Ericsson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ericsson for Integration Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475536875",
+      "external_id": "4475536875",
+      "source": "linkedin_guest",
+      "title": "Rust Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/rust-engineer-at-sme-careers-4475536875",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "57 minutes ago",
+      "discovered_at": "2026-10-26T12:44:28.402462",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Rust Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Rust Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475550290",
+      "external_id": "4475550290",
+      "source": "linkedin_guest",
+      "title": "Ruby Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ruby-engineer-at-sme-careers-4475550290",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-26T12:44:22.938815",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Ruby Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Ruby Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
