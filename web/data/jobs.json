@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T12:45:22.605971Z",
+    "generated_at": "2026-10-26T20:25:07.444653Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 234
+    "total_count": 238
   },
   "stats": {
-    "total_jobs": 234,
-    "evaluated_jobs": 234,
-    "high_matches": 234,
+    "total_jobs": 238,
+    "evaluated_jobs": 238,
+    "high_matches": 238,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 58,
-      "linkedin_guest": 107,
-      "linkedin_posts": 35,
+      "linkedin_guest": 110,
+      "linkedin_posts": 36,
       "rooster_jobs": 10,
       "topjobs_lk": 24
     },
@@ -378,6 +378,46 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482994395",
+      "external_id": "4482994395",
+      "source": "linkedin_guest",
+      "title": "Software Engineer – React + Node",
+      "company": "Talent Express Recruitments",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-%E2%80%93-react-%2B-node-at-talent-express-recruitments-4482994395",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-26T20:24:53.096980",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – React + Node",
+          "Company: Talent Express Recruitments"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Talent Express Recruitments for Software Engineer – React + Node. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3219,6 +3259,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520500698577256451",
+      "external_id": "7520500698577256451",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "The Hiring Partner",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/thehiringpartner_software-engineer-at-global-orizon-312-activity-7520500698577256451-Wfsp",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dX9AXfH7\n👤 Posted by: The Hiring Partner\n\n---\n🚀 WE’RE HIRING – SOFTWARE ENGINEER\nGlobal Orizon is looking for a talented Software Engineer to join the team!\n💰 Salary: ₹3–12 LPA\n🏠 Work Mode: Remote\n\nKey Responsibilities:\nDesign, develop, and maintain software applications.\nWrite clean, efficient, and maintainable code.\nIdentify, debug, and resolve software issues.\nCollaborate with cross-functional teams to deliver quality solutions.\nImprove application performance, reliability, and functionality.\nRequired Skills: Software Development, Programming, Problem-Solving, Debugging, Application Development, and Team Collaboration.\nAre you ready to take the next step in your software engineering career? Apply today!\n\n🔗 Apply Here:\nhttps://lnkd.in/dX9AXfH7\n\n#Hiring #SoftwareEngineer #SoftwareDevelopment #RemoteJobs #ITJobs #TechJobs #HiringNow #GlobalOrizon #TheHiringPartner",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-26T20:25:04.041478",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: The Hiring Partner"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at The Hiring Partner for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483222205",
+      "external_id": "4483222205",
+      "source": "linkedin_guest",
+      "title": "Quality Assurance Engineer II",
+      "company": "Pearson",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/quality-assurance-engineer-ii-at-pearson-4483222205",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-26T20:24:58.318446",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Quality Assurance Engineer II",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Quality Assurance Engineer II. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483573556",
+      "external_id": "4483573556",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "InTalent Asia",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-intalent-asia-4483573556",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-26T20:24:46.949508",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: InTalent Asia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InTalent Asia for Data Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
