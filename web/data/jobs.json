@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T23:09:13.224699Z",
+    "generated_at": "2026-10-26T04:25:19.317789Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 219
+    "total_count": 220
   },
   "stats": {
-    "total_jobs": 219,
-    "evaluated_jobs": 219,
-    "high_matches": 219,
+    "total_jobs": 220,
+    "evaluated_jobs": 220,
+    "high_matches": 220,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 56,
-      "linkedin_guest": 98,
+      "linkedin_guest": 99,
       "linkedin_posts": 34,
       "rooster_jobs": 9,
       "topjobs_lk": 22
@@ -3101,6 +3101,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4482909621",
+      "external_id": "4482909621",
+      "source": "linkedin_guest",
+      "title": "System Engineering Intern",
+      "company": "Antler Foundry Private Limited",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/system-engineering-intern-at-antler-foundry-private-limited-4482909621",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-26T04:25:12.038441",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: System Engineering Intern",
+          "Company: Antler Foundry Private Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Antler Foundry Private Limited for System Engineering Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
