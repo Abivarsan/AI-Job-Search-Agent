@@ -1,28 +1,69 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T15:17:40.298173Z",
+    "generated_at": "2026-10-27T22:05:08.745050Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 247
+    "total_count": 251
   },
   "stats": {
-    "total_jobs": 247,
-    "evaluated_jobs": 247,
-    "high_matches": 247,
+    "total_jobs": 251,
+    "evaluated_jobs": 251,
+    "high_matches": 251,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 113,
-      "linkedin_posts": 38,
+      "linkedin_guest": 115,
+      "linkedin_posts": 40,
       "rooster_jobs": 11,
       "topjobs_lk": 26
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4483658964",
+      "external_id": "4483658964",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer (NestJs + React)",
+      "company": "iLabs",
+      "location": "Battaramulla, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-software-engineer-nestjs-%2B-react-at-ilabs-4483658964",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-27T22:04:51.857497",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer (NestJs + React)",
+          "Company: iLabs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at iLabs for Associate Software Engineer (NestJs + React). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4481653778",
       "external_id": "4481653778",
@@ -378,6 +419,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520789563766763520",
+      "external_id": "7520789563766763520",
+      "source": "linkedin_posts",
+      "title": "Software Engineer - Java",
+      "company": "S. P. Solutions (Pvt) Limited",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/javajobs-softwareengineer-hiringnow-share-7520789563766763520-Z8Ia",
+      "description": "📩 Apply / Contact Email: careers@sp-solutions.biz\n👤 Posted by: S. P. Solutions (Pvt) Limited\n\n---\n💻 We’re Hiring: Software Engineer - Java!\n\nAre you a skilled Java developer ready to build scalable enterprise solutions? \n\nStrategic Partnership Solutions is looking for a talented Software Engineer - Java to join our core development team!   \n\nWe empower leading banks, insurance companies, and conglomerates across Sri Lanka and internationally by transforming their workflow and document management solutions.   \n\nWhat we’re looking for:\n\nCore Tech: Strong proficiency in Java (JDK 8+), Spring Framework (Spring Boot, Spring MVC, Spring Security), and Hibernate (JPA).   \n\nUI & Web: Experience with JSF (PrimeFaces/RichFaces), RESTful APIs, and SOAP-based web services.   \n\nDatabase & Tools: Proficiency in SQL (MySQL, PostgreSQL, Oracle) and Git/CI-CD pipelines.   \n\nBonus Points: Cloud exposure (AWS/Azure/GCP), Docker, Kubernetes, or Microservices architecture.   \n\nWhat we offer:\n\nCompetitive salary & benefits   \nClear opportunities for career growth   \nA friendly, supportive work environment   \n\n\n📩 How to Apply: Send your CV to careers@sp-solutions.biz with the subject line \"Software Engineer - Java\".\n\n\n📞 Contact: +94 11 496 3637\n📍 Location: Level 4, No. 9, School Lane, Colombo 03   \n\n\nKnow a great Java developer in your network? Tag them below or share this post! 👇\n\n\n#JavaJobs #SoftwareEngineer #HiringNow #JavaDeveloper #SpringBoot #SPSolutions #ColomboJobs #TechCareers #SriLankaTech",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-27",
+      "discovered_at": "2026-10-27T22:05:02.770399",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Java",
+          "Company: S. P. Solutions (Pvt) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at S. P. Solutions (Pvt) Limited for Software Engineer - Java. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3299,6 +3379,79 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520444042464395264",
+      "external_id": "7520444042464395264",
+      "source": "linkedin_posts",
+      "title": "Full Stack Node.js Developer (Remote Full-time)",
+      "company": "DMYTRO YATSYSHYN (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/dmytro-yatsyshyn-4a0585423_nodejs-nestjs-reactdeveloper-activity-7520444042464395264-WJJY",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dd__6cQ3\n👤 Posted by: DMYTRO YATSYSHYN\n\n---\n🚀 We are hiring: Full Stack Node.js Developer (Remote, Full-time)\n🔎 Вакансія: Full Stack Developer (Node.js, NestJS, React) | Remote Ukraine / Europe\n💼 B2B contract | Middle+ / Senior | overlap with US time zones\n\nКого шукають:\n✔ Node.js і NestJS на рівні, коли архітектура бекенду, модулі і сервіси будуються осмислено\n✔ React + TypeScript для фронтової частини, без страху заходити у клієнтський код\n✔ PostgreSQL і впевнена робота із запитами, звʼязками та продуктивністю\n✔ Проєктування REST API і нормальна комунікація з командою, а не перекидання тасок\nПлюсом буде:\n✔ Досвід роботи і на бекенді, і на фронтенді в межах одного продукту\n\nУмови:\n📍 Remote, потрібен перетин по годинах зі США\n🗣 English B2 і вище\n💼 Full-time, B2B\n\nЯк відгукнутись (будь-який зручний варіант):\n👉 Пряма заявка тут: https://lnkd.in/dd__6cQ3\n\n#NodeJS #NestJS #ReactDeveloper #FullStackDeveloper #TypeScript #RemoteJobs #Hiring #WeAreHiring\n#ITJobsUkraine #B2B",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-27T22:05:04.718643",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Node.js Developer (Remote Full-time)",
+          "Company: DMYTRO YATSYSHYN (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DMYTRO YATSYSHYN (LinkedIn Post) for Full Stack Node.js Developer (Remote Full-time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4473651555",
+      "external_id": "4473651555",
+      "source": "linkedin_guest",
+      "title": "GDS Consulting_Senior AI Engineer",
+      "company": "EY",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/gds-consulting-senior-ai-engineer-at-ey-4473651555",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-27T22:04:57.547158",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GDS Consulting_Senior AI Engineer",
+          "Company: EY"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at EY for GDS Consulting_Senior AI Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
