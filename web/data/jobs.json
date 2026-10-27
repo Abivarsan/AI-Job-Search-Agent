@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T00:20:49.490428Z",
+    "generated_at": "2026-10-27T08:52:15.899370Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 239
+    "total_count": 243
   },
   "stats": {
-    "total_jobs": 239,
-    "evaluated_jobs": 239,
-    "high_matches": 239,
+    "total_jobs": 243,
+    "evaluated_jobs": 243,
+    "high_matches": 243,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 58,
-      "linkedin_guest": 111,
-      "linkedin_posts": 36,
-      "rooster_jobs": 10,
-      "topjobs_lk": 24
+      "linkedin_guest": 112,
+      "linkedin_posts": 37,
+      "rooster_jobs": 11,
+      "topjobs_lk": 25
     },
     "min_match_score_threshold": 70
   },
@@ -378,6 +378,46 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_519633",
+      "external_id": "519633",
+      "source": "rooster_jobs",
+      "title": "Software Engineering - Intern",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/519633",
+      "description": "Are you a recent graduate with a passion for building web apps? Curious about how full-stack products are developed using TypeScript, React, and modern backend tools?\n\nJoin us as a Software Engineering Intern and kick-start your journey in a team that builds real-world solutions — with guidance from industry experts and exposure to cutting-edge technologies.\n\n### **What You’ll Learn & Do**\n\n- Get hands-on with TypeScript, React, Next.js, and PostgreSQL.\n- Build features across the full stack — from frontend UI to backend logic and databases.\n- Understand how the web actually works — from request to response.\n- Learn best practices in writing clean, maintainable code.\n- Explore AI features, performance optimizations, and developer tools like Cloudflare.\n- Work in an agile, fast-paced environment with engineers who’ve worked on global tech products.\n\n### **Who We’re Looking For**\n\n- Fresh graduates in Computer Science, IT, or related fields.\n- A strong interest in JavaScript/TypeScript and React (Next.js is a plus).\n- Curiosity about how apps are built end-to-end (UI to database).\n- Basic knowledge of CSS and frontend layouts (Tailwind is a bonus).\n- Willingness to learn fast and take feedback constructively.\n- Personal or academic projects are a big plus!\n\n### **What You’ll Gain**\n\n- Real-world project experience — not just tutorial tasks.\n- 1:1 mentorship from globally experienced software engineers.\n- Exposure to exciting technologies like AI, Next.js, and Cloudflare Workers.\n- Possibility of a full-time offer based on performance.\n- A certificate and letter of recommendation upon successful completion.\n\n### **Ready to kick-start your tech career?**\n\nApply with your CV and GitHub/portfolio\n\n**We’re not just offering an internship. We’re offering your launchpad.**",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-27T08:52:11.954333",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering - Intern",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Software Engineering - Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3259,6 +3299,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001564275",
+      "external_id": "0001564275",
+      "source": "topjobs_lk",
+      "title": "Application Support Engineer (Intern)",
+      "company": "Facetone",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001564275&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Facetone. Location: Colombo 3, Sri Lanka. Closing: Tue Nov 10 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Oct 27 2026",
+      "discovered_at": "2026-10-27T08:52:09.940033",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Application Support Engineer (Intern)",
+          "Company: Facetone"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Facetone for Application Support Engineer (Intern). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520698864400506880",
+      "external_id": "7520698864400506880",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Asia Securities",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/asia-securities-private-limited_asiasecurities-srilanka-wearehiring-activity-7520698864400506880-YfTj",
+      "description": "📩 Apply / Contact Email: careers@asiasecurities.lk\n👤 Posted by: Asia Securities\n\n---\nTurn Ideas Into Software\n\nWith an award-winning legacy of 35+ years, Asia Securities is expanding our IT division across 3 key roles.\n\nTechnical Lead / Associate Tech Lead\nSoftware Engineer\nIntern - Project Coordinator\n\nThis is your opportunity to work with a modern tech stack and accelerate your career in fintech engineering.\n\nSend your CV to careers@asiasecurities.lk today.\n\n#AsiaSecurities #SriLanka #WeAreHiring #ITCareers #TechnologyCareers #SriLankaJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-27",
+      "discovered_at": "2026-10-27T08:52:07.843057",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Asia Securities"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Asia Securities for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483724130",
+      "external_id": "4483724130",
+      "source": "linkedin_guest",
+      "title": "Technical Support Engineer - Platform",
+      "company": "Acumatica",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/technical-support-engineer-platform-at-acumatica-4483724130",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "14 hours ago",
+      "discovered_at": "2026-10-27T08:51:56.242095",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Support Engineer - Platform",
+          "Company: Acumatica"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Acumatica for Technical Support Engineer - Platform. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
