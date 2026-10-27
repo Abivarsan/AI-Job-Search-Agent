@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T20:25:07.444653Z",
+    "generated_at": "2026-10-27T00:20:49.490428Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 238
+    "total_count": 239
   },
   "stats": {
-    "total_jobs": 238,
-    "evaluated_jobs": 238,
-    "high_matches": 238,
+    "total_jobs": 239,
+    "evaluated_jobs": 239,
+    "high_matches": 239,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 58,
-      "linkedin_guest": 110,
+      "linkedin_guest": 111,
       "linkedin_posts": 36,
       "rooster_jobs": 10,
       "topjobs_lk": 24
@@ -3259,6 +3259,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483775412",
+      "external_id": "4483775412",
+      "source": "linkedin_guest",
+      "title": "Full-Stack Developer Intern",
+      "company": "BLAZEVEX Technologies",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-developer-intern-at-blazevex-technologies-4483775412",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "23 minutes ago",
+      "discovered_at": "2026-10-27T00:20:41.111834",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer Intern",
+          "Company: BLAZEVEX Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BLAZEVEX Technologies for Full-Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
