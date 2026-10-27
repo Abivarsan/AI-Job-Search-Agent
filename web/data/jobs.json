@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T08:52:15.899370Z",
+    "generated_at": "2026-10-27T15:17:40.298173Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 243
+    "total_count": 247
   },
   "stats": {
-    "total_jobs": 243,
-    "evaluated_jobs": 243,
-    "high_matches": 243,
+    "total_jobs": 247,
+    "evaluated_jobs": 247,
+    "high_matches": 247,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 58,
-      "linkedin_guest": 112,
-      "linkedin_posts": 37,
+      "itpro_lk": 59,
+      "linkedin_guest": 113,
+      "linkedin_posts": 38,
       "rooster_jobs": 11,
-      "topjobs_lk": 25
+      "topjobs_lk": 26
     },
     "min_match_score_threshold": 70
   },
@@ -3299,6 +3299,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15602",
+      "external_id": "15602",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15602/software-engineer-at-asia-securities/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-27T15:17:35.145389",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001564649",
+      "external_id": "0001564649",
+      "source": "topjobs_lk",
+      "title": "AI | ML Engineer",
+      "company": "SLIIT Non-Academic",
+      "location": "Malabe, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001564649&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: SLIIT Non-Academic. Location: Malabe, Sri Lanka. Closing: Tue Nov 10 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Oct 27 2026",
+      "discovered_at": "2026-10-27T15:17:32.860100",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI | ML Engineer",
+          "Company: SLIIT Non-Academic"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SLIIT Non-Academic for AI | ML Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520397979330195457",
+      "external_id": "7520397979330195457",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "ITJobs.lk",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/itjobs-lk_talent-acquisition-specialist-it-industry-activity-7520397979330195457-zHit",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gujPyDwe\n👤 Posted by: ITJobs.lk\n\n---\n🚀 We’re Hiring: Talent Acquisition Specialist – IT Industry\n\n📍 Location: Colombo, Sri Lanka (Onsite)\n💼 Job Type: Full-Time\n🛠️ Tools & Skills: LinkedIn Recruiter, Boolean Search, ATS, HRIS, Technical Screening\n\nAre you a proactive IT Recruiter skilled in sourcing top software engineering talent? \nA leading software engineering firm in Colombo is looking for a Talent Acquisition Specialist.\n\nKey Requirements:\n✓ 2–3 years of hands-on technical recruitment experience in the IT / Software Engineering sector.\n✓ Advanced expertise in LinkedIn Recruiter, Boolean search, and passive talent sourcing.\n✓ Hands-on experience working with modern ATS and HRIS software.\n✓ Strong understanding of tech roles, software stacks, and local tech market dynamics.\n✓ Excellent candidate management and English communication skills.\n✓ Based in Sri Lanka and available for an onsite role in Colombo.\n\nWhat You’ll Do:\n➤ Own end-to-end technical sourcing and hiring for engineering and product squads.\n➤ Partner with technical leads to build robust, continuous talent pipelines.\n➤ Work in a dynamic software company with an attractive salary package and growth opportunities.\n\nApply now 👉 https://lnkd.in/gujPyDwe\n\nNote: Only shortlisted candidates will be contacted.\n\n#ITJobsLK #ITRecruiter #TalentAcquisition #TechJobsSL #Hiring",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-27T15:17:30.994837",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4471988882",
+      "external_id": "4471988882",
+      "source": "linkedin_guest",
+      "title": "Intern, Software Engineer (Database Administrator)",
+      "company": "Circles",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-software-engineer-database-administrator-at-circles-4471988882",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-27T15:17:25.832666",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern, Software Engineer (Database Administrator)",
+          "Company: Circles"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Circles for Intern, Software Engineer (Database Administrator). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
