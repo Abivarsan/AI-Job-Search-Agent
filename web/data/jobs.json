@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T05:18:49.802469Z",
+    "generated_at": "2026-10-28T12:37:48.344984Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 260
+    "total_count": 265
   },
   "stats": {
-    "total_jobs": 260,
-    "evaluated_jobs": 260,
-    "high_matches": 260,
+    "total_jobs": 265,
+    "evaluated_jobs": 265,
+    "high_matches": 265,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 120,
-      "linkedin_posts": 40,
+      "linkedin_guest": 122,
+      "linkedin_posts": 42,
       "rooster_jobs": 14,
-      "topjobs_lk": 27
+      "topjobs_lk": 28
     },
     "min_match_score_threshold": 70
   },
@@ -3609,6 +3609,189 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001564967",
+      "external_id": "0001564967",
+      "source": "topjobs_lk",
+      "title": "Cloud Engineer - UAE",
+      "company": "SevenX Lanka (Pvt) Ltd",
+      "location": "Dubai, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001564967&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: SevenX Lanka (Pvt) Ltd. Location: Dubai, Sri Lanka. Closing: Wed Nov 11 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Oct 28 2026",
+      "discovered_at": "2026-10-28T12:37:44.605952",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cloud Engineer - UAE",
+          "Company: SevenX Lanka (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SevenX Lanka (Pvt) Ltd for Cloud Engineer - UAE. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521009926131937280",
+      "external_id": "7521009926131937280",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Milena Sosa (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/milensosa_hiring-softwareengineer-python-activity-7521009926131937280-Jk4S",
+      "description": "📩 Apply / Contact Email: milenasosahr@gmail.com\n👤 Posted by: Milena Sosa\n\n---\n🚀 Buscamos Sr. Software Engineer (Python)\n\nPara una posición 100% remota desde LATAM.\n\nRequisitos:\n\n- Más de 7 años de experiencia en desarrollo de software.\n- Sólidos conocimientos de Python y frameworks como FastAPI, Django o Flask.\n- Experiencia con AWS, Docker, Kubernetes y pipelines de CI/CD.\n- Manejo de bases de datos relacionales y/o NoSQL.\n- Experiencia con herramientas de desarrollo potenciadas por IA.\n\nSe valorará experiencia en fintech, sistemas de pagos, GraphQL y soluciones basadas en LLMs, RAG o AI Agents.\n\n📩 ¿Te interesa o conocés a alguien que pueda encajar?\n\nEnviame tu CV a milenasosahr@gmail.com indicando tu pretensión salarial, o por mensaje de LinkedIn.\n\n#Hiring #SoftwareEngineer #Python #Tech #Remote #LATAM",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-28",
+      "discovered_at": "2026-10-28T12:37:42.752533",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Milena Sosa (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Milena Sosa (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520436583649411072",
+      "external_id": "7520436583649411072",
+      "source": "linkedin_posts",
+      "title": "Software Engineer AI Focus",
+      "company": "ITJobs.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "Hybrid",
+      "apply_url": "https://www.linkedin.com/posts/activity-7520436583649411072-27oc",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gCjKsy9w\n👤 Posted by: ITJobs.lk\n\n---\n🚀 We’re Hiring: Software Engineer – AI Focus\n\n📍 Location: Nawala, Sri Lanka\n💼 Job Type: Full-Time | Hybrid (1-Year Renewable Contract)\n🛠️ Core Stack: React, Next.js, Node.js, TypeScript, LLM APIs, LangChain / Vercel AI SDK\n\nAre you a Full-Stack Software Engineer looking to build intelligent, AI-powered web applications? A growing IT firm is hiring a Software Engineer (AI Focus) in Nawala!\n\nKey Requirements:\n✓ 3+ years of hands-on software engineering experience.\n✓ Experience integrating LLM APIs (OpenAI, Anthropic) and AI frameworks into web applications.\n✓ Solid full-stack skills in React, Next.js, and Node.js / TypeScript.\n✓ Understanding of prompt orchestration, API streaming, and vector databases.\n✓ Based in Sri Lanka and available for a hybrid work setup in Nawala.\n\nWhat You’ll Do:\n➤ Architect AI-native web experiences and RAG pipelines using Next.js and Node.js.\n➤ Connect modern frontend UIs with generative AI models and intelligent backend agents.\n➤ Work in a fast-paced environment with hybrid flexibility and contract extension options.\n\nApply now 👉  https://lnkd.in/gCjKsy9w\n\nNote: Only shortlisted candidates will be contacted.\n\n#ITJobsLK #AIEngineer #NextJS #TechJobsSL #Hiring",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-28T12:37:40.920008",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer AI Focus",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for Software Engineer AI Focus. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483863737",
+      "external_id": "4483863737",
+      "source": "linkedin_guest",
+      "title": "Cloud Infrastructure Engineer",
+      "company": "Aahaas",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/cloud-infrastructure-engineer-at-aahaas-4483863737",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-28T12:37:35.503444",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cloud Infrastructure Engineer",
+          "Company: Aahaas"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Aahaas for Cloud Infrastructure Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483868267",
+      "external_id": "4483868267",
+      "source": "linkedin_guest",
+      "title": "Python Developer",
+      "company": "HCLTech Sri Lanka",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/python-developer-at-hcltech-sri-lanka-4483868267",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-28T12:37:30.028695",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Python Developer",
+          "Company: HCLTech Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HCLTech Sri Lanka for Python Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
