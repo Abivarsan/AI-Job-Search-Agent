@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T12:37:48.344984Z",
+    "generated_at": "2026-10-28T20:12:35.775500Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 265
+    "total_count": 269
   },
   "stats": {
-    "total_jobs": 265,
-    "evaluated_jobs": 265,
-    "high_matches": 265,
+    "total_jobs": 269,
+    "evaluated_jobs": 269,
+    "high_matches": 269,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 122,
+      "linkedin_guest": 126,
       "linkedin_posts": 42,
       "rooster_jobs": 14,
       "topjobs_lk": 28
@@ -496,6 +496,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476339582",
+      "external_id": "4476339582",
+      "source": "linkedin_guest",
+      "title": "Software Engineer - .Net + React.Js + Azure",
+      "company": "Gallagher",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-net-%2B-react-js-%2B-azure-at-gallagher-4476339582",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-28T20:12:10.325681",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - .Net + React.Js + Azure",
+          "Company: Gallagher"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gallagher for Software Engineer - .Net + React.Js + Azure. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3609,6 +3648,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4440088053",
+      "external_id": "4440088053",
+      "source": "linkedin_guest",
+      "title": "Data Engineer - ETL + Azure Synapse + Snowflake",
+      "company": "Gallagher",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-etl-%2B-azure-synapse-%2B-snowflake-at-gallagher-4440088053",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-28T20:12:28.093087",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer - ETL + Azure Synapse + Snowflake",
+          "Company: Gallagher"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gallagher for Data Engineer - ETL + Azure Synapse + Snowflake. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483899038",
+      "external_id": "4483899038",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer",
+      "company": "MYTech Jobs Pvt Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-at-mytech-jobs-pvt-ltd-4483899038",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-28T20:12:22.132537",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer",
+          "Company: MYTech Jobs Pvt Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MYTech Jobs Pvt Ltd for DevOps Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483894673",
+      "external_id": "4483894673",
+      "source": "linkedin_guest",
+      "title": "Firmware Engineer",
+      "company": "IncBotic",
+      "location": "Dehiwala, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/firmware-engineer-at-incbotic-4483894673",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-28T20:12:16.048796",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Firmware Engineer",
+          "Company: IncBotic"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IncBotic for Firmware Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
