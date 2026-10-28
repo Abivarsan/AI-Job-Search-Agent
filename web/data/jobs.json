@@ -1,28 +1,105 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T22:05:08.745050Z",
+    "generated_at": "2026-10-28T05:18:49.802469Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 251
+    "total_count": 260
   },
   "stats": {
-    "total_jobs": 251,
-    "evaluated_jobs": 251,
-    "high_matches": 251,
+    "total_jobs": 260,
+    "evaluated_jobs": 260,
+    "high_matches": 260,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 115,
+      "linkedin_guest": 120,
       "linkedin_posts": 40,
-      "rooster_jobs": 11,
-      "topjobs_lk": 26
+      "rooster_jobs": 14,
+      "topjobs_lk": 27
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "rooster_450498",
+      "external_id": "450498",
+      "source": "rooster_jobs",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/450498",
+      "description": "We are looking for an **Associate Software Engineer** to develop full-stack web and mobile applications using JavaScript frameworks and related technologies. You should be comfortable working independently on projects and have prior work and/or internship experience.\n\n###### **Skills and Qualifications:**\n\n- Proficiency in **HTML, CSS, and JavaScript**.\n- Experience with **React.js, Next.js, Node.js, MongoDB, Express.js,** or similar JavaScript frameworks.\n- Experience with **cross-platform mobile development** using **React Native, Flutter,** or related technologies.\n- Knowledge of **UI/UX design** using **Figma** or similar tools, along with **CSS frameworks** like **Tailwind, Material UI,** etc.\n- Familiarity with **Agile methodologies, Git,** and the **Development lifecycle** (development, testing, deployment).\n- **1+ years** of work and/or internship experience experience in the above technologies.\n\n###### **Benefits:**\n\n- **100% remote** role with flexible working hours.\n- Performance-based career growth.\n- Work on innovative, international projects with tangible impact.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-28T05:18:44.390995",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483825669",
+      "external_id": "4483825669",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer",
+      "company": "Veracity Digital",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-software-engineer-at-veracity-digital-4483825669",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-28T05:18:11.603807",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Veracity Digital"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Veracity Digital for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4483658964",
       "external_id": "4483658964",
@@ -419,6 +496,159 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_519928",
+      "external_id": "519928",
+      "source": "rooster_jobs",
+      "title": "Full Stack Software Developer",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/519928",
+      "description": "###### Key Responsibilities\n\n1. Develop and maintain responsive web applications, including front-end and back-end functionalities.\n2. Design, develop, and maintain APIs, databases, and server-side applications.\n3. Build user-friendly interfaces using modern front-end technologies.\n4. Develop and integrate back-end services, business logic, and third-party APIs.\n5. Design, manage, and optimize databases to ensure data accuracy and performance.\n6. Write clean, reusable, and maintainable code following software development best practices.\n7. Identify, troubleshoot, and resolve technical issues and application bugs.\n8. Conduct software testing to ensure application functionality, performance, and security.\n9. Collaborate with UI/UX designers, developers, and other stakeholders to deliver software solutions.\n10. Participate in code reviews and contribute to continuous improvements in development processes.\n11. Deploy applications and support ongoing maintenance, updates, and enhancements.\n12. Maintain technical documentation and ensure compliance with coding and security standards.\n\n###### Qualifications and Requirements\n\n- Bachelor's degree or diploma in Computer Science, Software Engineering, IT, or a related field.\n- Proven experience in full stack web application development.\n- Proficiency in front-end technologies such as HTML, CSS, JavaScript, and modern frameworks such as React, Angular, or Vue.js.\n- Experience with back-end technologies such as Node.js, Python, Java, PHP, or .NET.\n- Strong knowledge of relational or NoSQL databases such as MySQL, PostgreSQL, or MongoDB.\n- Experience in RESTful API development and integration.\n- Familiarity with Git and version control systems.\n- Knowledge of application security, performance optimization, and software testing.\n- Understanding of deployment processes and cloud platforms will be an added advantage.\n- Strong analytical, problem-solving, communication, and teamwork skills.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-28T05:18:46.261238",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Java",
+          "React",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Developer",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Full Stack Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_507144",
+      "external_id": "507144",
+      "source": "rooster_jobs",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/507144",
+      "description": "### **B.Sc. Engineering or Computer Science  Associate Software Engineer**\n\n### **Who We're Looking For:**\n\nWe are seeking passionate and motivated individuals with the following skills and qualities:\n\n- **Tech Stack Expertise**: Proficiency in React.js, React Native, Flutter, Node.js, Python, and Golang.\n- **Problem-Solving Prowess**: Strong analytical and logical thinking skills with a solid grasp of Data Structures and Algorithms.\n- **Web Development Knowledge**: Hands-on experience in web-based application development and architecture.\n- **Exceptional Communication**: Clear and effective communication skills to collaborate within and beyond the team.\n- **Open Source Enthusiast**: Experience contributing to and collaborating on open-source projects is a bonus!\n\n#### **Why Join Us?**\n\n- **Accelerated Career Growth**: Fast-track your career with opportunities to step into leadership roles.\n- **Attractive Perks**: Competitive compensation and inspiring work environments.\n- **Employee-Centric Culture**: Be part of a unique, team-focused organization that values your growth and well-being.\n- **Innovation at Its Core**: Work on cutting-edge technologies and continuously expand your skills through innovation and creativity.\n\nJoin us to shape the future of technology and grow alongside a team that values your contributions! 🌟",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-28T05:18:42.524485",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001564720",
+      "external_id": "0001564720",
+      "source": "topjobs_lk",
+      "title": "Associate Cyber Security Engineer",
+      "company": "MintHRM",
+      "location": "Colombo 6, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001564720&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: MintHRM. Location: Colombo 6, Sri Lanka. Closing: Wed Nov 11 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Oct 28 2026",
+      "discovered_at": "2026-10-28T05:18:40.643255",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Cyber Security Engineer",
+          "Company: MintHRM"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MintHRM for Associate Cyber Security Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483830805",
+      "external_id": "4483830805",
+      "source": "linkedin_guest",
+      "title": "Machine Learning Engineer",
+      "company": "The SenzMate Community",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/machine-learning-engineer-at-the-senzmate-community-4483830805",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 minutes ago",
+      "discovered_at": "2026-10-28T05:18:23.676020",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Machine Learning Engineer",
+          "Company: The SenzMate Community"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at The SenzMate Community for Machine Learning Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3379,6 +3609,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483835546",
+      "external_id": "4483835546",
+      "source": "linkedin_guest",
+      "title": "UI/UX Engineer",
+      "company": "Veracity Digital",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ui-ux-engineer-at-veracity-digital-4483835546",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "51 minutes ago",
+      "discovered_at": "2026-10-28T05:18:34.682994",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: UI/UX Engineer",
+          "Company: Veracity Digital"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Veracity Digital for UI/UX Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484298952",
+      "external_id": "4484298952",
+      "source": "linkedin_guest",
+      "title": "Business Development Engineer",
+      "company": "CodeGen Solar",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/business-development-engineer-at-codegen-solar-4484298952",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "45 minutes ago",
+      "discovered_at": "2026-10-28T05:18:28.746804",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Business Development Engineer",
+          "Company: CodeGen Solar"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CodeGen Solar for Business Development Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483828686",
+      "external_id": "4483828686",
+      "source": "linkedin_guest",
+      "title": "Full-Stack Engineer",
+      "company": "Levein Group",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-at-levein-group-4483828686",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "51 minutes ago",
+      "discovered_at": "2026-10-28T05:18:17.930621",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Engineer",
+          "Company: Levein Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Levein Group for Full-Stack Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
