@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T20:12:35.775500Z",
+    "generated_at": "2026-10-29T00:45:34.999950Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 269
+    "total_count": 271
   },
   "stats": {
-    "total_jobs": 269,
-    "evaluated_jobs": 269,
-    "high_matches": 269,
+    "total_jobs": 271,
+    "evaluated_jobs": 271,
+    "high_matches": 271,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 59,
       "linkedin_guest": 126,
-      "linkedin_posts": 42,
+      "linkedin_posts": 44,
       "rooster_jobs": 14,
       "topjobs_lk": 28
     },
@@ -3648,6 +3648,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521181900338659328",
+      "external_id": "7521181900338659328",
+      "source": "linkedin_posts",
+      "title": "Full Stack Node.js Developer (NestJS + React Remote Full-time)",
+      "company": "Oleksandr Kobylinskyi (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/oleksandr-kobylinskyi-2a2b1b428_fullstackdeveloper-nodejs-react-activity-7521181900338659328-V5ls",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ekwMck2V\n👤 Posted by: Oleksandr Kobylinskyi\n\n---\n🚀 We are hiring: Full Stack Node.js Developer (NestJS + React, Remote, Full-time)\n🔎 Вакансія: Full Stack Node.js Developer (TypeScript, NestJS, React, PostgreSQL) | Remote\n💼 B2B contract | Middle+ / Senior\n\nКого шукають:\n✔ Node.js і NestJS на рівні, коли структура модулів і сервісів - це свідоме рішення, а не наслідок поспіху\n✔ React на щодень: людина сама доводить свій екран до готового стану, без перекладання на когось іншого\n✔ TypeScript як базовий інструмент, а не формальність для галочки в конфігу\n✔ PostgreSQL впевнено: схеми, індекси, міграції на живій базі без страху щось зламати\n✔ Проєктування REST API з обох сторін: і як віддавати дані, і як їх зручно споживати\n\nУмови:\n📍 Remote\n💼 Full-time, B2B\n\nПодайте заявку, вам напише рекрутер: https://lnkd.in/ekwMck2V\n\n#FullStackDeveloper #NodeJS #React #TypeScript #NestJS #PostgreSQL #RemoteJobs #Hiring #ITJobsUkraine #Вакансія",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-28",
+      "discovered_at": "2026-10-29T00:45:30.943577",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Node.js Developer (NestJS + React Remote Full-time)",
+          "Company: Oleksandr Kobylinskyi (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Oleksandr Kobylinskyi (LinkedIn Post) for Full Stack Node.js Developer (NestJS + React Remote Full-time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520378638207254528",
+      "external_id": "7520378638207254528",
+      "source": "linkedin_posts",
+      "title": "Software Engineer React Node Next.js",
+      "company": "ITJobs.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "Hybrid",
+      "apply_url": "https://www.linkedin.com/posts/activity-7520378638207254528-rgih",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gkh4zp4b\n👤 Posted by: ITJobs.lk\n\n---\n🚀 We’re Hiring: Software Engineer – React, Node, Next.js\n\n📍 Location: Nawala, Sri Lanka (Hybrid)\n💼 Job Type: Full-Time (1-Year Renewable Contract)\n🛠️ Core Stack: React, Next.js, Node.js, TypeScript, REST/GraphQL\n\nAre you a Software Engineer with a passion for building sleek, high-performing frontend interfaces? \nA growing IT firm is hiring a Frontend-focused Software Engineer in Nawala!\n\nKey Requirements:\n✓ 2+ years of hands-on experience in modern web development.\n✓ Strong expertise in React and Next.js with a heavy frontend focus.\n✓ Practical knowledge of Node.js for backend integrations and APIs.\n✓ Solid skills in TypeScript, state management, and responsive UI architecture.\n✓ Based in Sri Lanka and available for a hybrid work setup in Nawala.\n\nWhat You’ll Do:\n➤ Architect and ship high-speed, responsive web applications using Next.js and React.\n➤ Integrate server-side APIs built on Node.js.\n➤Work in a fast-paced team environment with hybrid flexibility and contract extension opportunities.\n\nApply now 👉 https://lnkd.in/gkh4zp4b\n\nNote: Only shortlisted candidates will be contacted.\n\n#ITJobsLK #ReactJS #NextJS #SoftwareEngineer #TechJobsSL #Hiring",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-29T00:45:28.991756",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer React Node Next.js",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for Software Engineer React Node Next.js. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
