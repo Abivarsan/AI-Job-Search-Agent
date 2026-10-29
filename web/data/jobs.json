@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T00:45:34.999950Z",
+    "generated_at": "2026-10-29T09:46:10.410997Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 271
+    "total_count": 275
   },
   "stats": {
-    "total_jobs": 271,
-    "evaluated_jobs": 271,
-    "high_matches": 271,
+    "total_jobs": 275,
+    "evaluated_jobs": 275,
+    "high_matches": 275,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 126,
+      "linkedin_guest": 129,
       "linkedin_posts": 44,
       "rooster_jobs": 14,
-      "topjobs_lk": 28
+      "topjobs_lk": 29
     },
     "min_match_score_threshold": 70
   },
@@ -496,6 +496,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484933050",
+      "external_id": "4484933050",
+      "source": "linkedin_guest",
+      "title": "Back End Developer",
+      "company": "Voigue",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/back-end-developer-at-voigue-4484933050",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-29T09:45:49.504785",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Back End Developer",
+          "Company: Voigue"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Voigue for Back End Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3648,6 +3686,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565378",
+      "external_id": "0001565378",
+      "source": "topjobs_lk",
+      "title": "Immediate IFS Consultants & Developers Vacancies in Kuwait",
+      "company": "Manpower Sri Lanka",
+      "location": "All island, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001565378&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Manpower Sri Lanka. Location: All island, Sri Lanka. Closing: Thu Nov 12 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 29 2026",
+      "discovered_at": "2026-10-29T09:46:06.286290",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Immediate IFS Consultants & Developers Vacancies in Kuwait",
+          "Company: Manpower Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Manpower Sri Lanka for Immediate IFS Consultants & Developers Vacancies in Kuwait. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4466123270",
+      "external_id": "4466123270",
+      "source": "linkedin_guest",
+      "title": "Sr DevOps Engineer",
+      "company": "Kaleris",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/sr-devops-engineer-at-kaleris-4466123270",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "15 hours ago",
+      "discovered_at": "2026-10-29T09:46:01.022388",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sr DevOps Engineer",
+          "Company: Kaleris"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kaleris for Sr DevOps Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476347176",
+      "external_id": "4476347176",
+      "source": "linkedin_guest",
+      "title": "Quality Assurance Engineer - Automation",
+      "company": "Gallagher",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/quality-assurance-engineer-automation-at-gallagher-4476347176",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "16 hours ago",
+      "discovered_at": "2026-10-29T09:45:55.061920",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Quality Assurance Engineer - Automation",
+          "Company: Gallagher"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Gallagher for Quality Assurance Engineer - Automation. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
