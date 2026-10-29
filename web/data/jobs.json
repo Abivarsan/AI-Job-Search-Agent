@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T09:46:10.410997Z",
+    "generated_at": "2026-10-29T18:23:02.784268Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 275
+    "total_count": 280
   },
   "stats": {
-    "total_jobs": 275,
-    "evaluated_jobs": 275,
-    "high_matches": 275,
+    "total_jobs": 280,
+    "evaluated_jobs": 280,
+    "high_matches": 280,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 129,
+      "linkedin_guest": 130,
       "linkedin_posts": 44,
-      "rooster_jobs": 14,
-      "topjobs_lk": 29
+      "rooster_jobs": 15,
+      "topjobs_lk": 32
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4476900241",
+      "external_id": "4476900241",
+      "source": "linkedin_guest",
+      "title": "Software Engineer Associate (Remote)",
+      "company": "CareFirst BlueCross BlueShield",
+      "location": "Baltimore, MD",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-associate-remote-at-carefirst-bluecross-blueshield-4476900241",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-10-29T18:22:47.863374",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Associate (Remote)",
+          "Company: CareFirst BlueCross BlueShield"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CareFirst BlueCross BlueShield for Software Engineer Associate (Remote). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "rooster_450498",
       "external_id": "450498",
@@ -496,6 +534,46 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_509032",
+      "external_id": "509032",
+      "source": "rooster_jobs",
+      "title": "Software Engineer – AI Full Stack",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/509032",
+      "description": "**Swivel Group** headquartered in Australia is best known for building and implementing custom solutions for businesses to enable them to innovate, scale and compete at a global standard. We've been around since 2019, with a team growing beyond 160+ employees that help us challenge and innovate for our partners across the software, digital, and finance landscapes.\n\n**Our Brands**: Swivel Tech, Swivel Finance, Swivel Talent, and Swivel Foundation.\n\n**Responsibilities:** \n\n• Design, develop, test, and deploy high-quality AI-driven applications. \n\n• Design, develop, test, and deploy high-quality React applications using React and typescript. \n\n• Develop and maintain RESTful APIs and services for AI solutions. \n\n• Implement AI models and algorithms, ensuring they are scalable and maintainable. \n\n• Collaborate with engineers to integrate AI/ML models into software solutions. \n\n• Work closely with the UI/UX team to translate functionalities into user-friendly interfaces. \n\n• Write well-documented, clean code in JavaScript/TypeScript and other relevant languages. \n\n• Participate in peer code reviews and provide constructive feedback. \n\n• Stay updated with the latest advancements in AI and software development practices. \n\n• Excellent understanding of working with a scrum team, iteration planning, daily standups, and  experience using Jira. \n\n• Mentor junior engineers and contribute to team growth and knowledge sharing.\n\n**Years of Experience:** 1 - 2 years of experience developing web applications as a full-stack engineer with  1+ years of experience in GenAI/AI/ML technologies\n\n**Skills required for the role:**  \n\n• Proficiency in backend programming languages such as Python, Node.js, or Java \n\n• Proficiency in React / JavaScript / TypeScript. \n\n• Familiarity with AI/ML frameworks such as TensorFlow, PyTorch, LangChain, Hugging Face or  similar. \n\n• Experience in integrating AI models into web applications. \n\n• Experience in building RAG solutions \n\n• Proficiency in Git version control. \n\n• Experience in cloud environments such as AWS, Azure, or GCP. \n\n• Strong analytical and problem-solving skills. \n\n• Effective interpersonal and communication skills and the ability to interact promptly and  professionally with teams across different time zones\n\n**Nice to have skills: (one of either)** \n\n• React Native/Flutter \n\n• Experience in Progressive Web Apps \n\n• Knowledge of NLP, computer vision, or other AI subfields \n\n• Understanding of microservices architecture\n\n**Required Attributes:** \n\n• Strong interest in learning and ability to adapt to new technologies. \n\n• Ability to work collaboratively in a team environment. \n\n• Self-motivated with a proactive approach to problem-solving. \n\n• Analytical and problem-solving skills. \n\n• Excellent communication skills. \n\n• Knowledge of essential algorithms, object-oriented and functional design principles, and best\u0002practice patterns\n\n**Minimum Qualifications:** Individual should possess a bachelor’s degree in computing, Information Technology, or other relevant  field (physical science, mathematic\n\n**Engagement**\n\n• Full -time, permanent\n\n**Work model**\n\n• Hybrid\n\n**Benefits**\n\n**What We Can Offer You:**\n\n- A dynamic and supportive working environment\n- Full medical benefits\n- Training & Development\n- Flexible and hybrid working arrangements\n- Attractive remuneration\n\n**Work Culture**\n\nSwivel promotes a culture of positivity, openness, growth, collaboration, and fairness within our work environment. Individual development matters to us. We put in a sincere effort to help our team grow on professional and personal levels.\n\n**Swivel Values**\n\n**Trust :** A confident relationship in our staff, that would adhere to transparency and honesty in our dealings\n\n**Innovation :** Initiative, collaboration, challenging the industry and continuously evolving\n\n**Premium:** Top talent, going above and beyond and treating your workplace as your own business\n\n**Respect:** Everyone matters and so do their ideas\n\n**Team:** Be supportive, welcoming, community, family-oriented and as strong as our weakest\n\n**Our Channels**\n\nWebsite - [https://swiveltech.io](https://swiveltech.io/)\n\nInstagram - [https://www.instagram.com/swivel.group/](https://www.instagram.com/swivel.group/)\n\nFacebook - [https://www.facebook.com/swivelgroupau](https://www.facebook.com/swivelgroupau)\n\nLinkedIn - [https://www.linkedin.com/company/swivelgroupau/](https://www.linkedin.com/company/swivelgroupau/)",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-29T18:22:59.505716",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – AI Full Stack",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Software Engineer – AI Full Stack. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3686,6 +3764,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565503",
+      "external_id": "0001565503",
+      "source": "topjobs_lk",
+      "title": "DevOps Engineer",
+      "company": "InSync Technologies",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=DEFZZZ&jc=0001565503&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: InSync Technologies. Location: Colombo 5, Sri Lanka. Closing: Thu Nov 12 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 29 2026",
+      "discovered_at": "2026-10-29T18:22:57.636534",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer",
+          "Company: InSync Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InSync Technologies for DevOps Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565563",
+      "external_id": "0001565563",
+      "source": "topjobs_lk",
+      "title": "Backend Software Engineer",
+      "company": "Hexacorp SL (Private) Limited",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001565563&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Hexacorp SL (Private) Limited. Location: Colombo 3, Sri Lanka. Closing: Thu Nov 12 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 29 2026",
+      "discovered_at": "2026-10-29T18:22:55.777731",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Software Engineer",
+          "Company: Hexacorp SL (Private) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hexacorp SL (Private) Limited for Backend Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565581",
+      "external_id": "0001565581",
+      "source": "topjobs_lk",
+      "title": "Sharepoint Developer",
+      "company": "Global Sports Lanka (Pvt) Ltd",
+      "location": "Katunayaka, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001565581&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Global Sports Lanka (Pvt) Ltd. Location: Katunayaka, Sri Lanka. Closing: Thu Nov 12 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Oct 29 2026",
+      "discovered_at": "2026-10-29T18:22:53.919721",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sharepoint Developer",
+          "Company: Global Sports Lanka (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Global Sports Lanka (Pvt) Ltd for Sharepoint Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
