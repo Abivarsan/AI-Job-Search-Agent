@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T18:23:02.784268Z",
+    "generated_at": "2026-10-30T00:46:28.018482Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 280
+    "total_count": 286
   },
   "stats": {
-    "total_jobs": 280,
-    "evaluated_jobs": 280,
-    "high_matches": 280,
+    "total_jobs": 286,
+    "evaluated_jobs": 286,
+    "high_matches": 286,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 130,
-      "linkedin_posts": 44,
+      "linkedin_guest": 135,
+      "linkedin_posts": 45,
       "rooster_jobs": 15,
       "topjobs_lk": 32
     },
@@ -534,6 +534,120 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521456086013415424",
+      "external_id": "7521456086013415424",
+      "source": "linkedin_posts",
+      "title": "Java Full Stack Engineer GenAI",
+      "company": "Virtusa",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/rashmi-amalsha-perera-a70033323_hiring-javadeveloper-fullstackdeveloper-activity-7521456086013415424-UMDg",
+      "description": "📩 Apply / Contact Email: rashperera@virtusa.com\n👤 Posted by: Rashmi Amalsha Perera\n\n---\n🚀 Virtusa Sri Lanka is Hiring: Java Full Stack Engineer – GenAI | 7+ Experience | On-Site\n\nAre you an experienced Java Full Stack Engineer with hands-on exposure to Generative AI? This could be your next career opportunity!\n\n🔹 Key Skills & Requirements\n\n* Strong hands-on experience in Java, Spring Boot, REST APIs, and Kafka.\n* Experience in full-stack application development using React or Angular.\n* Practical exposure to AI/GenAI solutions, LLMs, and RAG frameworks.\n* Familiarity with Azure AI services and integrating AI capabilities into enterprise applications.\n\n💡 What We’re Looking For\n\nA strong Java Full Stack Engineer who can build scalable applications and integrate GenAI capabilities into enterprise solutions. This is primarily a full-stack development role with AI expertise, rather than a pure AI/ML engineering role.\n\n📩 Interested candidates, feel free to reach out via DM or share your CV to rashperera@virtusa.com \n\nIsuri Bandaratilaka Udara Wickramaratne Sandali N. Dinuka Nuwangi Shabrina Jameen Hiruni Chamodika \n\n#Hiring #JavaDeveloper #FullStackDeveloper #GenAI #SpringBoot #ReactJS #Angular #LLM #RAG #AzureAI #TechCareers",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-29",
+      "discovered_at": "2026-10-30T00:46:24.768767",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Full Stack Engineer GenAI",
+          "Company: Virtusa"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Virtusa for Java Full Stack Engineer GenAI. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483007544",
+      "external_id": "4483007544",
+      "source": "linkedin_guest",
+      "title": "AI Engineering Intern - Full Stack & AI Systems",
+      "company": "Axio360 Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-engineering-intern-full-stack-ai-systems-at-axio360-ventures-4483007544",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "16 hours ago",
+      "discovered_at": "2026-10-30T00:46:08.358924",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineering Intern - Full Stack & AI Systems",
+          "Company: Axio360 Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Axio360 Ventures for AI Engineering Intern - Full Stack & AI Systems. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484172399",
+      "external_id": "4484172399",
+      "source": "linkedin_guest",
+      "title": "Associate DevOps Engineer",
+      "company": "H-Town Technologies Inc.",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-devops-engineer-at-h-town-technologies-inc-4484172399",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "19 hours ago",
+      "discovered_at": "2026-10-30T00:46:03.203476",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate DevOps Engineer",
+          "Company: H-Town Technologies Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H-Town Technologies Inc. for Associate DevOps Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3764,6 +3878,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483012996",
+      "external_id": "4483012996",
+      "source": "linkedin_guest",
+      "title": "Application Developer – Night Shift",
+      "company": "Legacy Health LLC",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/application-developer-%E2%80%93-night-shift-at-legacy-health-llc-4483012996",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-30T00:46:19.172301",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Spring Boot",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Application Developer – Night Shift",
+          "Company: Legacy Health LLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Legacy Health LLC for Application Developer – Night Shift. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483032760",
+      "external_id": "4483032760",
+      "source": "linkedin_guest",
+      "title": "Data Engineer (Microsoft Fabric)",
+      "company": "Hatchyard",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-microsoft-fabric-at-hatchyard-4483032760",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-30T00:46:13.595589",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer (Microsoft Fabric)",
+          "Company: Hatchyard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hatchyard for Data Engineer (Microsoft Fabric). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484173994",
+      "external_id": "4484173994",
+      "source": "linkedin_guest",
+      "title": "AI Developer (Python/ Django)",
+      "company": "Dijital Team",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-developer-python-django-at-dijital-team-4484173994",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-10-30T00:45:57.696862",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Developer (Python/ Django)",
+          "Company: Dijital Team"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dijital Team for AI Developer (Python/ Django). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
