@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T09:52:42.786393Z",
+    "generated_at": "2026-10-30T17:58:52.454468Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 298
+    "total_count": 304
   },
   "stats": {
-    "total_jobs": 298,
-    "evaluated_jobs": 298,
-    "high_matches": 298,
+    "total_jobs": 304,
+    "evaluated_jobs": 304,
+    "high_matches": 304,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 140,
-      "linkedin_posts": 48,
+      "linkedin_guest": 143,
+      "linkedin_posts": 49,
       "rooster_jobs": 16,
-      "topjobs_lk": 35
+      "topjobs_lk": 37
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7521097761753174016",
+      "external_id": "7521097761753174016",
+      "source": "linkedin_posts",
+      "title": "Associate Software Development Engineer (ASE)",
+      "company": "Shashavali Gangavaram (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/shashavali-gangavaram-5b324a446_hiring-wearehiring-hiringnow-activity-7521097761753174016-M0gW",
+      "description": "📩 Apply / Contact Email: gangavaramshashavali@gmail.com\n👤 Posted by: Shashavali Gangavaram\n\n---\n🚀 WE’RE HIRING | Associate Software Development Engineer – Java\n🎓 Opportunity for 2025 & 2026 Graduates | Freshers Welcome!\n\nAre you passionate about coding and excited to kick-start your career in software engineering? 💻\n\nWe’re looking for enthusiastic and motivated Java Developer Freshers who are eager to learn, solve real-world problems, and build scalable software applications as part of a collaborative engineering team.\n\n📌 Job Details\nPosition: Associate Software Development Engineer (ASE)\nTechnology: Java – Backend / Full-Stack Development\nExperience: Freshers / Entry-Level\nEligible Batches: 2025 & 2026\nLocation: [Hyderabad / Remote / Work From Office]\nEmployment Type: Full-Time\nJoining: Immediate / As per company requirements\n\n💻 What You’ll Do\n✅ Develop, test, and maintain applications using Java.\n✅ Apply Core Java and Object-Oriented Programming (OOP) concepts.\n✅ Work with Spring Boot, REST APIs, and Microservices.\n✅ Write SQL queries and interact with relational databases.\n✅ Develop unit tests and follow coding best practices.\n✅ Collaborate with experienced engineers using Agile methodologies.\n✅ Explore cloud technologies and modern software development practices.\n\n🎯 Required Skills\n🔹 Strong fundamentals in Core Java and OOP.\n🔹 Basic understanding of SQL and database concepts.\n🔹 Knowledge of Data Structures and Algorithms.\n🔹 Familiarity with Git, REST APIs, or Spring Boot is an added advantage.\n🔹 Strong analytical and problem-solving skills.\n🔹 Willingness to learn, adapt, and work in a team.\n\n🌟 What We Offer\n✨ Technical mentorship and continuous learning opportunities.\n✨ Hands-on exposure to real-world software projects.\n✨ Opportunities to work with modern technologies.\n✨ Professional development and career growth opportunities.\n✨ A collaborative, learning-focused engineering environment.\n\n📩 How to Apply\nInterested candidates can submit their updated resumes through the official recruitment channel.\n\n🔗 Application Link: [connect with me to know more]\n📧 Recruitment Email: [gangavaramshashavali@gmail.com]\n📝 Email Subject: Java Fresher Application – 2025/2026\n\n📢 Know someone who would be a great fit? Tag them in the comments and share this opportunity with your network!\n\n🤝 Connect with us for more updates!\nFollow our page for the latest job openings, fresher hiring drives, off-campus opportunities, internship updates, and career tips to help you take the next step in your professional journey.\n\n🔔 Stay connected. Stay updated. Keep growing! 🚀\n\n#Hiring #WeAreHiring #HiringNow #JavaJobs #JavaDeveloper #JavaFreshers #FreshersHiring #FreshersJobs #FresherJobsIndia #GraduateHiring #GraduateJobs #2025Batch #2026Batch #OffCampusDrive #OffCampusJobs #CampusPlacement #CampusHiring #EntryLevelJobs #EntryLevelSoftwareEngineer #AssociateSoftwareEngineer #AssociateSoftwareDevelopmentEngineer #SoftwareEngineer #SoftwareDeveloper #SoftwareDevelopment #ITJobs #ITCareers #TechJobs #TechCareers #IndiaJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-28",
+      "discovered_at": "2026-10-30T17:58:44.464484",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Development Engineer (ASE)",
+          "Company: Shashavali Gangavaram (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Shashavali Gangavaram (LinkedIn Post) for Associate Software Development Engineer (ASE). Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4485303077",
       "external_id": "4485303077",
@@ -572,6 +610,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483453336",
+      "external_id": "4483453336",
+      "source": "linkedin_guest",
+      "title": "Full Stack Software Engineer",
+      "company": "Wood Couture",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-software-engineer-at-wood-couture-4483453336",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-10-30T17:58:28.196814",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer",
+          "Company: Wood Couture"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Wood Couture for Full Stack Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4033,6 +4110,153 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001566171",
+      "external_id": "0001566171",
+      "source": "topjobs_lk",
+      "title": "Data Engineer",
+      "company": "ORYSYS Limited",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=DEFZZZ&jc=0001566171&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: ORYSYS Limited. Location: Colombo 3, Sri Lanka. Closing: Fri Nov 13 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T17:58:48.583089",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: ORYSYS Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ORYSYS Limited for Data Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001566183",
+      "external_id": "0001566183",
+      "source": "topjobs_lk",
+      "title": "AI Developer",
+      "company": "CSG Technologies",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=DEFZZZ&jc=0001566183&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: CSG Technologies. Location: Colombo, Sri Lanka. Closing: Fri Nov 13 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T17:58:46.322792",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Developer",
+          "Company: CSG Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CSG Technologies for AI Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483466878",
+      "external_id": "4483466878",
+      "source": "linkedin_guest",
+      "title": "GDS Consulting_Senior AI Engineer",
+      "company": "EY",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/gds-consulting-senior-ai-engineer-at-ey-4483466878",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "36 minutes ago",
+      "discovered_at": "2026-10-30T17:58:39.258564",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GDS Consulting_Senior AI Engineer",
+          "Company: EY"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at EY for GDS Consulting_Senior AI Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484823999",
+      "external_id": "4484823999",
+      "source": "linkedin_guest",
+      "title": "Data Privacy Engineer/Analyst",
+      "company": "Hatton National Bank PLC",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-privacy-engineer-analyst-at-hatton-national-bank-plc-4484823999",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-30T17:58:33.474989",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Privacy Engineer/Analyst",
+          "Company: Hatton National Bank PLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hatton National Bank PLC for Data Privacy Engineer/Analyst. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
