@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T00:46:28.018482Z",
+    "generated_at": "2026-10-30T09:52:42.786393Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 286
+    "total_count": 298
   },
   "stats": {
-    "total_jobs": 286,
-    "evaluated_jobs": 286,
-    "high_matches": 286,
+    "total_jobs": 298,
+    "evaluated_jobs": 298,
+    "high_matches": 298,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 135,
-      "linkedin_posts": 45,
-      "rooster_jobs": 15,
-      "topjobs_lk": 32
+      "linkedin_guest": 140,
+      "linkedin_posts": 48,
+      "rooster_jobs": 16,
+      "topjobs_lk": 35
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4485303077",
+      "external_id": "4485303077",
+      "source": "linkedin_guest",
+      "title": "Junior AI/ Automation Engineer – Build Smart Automations & AI-Powered Tools!",
+      "company": "Elephant Teams",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/junior-ai-automation-engineer-%E2%80%93-build-smart-automations-ai-powered-tools%21-at-elephant-teams-4485303077",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-10-30T09:51:57.206929",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior AI/ Automation Engineer – Build Smart Automations & AI-Powered Tools!",
+          "Company: Elephant Teams"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Elephant Teams for Junior AI/ Automation Engineer – Build Smart Automations & AI-Powered Tools!. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4476900241",
       "external_id": "4476900241",
@@ -534,6 +572,123 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520321725562028032",
+      "external_id": "7520321725562028032",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Engineer Talent Network",
+      "company": "Ankit Waghamore (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/ankit-waghamore-8ba2613a0_wearehiring-mercorhiring-fullstackdeveloper-activity-7520321725562028032-q75N",
+      "description": "🔗 Direct Link in Post: https://t.mercor.com/xjE0p\n👤 Posted by: Ankit Waghamore\n\n---\n🚨 WHO IS LOOKING FOR A REMOTE JOB?\n\nWE ARE HIRING | FULL-STACK ENGINEERS\n\nAre you an experienced Full-Stack Developer looking for remote opportunities?\n\nMercor is building a network of software engineering experts to help train and evaluate next-generation AI models.\n\nOpportunity Details\n\nRole: Full-Stack Engineer Talent Network\nWork Mode: Remote\nCompensation: Depends on the project and role\nWork Type: Independent Contractor\n\nWho Should Apply?\n\n- Full-Stack Developers with professional experience\n- Frontend developers skilled in React.js and JavaScript\n- Backend engineers experienced in APIs and databases\n- Developers familiar with Python, Java, Node.js, or other programming languages\n- Engineers with strong debugging and problem-solving skills\n\nWhat You May Do\n\n- Evaluate AI-generated code\n- Identify bugs and improve code quality\n- Solve real-world software engineering challenges\n- Provide technical feedback to improve AI systems\n\nApply Here: https://t.mercor.com/xjE0p\n\nKnow a Full-Stack Engineer looking for opportunities? Share this post with your network and help them discover potential AI-related projects.\n\n#WeAreHiring #MercorHiring #FullStackDeveloper #FullStackEngineer #SoftwareEngineer #ReactJS #NodeJS #Python #RemoteJobs #AIJobs #TechJobs #WebDevelopment",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-26",
+      "discovered_at": "2026-10-30T09:52:30.740089",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Engineer Talent Network",
+          "Company: Ankit Waghamore (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ankit Waghamore (LinkedIn Post) for Full-Stack Engineer Talent Network. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484831422",
+      "external_id": "4484831422",
+      "source": "linkedin_guest",
+      "title": "React Native Developer intern",
+      "company": "Jepsoft",
+      "location": "Matara, Southern Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/react-native-developer-intern-at-jepsoft-4484831422",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-30T09:52:19.836130",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: React Native Developer intern",
+          "Company: Jepsoft"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Jepsoft for React Native Developer intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484805449",
+      "external_id": "4484805449",
+      "source": "linkedin_guest",
+      "title": "AI Engineer Intern",
+      "company": "Axio360 Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-engineer-intern-at-axio360-ventures-4484805449",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-30T09:52:08.765647",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineer Intern",
+          "Company: Axio360 Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Axio360 Ventures for AI Engineer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -3878,6 +4033,300 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_519830",
+      "external_id": "519830",
+      "source": "rooster_jobs",
+      "title": "HR Executive (IT & Software Industry)",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/519830",
+      "description": "#### **Employment Details**\n\n- Employment Type: Full-Time  \n- Work Arrangement: Hybrid (2 days per week at office)\n- Working Days: Monday to Friday\n- Working Hours: 9:00 a.m. to 6:00 p.m.\n- Communication: Excellent English communication skills, both written and verbal (minimum 10/10 proficiency)\n\n#### **The Role**\n\nWe are seeking a dynamic and proactive HR Executive to join our global team. This role provides an opportunity to support a broad range of HR and administrative functions while working closely with local and global teams. The ideal candidate will be organised, detail-oriented, and passionate about creating a positive employee experience and contributing to a supportive and engaging workplace culture.\n\n#### **Key Responsibilities**\n\n- Support end-to-end recruitment activities, including job postings, candidate coordination, interview scheduling, documentation, and managing recruitment activities through the Applicant Tracking System (ATS).\n- Manage and coordinate the global employee onboarding process, ensuring a consistent, smooth and positive experience for new joiners across different regions.\n- Maintain accurate and up-to-date employee records, HR databases, and organisational records.\n- Coordinate probation and performance review processes, ensuring timely completion of reviews, follow-ups and required documentation.\n- Manage company hardware and assets, ensuring they are properly procured, maintained, recorded, and handed over when required.\n- Manage and coordinate employee offboarding processes, ensuring all required documentation, clearances and system access requirements are completed on time\n- Coordinate employee insurance administration, including enrolment, renewals and employee support.\n- Coordinate global travel arrangements, including flight and accommodation bookings.\n- Prepare HR letters and employee documents as required.\n- Support the smooth running of the office by coordinating facilities, supplies, vendors, and workplace requirements.\n- Identify opportunities to improve HR processes and ensure tasks are completed accurately and on time.\n\n#### **Key Requirements**\n\n- Minimum 3 years of experience in a similar role preferably within the IT & Software industry.\n- Professional qualification in HRM from a recognized institute/university\n- Excellent communication skills: Fluent in English, both spoken and written.\n- Good understanding of HR practices and employee lifecycle processes.\n- Experience in managing a HRIS / ATS is mandatory.\n- Proficiency in Microsoft Office / Google Workspace.\n- Previous experience working in the Tech industry is required.\n- Confident, self-driven, and enthusiastic about learning new things.\n- Ability to work independently and effectively in a fast-paced environment.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-10-30T09:52:38.745745",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: HR Executive (IT & Software Industry)",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for HR Executive (IT & Software Industry). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565823",
+      "external_id": "0001565823",
+      "source": "topjobs_lk",
+      "title": "Data & Analytics Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=0000000064&jc=0001565823&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 06 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T09:52:36.709792",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data & Analytics Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Data & Analytics Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565828",
+      "external_id": "0001565828",
+      "source": "topjobs_lk",
+      "title": "Automation Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000064&jc=0001565828&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 06 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T09:52:34.767146",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Automation Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Automation Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001565844",
+      "external_id": "0001565844",
+      "source": "topjobs_lk",
+      "title": "Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=0000000064&jc=0001565844&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 06 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T09:52:32.789269",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Platform & Integration Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7517306963521675264",
+      "external_id": "7517306963521675264",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Tere Pasantes (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/tere-pasantes_golang-react-hiring-activity-7517306963521675264-_HDl",
+      "description": "👤 Posted by: Tere Pasantes\n\n---\nHIRING ⚡️ Senior Software Engineer - Go / React (fully remote)\n\n📩 ¿Te gustaría conocer más sobre la propuesta? Enviame tu CV o perfil de Linkedln por mensaje privado.\n\n📌 Inglés excluyente\n\n#golang #react #hiring #go #softwareengineer #backend \n#hiringengineerreact #hiring #hiringfullstack #remote #fullyremote #hiringbackend",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-17",
+      "discovered_at": "2026-10-30T09:52:28.729425",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Tere Pasantes (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Tere Pasantes (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521102017541554177",
+      "external_id": "7521102017541554177",
+      "source": "linkedin_posts",
+      "title": "System Engineer (L1 & L2)",
+      "company": "ITJobs.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/activity-7521102017541554177-Dxzh",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gukgwH3J\n👤 Posted by: ITJobs.lk\n\n---\n🚀 We’re Hiring: System Engineer (L1 & L2) \n\n📍 Location: Sri Lanka (100% Remote) \n💼 Job Type: Full-Time | 1-Year Contract (Singapore Timezone) | Paid in SGD \n🛠️ Tools & Skills: ERP Support, CRM Platforms, L1/L2 Troubleshooting, Incident Management, Ticket Escalation\n\nAre you a proactive System Engineer with hands-on experience supporting enterprise ERP and CRM platforms? \nA leading Singapore-based IT Consulting Firm is looking for a remote System Engineer (L1 & L2) based in Sri Lanka.\n\nKey Requirements: \n✓ 2–3+ years of hands-on experience providing L1 & L2 technical support for ERP and CRM IT products. \n✓ Strong troubleshooting background in enterprise software, data workflows, and system integrations. \n✓ Exceptional verbal and written English communication skills for client-facing interactions. \n✓ Fully comfortable working full-time according to Singapore Timezone (SGT) hours. \n✓ Degree in IT, Computer Science, Software Engineering, or an equivalent professional qualification. \n✓ Based in Sri Lanka with a reliable remote work setup (uninterrupted internet and power backup).\n\nWhat You’ll Do: \n➤ Provide tier-1 & tier-2 technical support, resolving client incident tickets within SLAs. \n➤ Diagnose and troubleshoot issues across enterprise ERP, CRM, and cloud IT products. \n➤ Collaborate with international engineering teams in Singapore and manage escalations to L3 engineers.\n\nApply now 👉  https://lnkd.in/gukgwH3J\n\nNote: Only shortlisted candidates will be contacted.\n\n#ITJobsLK  #SystemEngineer #ERPSupport #TechJobsSL #Hiring",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-28",
+      "discovered_at": "2026-10-30T09:52:26.092783",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: System Engineer (L1 & L2)",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for System Engineer (L1 & L2). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484813743",
+      "external_id": "4484813743",
+      "source": "linkedin_guest",
+      "title": "Flutter Developer Intern - Unpaid",
+      "company": "ADAVII (PVT) LTD",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/flutter-developer-intern-unpaid-at-adavii-pvt-ltd-4484813743",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-10-30T09:52:14.596313",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Flutter Developer Intern - Unpaid",
+          "Company: ADAVII (PVT) LTD"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ADAVII (PVT) LTD for Flutter Developer Intern - Unpaid. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484822532",
+      "external_id": "4484822532",
+      "source": "linkedin_guest",
+      "title": "Intern Embedded Engineer",
+      "company": "The SenzMate Community",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-embedded-engineer-at-the-senzmate-community-4484822532",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-30T09:52:03.055315",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Embedded Engineer",
+          "Company: The SenzMate Community"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at The SenzMate Community for Intern Embedded Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
