@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T17:58:52.454468Z",
+    "generated_at": "2026-10-30T22:13:47.967657Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 304
+    "total_count": 305
   },
   "stats": {
-    "total_jobs": 304,
-    "evaluated_jobs": 304,
-    "high_matches": 304,
+    "total_jobs": 305,
+    "evaluated_jobs": 305,
+    "high_matches": 305,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -18,7 +18,7 @@
       "linkedin_guest": 143,
       "linkedin_posts": 49,
       "rooster_jobs": 16,
-      "topjobs_lk": 37
+      "topjobs_lk": 38
     },
     "min_match_score_threshold": 70
   },
@@ -610,6 +610,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001566301",
+      "external_id": "0001566301",
+      "source": "topjobs_lk",
+      "title": "Associate - Business Support (UK Calendar - UK Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=0000000064&jc=0001566301&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 06 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Oct 30 2026",
+      "discovered_at": "2026-10-30T22:13:43.780145",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate - Business Support (UK Calendar - UK Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Associate - Business Support (UK Calendar - UK Shift) (1). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
