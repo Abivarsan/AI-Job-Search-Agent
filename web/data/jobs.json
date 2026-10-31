@@ -1,28 +1,67 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T05:15:16.242597Z",
+    "generated_at": "2026-10-31T12:07:28.708100Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 307
+    "total_count": 313
   },
   "stats": {
-    "total_jobs": 307,
-    "evaluated_jobs": 307,
-    "high_matches": 307,
+    "total_jobs": 313,
+    "evaluated_jobs": 313,
+    "high_matches": 313,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 145,
-      "linkedin_posts": 49,
+      "linkedin_guest": 149,
+      "linkedin_posts": 51,
       "rooster_jobs": 16,
       "topjobs_lk": 38
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4476807237",
+      "external_id": "4476807237",
+      "source": "linkedin_guest",
+      "title": "Advanced Associate, Technology Support",
+      "company": "Pearson",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/advanced-associate-technology-support-at-pearson-4476807237",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-10-31T12:07:06.075938",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Advanced Associate, Technology Support",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Advanced Associate, Technology Support. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "lipost_7521097761753174016",
       "external_id": "7521097761753174016",
@@ -610,6 +649,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483917596",
+      "external_id": "4483917596",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "Mind Plus",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-mind-plus-4483917596",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-10-31T12:07:17.453864",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: Mind Plus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mind Plus for Data Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4476810189",
+      "external_id": "4476810189",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "Pearson",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-ii-at-pearson-4476810189",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-10-31T12:07:00.573072",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Software Engineer II. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4147,6 +4262,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7520798569222782976",
+      "external_id": "7520798569222782976",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Alexander Demidovich (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ru.linkedin.com/posts/demidovich99_hiring-defi-web3-activity-7520798569222782976-HntJ",
+      "description": "👤 Posted by: Alexander Demidovich\n\n---\nLinkedin, Привет! Ищу сильного Software Engineer для развития DeFi execution infrastructure в международной prop trading / HFT-команде.\n\nЧто важно:\nПрактический опыт с DeFi intent-based protocols, solvers или intent execution infrastructure — обязательно.\nСильный Python.\nОпыт разработки production-систем в DeFi.\nПонимание EVM, DeFi-протоколов и backend-архитектуры.\nУмение самостоятельно разрабатывать и доводить решения до production.\nБудет плюсом: Rust, low-latency trading, опыт с 1inch Fusion / Uniswap X / CoW Swap.\n\n🌍 Условия: Remote, Full-time, B2B, гибкий график. Предпочтительные часовые пояса UTC+2–UTC+4.\n\n📩 Если у вас есть практический опыт именно с DeFi intents, пишите в личные сообщения\n#Hiring #DeFi #Web3 #BlockchainJobs #PythonDeveloper #SoftwareEngineer #DeFiIntents #RemoteJobs #HFT",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-27",
+      "discovered_at": "2026-10-31T12:07:25.113729",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Alexander Demidovich (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Alexander Demidovich (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521862066580754433",
+      "external_id": "7521862066580754433",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Responsa",
+      "location": "Full remote in Italia o smart worki",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/posts/responsa_ai-softwareengineer-generativeai-activity-7521862066580754433-9fW7",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/eYzJz7N7\n👤 Posted by: Responsa\n\n---\n🚀 Stiamo assumendo un AI Software Engineer!\n\nIn Responsa sviluppiamo una piattaforma proprietaria di AI generativa che gestisce oltre 1 milione di conversazioni all'anno per più di 40 grandi clienti. Oggi siamo alla ricerca di una persona che voglia contribuire alla sua evoluzione, lavorando su prodotti AI concreti, già adottati in contesti enterprise.\n\nLa risorsa avrà l'opportunità di collaborare direttamente con il CTO e il team di prodotto, partecipando alle scelte architetturali, allo sviluppo di nuove funzionalità e all'integrazione dei modelli AI nei sistemi aziendali.\n\nSe hai esperienza backend, conosci Node.js e TypeScript e vuoi mettere le mani su progetti innovativi ad alto impatto, potresti essere la persona giusta per noi.\n\n📍 Full remote in Italia o smart working flessibile\n💼 Tempo indeterminato\n💰 RAL €40.000–€50.000\n\nLeggi i dettagli della posizione e candidati 👇\n\n🔗 https://lnkd.in/eYzJz7N7\n\n\n#AI #SoftwareEngineer #GenerativeAI #NodeJS #TypeScript #Hiring #Responsa #GruppoEuris",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-30",
+      "discovered_at": "2026-10-31T12:07:23.195405",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Responsa"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Responsa for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4422361707",
+      "external_id": "4422361707",
+      "source": "linkedin_guest",
+      "title": "Engineer – Technical Program Management (m/f/d)",
+      "company": "Variosystems",
+      "location": "Badalgama, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-%E2%80%93-technical-program-management-m-f-d-at-variosystems-4422361707",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "50 minutes ago",
+      "discovered_at": "2026-10-31T12:07:12.178495",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer – Technical Program Management (m/f/d)",
+          "Company: Variosystems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Variosystems for Engineer – Technical Program Management (m/f/d). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
