@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T22:13:47.967657Z",
+    "generated_at": "2026-10-31T05:15:16.242597Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 305
+    "total_count": 307
   },
   "stats": {
-    "total_jobs": 305,
-    "evaluated_jobs": 305,
-    "high_matches": 305,
+    "total_jobs": 307,
+    "evaluated_jobs": 307,
+    "high_matches": 307,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 143,
+      "linkedin_guest": 145,
       "linkedin_posts": 49,
       "rooster_jobs": 16,
       "topjobs_lk": 38
@@ -4147,6 +4147,79 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4484828889",
+      "external_id": "4484828889",
+      "source": "linkedin_guest",
+      "title": "Systems Engineer",
+      "company": "IronOne",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/systems-engineer-at-ironone-4484828889",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-31T05:15:09.503899",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Systems Engineer",
+          "Company: IronOne"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IronOne for Systems Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483438275",
+      "external_id": "4483438275",
+      "source": "linkedin_guest",
+      "title": "GDS Consulting_Senior AI Engineer",
+      "company": "EY",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/gds-consulting-senior-ai-engineer-at-ey-4483438275",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-10-31T05:15:03.633979",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GDS Consulting_Senior AI Engineer",
+          "Company: EY"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at EY for GDS Consulting_Senior AI Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
