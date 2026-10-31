@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T12:07:28.708100Z",
+    "generated_at": "2026-10-31T19:13:34.883819Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 313
+    "total_count": 317
   },
   "stats": {
-    "total_jobs": 313,
-    "evaluated_jobs": 313,
-    "high_matches": 313,
+    "total_jobs": 317,
+    "evaluated_jobs": 317,
+    "high_matches": 317,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 149,
-      "linkedin_posts": 51,
+      "linkedin_guest": 150,
+      "linkedin_posts": 54,
       "rooster_jobs": 16,
       "topjobs_lk": 38
     },
@@ -649,6 +649,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521851335256805377",
+      "external_id": "7521851335256805377",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Maia Bolkvadze (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/posts/maia-bolkvadze-2ab6b6415_softwareengineering-seniordeveloper-java-activity-7521851335256805377-ONW9",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dbDGMf4Y\n👤 Posted by: Maia Bolkvadze\n\n---\n💻 Senior Software Engineer gesucht – 100 % Remote DE\n\nbitside sucht erfahrene Software Engineers, die anspruchsvolle technische Probleme lösen und moderne Softwarearchitekturen gestalten möchten.\n\n🏠 100 % Remote in Deutschland\n💼 Senior\n📌 5+ Jahre Berufserfahrung\n🚗 Projektabhängige Reisebereitschaft: ca. 2–3 Tage pro Monat\n\nTech & Themen:\n🔹 Java / Spring Boot\n🔹 TypeScript / Node.js\n🔹 React / Vue / Angular\n🔹 Cloud & Microservices\n🔹 AI-gestützte Engineering-Workflows\n\n👉 Details & Bewerbung:\nhttps://lnkd.in/dbDGMf4Y\n\n#SoftwareEngineering #SeniorDeveloper #Java #RemoteJobs #AI #Hiring",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-30",
+      "discovered_at": "2026-10-31T19:13:29.238135",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Maia Bolkvadze (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Maia Bolkvadze (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4262,6 +4301,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518370064866385920",
+      "external_id": "7518370064866385920",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Hosting Cloud & DevOps",
+      "company": "WebGee",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ae.linkedin.com/posts/webgee_hiring-softwareengineer-devops-activity-7518370064866385920-x8TX",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/eAkuUxuH, https://lnkd.in/e7tVBRcc\n👤 Posted by: WebGee\n\n---\n🚀 We're hiring: Software Engineer — Hosting, Cloud & DevOps\n\n📍 Remote · Egypt | 💼 Full-time | 🎯 1–2 years of experience\n\nWant to build real products on real infrastructure, not just finish tickets? WebGee is looking for an engineer who enjoys moving between code, Linux servers and the cloud.\n\nWhat you'll work on:\n⚙️ Backend apps, REST APIs and internal tools (PHP/Laravel)\n🖥️ Troubleshooting hosting: Linux, DNS, SSL, MySQL, WordPress\n🐳 DevOps: Docker, CI/CD, monitoring and deployments\n🤖 AI-assisted engineering with Claude Code\n\nWhat we offer:\n✅ A Claude Team account from day one\n✅ Remote work from anywhere in Egypt\n✅ Real production systems and real customers\n✅ A clear path to Software, Platform or DevOps Engineer\n\n🗣️ Open to Arabic-speaking candidates based in Egypt.\n\n👉 Read the full description and apply:\nhttps://lnkd.in/eAkuUxuH\n\nKnow someone who'd be a great fit? Tag them or share this post 🙌\n\n#Hiring #SoftwareEngineer #DevOps #RemoteJobs #EgyptJobs #Laravel #CloudComputing #WebGee\n\n---\n\n🚀 وظيفة شاغرة: مهندس برمجيات — الاستضافة والسحابية\n\n📍 عن بُعد · مصر | 💼 دوام كامل | 🎯 خبرة من سنة\n\nهل تحب بناء منتجات حقيقية على بنية تحتية حقيقيةحث WebGee عن مهندس يستمتع بالتنقّل بين الكود\nوخوادم Linux والسحابة.\n\nما الذي ستعمل عليه:\n⚙️ تطبيقات الواجهة الخلفية وواجهات REST API والl)\n🖥️ حل مشكلات الاستضافة: Linux وDNS وSSL وMySQL وWordPress\n🐳 أعمال DevOps: Docker وCI/CD والمراقبة ونشر ا\n🤖 الهندسة بمساعدة الذكاء الاصطناعي باستخدام Claude Code\n\nما نقدمه:\n✅ حساب Claude Team من اليوم الأول\n✅ عمل عن بُعد من أي مكان في مصر\n✅ أنظمة حقيقية في بيئة الإنتاج وعملاء حقيقيون\n✅ مسار واضح نحو مهندس برمجيات أو منصّات أو DevOps\n\n🗣️ الوظيفة متاحة للمتقدمين الناطقين بالعربية المقيمين في مصر.\n\n👉 اقرأ الوصف الكامل وقدّم سيرتك الذاتية:\n\nhttps://lnkd.in/e7tVBRcc\n\nتعرف شخصاً مناسباً لهذه الوظيفة؟ أشِر إليه أو شارك\n\n#softwaredevelopment #SoftwareEngineer #DevOps #hosting #WebHosting #CloudHosting\n #وظائف_مصر #مهندس_برمجيات #عمل_عن_بعد",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-20",
+      "discovered_at": "2026-10-31T19:13:31.259924",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Hosting Cloud & DevOps",
+          "Company: WebGee"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at WebGee for Software Engineer Hosting Cloud & DevOps. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521449532031721473",
+      "external_id": "7521449532031721473",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Altitude Talent",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "Hybrid",
+      "apply_url": "https://www.linkedin.com/posts/altitudetalent_hiring-srilankajobs-agenticai-activity-7521449532031721473-D3fa",
+      "description": "📩 Apply / Contact Email: talent@altitudetalent.com.lk.\n👤 Posted by: Altitude Talent\n\n---\nNew Vacancies at Altitude Talent| Sri Lanka Only\n\nWe have several new opportunities open and are looking to connect with talented professionals currently based in Sri Lanka.\n\n1. Creative Designer – Graphic, Video & AI\nExperience in graphic design, video editing, and AI-powered creative tools.\nHybrid work model: 3 days onsite per week (non-negotiable)\n\n2. Paid Media Specialist – 2 Vacancies\nExperience in paid advertising and digital campaign management.\nHybrid work model: 3 days onsite per week  (non-negotiable)\n\n3. Senior Software Engineer – Agentic AI\n7+ years of software engineering experience preferred.\nAt least 2–3 years of hands-on Agentic AI experience is required.\nWork model: Onsite, Colombo 3 (non-negotiable)\n\n4. Head of Engineering – Agentic AI\nStrong experience in Agentic AI is essential.\nTechnology leadership and engineering team management experience.\nWork model: Onsite, Colombo 3 (non-negotiable)\n\nImportant: All positions are open only to candidates currently based in Sri Lanka. The onsite and hybrid requirements are firm.\n\nInterested in any of these opportunities? Email your CV to talent@altitudetalent.com.lk. \n\nPlease mention the role you’re applying for in the subject. \n\nCandidates shortlisted will be called today.\n\n#Hiring #SriLankaJobs #AgenticAI #PaidMedia #CreativeDesign #SoftwareEngineering #AltitudeTalent #VacanciesinSriLanka #ApplyNow",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-29",
+      "discovered_at": "2026-10-31T19:13:27.087639",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Altitude Talent"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Altitude Talent for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483936793",
+      "external_id": "4483936793",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "Mind Plus",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-mind-plus-4483936793",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-10-31T19:13:21.002040",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: Mind Plus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mind Plus for Data Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
