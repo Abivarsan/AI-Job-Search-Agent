@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T00:00:52.506660Z",
+    "generated_at": "2026-11-01T05:53:02.770446Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 317
+    "total_count": 318
   },
   "stats": {
-    "total_jobs": 317,
-    "evaluated_jobs": 317,
-    "high_matches": 317,
+    "total_jobs": 318,
+    "evaluated_jobs": 318,
+    "high_matches": 318,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 59,
       "linkedin_guest": 150,
-      "linkedin_posts": 54,
+      "linkedin_posts": 55,
       "rooster_jobs": 16,
       "topjobs_lk": 38
     },
@@ -649,6 +649,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521807510295523329",
+      "external_id": "7521807510295523329",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Sanduni Jayasinghe (LinkedIn Post)",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/sanduni-jayasinghe-b1bb28239_hiring-looking-hiring-activity-7521807510295523329-BGoa",
+      "description": "📩 Apply / Contact Email: sandunisoftvil@gmail.com\n👤 Posted by: Sanduni Jayasinghe\n\n---\nWE’RE #HIRING \n\nWe are #looking for talented and experienced Software Engineers to join our team and work on enterprise-level software solutions for a leading global organization.\n\n📌 Positions Available:\n• Software Engineer – 2+ Years of Experience\n• Senior Software Engineer – 4+ Years of Experience\n\n📍 Location: Colombo, Sri Lanka\n🏢 Work Mode: On-site\n📄 Employment Type: 6-Month\n\n🔹 KEY RESPONSIBILITIES\n• Design and develop scalable enterprise applications.\n• Build distributed and highly available software solutions.\n• Develop backend services and enterprise integrations.\n• Follow CI/CD practices and maintain high code quality.\n• Collaborate with cross-functional teams in an Agile environment.\n• Participate in development, testing, deployment, and production support.\n\n🔹 REQUIREMENTS\n• Bachelor’s degree in Computer Science or equivalent.\n• Strong experience with Java and Spring Boot.\n• Hands-on experience with RESTful APIs and Microservices.\n• Good knowledge of React / Redux.\n• Strong understanding of relational databases, schema design, and SQL optimization.\n• Experience with AWS and/or GCP cloud platforms.\n• Knowledge of Docker, containerization, and Infrastructure as Code (IaC).\n• Experience troubleshooting production issues in distributed environments.\n• Understanding of CI/CD, DevOps, Scrum Agile, and Quality Engineering practices.\n• Excellent communication and problem-solving skills.\n\n⭐ NICE TO HAVE\n• Experience with LLMs, Generative AI, and Agentic AI systems.\n• Knowledge of AI development frameworks and model APIs.\n• Experience with Kafka and data streaming technologies.\n\n📩 Interested candidates, please send your updated CV to:\n📧 sandunisoftvil@gmail.com\n\n📢 Apply now and be part of our team!\n\n\nOven Fernando Piyumika Jayasiri\n\n#Hiring #SoftwareEngineer #SeniorSoftwareEngineer #Java #SpringBoot #ReactJS #Microservices #AWS #GCP #DevOps #GenerativeAI #ColomboJobs #SriLankaJobs #TechJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-30",
+      "discovered_at": "2026-11-01T05:52:59.198023",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sanduni Jayasinghe (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sanduni Jayasinghe (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
