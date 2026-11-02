@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T00:31:27.439792Z",
+    "generated_at": "2026-11-02T10:52:55.476921Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 318
+    "total_count": 323
   },
   "stats": {
-    "total_jobs": 318,
-    "evaluated_jobs": 318,
-    "high_matches": 318,
+    "total_jobs": 323,
+    "evaluated_jobs": 323,
+    "high_matches": 323,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 150,
-      "linkedin_posts": 55,
+      "linkedin_guest": 152,
+      "linkedin_posts": 57,
       "rooster_jobs": 16,
-      "topjobs_lk": 38
+      "topjobs_lk": 39
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4485406920",
+      "external_id": "4485406920",
+      "source": "linkedin_guest",
+      "title": "Software Engineer Intern",
+      "company": "FirmMark Digital",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-intern-at-firmmark-digital-4485406920",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "15 hours ago",
+      "discovered_at": "2026-11-02T10:52:35.935771",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: FirmMark Digital"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at FirmMark Digital for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4339,6 +4378,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001566670",
+      "external_id": "0001566670",
+      "source": "topjobs_lk",
+      "title": "Full Stack Mobile App Developer (Flutter + Node.js)",
+      "company": "Ceylon Institute of Software Enginnering and Law",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001566670&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Ceylon Institute of Software Enginnering and Law. Location: Colombo, Sri Lanka. Closing: Mon Nov 16 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 02 2026",
+      "discovered_at": "2026-11-02T10:52:51.748279",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Mobile App Developer (Flutter + Node.js)",
+          "Company: Ceylon Institute of Software Enginnering and Law"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ceylon Institute of Software Enginnering and Law for Full Stack Mobile App Developer (Flutter + Node.js). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7522425734590828544",
+      "external_id": "7522425734590828544",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Fleetech",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://tr.linkedin.com/posts/joshgun-adilov-663b75132_nağdsız-qazanc-dəqiqələr-içində-activity-7522425734590828544-YP35",
+      "description": "📩 Apply / Contact Email: joshgun.a@fleetech.az\n👤 Posted by: Joshgun Adilov\n\n---\n🚀 WE’RE HIRING | FULL-STACK DEVELOPER\n\nCA Group LLC komandamıza qoşulacaq, Front-End yönümlü Full-Stack Developer axtarırıq!\n\n💻 Texnologiyalar: React.js, Next.js, TypeScript, Node.js, PostgreSQL, REST API.\n\n📍 İş yeri: Bakı / Remote\n💰 Əməkhaqqı: Təcrübəyə əsasən razılaşma yolu ilə.\n\n📩 CV və portfolio: joshgun.a@fleetech.az\n\n#Hiring #FullStackDeveloper #ReactJS #BakuJobs #CAGROUPLLC",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-31",
+      "discovered_at": "2026-11-02T10:52:49.758732",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Fleetech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Fleetech for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7521907159996133377",
+      "external_id": "7521907159996133377",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Engineer (Python React AI & Automation) Remote Sr",
+      "company": "Sachin Hewavitharana (LinkedIn Post)",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/sachin-hewavitharana_hiring-fullstackengineer-pythondeveloper-activity-7521907159996133377-D1Nh",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gxusSR7B\n👤 Posted by: Sachin Hewavitharana\n\n---\n🚀 We’re Hiring: Full-Stack Engineer (Python, React, AI & Automation) — Remote, Sri Lanka \n\nBuild AI-powered automation for US clients in property management, insurance & fintech. Work alongside LLM agents daily — not just write code around them.\n\n💰 USD 1,200–1,800/month + bonuses\n🛠️ Django/Fast API · React/TypeScript · Celery · n8n · Claude AI Agents\n🎯 3–7 yrs experience, strong Python + React, daily AI-tool fluency\n\nFully remote. Senior-leaning, autonomy-first team. Real ownership from day one.\n\n👉 Apply now or tag a full-stack engineer who should see this.\n\n🔗 https://lnkd.in/gxusSR7B\n\n#Hiring #FullStackEngineer #PythonDeveloper #ReactJS #AIJobs #RemoteJobs #SriLankaJobs #Django #FastAPI #TypeScript #LLM #TechJobs #NextjobSL",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-30",
+      "discovered_at": "2026-11-02T10:52:47.800012",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Engineer (Python React AI & Automation) Remote Sr",
+          "Company: Sachin Hewavitharana (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sachin Hewavitharana (LinkedIn Post) for Full-Stack Engineer (Python React AI & Automation) Remote Sr. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486129706",
+      "external_id": "4486129706",
+      "source": "linkedin_guest",
+      "title": "Copy of Forward Deployed AI Engineer - IFS Loops",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/copy-of-forward-deployed-ai-engineer-ifs-loops-at-ifs-4486129706",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-02T10:52:41.735205",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Copy of Forward Deployed AI Engineer - IFS Loops",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for Copy of Forward Deployed AI Engineer - IFS Loops. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
