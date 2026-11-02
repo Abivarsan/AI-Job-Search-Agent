@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T10:52:55.476921Z",
+    "generated_at": "2026-11-02T21:40:31.191941Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 323
+    "total_count": 328
   },
   "stats": {
-    "total_jobs": 323,
-    "evaluated_jobs": 323,
-    "high_matches": 323,
+    "total_jobs": 328,
+    "evaluated_jobs": 328,
+    "high_matches": 328,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 152,
-      "linkedin_posts": 57,
-      "rooster_jobs": 16,
-      "topjobs_lk": 39
+      "linkedin_guest": 154,
+      "linkedin_posts": 58,
+      "rooster_jobs": 17,
+      "topjobs_lk": 40
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,81 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4485735780",
+      "external_id": "4485735780",
+      "source": "linkedin_guest",
+      "title": "Associate Network And Security Engineer",
+      "company": "Skaleart",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-network-and-security-engineer-at-skaleart-4485735780",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-02T21:40:18.191527",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Network And Security Engineer",
+          "Company: Skaleart"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Skaleart for Associate Network And Security Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4485468677",
+      "external_id": "4485468677",
+      "source": "linkedin_guest",
+      "title": "AI Engineer - Integrations",
+      "company": "INTIV Global",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-engineer-integrations-at-intiv-global-4485468677",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-11-02T21:40:12.210135",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineer - Integrations",
+          "Company: INTIV Global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at INTIV Global for AI Engineer - Integrations. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4378,6 +4453,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_520044",
+      "external_id": "520044",
+      "source": "rooster_jobs",
+      "title": "Intern - Software Engineering",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/520044",
+      "description": "### **B.Sc. Engineering or Computer Science Undergraduate/Enthusiast**\n\n### **Who We're Looking For:**\n\nWe are seeking passionate and motivated individuals with the following skills and qualities:\n\n- Proficiency in React.js, React Native, Flutter, Node.js, Python, and Golang.**Tech Stack Expertise**\n- Strong analytical and logical thinking skills with a solid grasp of Data Structures and Algorithms.**Problem-Solving Prowess**\n- Hands-on experience in web-based application development and architecture.**Web Development Knowledge**\n- Clear and effective communication skills to collaborate within and beyond the team.**Exceptional Communication**\n- Experience contributing to and collaborating on open-source projects is a bonus!**Open Source Enthusiast**\n\n#### **Why Join Us?**\n\n- Fast-track your career with opportunities to step into leadership roles.**Accelerated Career Growth**\n- Competitive compensation and inspiring work environments.**Attractive Perks**\n- Be part of a unique, team-focused organization that values your growth and well-being.**Employee-Centric Culture**\n- Work on cutting-edge technologies and continuously expand your skills through innovation and creativity.**Innovation at Its Core**\n\nJoin us to shape the future of technology and grow alongside a team that values your contributions! 🌟",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-02T21:40:27.495106",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Engineering",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Intern - Software Engineering. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001566708",
+      "external_id": "0001566708",
+      "source": "topjobs_lk",
+      "title": "Cloud Engineer - UAE (1)",
+      "company": "John Keells IT",
+      "location": "Colombo 2, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000049&jc=0001566708&ec=0000000313&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: John Keells IT. Location: Colombo 2, Sri Lanka. Closing: Wed Dec 02 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 02 2026",
+      "discovered_at": "2026-11-02T21:40:25.550964",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cloud Engineer - UAE (1)",
+          "Company: John Keells IT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at John Keells IT for Cloud Engineer - UAE (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7516493987055153152",
+      "external_id": "7516493987055153152",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Valeriia Miroshnychenko (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/valeriia-miroshnychenko-2aa662106_hiring-nodejs-nestjs-activity-7516493987055153152-swE6",
+      "description": "👤 Posted by: Valeriia Miroshnychenko\n\n---\n🚀 Шукаю Middle та Senior Full-Stack Developers (Backend-Focused) | FinTech / Payment Infrastructure.\n\nДрузі, маю одразу дві позиції для розробників: Middle та Senior Full-Stack Developers до міжнародного проєкту - високонавантаженої платіжної платформи, яка вже працює в production і продовжує масштабуватися.\n\n🔧Технологічний стек:\nNode.js, NestJS, TypeScript, PostgreSQL, React, microservices, Docker, AWS.\nОсновний фокус - Backend: платіжні інтеграції, архітектура, продуктивність і надійність системи. Час від часу можуть бути й Frontend-задачі з React.\nОрієнтовне співвідношення Backend до Frontend приблизно 70/30%.\n\n🎯 Кого шукаємо?\n- Middle: від 3 років комерційного досвіду, англійська B1+.\n- Senior: від 5 років комерційного досвіду, англійська B2+; важливі архітектурна експертиза, проактивність і готовність перебрати технічне лідерство за потреби.\n- Для обох рівнів обов’язковий практичний досвід роботи з high-load системами.\n- Впевнені знання Node.js/NestJS, TypeScript, PostgreSQL, мікросервісів та API-інтеграцій.\nДосвід у FinTech, платіжних системах або payment gateways буде перевагою. Релевантний high-load досвід з інших доменів теж цікавий!\n\n🌍 Формат: remote, full-time, B2B.\n📍 Локація: українські спеціалісти, які зараз проживають за кордоном у європейських часових поясах, а також розглянемо українців з азійської тайм-зони.\n📩 Якщо вам цікаво - пишіть мені в коментарях під дописом чи в особисті повідомлення. \n\nБуду вдячна за рекомендації знайомих розробників. \nТакож у нас є реферальна програма за рекомендацію: $1000 після вдалого проходження випробувального терміну.\n\n#Hiring #NodeJS #NestJS #FullStackDeveloper #BackendDeveloper #HighLoad #FinTech #RemoteJobs",
+      "experience_level": "Junior (1-2 Years)",
+      "posted_date": "2026-10-15",
+      "discovered_at": "2026-11-02T21:40:23.599628",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Valeriia Miroshnychenko (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Valeriia Miroshnychenko (LinkedIn Post) for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
