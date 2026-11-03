@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T16:58:42.622227Z",
+    "generated_at": "2026-11-03T23:10:28.646426Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 334
+    "total_count": 337
   },
   "stats": {
-    "total_jobs": 334,
-    "evaluated_jobs": 334,
-    "high_matches": 334,
+    "total_jobs": 337,
+    "evaluated_jobs": 337,
+    "high_matches": 337,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 157,
-      "linkedin_posts": 59,
+      "linkedin_guest": 158,
+      "linkedin_posts": 60,
       "rooster_jobs": 17,
-      "topjobs_lk": 42
+      "topjobs_lk": 43
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,84 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7523288817752104961",
+      "external_id": "7523288817752104961",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Interns",
+      "company": "Purples LAB",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/purpleslab-softwareengineerintern-hiringnow-share-7523288817752104961-iZjx",
+      "description": "📩 Apply / Contact Email: hello.purpleslab@gmail.com\n👤 Posted by: Purples LAB\n\n---\n🚀 WE'RE HIRING | SOFTWARE ENGINEER INTERNS\n\n💰 Monthly Stipend: LKR 45,000\n📍 Location :  Sri Lanka | Remote & Onsite\n🇺🇸 Work on Real World U.S. Client Projects\n\nAt Purples LAB we're looking for passionate, ambitious and trainable Software Engineering Interns who are ready to build real products, solve engineering challenges and work alongside an experienced development team.\n\nThis is more than just an internship.\nIt's an opportunity to gain hands on industry experience, contribute to real world software and AI projects for U.S. clients, and develop the engineering mindset required to build production ready applications\n\n💻 TECHNICAL REQUIREMENTS\n\nThe following fundamentals are essential:\n\n✅ Strong JavaScript fundamentals – MUST\n✅ Basic practical knowledge of Next.js – MUST\n✅ Familiarity with NestJS and REST API development\n✅ Understanding of TypeScript and Tailwind CSS\n✅ Basic knowledge of PostgreSQL and database management\n✅ Understanding of OpenAPI and API documentation\n✅ Familiarity with Git, GitHub and version control\n✅ Problem-solving, debugging and clean coding practices\n\n🤖 AI, CLOUD TECHNOLOGIES\n\nWe're particularly interested in candidates who have explored:\n\n• OpenAI API integration and AI-powered applications\n• ChatGPT Codex and AI-assisted development workflows\n• Prompt engineering and LLM-based application development\n• AI automation and intelligent workflow integrations\n• API integrations and third-party services\n• Cloud fundamentals - AWS, Azure or Google Cloud\n• Modern developer tools and AI-powered engineering environments\n\n\n🎓 WHO CAN APPLY?\n\n• University Undergraduates\n• Fresh Graduates\n• IT / Software Engineering Graduates\n• Self-taught Developers with practical coding experience\n• Early-career Developers with \n  basic industry experience\n\nYou don't need years of professional experience However\nYou must have strong fundamentals, practical coding ability, curiosity and a genuine willingness to learn.\n\nWe value problem-solvers, builders and engineers not just certificate holders.\n\n\n📩 HOW TO APPLY\n\n💬 Comment \"Interested\" below\nOur recruitment team will review your profile and reach out to suitable candidates.\n\n📧 Send your CV along with your GitHub profile / Portfolio to:\n\nhello.purpleslab@gmail.com\n\nEmail Subject: 'Job role ' Intern\n\n\n\n#PurplesLAB #SoftwareEngineerIntern #HiringNow #SriLankaJobs #SoftwareEngineering #Nextjs #NestJS #JavaScript #TypeScript #ReactJS #TailwindCSS #PostgreSQL #OpenAPI #OpenAI #AIEngineering #ArtificialIntelligence #ChatGPTCodex #CloudComputing #AWS #Azure #GoogleCloud #FullStackDevelopment #BackendDevelopment #FrontendDevelopment #TechInternship #FreshGraduates #InternshipOpportunities #SoftwareDeveloper #GraduateJobs #CareerOpportunities",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-03",
+      "discovered_at": "2026-11-03T23:10:23.438301",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Interns",
+          "Company: Purples LAB"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Purples LAB for Software Engineer Interns. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4485028235",
+      "external_id": "4485028235",
+      "source": "linkedin_guest",
+      "title": "Cloud Platform & Reliability Engineer",
+      "company": "Cipher Recruitment",
+      "location": "Central Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/cloud-platform-reliability-engineer-at-cipher-recruitment-4485028235",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "51 minutes ago",
+      "discovered_at": "2026-11-03T23:10:17.147635",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Cloud Platform & Reliability Engineer",
+          "Company: Cipher Recruitment"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cipher Recruitment for Cloud Platform & Reliability Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4492,6 +4570,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567242",
+      "external_id": "0001567242",
+      "source": "topjobs_lk",
+      "title": "Software Engineer - Frontend",
+      "company": "InSync Information Technologies Pvt Ltd",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001567242&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: InSync Information Technologies Pvt Ltd. Location: Colombo 5, Sri Lanka. Closing: Tue Nov 17 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Nov 03 2026",
+      "discovered_at": "2026-11-03T23:10:25.302254",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Frontend",
+          "Company: InSync Information Technologies Pvt Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InSync Information Technologies Pvt Ltd for Software Engineer - Frontend. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
