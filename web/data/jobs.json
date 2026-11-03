@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T06:22:51.849064Z",
+    "generated_at": "2026-11-03T16:58:42.622227Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 330
+    "total_count": 334
   },
   "stats": {
-    "total_jobs": 330,
-    "evaluated_jobs": 330,
-    "high_matches": 330,
+    "total_jobs": 334,
+    "evaluated_jobs": 334,
+    "high_matches": 334,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 156,
-      "linkedin_posts": 58,
+      "linkedin_guest": 157,
+      "linkedin_posts": 59,
       "rooster_jobs": 17,
-      "topjobs_lk": 40
+      "topjobs_lk": 42
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486878023",
+      "external_id": "4486878023",
+      "source": "linkedin_guest",
+      "title": "Full Stack Developer",
+      "company": "Pro Marketer",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-developer-at-pro-marketer-4486878023",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-03T16:58:28.292540",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Pro Marketer"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pro Marketer for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4453,6 +4492,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567162",
+      "external_id": "0001567162",
+      "source": "topjobs_lk",
+      "title": "Full Stack Developer (Java & React)",
+      "company": "Fortunaglobal (Pvt) Limited",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001567162&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Fortunaglobal (Pvt) Limited. Location: Colombo 3, Sri Lanka. Closing: Tue Nov 17 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Nov 03 2026",
+      "discovered_at": "2026-11-03T16:58:38.646841",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Java & React)",
+          "Company: Fortunaglobal (Pvt) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Fortunaglobal (Pvt) Limited for Full Stack Developer (Java & React). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567222",
+      "external_id": "0001567222",
+      "source": "topjobs_lk",
+      "title": "Data Engineer (1)",
+      "company": "Assetline Finance PLC",
+      "location": "Battaramulla, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=0000000376&jc=0001567222&ec=0000000493&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Assetline Finance PLC. Location: Battaramulla, Sri Lanka. Closing: Thu Nov 05 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Nov 03 2026",
+      "discovered_at": "2026-11-03T16:58:36.510500",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer (1)",
+          "Company: Assetline Finance PLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Assetline Finance PLC for Data Engineer (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7522969434756460544",
+      "external_id": "7522969434756460544",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Dhruv Gupta (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/chandan-tglobal_hiring-fullstackdeveloper-remotejobs-activity-7522969434756460544-hM8l",
+      "description": "🔗 Direct Link in Post: https://tglobal.in/work, https://tglobal.in/process\n👤 Posted by: Dhruv Gupta\n\n---\nWe're hiring: Full-Stack Developer (Remote) 🚀\n\nAt TGlobal we build real products for clients in the US, Europe and the Middle East, and we ship fast with AI in the loop and humans in charge.\n\nWhat you'd work on:\n→ SaaS products, from first commit to launch\n→ AI agents and automation workflows\n→ E-commerce builds\n→ Lead-gen systems that bring in real customers\n\nWhat we're looking for:\n→ Comfortable across frontend and backend (React/Next.js, Node or Python)\n→ You've shipped something people actually use\n→ You use AI coding tools well and still own the quality\n→ You like variety and take ownership end to end\n\nHow we work:\n→ Fully remote, flexible hours\n→ We care about output, not time at a desk\n→ Small team, real responsibility from week one\n\nSee what we build: https://tglobal.in/work\nHow we ship in two weeks: https://tglobal.in/process\n\nInterested? Comment \"INTERESTED\", then check out the TGlobal AI page and send them a message with something you've built: https://lnkd.in/gVUPjm2p\n\nKnow someone who'd fit? A tag helps a lot 🙏\n\n#Hiring #FullStackDeveloper #RemoteJobs #AIEngineering #TglobalAI",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-02",
+      "discovered_at": "2026-11-03T16:58:34.368271",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer (Remote)",
+          "Company: Dhruv Gupta (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dhruv Gupta (LinkedIn Post) for Full-Stack Developer (Remote). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
