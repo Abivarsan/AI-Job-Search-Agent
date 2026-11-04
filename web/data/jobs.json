@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T23:10:28.646426Z",
+    "generated_at": "2026-11-04T05:56:43.487325Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 337
+    "total_count": 339
   },
   "stats": {
-    "total_jobs": 337,
-    "evaluated_jobs": 337,
-    "high_matches": 337,
+    "total_jobs": 339,
+    "evaluated_jobs": 339,
+    "high_matches": 339,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 158,
+      "linkedin_guest": 159,
       "linkedin_posts": 60,
       "rooster_jobs": 17,
-      "topjobs_lk": 43
+      "topjobs_lk": 44
     },
     "min_match_score_threshold": 70
   },
@@ -4570,6 +4570,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567410",
+      "external_id": "0001567410",
+      "source": "topjobs_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lanka Insurance General",
+      "location": "Colombo 2, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001567410&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Sri Lanka Insurance General. Location: Colombo 2, Sri Lanka. Closing: Wed Nov 11 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 04 2026",
+      "discovered_at": "2026-11-04T05:56:39.963576",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lanka Insurance General"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lanka Insurance General for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486346354",
+      "external_id": "4486346354",
+      "source": "linkedin_guest",
+      "title": "Intern – Full-Cycle Software Engineering",
+      "company": "PeoplesHR",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-%E2%80%93-full-cycle-software-engineering-at-peopleshr-4486346354",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "25 minutes ago",
+      "discovered_at": "2026-11-04T05:56:33.981382",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern – Full-Cycle Software Engineering",
+          "Company: PeoplesHR"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PeoplesHR for Intern – Full-Cycle Software Engineering. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
