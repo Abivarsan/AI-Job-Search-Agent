@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T14:19:21.439374Z",
+    "generated_at": "2026-11-04T21:14:05.555897Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 346
+    "total_count": 347
   },
   "stats": {
-    "total_jobs": 346,
-    "evaluated_jobs": 346,
-    "high_matches": 346,
+    "total_jobs": 347,
+    "evaluated_jobs": 347,
+    "high_matches": 347,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 59,
       "linkedin_guest": 162,
-      "linkedin_posts": 61,
+      "linkedin_posts": 62,
       "rooster_jobs": 17,
       "topjobs_lk": 47
     },
@@ -649,6 +649,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7523721846362390529",
+      "external_id": "7523721846362390529",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer",
+      "company": "Typefi Systems",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/typefi-systems_hiring-activity-7523721846362390529-F7pQ",
+      "description": "👤 Posted by: Typefi Systems\n\n---\nWe're #hiring a new Associate Software Engineer : C++ and JavaScript in Colombo, Western Province. Apply today or share this post with your network.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-04",
+      "discovered_at": "2026-11-04T21:14:01.662051",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Typefi Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Typefi Systems for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
