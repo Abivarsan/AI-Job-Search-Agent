@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T05:56:43.487325Z",
+    "generated_at": "2026-11-04T14:19:21.439374Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 339
+    "total_count": 346
   },
   "stats": {
-    "total_jobs": 339,
-    "evaluated_jobs": 339,
-    "high_matches": 339,
+    "total_jobs": 346,
+    "evaluated_jobs": 346,
+    "high_matches": 346,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 159,
-      "linkedin_posts": 60,
+      "linkedin_guest": 162,
+      "linkedin_posts": 61,
       "rooster_jobs": 17,
-      "topjobs_lk": 44
+      "topjobs_lk": 47
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,123 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518976410225430528",
+      "external_id": "7518976410225430528",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (Erp)",
+      "company": "Envoyortus",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/chamodya-medhawani-977514258_hiringsrilanka-fullstackdeveloper-phpdeveloper-activity-7518976410225430528-BbXZ",
+      "description": "📩 Apply / Contact Email: chamodya@envoyortus.com\n👤 Posted by: Chamodya Medhawani\n\n---\n🚨 WE ARE HIRING – FULL STACK DEVELOPER (ERP) 🚨\n\n📌 Job Details\n📍 Location: Colombo 01, Sri Lanka\n⏳ Contract Duration: Short-term contract (1–3 months)\n💼 Experience: 4+ years in Full Stack Development\n\n🔑 Must-Have Skills\n✅ Strong PHP development experience\n✅ Experience with Laravel or CodeIgniter\n✅ ERP or accounting system development experience\n✅ Understanding of General Ledger (GL), Accounts Payable (AP), Accounts Receivable (AR), and Payroll\n✅ Strong SQL skills with MySQL and SQL Server\n✅ JavaScript, HTML, and CSS\n✅ Git, Docker, and CI/CD pipelines\n✅ Good written English and confidence in working directly with client finance teams\n\n🌟 Added Advantages\n🔹 React & TypeScript\n🔹 Python or Java (Spring)\n🔹 Azure or AWS\n🔹 REST APIs and system integrations\n🔹 Security and secure coding practices\n\n🚀 Key Responsibilities\n🔹 Develop, maintain, and enhance a cloud-based ERP platform.\n🔹 Support client implementations, system configuration, custom development, and data migration.\n🔹 Provide go-live support and collaborate with client finance teams.\n🔹 Contribute to other technology projects across the group when required.\n\n🎯 Who Should Apply?\nExperienced developers who combine strong PHP expertise with ERP/accounting knowledge and can deliver solutions in a client-facing environment.\n\n📩 How to Apply\nInterested candidates are invited to share their updated CV via \n\nchamodya@envoyortus.com\n\n\n#HiringSriLanka #FullStackDeveloper #PHPDeveloper #ERPDeveloper #Laravel #CodeIgniter #SoftwareEngineer #WebDevelopment #MySQL #SQLServer #ERPJobs #ITJobsSriLanka #ColomboJobs #ContractJobs #TechCareers",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-11-04T14:19:09.476150",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Erp)",
+          "Company: Envoyortus"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Envoyortus for Full Stack Developer (Erp). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486339381",
+      "external_id": "4486339381",
+      "source": "linkedin_guest",
+      "title": "AI/ML  Engineer",
+      "company": "OXO Tech",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-ml-engineer-at-oxo-tech-4486339381",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-04T14:19:04.270071",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI/ML  Engineer",
+          "Company: OXO Tech"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at OXO Tech for AI/ML  Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486335658",
+      "external_id": "4486335658",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer : C++ and JavaScript",
+      "company": "Typefi Systems",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-software-engineer-c%2B%2B-and-javascript-at-typefi-systems-4486335658",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-04T14:18:52.647912",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer : C++ and JavaScript",
+          "Company: Typefi Systems"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Typefi Systems for Associate Software Engineer : C++ and JavaScript. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4570,6 +4687,152 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567638",
+      "external_id": "0001567638",
+      "source": "topjobs_lk",
+      "title": "Web Developer",
+      "company": "Damro",
+      "location": "Nittambuwa, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=DEFZZZ&jc=0001567638&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Damro. Location: Nittambuwa, Sri Lanka. Closing: Wed Nov 18 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 04 2026",
+      "discovered_at": "2026-11-04T14:19:17.401107",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Web Developer",
+          "Company: Damro"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Damro for Web Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567720",
+      "external_id": "0001567720",
+      "source": "topjobs_lk",
+      "title": "Executive - BI & AI Engineer",
+      "company": "Dart Global Logistics",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001567720&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Dart Global Logistics. Location: Colombo, Sri Lanka. Closing: Wed Nov 18 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 04 2026",
+      "discovered_at": "2026-11-04T14:19:15.515979",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Executive - BI & AI Engineer",
+          "Company: Dart Global Logistics"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dart Global Logistics for Executive - BI & AI Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567746",
+      "external_id": "0001567746",
+      "source": "topjobs_lk",
+      "title": "Java Software Engineer",
+      "company": "LAUGFS Eco Sri Ltd",
+      "location": "Colombo 6, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=0&ac=DEFZZZ&jc=0001567746&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: LAUGFS Eco Sri Ltd. Location: Colombo 6, Sri Lanka. Closing: Wed Nov 18 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 04 2026",
+      "discovered_at": "2026-11-04T14:19:13.630746",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Software Engineer",
+          "Company: LAUGFS Eco Sri Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LAUGFS Eco Sri Ltd for Java Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486355860",
+      "external_id": "4486355860",
+      "source": "linkedin_guest",
+      "title": "Engineer - Data Engineering",
+      "company": "Hatchyard",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-data-engineering-at-hatchyard-4486355860",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-04T14:18:58.349108",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer - Data Engineering",
+          "Company: Hatchyard"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hatchyard for Engineer - Data Engineering. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
