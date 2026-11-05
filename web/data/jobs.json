@@ -1,28 +1,67 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T06:20:31.120417Z",
+    "generated_at": "2026-11-05T17:17:54.537558Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 353
+    "total_count": 356
   },
   "stats": {
-    "total_jobs": 353,
-    "evaluated_jobs": 353,
-    "high_matches": 353,
+    "total_jobs": 356,
+    "evaluated_jobs": 356,
+    "high_matches": 356,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 166,
+      "linkedin_guest": 168,
       "linkedin_posts": 63,
       "rooster_jobs": 17,
-      "topjobs_lk": 48
+      "topjobs_lk": 49
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4486702028",
+      "external_id": "4486702028",
+      "source": "linkedin_guest",
+      "title": "Associate Consultant - Azure",
+      "company": "HCLTech Sri Lanka",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-consultant-azure-at-hcltech-sri-lanka-4486702028",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-05T17:17:39.565690",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Associate Consultant - Azure",
+          "Company: HCLTech Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HCLTech Sri Lanka for Associate Consultant - Azure. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4476807237",
       "external_id": "4476807237",
@@ -649,6 +688,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4487726354",
+      "external_id": "4487726354",
+      "source": "linkedin_guest",
+      "title": "Intern Full Stack Developer",
+      "company": "CAREER141",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-full-stack-developer-at-career141-4487726354",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-11-05T17:17:45.436229",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Full Stack Developer",
+          "Company: CAREER141"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CAREER141 for Intern Full Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4837,6 +4915,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567982",
+      "external_id": "0001567982",
+      "source": "topjobs_lk",
+      "title": "QA Engineer",
+      "company": "Koombiyo Delivery (Pvt) Ltd",
+      "location": "Sri Jayawardanapura Kotte, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=DEFZZZ&jc=0001567982&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Koombiyo Delivery (Pvt) Ltd. Location: Sri Jayawardanapura Kotte, Sri Lanka. Closing: Thu Nov 19 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 05 2026",
+      "discovered_at": "2026-11-05T17:17:50.882786",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: Koombiyo Delivery (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Koombiyo Delivery (Pvt) Ltd for QA Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
