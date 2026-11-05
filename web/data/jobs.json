@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T17:17:54.537558Z",
+    "generated_at": "2026-11-05T23:32:20.641927Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 356
+    "total_count": 358
   },
   "stats": {
-    "total_jobs": 356,
-    "evaluated_jobs": 356,
-    "high_matches": 356,
+    "total_jobs": 358,
+    "evaluated_jobs": 358,
+    "high_matches": 358,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,13 +16,52 @@
     "source_breakdown": {
       "itpro_lk": 59,
       "linkedin_guest": 168,
-      "linkedin_posts": 63,
-      "rooster_jobs": 17,
+      "linkedin_posts": 64,
+      "rooster_jobs": 18,
       "topjobs_lk": 49
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7523057536355172352",
+      "external_id": "7523057536355172352",
+      "source": "linkedin_posts",
+      "title": "Software Engineers / Associate Software Engineers",
+      "company": "Mortgagx",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/mohamed-safan-7605121a6_syfehr-ai-powered-hr-management-system-activity-7523057536355172352-cL2A",
+      "description": "📩 Apply / Contact Email: ami@mortgagx.uk\n👤 Posted by: Mohamed Safan\n\n---\n🚀 We're Hiring – Software Engineers / Associate Software Engineers!\n\nWIS Group is looking for talented Software Engineers / Associate Software Engineers to join our growing team in Sri Lanka.\n\nWhat we're looking for:\n\n* Good knowledge of JavaScript and TypeScript.\n* Experience with Node.js, NestJS, React.js and Next.js.\n* Understanding of REST APIs and databases.\n* Knowledge of AI, RAG, LLMs and vector databases (Pinecone).\n* Familiarity with AWS or other cloud platforms.\n* Good problem-solving skills.\n\n2+ years of software development experience for Software Engineer positions.\n\n📍 Location: Sri Lanka\n🇱🇰 Sri Lankan candidates only\n\nHow to apply:\nami@mortgagx.uk \n\nFeel free to share this opportunity with others!\n\n#Hiring #SoftwareEngineer #SriLankaJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-02",
+      "discovered_at": "2026-11-05T23:32:15.495662",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineers / Associate Software Engineers",
+          "Company: Mortgagx"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Mortgagx for Software Engineers / Associate Software Engineers. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4486702028",
       "external_id": "4486702028",
@@ -688,6 +727,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "rooster_515835",
+      "external_id": "515835",
+      "source": "rooster_jobs",
+      "title": "Software Engineer (AI/ML & Full Stack)",
+      "company": "Sri Lankan Company",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://rooster.jobs/jobs/515835",
+      "description": "We are looking for a highly skilled Senior Software Engineer (SSE) with strong expertise in AI/ML and Fullstack Development to join our team. This role focuses on building high-performance, AI-driven platforms, scalable microservices, and enterprise-grade solutions.\n\nIf you are passionate about developing intelligent systems and working on cutting-edge technologies, this opportunity is for you.\n\n**🔹 Key Responsibilities**\n\n- AI/ML & Core Platform Development\n- Develop and optimize AI-powered automation, search systems, and data retrieval models\n- Build LLM-driven applications using LangChain, RAG, and embedding techniques\n- Enhance workflow automation using Haystack, LangGraph, and Vector Databases\n- Fullstack Development\n- Design and develop scalable microservices and event-driven systems\n- Build high-performance backend services using Python, Java, and Node.js\n- Develop AI-integrated dashboards and frontend applications using React, Angular, and TypeScript\n\n**AI Deployment & DevOps**\n\n- Deploy and monitor AI models on Kubernetes, OpenShift, and cloud platforms\n- Implement CI/CD pipelines, containerization, and scalable deployment strategies\n- Technical Collaboration\n- Work closely with Tech Leads and AI engineers on scalable implementations\n- Follow best practices in software engineering and AI deployment\n- Contribute to innovation in workflow automation and platform scalability\n\n**🔹 Qualifications**\n\n- Bachelor’s or Master’s degree in Computer Science, AI, Machine Learning, or related field\n- 3+ years of experience in AI/ML and Fullstack Development\n- Strong experience in LLMs, NLP, and deep learning models\n- Proficiency in Python, Java, Node.js, and TypeScript\n- Experience with AWS, GCP, or Azure cloud platforms\n- Knowledge of Microservices, REST/WebSockets, and real-time APIs\n- Experience in DevOps, MLOps, Kubernetes, and CI/CD pipelines\n- Hands-on experience with Vector Databases and RAG-based search systems",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-05T23:32:17.636628",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (AI/ML & Full Stack)",
+          "Company: Sri Lankan Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Company for Software Engineer (AI/ML & Full Stack). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
