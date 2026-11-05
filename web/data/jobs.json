@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T21:14:05.555897Z",
+    "generated_at": "2026-11-05T06:20:31.120417Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 347
+    "total_count": 353
   },
   "stats": {
-    "total_jobs": 347,
-    "evaluated_jobs": 347,
-    "high_matches": 347,
+    "total_jobs": 353,
+    "evaluated_jobs": 353,
+    "high_matches": 353,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 162,
-      "linkedin_posts": 62,
+      "linkedin_guest": 166,
+      "linkedin_posts": 63,
       "rooster_jobs": 17,
-      "topjobs_lk": 47
+      "topjobs_lk": 48
     },
     "min_match_score_threshold": 70
   },
@@ -649,6 +649,119 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7522867857194610688",
+      "external_id": "7522867857194610688",
+      "source": "linkedin_posts",
+      "title": "Junior Software Engineer",
+      "company": "Code Ninety",
+      "location": "Remote\nVacancy",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hiring-juniorsoftwareengineer-softwareengineering-share-7522867857194610688-vlyH",
+      "description": "👤 Posted by: Code Ninety\n\n---\n🚨 HIRING – JUNIOR SOFTWARE ENGINEER | Remote 🚨\n\nReady to turn your coding skills into real-world experience?\n\nCode Ninety is looking for a Junior Software Engineer eager to learn, solve problems, and contribute to building reliable software solutions.\n\nLocation: Remote\nVacancy: 1 Position\nExperience: 0–1 year\n\nWhat you'll do:\n- Write clean, maintainable, and efficient code\n- Assist in developing and testing software applications\n- Debug issues and improve existing features\n- Collaborate with senior engineers on development tasks\n\nComment \"Interested\" and our team will reach out via DM if your profile is a good fit.\n\n#Hiring #JuniorSoftwareEngineer #SoftwareEngineering #EntryLevelJobs #SoftwareDeveloper #TechCareers #RemoteJobs #CodeNinety",
+      "experience_level": "Junior (1-2 Years)",
+      "posted_date": "2026-11-02",
+      "discovered_at": "2026-11-05T06:20:25.865296",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Code Ninety"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Code Ninety for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486555758",
+      "external_id": "4486555758",
+      "source": "linkedin_guest",
+      "title": "Associate, Cloud Engineer (Intern)",
+      "company": "Pearson",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-cloud-engineer-intern-at-pearson-4486555758",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-05T06:20:20.503503",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate, Cloud Engineer (Intern)",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Associate, Cloud Engineer (Intern). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486566926",
+      "external_id": "4486566926",
+      "source": "linkedin_guest",
+      "title": "Full-Stack Developer Intern (Frontend and Mobile)",
+      "company": "Healplace",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-developer-intern-frontend-and-mobile-at-healplace-4486566926",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 minutes ago",
+      "discovered_at": "2026-11-05T06:20:09.467586",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer Intern (Frontend and Mobile)",
+          "Company: Healplace"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Healplace for Full-Stack Developer Intern (Frontend and Mobile). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4724,6 +4837,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001567934",
+      "external_id": "0001567934",
+      "source": "topjobs_lk",
+      "title": "AI Engineer (Application Development Focus)",
+      "company": "Asiawise Lanka (Pvt) Ltd",
+      "location": "All island, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001567934&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Asiawise Lanka (Pvt) Ltd. Location: All island, Sri Lanka. Closing: Sat Dec 05 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 05 2026",
+      "discovered_at": "2026-11-05T06:20:27.864211",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineer (Application Development Focus)",
+          "Company: Asiawise Lanka (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Asiawise Lanka (Pvt) Ltd for AI Engineer (Application Development Focus). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486562369",
+      "external_id": "4486562369",
+      "source": "linkedin_guest",
+      "title": "Software Development and Video Editor Internship (1 Year)",
+      "company": "Studyingermany.lk (Pvt) Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-development-and-video-editor-internship-1-year-at-studyingermany-lk-pvt-ltd-4486562369",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-05T06:20:14.846233",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development and Video Editor Internship (1 Year)",
+          "Company: Studyingermany.lk (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Studyingermany.lk (Pvt) Ltd for Software Development and Video Editor Internship (1 Year). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486571140",
+      "external_id": "4486571140",
+      "source": "linkedin_guest",
+      "title": "Forward Deployed Engineer",
+      "company": "RedOwl",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/forward-deployed-engineer-at-redowl-4486571140",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-05T06:20:03.200866",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Forward Deployed Engineer",
+          "Company: RedOwl"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at RedOwl for Forward Deployed Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
