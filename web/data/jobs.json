@@ -1,28 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T23:32:20.641927Z",
+    "generated_at": "2026-11-06T06:15:14.713885Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 358
+    "total_count": 364
   },
   "stats": {
-    "total_jobs": 358,
-    "evaluated_jobs": 358,
-    "high_matches": 358,
+    "total_jobs": 364,
+    "evaluated_jobs": 364,
+    "high_matches": 364,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 168,
-      "linkedin_posts": 64,
+      "linkedin_guest": 169,
+      "linkedin_posts": 68,
       "rooster_jobs": 18,
-      "topjobs_lk": 49
+      "topjobs_lk": 50
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7523088969618780160",
+      "external_id": "7523088969618780160",
+      "source": "linkedin_posts",
+      "title": "Junior Software Engineer",
+      "company": "Purples LAB",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/purpleslab-hiringnow-softwareengineer-share-7523088969618780160-bqWX",
+      "description": "📩 Apply / Contact Email: hello.purpleslab@gmail.com\n👤 Posted by: Purples LAB\n\n---\n🚀🇱🇰 We're Hiring - Immediately.\nJunior Software Engineer (Backend) 💜\n\nWe're looking for a skilled fast moving backend developer to join Purples LAB \nand help deliver an ongoing Dubai based software project\n\n💻 Required Tech Stack \n- Node.js , NestJS ,TypeScript , MySQL\n- REST APIs , Git , Docker , OpenAPI \n\nWe value practical skills, problem solving and \nthe ability to deliver real solutions\n\n📍 Remote | Onsite - 🇱🇰 Sri Lanka \n⚡ Immediate availability preferred\n\nPlease apply only if you're familiar with the \nrequired stack and ready to contribute\n\n💬 Comment \"Interested\" below, and our team will reach out to you !\n📩 Send your CV: hello.purpleslab@gmail.com\n\n#PurplesLAB #HiringNow #SoftwareEngineer #BackendDeveloper #JuniorSoftwareEngineer #NodeJS #NestJS #TypeScript #MySQL #SriLankaJobs #TechJobs #DubaiProjects #SoftwareDevelopment",
+      "experience_level": "Junior (1-2 Years)",
+      "posted_date": "2026-11-02",
+      "discovered_at": "2026-11-06T06:15:02.362686",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Purples LAB"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Purples LAB for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "lipost_7523057536355172352",
       "external_id": "7523057536355172352",
@@ -727,6 +765,83 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7524048271997177856",
+      "external_id": "7524048271997177856",
+      "source": "linkedin_posts",
+      "title": "Software Engineer New Grad",
+      "company": "Ahmed Faisal (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/afrussel_hiring-softwareengineer-newgrad-activity-7524048271997177856-WSm8",
+      "description": "👤 Posted by: Ahmed Faisal\n\n---\n🚀 We're Hiring: Software Engineer, New Grad | Full-Time | Remote\n\nAre you a recent Computer Science graduate or an aspiring Software Engineer ready to kick-start your career by building real-world production systems?\n\nHere's an exciting opportunity to work on modern full-stack applications, scalable backend systems, and AI-powered products!\n\n💼 Position: Software Engineer, New Grad\n🏢 Company: micro1\n🌍 Work Mode: Remote\n⏰ Employment Type: Full-Time\n💰 Salary: $110,000 – $150,000 USD (Base Salary)\n\n🔥 What You'll Be Working On\n\n- Building end-to-end full-stack applications and internal platforms.\n- Developing backend services and RESTful APIs.\n- Creating modern frontend interfaces using React.\n- Working with Node.js, TypeScript, and PostgreSQL.\n- Contributing to AI-powered products and workflow automation.\n- Learning scalable architecture and production engineering practices.\n\n🎯 What They're Looking For\n\n- Recent graduate or soon-to-be graduate in Computer Science or a related field.\n- Strong fundamentals in JavaScript and/or TypeScript.\n- Familiarity with React and frontend development.\n- Basic knowledge of Node.js and backend development.\n- Understanding of PostgreSQL and relational databases.\n- Familiarity with Git, REST APIs, and software development workflows.\n- A strong willingness to learn and solve challenging problems.\n\nBonus Points:\nExperience with NestJS, AWS/GCP/Azure, CI/CD, microservices, or AI-powered applications.\n\n🎁 Compensation & Benefits\n\n- Competitive annual base salary of $110K–$150K.\n- Equity compensation eligibility.\n- Performance-based bonuses (subject to company policies).\n- Health insurance premium reimbursement up to 100%.\n- Paid time off.\n- 401(k) with company match.\n\n📩 Interested in this opportunity?\n\nYou can find the full job description and submit your application through the application link.\nKnow someone who might be a great fit? Tag them in the comments or share this opportunity with your network!\n\n#Hiring #SoftwareEngineer #NewGrad #FullStackDeveloper #ReactJS #NodeJS #JavaScript #TypeScript #RemoteJobs #TechJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-05",
+      "discovered_at": "2026-11-06T06:15:06.522026",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer New Grad",
+          "Company: Ahmed Faisal (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ahmed Faisal (LinkedIn Post) for Software Engineer New Grad. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7523626936007307264",
+      "external_id": "7523626936007307264",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer (C++ and JavaScript)",
+      "company": "Chathini Uduwana (LinkedIn Post)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/chathini_were-hiring-associate-software-engineer-activity-7523626936007307264-MmZ1",
+      "description": "👤 Posted by: Chathini Uduwana\n\n---\nWe’re hiring: Associate Software Engineer (C++ and JavaScript)\nAre you a recent graduate who likes getting to the bottom of how software works? Join the team behind Typefi’s publishing automation for Adobe InDesign.\n\nThe work is split evenly between our C++ InDesign plug-ins and InDesign scripting in ExtendScript and UXP. You’ll develop on both Windows and macOS.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-04",
+      "discovered_at": "2026-11-06T06:15:04.440924",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer (C++ and JavaScript)",
+          "Company: Chathini Uduwana (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Chathini Uduwana (LinkedIn Post) for Associate Software Engineer (C++ and JavaScript). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -4992,6 +5107,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001568384",
+      "external_id": "0001568384",
+      "source": "topjobs_lk",
+      "title": "Trainee Software Engineer",
+      "company": "Hedanship Asia (Pvt) Ltd",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001568384&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Hedanship Asia (Pvt) Ltd. Location: Colombo 3, Sri Lanka. Closing: Fri Nov 20 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 06 2026",
+      "discovered_at": "2026-11-06T06:15:10.591677",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Software Engineer",
+          "Company: Hedanship Asia (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hedanship Asia (Pvt) Ltd for Trainee Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7511318823354933248",
+      "external_id": "7511318823354933248",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "Raintor Limited",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/raintor-limited_hiring-fullstackdeveloper-remotejob-activity-7511318823354933248-if5M",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gFfmfi8Z\n👤 Posted by: Raintor Limited\n\n---\n🚀 We’re Hiring: Full Stack Developer\n\nRaintor Limited is looking for a skilled and solution-focused Full Stack Developer to join our growing team.\n\nYou’ll help us:\n\n• Develop responsive and scalable web applications  \n• Build and maintain frontend and backend systems  \n• Integrate APIs, databases, and third-party services  \n• Identify technical issues and implement practical solutions  \n• Collaborate with designers and other team members  \n\nWork Mode: Remote  \nEmployment: Monthly salary-based  \nSalary: Based on skills and experience  \n\nApply Now: https://lnkd.in/gFfmfi8Z\n\nBuild. Create. Ship.  \nJoin Raintor Limited and help us turn ideas into reliable digital products.\n\nRaintor Limited — Software & IT Agency\n\n#Hiring #FullStackDeveloper #RemoteJob #DeveloperJobs #TechJobs #SoftwareDevelopment #RaintorLimited",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-01",
+      "discovered_at": "2026-11-06T06:15:08.534985",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Raintor Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Raintor Limited for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4486949050",
+      "external_id": "4486949050",
+      "source": "linkedin_guest",
+      "title": "Software Engineering and Video Editing Internship ( 1 Year)",
+      "company": "Studyingermany.lk (Pvt) Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineering-and-video-editing-internship-1-year-at-studyingermany-lk-pvt-ltd-4486949050",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-06T06:14:56.434315",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering and Video Editing Internship ( 1 Year)",
+          "Company: Studyingermany.lk (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Studyingermany.lk (Pvt) Ltd for Software Engineering and Video Editing Internship ( 1 Year). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
