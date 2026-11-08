@@ -16,11 +16,9 @@ permissions:
   id-token: write
 
 jobs:
+  # 1. Multi-Portal Scraping, AI Evaluation, and Dataset Sync
   sweep:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -76,10 +74,6 @@ jobs:
         with:
           path: 'web'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
       - name: Upload Database Backup Artifact
         uses: actions/upload-artifact@v4
         if: always()
@@ -87,3 +81,15 @@ jobs:
           name: jobs-database-backup
           path: jobs.db
           retention-days: 90
+
+  # 2. Dedicated GitHub Pages Deployment Job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: sweep
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
