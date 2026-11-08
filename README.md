@@ -1,13 +1,14 @@
-# AI Job Search & Notification Agent
+# AI Job Search & Live Dashboard Platform
 
-An automated, intelligent AI agent that continuously searches for **Software Engineer**, **Associate Software Engineer**, and early-career tech positions across **LinkedIn, TopJobs.lk, ITPro.lk, Rooster.jobs, and Xpress.jobs**, analyzes every opportunity against your personal profile using **Google Gemini AI**, and delivers real-time job alerts directly to your **Telegram** (or WhatsApp).
+An autonomous, intelligent AI agent that continuously searches for **Software Engineer**, **Associate Software Engineer**, and early-career tech positions across **LinkedIn Jobs, LinkedIn Posts, TopJobs.lk, ITPro.lk, Rooster.jobs, and Xpress.jobs**, analyzes every opportunity against your candidate profile using **Google Gemini AI**, and automatically updates an interactive **Live Web & Mobile Dashboard** hosted on **GitHub Pages**.
 
 ---
 
 ## 🌟 Key Highlights & Engineering Features
 
-- **Multi-Portal Sri Lankan & Global Ingestion**: Scrapes and indexes tech openings from:
-  - 💼 **LinkedIn** (Public Guest API, no login required)
+- **Multi-Portal Ingestion (6 Sources)**: Scrapes and indexes tech openings from:
+  - 💼 **LinkedIn Jobs** (Public Guest API, no login required)
+  - 📰 **LinkedIn Public Posts** (Shared hiring posts by recruiters & engineering leads)
   - 🇱🇰 **TopJobs.lk** (Software Development & QA functional area)
   - 💻 **ITPro.lk** (Sri Lanka's dedicated IT job portal)
   - 🐓 **Rooster.jobs** (Direct REST API integration)
@@ -15,12 +16,11 @@ An automated, intelligent AI agent that continuously searches for **Software Eng
 - **Safe, Ban-Free Extraction**: Requires **no user account logins or cookies**, completely eliminating any risk of personal account restrictions.
 - **Failover / Hybrid Extraction**: Automatically falls back to managed third-party APIs (RapidAPI JSearch) if LinkedIn guest endpoints encounter burst rate-limiting.
 - **Intelligent Pre-Filtering & Location Rules**: 
-  - Sri Lanka roles: Accepts On-site, Hybrid, and Remote.
+  - Sri Lanka roles: Accepts On-site, Hybrid, and Remote (with city filters for Colombo, Jaffna, Kandy, Galle, Kurunegala, and Gampaha).
   - International roles: Accepts **strictly 100% Remote** only (rejects international roles requiring relocation).
-- **Google Gemini Semantic Scoring**: Evaluates candidate fit against your CV, analyzes tech stack alignment (C#/.NET, Java/Spring Boot, React/TypeScript), detects missing skills, and formats a concise 2-sentence rationale.
-- **Robust Deduplication**: Tracks job IDs and content hashes in SQLite, ensuring you never receive duplicate notifications for reposted roles.
-- **Zero-Friction Alerting**: Instant Telegram Bot alerts with clickable apply links (with optional Twilio WhatsApp support).
-- **24/7 Automated Scheduling**: Serverless cloud runner on GitHub Actions every 3 hours.
+- **Google Gemini Semantic Scoring**: Evaluates candidate fit against your CV, analyzes tech stack alignment (C#/.NET, Java/Spring Boot, React/TypeScript), detects missing skills, and formats concise recruiter-fit rationales.
+- **Interactive Live Dashboard**: PWA-ready dashboard with live search, filters, table/card views, deep-dive modal inspection, and personal tracking (Bookmarked, Applied, Omitted).
+- **24/7 Automated Scheduling & GitHub Pages Hosting**: Serverless runner on GitHub Actions every 3 hours that updates the dataset and deploys the live site to **GitHub Pages** (`https://abivarsan.github.io/AI-Job-Search-Agent/`) for $0 forever!
 
 ---
 
@@ -37,12 +37,13 @@ Agent 01/
 ├── pipeline.py                # Multi-portal orchestration pipeline
 ├── scheduler.py               # Background daemon using APScheduler
 ├── main.py                    # Command-line interface with rich output
-├── DEPLOYMENT.md              # 24/7 Cloud deployment guide (GitHub Actions)
+├── DEPLOYMENT.md              # 24/7 Cloud deployment & GitHub Pages guide
 ├── .github/workflows/
-│   └── job_search_sweep.yml   # 3-Hour automated serverless runner
+│   └── job_search_sweep.yml   # 3-Hour automated serverless runner & Pages deployer
 ├── extractors/
 │   ├── base.py                # BaseJobExtractor interface & JobItem model
 │   ├── linkedin_guest.py      # Unauthenticated LinkedIn public search extractor
+│   ├── linkedin_posts.py      # Public feed post extractor with snowflake gate
 │   ├── topjobs_lk.py          # TopJobs.lk IT/Software extractor
 │   ├── itpro_lk.py            # ITPro.lk software engineering extractor
 │   ├── rooster_jobs.py        # Rooster.jobs REST API extractor
@@ -51,17 +52,23 @@ Agent 01/
 ├── filters/
 │   ├── heuristic_filter.py    # Negative seniority & location rules
 │   └── ai_evaluator.py        # Gemini AI semantic fit scoring engine
-└── notifiers/
-    ├── base.py                # BaseNotifier interface
-    ├── telegram_notifier.py   # Telegram Bot dispatcher (Source-tagged alerts)
-    └── whatsapp_twilio.py     # Twilio WhatsApp dispatcher
+├── dashboard/
+│   ├── app.py                 # FastAPI local desktop server
+│   └── exporter.py            # SQLite to static web JSON exporter
+└── web/
+    ├── index.html             # Responsive desktop/mobile UI
+    ├── app.js                 # Client-side filtering & status logic
+    ├── sw.js                  # PWA offline cache service worker
+    ├── manifest.json          # PWA metadata
+    └── data/
+        └── jobs.json          # Live exported job listings & AI evaluations
 ```
 
 ---
 
-## ☁️ 24/7 Cloud Hosting (No Computer Required)
+## ☁️ 24/7 Cloud Hosting via GitHub Pages (100% Free)
 
-You can run this agent completely online for free using **GitHub Actions**. It will run every **3 hours**, evaluate jobs with Gemini AI, and dispatch alerts to your WhatsApp 24/7.
+You can run this agent completely online for free using **GitHub Actions & GitHub Pages**. It will run every **3 hours**, evaluate jobs with Gemini AI, and update your live dashboard.
 
 👉 **See the complete setup in [DEPLOYMENT.md](DEPLOYMENT.md).**
 
@@ -77,31 +84,14 @@ Copy `.env.example` to `.env`:
 copy .env.example .env
 ```
 
-Open `.env` and fill in your keys:
+Open `.env` and fill in your Gemini API key:
 
 ```ini
 # Google Gemini API key (https://aistudio.google.com/)
 GEMINI_API_KEY=your_gemini_api_key
-
-# Minimum AI match score (0-100) to trigger notification
-MIN_MATCH_SCORE=75
-
-# Twilio WhatsApp Credentials (https://www.twilio.com/)
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
-WHATSAPP_TO=whatsapp:+12345678901   # Your personal mobile number with country code
-
-# Search Keywords & Target Locations
-SEARCH_KEYWORDS=Software Engineer, Associate Software Engineer, Junior Software Engineer
-SEARCH_LOCATIONS=Remote, United States
+GEMINI_MODEL=gemini-2.5-flash
+MIN_MATCH_SCORE=70
 ```
-
-> [!TIP]
-> **Testing WhatsApp with Twilio Sandbox**:
-> 1. Log in to [Twilio Console](https://console.twilio.com/) -> Messaging -> Try WhatsApp.
-> 2. Send the sandbox join code (e.g. `join <your-code>`) from your personal WhatsApp to `+1 415 523 8886`.
-> 3. Run `python main.py --test-whatsapp` to verify connection!
 
 ---
 
@@ -119,28 +109,35 @@ Edit `candidate_profile.json` to reflect your specific skills and background:
   "experience_years": 1,
   "experience_level": "Entry / Associate (0-2 years)",
   "primary_skills": [
-    "Python", "JavaScript", "TypeScript", "React", "FastAPI", "PostgreSQL", "Git", "Docker"
+    "C#", ".NET", "Java", "Spring Boot", "React", "TypeScript", "SQL"
   ],
-  "target_locations": ["Remote", "United States"]
+  "target_locations": ["Sri Lanka", "Remote"]
 }
 ```
 
 ---
 
-## 🛠️ Running the Agent
+## 🛠️ Running the Application
+
+### Launch Local Dashboard
+Starts the FastAPI local server with direct SQLite access and opens the dashboard in your default browser:
+
+```bash
+python main.py --dashboard
+```
 
 ### Run a Single Search Immediately
-Executes an immediate search across configured keywords, evaluates found jobs, saves them to SQLite, and sends WhatsApp alerts for high matches:
+Executes an immediate search across configured keywords, evaluates newly discovered jobs, saves them to SQLite, and updates the local dataset:
 
 ```bash
 python main.py --run-once
 ```
 
-### Run in Background Daemon Mode
-Runs continuously and triggers searches every `POLL_INTERVAL_MINUTES` (default: every 3 hours):
+### Export Dataset for Web
+Exports SQLite records to `web/data/jobs.json` for GitHub Pages / Vercel:
 
 ```bash
-python main.py --daemon
+python main.py --export-web
 ```
 
 ### View High-Match Jobs Table
@@ -151,17 +148,10 @@ python main.py --list-matches
 ```
 
 ### View Pipeline Statistics
-Shows total indexed jobs, evaluations performed, and notifications sent:
+Shows total indexed jobs, AI evaluations, and portal breakdown:
 
 ```bash
 python main.py --stats
-```
-
-### Verify WhatsApp Connectivity
-Sends a test ping to verify that Twilio WhatsApp credentials are functioning:
-
-```bash
-python main.py --test-whatsapp
 ```
 
 ---

@@ -1,21 +1,10 @@
-name: AI Job Search 3-Hour Agent
+name: AI Job Search 3-Hour Agent & Dashboard Sync
 
 on:
   schedule:
     # Runs every 3 hours at minute 0 (8 times a day: 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC)
     - cron: '0 */3 * * *'
   workflow_dispatch:
-    inputs:
-      test_telegram_only:
-        description: 'Send test Telegram ping only (true/false)'
-        required: false
-        default: false
-        type: boolean
-      test_whatsapp_only:
-        description: 'Send test WhatsApp ping only (true/false)'
-        required: false
-        default: false
-        type: boolean
 
 concurrency:
   group: job-search-3hr
@@ -23,10 +12,15 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   sweep:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -52,34 +46,11 @@ jobs:
             jobs-db-${{ runner.os }}-
             jobs-db-
 
-      - name: Test Telegram Delivery (Optional Run)
-        if: ${{ inputs.test_telegram_only == true }}
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py --test-telegram
-
-      - name: Test WhatsApp Delivery (Optional Run)
-        if: ${{ inputs.test_whatsapp_only == true }}
-        env:
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
-          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
-        run: python main.py --test-whatsapp
-
-      - name: Run Job Search Sweep & Dispatch Alerts
-        if: ${{ inputs.test_telegram_only != true && inputs.test_whatsapp_only != true }}
+      - name: Run Job Search Sweep & AI Evaluation
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
           MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || '70' }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
-          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
           SEARCH_KEYWORDS: ${{ vars.SEARCH_KEYWORDS || 'Associate Software Engineer, Software Engineer, Junior Software Engineer, .NET Developer, Java Developer' }}
           SEARCH_LOCATIONS: ${{ vars.SEARCH_LOCATIONS || 'Sri Lanka, Remote' }}
@@ -88,16 +59,26 @@ jobs:
           python main.py --stats
 
       - name: Export Web Dashboard Dataset
-        if: ${{ inputs.test_telegram_only != true && inputs.test_whatsapp_only != true }}
         run: python main.py --export-web
 
       - name: Commit & Sync Web Dashboard Data
-        if: ${{ inputs.test_telegram_only != true && inputs.test_whatsapp_only != true }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add web/data/jobs.json
-          git diff --staged --quiet || (git commit -m "chore: update web dashboard job listings [skip ci]" && git push origin main)
+          git diff --staged --quiet || (git commit -m "chore: update web dashboard job listings [skip ci]" && git push origin HEAD)
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'web'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: Upload Database Backup Artifact
         uses: actions/upload-artifact@v4

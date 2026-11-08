@@ -1,4 +1,4 @@
-/**
+﻿/**
  * AI Job Search Agent - Client Application Logic.
  * Dual-Mode Data Layer (FastAPI API or Static Vercel / PWA Offline Cache),
  * Live Search & Multi-Faceted Filtering, Application Status Tracker, and CSV Export.
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // PWA Service Worker Registration
 function initServiceWorker() {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').catch((err) => {
+    navigator.serviceWorker.register('./sw.js').catch((err) => {
       console.debug('Service Worker registration skipped or failed:', err);
     });
   }
@@ -135,12 +135,12 @@ async function loadData() {
 
   try {
     // 2. Fall back to static bundle (/data/jobs.json for Vercel / PWA)
-    const staticRes = await fetch('/data/jobs.json');
+    const staticRes = await fetch('./data/jobs.json');
     if (staticRes.ok) {
       const payload = await staticRes.json();
       allJobs = payload.jobs || [];
       currentMode = 'static';
-      badge.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Cloud Vercel`;
+      badge.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Cloud Live`;
       badge.className = "text-[10px] px-2 py-0.5 rounded-full font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 flex items-center gap-1";
       btnSweep.classList.add('hidden');
       

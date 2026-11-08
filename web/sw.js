@@ -1,10 +1,10 @@
-const CACHE_NAME = 'job-agent-v4';
+﻿const CACHE_NAME = 'job-agent-v4';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/data/jobs.json',
-  '/manifest.json'
+  './',
+  './index.html',
+  './app.js',
+  './data/jobs.json',
+  './manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
