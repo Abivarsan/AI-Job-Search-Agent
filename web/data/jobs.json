@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T02:13:29.149075Z",
+    "generated_at": "2026-11-12T10:52:39.866863Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 370
+    "total_count": 374
   },
   "stats": {
-    "total_jobs": 370,
-    "evaluated_jobs": 370,
-    "high_matches": 370,
+    "total_jobs": 374,
+    "evaluated_jobs": 374,
+    "high_matches": 374,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 172,
+      "linkedin_guest": 176,
       "linkedin_posts": 71,
       "rooster_jobs": 18,
       "topjobs_lk": 50
@@ -804,6 +804,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490312262",
+      "external_id": "4490312262",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer",
+      "company": "ArkTalents",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-at-arktalents-4490312262",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-12T10:52:32.260408",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer",
+          "Company: ArkTalents"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ArkTalents for DevOps Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5222,6 +5260,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489099283",
+      "external_id": "4489099283",
+      "source": "linkedin_guest",
+      "title": "Systems Engineer - Application Support",
+      "company": "DMS Electronics (Pvt) Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/systems-engineer-application-support-at-dms-electronics-pvt-ltd-4489099283",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-12T10:52:26.812170",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Systems Engineer - Application Support",
+          "Company: DMS Electronics (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DMS Electronics (Pvt) Ltd for Systems Engineer - Application Support. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489093800",
+      "external_id": "4489093800",
+      "source": "linkedin_guest",
+      "title": "Full Stack Engineer",
+      "company": "Zenphi",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-at-zenphi-4489093800",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 minutes ago",
+      "discovered_at": "2026-11-12T10:52:20.800281",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Typescript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer",
+          "Company: Zenphi"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Zenphi for Full Stack Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489044574",
+      "external_id": "4489044574",
+      "source": "linkedin_guest",
+      "title": "Cloud Ops Engineer",
+      "company": "Kaleris",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/cloud-ops-engineer-at-kaleris-4489044574",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-11-12T10:52:15.465850",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cloud Ops Engineer",
+          "Company: Kaleris"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kaleris for Cloud Ops Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
