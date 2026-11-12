@@ -1,28 +1,67 @@
 {
   "meta": {
-    "generated_at": "2026-11-06T06:15:14.713885Z",
+    "generated_at": "2026-11-12T02:13:29.149075Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 364
+    "total_count": 370
   },
   "stats": {
-    "total_jobs": 364,
-    "evaluated_jobs": 364,
-    "high_matches": 364,
+    "total_jobs": 370,
+    "evaluated_jobs": 370,
+    "high_matches": 370,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 169,
-      "linkedin_posts": 68,
+      "linkedin_guest": 172,
+      "linkedin_posts": 71,
       "rooster_jobs": 18,
       "topjobs_lk": 50
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4488652213",
+      "external_id": "4488652213",
+      "source": "linkedin_guest",
+      "title": "Junior AI Developer",
+      "company": "CrunchTime",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/junior-ai-developer-at-crunchtime-4488652213",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "22 hours ago",
+      "discovered_at": "2026-11-12T02:13:10.064383",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior AI Developer",
+          "Company: CrunchTime"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CrunchTime for Junior AI Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "lipost_7523088969618780160",
       "external_id": "7523088969618780160",
@@ -765,6 +804,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7524376291995701248",
+      "external_id": "7524376291995701248",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer",
+      "company": "HR Jagriti Arora",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hr-jagriti-arora_delltechnologies-hiring-softwareengineer-activity-7524376291995701248-EAAx",
+      "description": "👤 Posted by: HR Jagriti Arora\n\n---\nDell Technologies Hiring: Associate Software Engineer \nPosition: Associate Software Engineer\nExperience: 0–2 Years\nEstimated Salary: ₹4–8 LPA\nWork Mode: Remote (Not Verified)\n\nAre you looking to begin your career in software development and work with a global technology company?\n\nDell Technologies is a company to keep on your career radar. This hiring spotlight highlights an Associate Software Engineer opportunity for candidates interested in building their technical skills and growing in the technology sector.\n\nWHAT ARE THE EXPECTED REQUIREMENTS?\n\nCandidates interested in this role should have:\n\n* B.E./B.Tech, MCA, or a related qualification.\n* Strong analytical and problem-solving abilities.\n* Basic understanding of software development.\n* Good communication skills.\n* An interest in technology, innovation, and continuous learning.\n\nWHO SHOULD CONSIDER THIS OPPORTUNITY?\n\nThis opportunity may be relevant for fresh graduates and early-career professionals who want to explore software engineering, strengthen their technical foundations, and gain industry experience.\n\nHOW TO GET THE APPLICATION LINK\n\nComment “Dell” below to receive the application link.\n\nYou can also follow this page for more hiring updates, entry-level opportunities, and career information.\n\nIMPORTANT DISCLAIMER: This is an independent career-information post, not an official Dell Technologies recruitment announcement. The specific vacancy, salary range, eligibility criteria, and remote-work arrangement have not been independently verified. Please check Dell Technologies’ official careers portal before applying.\n\n#DellTechnologies #Hiring #SoftwareEngineer #FreshersHiring #EntryLevelJobs #ITJobs #CareerOpportunities #LinkedInJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-06",
+      "discovered_at": "2026-11-12T02:13:25.923403",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: HR Jagriti Arora"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HR Jagriti Arora for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489992190",
+      "external_id": "4489992190",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Acumatica",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-at-acumatica-4489992190",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-12T02:13:03.547199",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Acumatica"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Acumatica for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5107,6 +5222,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525912569627168768",
+      "external_id": "7525912569627168768",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer (React Ruby & GCP)",
+      "company": "Sanjaya Kasthuri Arachchi (LinkedIn Post)",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/sanjaya-kasthuri-arachchi_hiring-react-ruby-activity-7525912569627168768-x_Lr",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gffvAtmZ\n👤 Posted by: Sanjaya Kasthuri Arachchi\n\n---\n🚀 We're Hiring: Full-Stack Developer (React, Ruby & GCP)\n\n📍 Remote – Sri Lanka Only\n🕒 Full-Time\n\nBISTEC Global is looking for an experienced Full-Stack Developer to join our team and work on building scalable web applications.\n\nRequirements:\n5+ years of software development experience.\nStrong experience with React and Ruby.\nHands-on experience with Google Cloud Platform (GCP).\nKnowledge of REST APIs, databases, and CI/CD.\nGood communication and problem-solving skills.\n\nNice to Have: Ruby on Rails, TypeScript, Docker, and Terraform.\n\n📌 Applicants must be based in Sri Lanka.\nApply here:  https://lnkd.in/gffvAtmZ\n\n#Hiring #React #Ruby #GCP #FullStackDeveloper #SriLankaJobs #BISTECGlobal",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-10",
+      "discovered_at": "2026-11-12T02:13:24.011496",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer (React Ruby & GCP)",
+          "Company: Sanjaya Kasthuri Arachchi (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sanjaya Kasthuri Arachchi (LinkedIn Post) for Full-Stack Developer (React Ruby & GCP). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525830801469566977",
+      "external_id": "7525830801469566977",
+      "source": "linkedin_posts",
+      "title": "Engineer DevOps",
+      "company": "InTalent Asia",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/intalentasia-devopsengineer-awsjobs-share-7525830801469566977-ZgJW",
+      "description": "📩 Apply / Contact Email: cv@intalent.asia\n🔗 Direct Link in Post: https://lnkd.in/dt7w7gE6\n👤 Posted by: InTalent Asia\n\n---\n🚀 We’re Hiring | Engineer – DevOps\n\n📍 Location: Sri Lanka\n💻 Industry: Software\n💼 Employment: Full Time\n\nAre you passionate about cloud technologies, automation, and DevOps engineering?\n\nWe’re looking for a motivated Engineer – DevOps to support cloud infrastructure, automate deployments, and maintain secure, scalable, and reliable production systems.\n\nKey Responsibilities\n• Deploy, maintain, and manage AWS Cloud Infrastructure\n• Support CI/CD Pipelines and Deployment Automation\n• Assist with Build, Release, and Configuration Management\n• Implement Infrastructure as Code (IaC) practices\n• Work with GitHub, Jenkins, Terraform, Docker, and Kubernetes\n• Support containerized deployments using AWS ECS and Fargate\n• Monitor cloud performance, availability, and security\n• Troubleshoot infrastructure and deployment issues\n• Support Linux Environments and Scripting Activities\n• Collaborate with development teams in an Agile Environment\n\nCandidate Profile\n• Bachelor's Degree in Computer Science, Software Engineering, IT, or a related field\n• Fresh Graduates Are Encouraged to Apply\n• Basic understanding of Cloud Computing and DevOps Principles\n• Exposure to AWS or GCP through projects, internships, or certifications is preferred\n• Familiarity with GitHub, Jenkins, Terraform, Docker, or Kubernetes\n• Understanding of CI/CD, Infrastructure as Code, and SDLC\n• Basic knowledge of Linux, Scripting, and Command-Line Tools\n• Exposure to AWS ECS or AWS Fargate is advantageous\n• Strong analytical, troubleshooting, and problem-solving skills\n• Good communication, teamwork, and technical documentation abilities\n• Proactive mindset with a willingness to learn new technologies\n\n✨ Kick-start your career in Cloud and DevOps Engineering!\n\n👉 Apply via: https://lnkd.in/dt7w7gE6\n\n📩 Send your CV to cv@intalent.asia and mention “Engineer – DevOps - V647VVX8” in the subject line.\n\n#InTalentAsia #DevOpsEngineer #AWSJobs #CloudEngineering #FreshGraduateJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-10",
+      "discovered_at": "2026-11-12T02:13:22.108593",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer DevOps",
+          "Company: InTalent Asia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InTalent Asia for Engineer DevOps. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489965244",
+      "external_id": "4489965244",
+      "source": "linkedin_guest",
+      "title": "Data Engineer",
+      "company": "InTalent Asia",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/data-engineer-at-intalent-asia-4489965244",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "11 hours ago",
+      "discovered_at": "2026-11-12T02:13:15.952485",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: InTalent Asia"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InTalent Asia for Data Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
