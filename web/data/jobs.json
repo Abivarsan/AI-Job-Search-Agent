@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T10:52:39.866863Z",
+    "generated_at": "2026-11-12T19:48:35.033573Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 374
+    "total_count": 380
   },
   "stats": {
-    "total_jobs": 374,
-    "evaluated_jobs": 374,
-    "high_matches": 374,
+    "total_jobs": 380,
+    "evaluated_jobs": 380,
+    "high_matches": 380,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 176,
-      "linkedin_posts": 71,
+      "linkedin_guest": 178,
+      "linkedin_posts": 73,
       "rooster_jobs": 18,
-      "topjobs_lk": 50
+      "topjobs_lk": 52
     },
     "min_match_score_threshold": 70
   },
@@ -804,6 +804,83 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526169777288073217",
+      "external_id": "7526169777288073217",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Intern",
+      "company": "Akshay Kumar (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/akshaykumar143_weekdayworks-is-hiring-software-engineer-share-7526169777288073217-uc5A",
+      "description": "👤 Posted by: Akshay Kumar\n\n---\nWeekdayworks is hiring Software Engineer Interns!\n\nLooking for a paid software engineering internship with remote work and an opportunity to contribute to real world projects? This one's worth checking out.\n\n🔹 Role: Software Engineer Intern\n🔹 Stipend: ₹30,000 - ₹50,000/month\n🔹 Location: Remote\n🔹 Duration: 2-6 months\n🔹 Experience: 0 years\n🔹 Joining: Immediate\n\neligibility:\n\n> Students pursuing or recently graduated in CS, Engineering or related fields.\n> Candidates with basic DSA and problem-solving skills.\n> Those comfortable with at least one programming language: Python, Java, JavaScript or C++.\n> Beginners looking to gain hands-on software development experience.\n> Good to have: Knowledge of web frameworks, cloud platforms, AI/ML tools or personal GitHub projects.\n\nApply via yt i cover 10 startup hiring tinyurl.com/33hjdkt8",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-11",
+      "discovered_at": "2026-11-12T19:48:27.477508",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Akshay Kumar (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Akshay Kumar (LinkedIn Post) for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489256826",
+      "external_id": "4489256826",
+      "source": "linkedin_guest",
+      "title": "Full-Cycle Engineer – AI Native",
+      "company": "hSenid Mobile Solutions (Pvt) Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-cycle-engineer-%E2%80%93-ai-native-at-hsenid-mobile-solutions-pvt-ltd-4489256826",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-12T19:48:19.745086",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Cycle Engineer – AI Native",
+          "Company: hSenid Mobile Solutions (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at hSenid Mobile Solutions (Pvt) Ltd for Full-Cycle Engineer – AI Native. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5260,6 +5337,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001570199",
+      "external_id": "0001570199",
+      "source": "topjobs_lk",
+      "title": "Intern - Software Engineer",
+      "company": "Akhtari Trades (Pvt) Ltd",
+      "location": "Kandana, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=34&ac=DEFZZZ&jc=0001570199&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Akhtari Trades (Pvt) Ltd. Location: Kandana, Sri Lanka. Closing: Wed Nov 25 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 11 2026",
+      "discovered_at": "2026-11-12T19:48:31.317139",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Engineer",
+          "Company: Akhtari Trades (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Akhtari Trades (Pvt) Ltd for Intern - Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001570467",
+      "external_id": "0001570467",
+      "source": "topjobs_lk",
+      "title": "Software Support Executive",
+      "company": "Cenmetrix (Pvt) Ltd",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=12&ac=DEFZZZ&jc=0001570467&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Cenmetrix (Pvt) Ltd. Location: Colombo 5, Sri Lanka. Closing: Thu Nov 26 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 12 2026",
+      "discovered_at": "2026-11-12T19:48:29.325470",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Support Executive",
+          "Company: Cenmetrix (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Cenmetrix (Pvt) Ltd for Software Support Executive. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7518622508082950144",
+      "external_id": "7518622508082950144",
+      "source": "linkedin_posts",
+      "title": "AI Product Engineer (Full-Time)",
+      "company": "ITJobs.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/itjobs-lk_ai-product-engineer-fully-remote-australian-activity-7518622508082950144-BT9f",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gw4XMPFt\n👤 Posted by: ITJobs.lk\n\n---\n🚀 We’re Hiring: AI Product Engineer (Full-Time | Fully Remote | AU Timezone)\n\n📍 Location: Sri Lanka (100% Remote)\n⏰ Work Hours: Australian Timezone (AEST/AEDT)\n💼 Job Type: Full-Time\n🛠️ Tech Stack: React, TypeScript, Python, GraphQL, LLMs & RAG\n\nAre you a Senior Full-Stack or Backend Engineer with hands-on experience building Generative AI and LLM products? An Australian technology company is hiring an AI Product Engineer based in Sri Lanka to join their engineering team!\n\nKey Requirements:\n• 5+ years of software engineering experience (Full-Stack or Backend).\n• Proficient in React, TypeScript, Python, and GraphQL.\n• Proven experience building & shipping LLM-powered applications into production.\n• Deep understanding of RAG, vector search, prompt engineering, and LLMOps tools.\n• Excellent command of written and spoken English.\n• Based in Sri Lanka and available for Australian business hours.\n\nWhat You’ll Do:\n• Architect and ship intelligent, adaptive LLM features to a global user base.\n• Experiment with RAG pipelines, fine-tuning, and evaluation frameworks.\n• Enjoy a fully remote setup with USD/USD-pegged compensation and hardware support (MacBook Pro).\n\nApply now 👉 https://lnkd.in/gw4XMPFt\n\nNote: Only shortlisted candidates will be contacted.\n\n#ITJobsLK #AIEngineer #FullStack #ReactJS #TypeScript #Python #GraphQL #LLM #GenerativeAI #RAG #RemoteJobsSL #TechJobsSL #SriLankaIT #AustralianJobs #AETimezone",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-10-21",
+      "discovered_at": "2026-11-12T19:48:25.623163",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Product Engineer (Full-Time)",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for AI Product Engineer (Full-Time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489241885",
+      "external_id": "4489241885",
+      "source": "linkedin_guest",
+      "title": "Laravel Developer | onsite",
+      "company": "Blue Lotus Vacations UK",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/laravel-developer-onsite-at-blue-lotus-vacations-uk-4489241885",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-12T19:48:13.830017",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Laravel Developer | onsite",
+          "Company: Blue Lotus Vacations UK"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Blue Lotus Vacations UK for Laravel Developer | onsite. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
