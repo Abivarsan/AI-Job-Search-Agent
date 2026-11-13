@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T01:45:36.570993Z",
+    "generated_at": "2026-11-13T10:49:40.788364Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 381
+    "total_count": 389
   },
   "stats": {
-    "total_jobs": 381,
-    "evaluated_jobs": 381,
-    "high_matches": 381,
+    "total_jobs": 389,
+    "evaluated_jobs": 389,
+    "high_matches": 389,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 179,
-      "linkedin_posts": 73,
+      "linkedin_guest": 181,
+      "linkedin_posts": 77,
       "rooster_jobs": 18,
-      "topjobs_lk": 52
+      "topjobs_lk": 54
     },
     "min_match_score_threshold": 70
   },
@@ -804,6 +804,83 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525930365169897472",
+      "external_id": "7525930365169897472",
+      "source": "linkedin_posts",
+      "title": "Software Developer",
+      "company": "Brenda Lizeth Barbosa Alfonso (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/brenda-lizeth-barbosa_full-stack-developer-frontend-data-focus-activity-7525930365169897472-A0Fi",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/eiEbCWSZ\n👤 Posted by: Brenda Lizeth Barbosa Alfonso\n\n---\n🚀 Software Developer Semi Senior / Senior | 100% Remote\n\n¡En Datta estamos buscando un/a Software Developer con fuerte enfoque en Frontend y experiencia en manejo de grandes volúmenes de datos!\n\n💻 Stack clave: Next.js, React, TypeScript, SQL avanzado, BigQuery y GCP\n\n🎯 Requisitos indispensables:\n-Experiencia desarrollando aplicaciones web y visualización de datos.\n-Dominio de SQL y BigQuery.\n-Contar con equipo Mac propio.\n✨ Python, Jira, Git e IA son un plus.\n\n📌 Condiciones:\n-100% remoto.\n-Contrato Contractor.\n-Duración inicial de 6 meses, con posibilidad de renovación.\n-Compensación en USD.\n\n📩 ¿Te interesa? ¡Postúlate directo al link!  ⬇️ \n\n https://lnkd.in/eiEbCWSZ\n\n#Hiring #SoftwareDeveloper #React #NextJS #TypeScript #BigQuery #RemoteJobs #Datta",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-10",
+      "discovered_at": "2026-11-13T10:49:31.062972",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer",
+          "Company: Brenda Lizeth Barbosa Alfonso (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Brenda Lizeth Barbosa Alfonso (LinkedIn Post) for Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489511948",
+      "external_id": "4489511948",
+      "source": "linkedin_guest",
+      "title": "SOFTWARE DEVELOPER / SOFTWARE ENGINEER",
+      "company": "Ideas Marketing Agency",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-developer-software-engineer-at-ideas-marketing-agency-4489511948",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-13T10:49:19.019590",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: SOFTWARE DEVELOPER / SOFTWARE ENGINEER",
+          "Company: Ideas Marketing Agency"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ideas Marketing Agency for SOFTWARE DEVELOPER / SOFTWARE ENGINEER. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5376,6 +5453,227 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001570753",
+      "external_id": "0001570753",
+      "source": "topjobs_lk",
+      "title": "E-Commerce Executive | System Implementation Engineer",
+      "company": "Dipro IT",
+      "location": "Delgoda, Nugegoda, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=DEFZZZ&jc=0001570753&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Dipro IT. Location: Delgoda, Nugegoda, Sri Lanka. Closing: Thu Nov 26 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T10:49:36.922229",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: E-Commerce Executive | System Implementation Engineer",
+          "Company: Dipro IT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dipro IT for E-Commerce Executive | System Implementation Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571048",
+      "external_id": "0001571048",
+      "source": "topjobs_lk",
+      "title": "Backend Software Engineer",
+      "company": "Hexacorp SL (Private) Limited",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=6&ac=DEFZZZ&jc=0001571048&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Hexacorp SL (Private) Limited. Location: Colombo, Sri Lanka. Closing: Fri Nov 27 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T10:49:34.914972",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Software Engineer",
+          "Company: Hexacorp SL (Private) Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hexacorp SL (Private) Limited for Backend Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525157799727751169",
+      "external_id": "7525157799727751169",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (Node.js + React Remote Full-time)",
+      "company": "Oleksandr Kobylinskyi (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/oleksandr-kobylinskyi-2a2b1b428_fullstackdeveloper-nodejs-react-activity-7525157799727751169-Rpwb",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ekwMck2V\n👤 Posted by: Oleksandr Kobylinskyi\n\n---\nWe are hiring: Full Stack Developer (Node.js + React, Remote, Full-time)\nВакансія: Full Stack Node.js Developer (TypeScript, NestJS, React) | Remote\nB2B контракт | Middle+ / Senior\n\nКого шукають:\n- Node.js і NestJS на рівні, коли архітектура сервісу - продумане рішення, а не наслідок поспіху\n- TypeScript як стандарт роботи, а не формальна примха лінтера\n- React на щодень: людина сама доводить свій екран до робочого стану, без перекладання на когось іншого\n- PostgreSQL без страху: схеми, індекси, міграції на живій базі\n- REST API, спроєктоване так, щоб було зручно і віддавати дані, і споживати їх\nПлюсом буде:\n- Досвід роботи в невеликих командах, де рішення по архітектурі ухвалюють разом, а не чекають зверху\nУмови:\n- Remote\n- Full-time, B2B\n\nПодайте заявку, вам напише рекрутер: https://lnkd.in/ekwMck2V\nТакож можете написати пошту в коментарях та очікувати сповіщення від рекрутера.\n\n#FullStackDeveloper #NodeJS #React #TypeScript #NestJS #PostgreSQL #RemoteJobs #Hiring #ITJobsUkraine #Вакансія",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-08",
+      "discovered_at": "2026-11-13T10:49:32.997604",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Node.js + React Remote Full-time)",
+          "Company: Oleksandr Kobylinskyi (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Oleksandr Kobylinskyi (LinkedIn Post) for Full Stack Developer (Node.js + React Remote Full-time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526204117984280576",
+      "external_id": "7526204117984280576",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Abdul Mohaimen (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/abdul-mohaimen01-_hiring-full-stack-developer-remote-im-share-7526204117984280576-uZx3",
+      "description": "👤 Posted by: Abdul Mohaimen\n\n---\nHIRING: FULL-STACK DEVELOPER | REMOTE\nI'm looking for a talented Full-Stack Developer to work directly with me on building a new product.\nHere's what makes this opportunity interesting:\nA BIG PLUS: If you've previously built a CRM or have experience developing CRM systems, you'll have an added advantage.\n\nA little about the opportunity:\n🌍 100% Remote Position\n🤝 Work directly with me\n🚀 Opportunity to build a product from the ground up\n💡 Be involved in real product development, architecture, and decision-making.\n\nI'm not just looking for someone who can write code. I'm looking for someone who enjoys solving problems, building products, and turning ideas into reality.\n\nInterested?\nDrop your portfolio in the comments or DM me directly.\nIf you've built a CRM before, make sure to highlight it!\nLet's build something meaningful.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-11",
+      "discovered_at": "2026-11-13T10:49:29.152145",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Abdul Mohaimen (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Abdul Mohaimen (LinkedIn Post) for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525195564687237120",
+      "external_id": "7525195564687237120",
+      "source": "linkedin_posts",
+      "title": "Software Engineer (Remote)",
+      "company": "Hireeing",
+      "location": "Location",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hireeing_hiring-techjobs-frontend-activity-7525195564687237120-iGDk",
+      "description": "🔗 Direct Link in Post: https://hireeing.com/?v=2, https://lnkd.in/d6GDJD_j\n👤 Posted by: Hireeing\n\n---\n🚀 Hiring Alert | Software Engineer (Remote) (M3USA)\n\nLooking to build scalable solutions and advance your engineering career? Join M3USA developing modern technology.\n\n📌 Role: Software Engineer (Remote)\n💼 Job Type: Full-time | Remote\n📍 Location: Remote\n\n💻 Required Skills:\n• React\n• TypeScript\n• Python\n• SQL\n• Generative AI\n\n✅ Eligibility:\n• Qualifications • Associate or bachelor's degree in a relevant field, or equivalent experience in software engineering.\n• 2+ years of professional software development experience.\n\n🌐 More latest jobs:\nhttps://hireeing.com/?v=2\n\nJoin my new WhatsApp group for more daily job updates! 🚀\nhttps://lnkd.in/d6GDJD_j\n\n🌐 Apply Now : https://lnkd.in/dU6XdDNT\n\n#Hiring #TechJobs #Frontend #RemoteJobs #CareerOpportunities",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-08",
+      "discovered_at": "2026-11-13T10:49:24.920868",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Remote)",
+          "Company: Hireeing"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hireeing for Software Engineer (Remote). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489531053",
+      "external_id": "4489531053",
+      "source": "linkedin_guest",
+      "title": "Full Stack Engineer",
+      "company": "Talent Studio",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-at-talent-studio-4489531053",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-13T10:49:11.978587",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer",
+          "Company: Talent Studio"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Talent Studio for Full Stack Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
