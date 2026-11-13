@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T19:48:35.033573Z",
+    "generated_at": "2026-11-13T01:45:36.570993Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 380
+    "total_count": 381
   },
   "stats": {
-    "total_jobs": 380,
-    "evaluated_jobs": 380,
-    "high_matches": 380,
+    "total_jobs": 381,
+    "evaluated_jobs": 381,
+    "high_matches": 381,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 59,
-      "linkedin_guest": 178,
+      "linkedin_guest": 179,
       "linkedin_posts": 73,
       "rooster_jobs": 18,
       "topjobs_lk": 52
@@ -804,6 +804,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489520064",
+      "external_id": "4489520064",
+      "source": "linkedin_guest",
+      "title": "Internship – Software Engineering (Java & AI)",
+      "company": "SilentiumIT",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/internship-%E2%80%93-software-engineering-java-ai-at-silentiumit-4489520064",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-13T01:45:29.133302",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Internship – Software Engineering (Java & AI)",
+          "Company: SilentiumIT"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SilentiumIT for Internship – Software Engineering (Java & AI). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
