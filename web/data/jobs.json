@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T10:49:40.788364Z",
+    "generated_at": "2026-11-13T19:31:14.121510Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 389
+    "total_count": 395
   },
   "stats": {
-    "total_jobs": 389,
-    "evaluated_jobs": 389,
-    "high_matches": 389,
+    "total_jobs": 395,
+    "evaluated_jobs": 395,
+    "high_matches": 395,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,9 +16,9 @@
     "source_breakdown": {
       "itpro_lk": 59,
       "linkedin_guest": 181,
-      "linkedin_posts": 77,
+      "linkedin_posts": 79,
       "rooster_jobs": 18,
-      "topjobs_lk": 54
+      "topjobs_lk": 58
     },
     "min_match_score_threshold": 70
   },
@@ -804,6 +804,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571228",
+      "external_id": "0001571228",
+      "source": "topjobs_lk",
+      "title": "Associate - Business Support (UK Calendar - UK Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=4&ac=0000000064&jc=0001571228&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 20 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T19:31:10.559923",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate - Business Support (UK Calendar - UK Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Associate - Business Support (UK Calendar - UK Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526476083085565952",
+      "external_id": "7526476083085565952",
+      "source": "linkedin_posts",
+      "title": "Remote Software Engineers",
+      "company": "Suranjith Prasad (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/suranjith-prasad-44a128ba_hiring-remotejobs-softwareengineer-share-7526476083085565952-5BEy",
+      "description": "👤 Posted by: Suranjith Prasad\n\n---\n🚀 WE'RE HIRING: REMOTE SOFTWARE ENGINEERS! 💻🌍\n\nEGOTECHWORLD (PVT) LTD is connecting with talented software engineers for remote software development projects.\n\n🔥 Skills We're Looking For:\n1️⃣ PHP / Laravel Developers\n2️⃣ Python Developers\n3️⃣ JavaScript / React Developers\n4️⃣ Full-Stack Developers\n5️⃣ Java / C# Developers\n\n🌎 Remote collaboration opportunities.\n\n\n💬 INTERESTED?\nComment \"SOFTWARE ENGINEER\" \nApply link egotechworld.com/jobs.php\n\n#Hiring #RemoteJobs #SoftwareEngineer #RemoteWork #EGOTECHWORLD #WebDevelopment #ITCareers",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-12",
+      "discovered_at": "2026-11-13T19:31:00.715555",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java",
+          "React",
+          "Javascript"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Remote Software Engineers",
+          "Company: Suranjith Prasad (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Suranjith Prasad (LinkedIn Post) for Remote Software Engineers. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5453,6 +5529,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571280",
+      "external_id": "0001571280",
+      "source": "topjobs_lk",
+      "title": "Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000064&jc=0001571280&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 20 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T19:31:08.637144",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Platform & Integration Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Platform & Integration Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571285",
+      "external_id": "0001571285",
+      "source": "topjobs_lk",
+      "title": "Automation Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=0000000064&jc=0001571285&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 20 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T19:31:06.647922",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Automation Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Automation Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571296",
+      "external_id": "0001571296",
+      "source": "topjobs_lk",
+      "title": "Data & Analytics Engineer (AUS Calendar - AUS Shift) (1)",
+      "company": "H Connect International (Pvt) Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=0000000064&jc=0001571296&ec=0000000445&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: H Connect International (Pvt) Ltd. Location: Sri Lanka. Closing: Fri Nov 20 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 13 2026",
+      "discovered_at": "2026-11-13T19:31:04.736049",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data & Analytics Engineer (AUS Calendar - AUS Shift) (1)",
+          "Company: H Connect International (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at H Connect International (Pvt) Ltd for Data & Analytics Engineer (AUS Calendar - AUS Shift) (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526919482099994625",
+      "external_id": "7526919482099994625",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "Karina Kot (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/karina-kot-44a493198_hiring-fridayjobdrop-itjobs-activity-7526919482099994625-zhyN",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dduu8xE9, https://lnkd.in/dza6QKYb\n👤 Posted by: Karina Kot\n\n---\nЗ п’ятницею, колеги! \n\nВирішила започаткувати невеличку п’ятничну традицію та ділитися з вами актуальними вакансіями, над якими працюю в toogeza.\n\nТож ловіть мій перший Friday Job Drop! \n\n💻 Senior Software Engineer (Systems & Algorithms) | SpinLab\nСкладні алгоритмічні задачі, high-load, distributed systems та розробка B2B-продукту. Шукаємо інженера з 10+ роками досвіду.\n📍 Remote\n🔗 https://lnkd.in/dduu8xE9\n\n💻  Founding Engineer / AI-Native Tech Lead\nМожливість з нуля побудувати gamification-систему для міжнародного iGaming-продукту, визначати архітектуру та в перспективі сформувати власну engineering-команду.\n📍 Лімасол, Кіпр | Relocation support\n🔗 https://lnkd.in/dza6QKYb\n\n💻  Senior Lawyer / Executive Legal Associate | SBSB Fintech Lawyers\nМіжнародні юридичні проєкти у сфері iGaming, ліцензування, корпоративне структурування та робота з регуляторами.\n📍 Remote\n🔗 https://lnkd.in/dgApnzdY\n\n💻  Partnerships Manager | AI HOUSE\nРозвиток стратегічних партнерств, залучення нових компаній та можливість долучитися до розвитку української AI-екосистеми.\n📍 Київ / Remote в Україні\n🔗 https://lnkd.in/deNZx9nj\n\n💻  Creative Marketing Manager | Ultiself\nРозробка рекламних концепцій, тестування креативних гіпотез та робота з Meta Ads для нового HealthTech-продукту.\n📍 Remote\n🔗 https://lnkd.in/dqkBFNCp\n\nЯкщо впізнали себе в одній із вакансій або знаєте когось, кому вона може бути цікавою, буду рада поспілкуватися! 💌\nПишіть мені в особисті, рекомендуйте друзів та діліться можливостями.\n\nА поки що бажаю всім гарної п’ятниці та чудових вихідних! 🫶\n#Hiring #FridayJobDrop #ITJobs #CareerOpportunities #toogeza",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-13",
+      "discovered_at": "2026-11-13T19:31:02.745551",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Karina Kot (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Karina Kot (LinkedIn Post) for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
