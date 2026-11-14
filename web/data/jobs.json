@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T10:03:35.488961Z",
+    "generated_at": "2026-11-14T17:54:18.225653Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 415
+    "total_count": 417
   },
   "stats": {
-    "total_jobs": 415,
-    "evaluated_jobs": 415,
-    "high_matches": 415,
+    "total_jobs": 417,
+    "evaluated_jobs": 417,
+    "high_matches": 417,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 78,
-      "linkedin_guest": 182,
+      "itpro_lk": 79,
+      "linkedin_guest": 183,
       "linkedin_posts": 79,
       "rooster_jobs": 18,
       "topjobs_lk": 58
@@ -804,6 +804,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15781",
+      "external_id": "15781",
+      "source": "itpro_lk",
+      "title": "Full Stack Development Intern / Trainee / Associate",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15781/full-stack-development-intern-trainee-associate-at-kaizens-group/",
+      "description": "Software engineering opening on ITPro.lk: Full Stack Development Intern / Trainee / Associate at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T17:54:10.555381",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Development Intern / Trainee / Associate",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full Stack Development Intern / Trainee / Associate. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5680,6 +5717,43 @@
       }
     },
     {
+      "id": "li_4491080660",
+      "external_id": "4491080660",
+      "source": "linkedin_guest",
+      "title": "Software Quality Assurance Engineer - Intern",
+      "company": "AllyBees",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-quality-assurance-engineer-intern-at-allybees-4491080660",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-14T17:54:04.185850",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Quality Assurance Engineer - Intern",
+          "Company: AllyBees"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at AllyBees for Software Quality Assurance Engineer - Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
       "id": "itpro_15605",
       "external_id": "15605",
       "source": "itpro_lk",
@@ -5803,7 +5877,7 @@
       "experience_level": "Entry / Associate",
       "posted_date": "Recent",
       "discovered_at": "2026-11-14T10:03:23.208005",
-      "status": "EVALUATED",
+      "status": "NOTIFIED",
       "user_status": "NEW",
       "user_notes": "",
       "evaluation": {
@@ -6097,7 +6171,7 @@
       "experience_level": "Entry / Associate",
       "posted_date": "Recent",
       "discovered_at": "2026-11-14T10:03:04.479496",
-      "status": "EVALUATED",
+      "status": "NOTIFIED",
       "user_status": "NEW",
       "user_notes": "",
       "evaluation": {
