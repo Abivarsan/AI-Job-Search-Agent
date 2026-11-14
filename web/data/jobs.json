@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T01:23:28.819729Z",
+    "generated_at": "2026-11-14T10:03:35.488961Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 395
+    "total_count": 415
   },
   "stats": {
-    "total_jobs": 395,
-    "evaluated_jobs": 395,
-    "high_matches": 395,
+    "total_jobs": 415,
+    "evaluated_jobs": 415,
+    "high_matches": 415,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 59,
-      "linkedin_guest": 181,
+      "itpro_lk": 78,
+      "linkedin_guest": 182,
       "linkedin_posts": 79,
       "rooster_jobs": 18,
       "topjobs_lk": 58
@@ -804,6 +804,154 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15607",
+      "external_id": "15607",
+      "source": "itpro_lk",
+      "title": "Junior Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15607/junior-developer-at-airentosoft/",
+      "description": "Software engineering opening on ITPro.lk: Junior Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:30.704078",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Junior Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_14835",
+      "external_id": "14835",
+      "source": "itpro_lk",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/14835/associate-software-engineer-at-haulmatic-technologies/",
+      "description": "Software engineering opening on ITPro.lk: Associate Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:28.700509",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15684",
+      "external_id": "15684",
+      "source": "itpro_lk",
+      "title": "Software Engineer – Associate / Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15684/software-engineer-associate-intern-at-alphintra/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer – Associate / Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:15.617692",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – Associate / Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer – Associate / Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15694",
+      "external_id": "15694",
+      "source": "itpro_lk",
+      "title": "Junior Software Engineer – C# / .NET",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15694/junior-software-engineer-c-net-at-d-help-hub-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: Junior Software Engineer – C# / .NET at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:11.834202",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer – C# / .NET",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Junior Software Engineer – C# / .NET. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5529,6 +5677,596 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15605",
+      "external_id": "15605",
+      "source": "itpro_lk",
+      "title": "Software Development Intern (AI & Full-Stack Development)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15605/software-development-intern-ai-full-stack-development-at-infinity-innovators/",
+      "description": "Software engineering opening on ITPro.lk: Software Development Intern (AI & Full-Stack Development) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:32.542468",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Development Intern (AI & Full-Stack Development)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Development Intern (AI & Full-Stack Development). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15629",
+      "external_id": "15629",
+      "source": "itpro_lk",
+      "title": "Application Developer (Night Shift)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15629/application-developer-night-shift-at-legacy-health/",
+      "description": "Software engineering opening on ITPro.lk: Application Developer (Night Shift) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:26.832912",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Application Developer (Night Shift)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Application Developer (Night Shift). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15643",
+      "external_id": "15643",
+      "source": "itpro_lk",
+      "title": "Software Engineer (Fullstack)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15643/software-engineer-fullstack-at-flxware-technologies/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer (Fullstack) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:24.954970",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Fullstack)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer (Fullstack). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15654",
+      "external_id": "15654",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15654/software-engineer-at-d-help-hub-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:23.208005",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15657",
+      "external_id": "15657",
+      "source": "itpro_lk",
+      "title": "C# / .NET Developer - Application Development & Support",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15657/c-net-developer-application-development-support-at-pina-vida/",
+      "description": "Software engineering opening on ITPro.lk: C# / .NET Developer - Application Development & Support at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:21.367953",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: C# / .NET Developer - Application Development & Support",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for C# / .NET Developer - Application Development & Support. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15658",
+      "external_id": "15658",
+      "source": "itpro_lk",
+      "title": "Full Stack Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15658/full-stack-developer-intern-at-helide-labs-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Full Stack Developer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:19.488904",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15669",
+      "external_id": "15669",
+      "source": "itpro_lk",
+      "title": "Intern Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15669/intern-software-engineer-at-zenlise/",
+      "description": "Software engineering opening on ITPro.lk: Intern Software Engineer at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:17.586820",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_11276",
+      "external_id": "11276",
+      "source": "itpro_lk",
+      "title": "Software Engineer .NET",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/11276/software-engineer-net-at-ideahub/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer .NET at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:13.789913",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Software Engineer .NET",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer .NET. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15701",
+      "external_id": "15701",
+      "source": "itpro_lk",
+      "title": ".NET Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15701/net-developer-at-d-help-hub-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: .NET Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:09.888000",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: .NET Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for .NET Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15717",
+      "external_id": "15717",
+      "source": "itpro_lk",
+      "title": "Software Engineer intern - January 2027 Intake",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15717/software-engineer-intern-january-2027-intake-at-nippon-it-and-educational-solution-nites/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer intern - January 2027 Intake at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:08.052291",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer intern - January 2027 Intake",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer intern - January 2027 Intake. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15738",
+      "external_id": "15738",
+      "source": "itpro_lk",
+      "title": "Software Engineering Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15738/software-engineering-intern-at-urban-innovation-services/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:06.202718",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15760",
+      "external_id": "15760",
+      "source": "itpro_lk",
+      "title": "Software Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15760/software-engineer-intern-at-devcity-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:04.479496",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15774",
+      "external_id": "15774",
+      "source": "itpro_lk",
+      "title": "Software Engineer (Full Stack)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15774/software-engineer-full-stack-at-asipiya-soft-solution/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer (Full Stack) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:02.620577",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Full Stack)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer (Full Stack). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15778",
+      "external_id": "15778",
+      "source": "itpro_lk",
+      "title": "Trainee Forward Deployed Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Jaffna, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15778/trainee-forward-deployed-engineer-at-apptimus/",
+      "description": "Software engineering opening on ITPro.lk: Trainee Forward Deployed Engineer at Sri Lankan Tech Company (Jaffna, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:03:00.793107",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Forward Deployed Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Trainee Forward Deployed Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15780",
+      "external_id": "15780",
+      "source": "itpro_lk",
+      "title": "Full-Stack SaaS Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15780/full-stack-saas-developer-at-partnerup/",
+      "description": "Software engineering opening on ITPro.lk: Full-Stack SaaS Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T10:02:58.888900",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack SaaS Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full-Stack SaaS Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4489859904",
+      "external_id": "4489859904",
+      "source": "linkedin_guest",
+      "title": "Quality Assurance Engineer",
+      "company": "Schemax Export Techno Craft Pvt. Ltd",
+      "location": "Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/quality-assurance-engineer-at-schemax-export-techno-craft-pvt-ltd-4489859904",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-14T10:02:52.959897",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Quality Assurance Engineer",
+          "Company: Schemax Export Techno Craft Pvt. Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Schemax Export Techno Craft Pvt. Ltd for Quality Assurance Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
