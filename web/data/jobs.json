@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T17:54:18.225653Z",
+    "generated_at": "2026-11-14T22:15:15.260299Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 417
+    "total_count": 421
   },
   "stats": {
-    "total_jobs": 417,
-    "evaluated_jobs": 417,
-    "high_matches": 417,
+    "total_jobs": 421,
+    "evaluated_jobs": 421,
+    "high_matches": 421,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 79,
-      "linkedin_guest": 183,
-      "linkedin_posts": 79,
+      "itpro_lk": 80,
+      "linkedin_guest": 184,
+      "linkedin_posts": 81,
       "rooster_jobs": 18,
       "topjobs_lk": 58
     },
@@ -804,6 +804,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15784",
+      "external_id": "15784",
+      "source": "itpro_lk",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15784/associate-software-engineer-at-intrix-digital/",
+      "description": "Software engineering opening on ITPro.lk: Associate Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-14T22:15:12.161478",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5714,6 +5751,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7527141976215941120",
+      "external_id": "7527141976215941120",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "Miguel Angel Rantes (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/rantesitrecruiter_remote-fullstack-nodejs-php-joyit-activity-7527141976215941120-y96d",
+      "description": "👤 Posted by: Miguel Angel Rantes\n\n---\n🚀 ¿FULL STACK DEVELOPER? LLEVA TU CÓDIGO AL SIGUIENTE NIVEL.\n100% remoto, buscamos Dev Node.js + PHP + NestJS/Laravel + AWS para un proyecto internacional. 🌎\n\n- Buscamos 3+ años de experiencia, arquitectura de software, APIs e integraciones con plataformas turísticas (OTAs / Channels).\n- Indispensable domino de inglés fluido.\n\n¿Te gustan los retos y construir soluciones escalables? ¡Hablemos!\n📲 WhatsApp: +51 910 748 185\n#FullStackDeveloper #NodeJS #PHP #NestJS #Laravel #AWS #RemoteJobs #Hiring",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-13",
+      "discovered_at": "2026-11-14T22:15:10.322993",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Miguel Angel Rantes (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Miguel Angel Rantes (LinkedIn Post) for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7527008323494359040",
+      "external_id": "7527008323494359040",
+      "source": "linkedin_posts",
+      "title": "Ai & Software Engineering",
+      "company": "Kaizens Group",
+      "location": "Sri Lanka",
+      "workplace_type": "Hybrid",
+      "apply_url": "https://www.linkedin.com/posts/kaizensgroup-hiring-aijobs-share-7527008323494359040-2K5s",
+      "description": "📩 Apply / Contact Email: careers@kaizens.co.uk\n🔗 Direct Link in Post: https://lnkd.in/gZev3j94\n👤 Posted by: Kaizens Group\n\n---\nWE'RE HIRING | AI & SOFTWARE ENGINEERING\n\nBuild the Future of Technology with Kaizens Group!\n\nKaizens Group is a UK-based global technology company specialising in IFS Cloud solutions, enterprise technology and innovative software products.\n\nWe're expanding our Sri Lankan team and looking for talented professionals with 1–2 years of industry experience for the following opportunities:\n\nAI & Data Engineering\n- AI / Machine Learning Engineer\n- Data Scientist\n- AI Engineer Associate\n\nSoftware Engineering\n- Software Engineer\n- Full Stack Developer\n- Backend Developer\n- Frontend Developer\n\nWhy Join Kaizens?\n- Develop leadership and decision-making skills.\n- Take ownership of projects and turn ideas into solutions.\n- Work independently with support from experienced professionals.\n- Gain international exposure and explore emerging technologies.\n- Contribute to innovative products and R&D initiatives.\n\nWe're looking for positive, proactive individuals who are eager to learn, take initiative and grow with us.\n\nLocation: Sri Lanka | Hybrid\nApply: careers@kaizens.co.uk\nSubject: Application – [Preferred Position]\n\nVisit for more details : https://lnkd.in/gZev3j94\n\nAccelerating IFS Results. Reducing Risk. Delivering Faster.\n\n#KaizensGroup #Hiring #AIJobs #SoftwareEngineering #SriLankaJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-13",
+      "discovered_at": "2026-11-14T22:15:08.464972",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Ai & Software Engineering",
+          "Company: Kaizens Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kaizens Group for Ai & Software Engineering. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490206022",
+      "external_id": "4490206022",
+      "source": "linkedin_guest",
+      "title": "Mobile App Developer – iOS / Android",
+      "company": "NEXT Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/mobile-app-developer-%E2%80%93-ios-android-at-next-ventures-4490206022",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-14T22:15:02.595474",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Mobile App Developer – iOS / Android",
+          "Company: NEXT Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at NEXT Ventures for Mobile App Developer – iOS / Android. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
