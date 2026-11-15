@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T06:02:34.372187Z",
+    "generated_at": "2026-11-15T16:14:11.028008Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 423
+    "total_count": 425
   },
   "stats": {
-    "total_jobs": 423,
-    "evaluated_jobs": 423,
-    "high_matches": 423,
+    "total_jobs": 425,
+    "evaluated_jobs": 425,
+    "high_matches": 425,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 80,
-      "linkedin_guest": 186,
-      "linkedin_posts": 81,
+      "linkedin_guest": 187,
+      "linkedin_posts": 82,
       "rooster_jobs": 18,
       "topjobs_lk": 58
     },
@@ -804,6 +804,46 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7523638855925944320",
+      "external_id": "7523638855925944320",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer Intern",
+      "company": "SmartBiz.lk",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/samart-bitzlk_hiring-fullstackdeveloper-internship-activity-7523638855925944320-l6TO",
+      "description": "👤 Posted by: SmartBiz.lk\n\n---\n🚀 WE'RE HIRING! | FULL STACK DEVELOPER INTERN\nAre you passionate about software development and excited to build real-world applications? We have an opportunity for you!\nSmartBiz.lk is looking for a motivated and enthusiastic Full Stack Developer Intern to join our growing startup team.\n\n💼 Position: Full Stack Developer Intern\n💰 Employment Type: Paid Internship\n🌍 Work Mode: Remote\n📍 Location: Sri Lanka\n🛠️ Technologies You'll Work With\n\nCore Technologies:\nHTML5, CSS3 & JavaScript\nReact.js\nJava\nSpring Boot\nNice to Have:\nCI/CD pipelines\nMicrosoft Azure\nGit & GitHub\n\n🎯 Who Can Apply?\nFreshers and aspiring developers are welcome.\nCandidates with practical coding knowledge.\nPassion for learning and building software.\nGood problem-solving skills.\nWillingness to work with modern technologies and collaborate with a team.\n\n\n🌱 Why Join SmartBiz.lk?\nGain real-world software development experience.\nWork on practical projects.\nImprove your Full Stack development skills.\nLearn modern development practices.\nGrow with an ambitious technology startup.\n\n🔥 Ready to turn your coding skills into real-world experience?\nJoin SmartBiz.lk and grow with us!\n\n📩 Interested candidates: Send us your CV and GitHub / Portfolio links through LinkedIn Direct Message.\n\nDon't miss this opportunity. Share this post with someone who might be interested!\n\n#Hiring #FullStackDeveloper #Internship #PaidInternship #SoftwareEngineering #ReactJS #Java #SpringBoot #SriLankaJobs #RemoteInternship #TechJobs #SmartBizLK #StartupJobs",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-04",
+      "discovered_at": "2026-11-15T16:14:07.393447",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Intern",
+          "Company: SmartBiz.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SmartBiz.lk for Full Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5788,6 +5828,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490226246",
+      "external_id": "4490226246",
+      "source": "linkedin_guest",
+      "title": "Software Engineer – Front End",
+      "company": "Levein Group",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-%E2%80%93-front-end-at-levein-group-4490226246",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-15T16:14:01.195156",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer – Front End",
+          "Company: Levein Group"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Levein Group for Software Engineer – Front End. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
