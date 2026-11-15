@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T16:14:11.028008Z",
+    "generated_at": "2026-11-15T22:43:04.063247Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 425
+    "total_count": 427
   },
   "stats": {
-    "total_jobs": 425,
-    "evaluated_jobs": 425,
-    "high_matches": 425,
+    "total_jobs": 427,
+    "evaluated_jobs": 427,
+    "high_matches": 427,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 80,
-      "linkedin_guest": 187,
-      "linkedin_posts": 82,
+      "linkedin_guest": 188,
+      "linkedin_posts": 83,
       "rooster_jobs": 18,
       "topjobs_lk": 58
     },
@@ -804,6 +804,44 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7527051520756981760",
+      "external_id": "7527051520756981760",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer Full Remote",
+      "company": "Francesco Sticca (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://it.linkedin.com/posts/francescosticca_hiring-fullstackdeveloper-react-activity-7527051520756981760-2gRH",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ej--JhxW\n👤 Posted by: Francesco Sticca\n\n---\n🚀 WE'RE HIRING | FULL STACK DEVELOPER – FULL REMOTE\n\nIn AGAP2 Italia siamo alla ricerca di un Full Stack Developer (Middle Level) per un progetto innovativo nel settore InsurTech, dove sviluppo software e Intelligenza Artificiale si incontrano.\n\n💻 Tech Stack:\nFrontend: React, TypeScript\nBackend: Python/FastAPI oppure Node.js/TypeScript\nDatabase: PostgreSQL\nTools: Git, Docker\nArchitettura: Microservizi e API REST\nPlus: NestJS\n🤖 Cerchiamo qualcuno che utilizzi concretamente strumenti di AI-assisted development per rendere lo sviluppo più efficiente e innovativo.\n🌍 Modalità: 100% Full Remote\n🎯 Seniority: Middle Level\n🔗 Candidati qui: https://lnkd.in/ej--JhxW\n📩 Oppure scrivimi direttamente in privato per maggiori informazioni!\n#Hiring #FullStackDeveloper #React #TypeScript #RemoteJobs #AGAP2",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-13",
+      "discovered_at": "2026-11-15T22:43:00.134161",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Full Remote",
+          "Company: Francesco Sticca (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Francesco Sticca (LinkedIn Post) for Full Stack Developer Full Remote. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5828,6 +5866,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490245289",
+      "external_id": "4490245289",
+      "source": "linkedin_guest",
+      "title": "MICROSOFT DYNAMICS 365 ENGINEERS",
+      "company": "Sidelah Resume Writing",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/microsoft-dynamics-365-engineers-at-sidelah-resume-writing-4490245289",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-15T22:42:54.671670",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: MICROSOFT DYNAMICS 365 ENGINEERS",
+          "Company: Sidelah Resume Writing"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sidelah Resume Writing for MICROSOFT DYNAMICS 365 ENGINEERS. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
