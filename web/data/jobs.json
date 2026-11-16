@@ -1,28 +1,69 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T06:01:50.659496Z",
+    "generated_at": "2026-11-16T19:30:28.784454Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 432
+    "total_count": 442
   },
   "stats": {
-    "total_jobs": 432,
-    "evaluated_jobs": 432,
-    "high_matches": 432,
+    "total_jobs": 442,
+    "evaluated_jobs": 442,
+    "high_matches": 442,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 81,
-      "linkedin_guest": 191,
+      "itpro_lk": 82,
+      "linkedin_guest": 197,
       "linkedin_posts": 84,
       "rooster_jobs": 18,
-      "topjobs_lk": 58
+      "topjobs_lk": 61
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4490693041",
+      "external_id": "4490693041",
+      "source": "linkedin_guest",
+      "title": "Associate Software Engineer - Full Stack",
+      "company": "Upview Technologies Inc.",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-software-engineer-full-stack-at-upview-technologies-inc-4490693041",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-16T19:29:47.018615",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer - Full Stack",
+          "Company: Upview Technologies Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Upview Technologies Inc. for Associate Software Engineer - Full Stack. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4488652213",
       "external_id": "4488652213",
@@ -804,6 +845,81 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571868",
+      "external_id": "0001571868",
+      "source": "topjobs_lk",
+      "title": "AI & Automation Associate",
+      "company": "Beyond EQT Real Estate Development Ltd",
+      "location": "Colombo, Galle, Kandy, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=DEFZZZ&jc=0001571868&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Beyond EQT Real Estate Development Ltd. Location: Colombo, Galle, Kandy, Sri Lanka. Closing: Mon Nov 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 16 2026",
+      "discovered_at": "2026-11-16T19:30:19.676371",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI & Automation Associate",
+          "Company: Beyond EQT Real Estate Development Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Beyond EQT Real Estate Development Ltd for AI & Automation Associate. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475540627",
+      "external_id": "4475540627",
+      "source": "linkedin_guest",
+      "title": "TypeScript Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/typescript-engineer-at-sme-careers-4475540627",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-16T19:29:52.768632",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: TypeScript Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for TypeScript Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5977,6 +6093,264 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_14664",
+      "external_id": "14664",
+      "source": "itpro_lk",
+      "title": "Engineer - Data Engineering",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/14664/engineer-data-engineering-at-hatchyard/",
+      "description": "Software engineering opening on ITPro.lk: Engineer - Data Engineering at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-16T19:30:25.024680",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer - Data Engineering",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Engineer - Data Engineering. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571805",
+      "external_id": "0001571805",
+      "source": "topjobs_lk",
+      "title": "QA Engineer",
+      "company": "InEight Sri Lanka",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=5&ac=DEFZZZ&jc=0001571805&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: InEight Sri Lanka. Location: Colombo 3, Sri Lanka. Closing: Mon Nov 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 16 2026",
+      "discovered_at": "2026-11-16T19:30:23.197146",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: InEight Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at InEight Sri Lanka for QA Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001571856",
+      "external_id": "0001571856",
+      "source": "topjobs_lk",
+      "title": "Intern - Software Development",
+      "company": "Arrogance Technologies (Pvt) Ltd",
+      "location": "Colombo 2, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001571856&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Arrogance Technologies (Pvt) Ltd. Location: Colombo 2, Sri Lanka. Closing: Mon Nov 30 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 16 2026",
+      "discovered_at": "2026-11-16T19:30:21.455571",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Development",
+          "Company: Arrogance Technologies (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Arrogance Technologies (Pvt) Ltd for Intern - Software Development. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490665188",
+      "external_id": "4490665188",
+      "source": "linkedin_guest",
+      "title": "Asp.NET Core 8.0 Fullstack Developer - Remote (Australian Startup)",
+      "company": "HireOn",
+      "location": "Pakistan",
+      "workplace_type": "Remote",
+      "apply_url": "https://pk.linkedin.com/jobs/view/asp-net-core-8-0-fullstack-developer-remote-australian-startup-at-hireon-4490665188",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-16T19:30:14.730512",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "missing_skills": [
+          "C#",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Asp.NET Core 8.0 Fullstack Developer - Remote (Australian Startup)",
+          "Company: HireOn"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HireOn for Asp.NET Core 8.0 Fullstack Developer - Remote (Australian Startup). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475535980",
+      "external_id": "4475535980",
+      "source": "linkedin_guest",
+      "title": "Go Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/go-engineer-at-sme-careers-4475535980",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-16T19:30:09.150496",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Go Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Go Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490286631",
+      "external_id": "4490286631",
+      "source": "linkedin_guest",
+      "title": "GDS Consulting_Senior AI Engineer",
+      "company": "EY",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/gds-consulting-senior-ai-engineer-at-ey-4490286631",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-16T19:30:03.865965",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: GDS Consulting_Senior AI Engineer",
+          "Company: EY"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at EY for GDS Consulting_Senior AI Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490608221",
+      "external_id": "4490608221",
+      "source": "linkedin_guest",
+      "title": "Cyber AI Engineer – Defensive Security/Cyber AI Engineer - Offensive Security",
+      "company": "Hatton National Bank PLC",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/cyber-ai-engineer-%E2%80%93-defensive-security-cyber-ai-engineer-offensive-security-at-hatton-national-bank-plc-4490608221",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-16T19:29:58.043044",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cyber AI Engineer – Defensive Security/Cyber AI Engineer - Offensive Security",
+          "Company: Hatton National Bank PLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Hatton National Bank PLC for Cyber AI Engineer – Defensive Security/Cyber AI Engineer - Offensive Security. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
