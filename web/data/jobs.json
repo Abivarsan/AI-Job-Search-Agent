@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T22:43:04.063247Z",
+    "generated_at": "2026-11-16T06:01:50.659496Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 427
+    "total_count": 432
   },
   "stats": {
-    "total_jobs": 427,
-    "evaluated_jobs": 427,
-    "high_matches": 427,
+    "total_jobs": 432,
+    "evaluated_jobs": 432,
+    "high_matches": 432,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 80,
-      "linkedin_guest": 188,
-      "linkedin_posts": 83,
+      "itpro_lk": 81,
+      "linkedin_guest": 191,
+      "linkedin_posts": 84,
       "rooster_jobs": 18,
       "topjobs_lk": 58
     },
@@ -804,6 +804,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525813132049616896",
+      "external_id": "7525813132049616896",
+      "source": "linkedin_posts",
+      "title": "FULL STACK DEVELOPER ( Sri lankans Only )",
+      "company": "Deepani Rathnayake (LinkedIn Post)",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/deepani-rathnayake-ba8326107_vacancy-full-stack-developer-sri-lankans-share-7525813132049616896-nu6V",
+      "description": "📩 Apply / Contact Email: pani0512@yahoo.com\n👤 Posted by: Deepani Rathnayake\n\n---\nVACANCY – FULL STACK DEVELOPER ( Sri lankans Only )\n\nCompany: A Leading IT Company\nLocation: Union Place, Colombo\n\nJoin Our Growing Technology Team!\nA leading IT company located in Union Place, Colombo, is looking for a skilled, innovative, and passionate Full Stack Developer to join its dynamic technology team.\n\nThe ideal candidate should have experience in developing and maintaining web applications, with strong knowledge of both front-end and back-end technologies.\n\nKey Responsibilities\nDesign, develop, and maintain scalable web applications.\nDevelop responsive and user-friendly front-end interfaces.\nBuild and maintain back-end applications, APIs, and database systems.\nIntegrate third-party services and external APIs.\nIdentify, troubleshoot, and resolve technical issues.\nEnsure application performance, security, and scalability.\nCollaborate with project managers, designers, and other developers.\nParticipate in code reviews and continuously improve development processes.\n\nRequirements\nBachelor's degree, diploma, or equivalent qualification in Software Engineering, Computer Science, Information Technology, or a related field.\nProven experience in full-stack software development.\nStrong knowledge of HTML, CSS, JavaScript, and modern front-end frameworks.\nExperience with back-end technologies and frameworks.\nGood knowledge of databases such as MySQL, PostgreSQL, or MongoDB.\nExperience in API development and integration.\nFamiliarity with Git and version control systems.\nStrong analytical, problem-solving, and communication skills.\n\nHow to Apply\n\nInterested candidates are invited to forward their updated CVs to:\nEmail: pani0512@yahoo.com\n\nJoin our team and be part of an exciting journey in technology and innovation!",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-10",
+      "discovered_at": "2026-11-16T06:01:45.186172",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: FULL STACK DEVELOPER ( Sri lankans Only )",
+          "Company: Deepani Rathnayake (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Deepani Rathnayake (LinkedIn Post) for FULL STACK DEVELOPER ( Sri lankans Only ). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490238772",
+      "external_id": "4490238772",
+      "source": "linkedin_guest",
+      "title": "Graduate Associate (DevOps)",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/graduate-associate-devops-at-lseg-4490238772",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-16T06:01:33.816103",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Graduate Associate (DevOps)",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Graduate Associate (DevOps). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490248481",
+      "external_id": "4490248481",
+      "source": "linkedin_guest",
+      "title": "Graduate Associate (Software Engineer)",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/graduate-associate-software-engineer-at-lseg-4490248481",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-16T06:01:28.539462",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Graduate Associate (Software Engineer)",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Graduate Associate (Software Engineer). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -5866,6 +5977,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15791",
+      "external_id": "15791",
+      "source": "itpro_lk",
+      "title": "Quantitative Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15791/quantitative-developer-intern-at-snakewall/",
+      "description": "Software engineering opening on ITPro.lk: Quantitative Developer Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-16T06:01:47.154429",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Quantitative Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Quantitative Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490252790",
+      "external_id": "4490252790",
+      "source": "linkedin_guest",
+      "title": "Implementation Engineer",
+      "company": "PeoplesHR",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/implementation-engineer-at-peopleshr-4490252790",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-16T06:01:39.714243",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Implementation Engineer",
+          "Company: PeoplesHR"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at PeoplesHR for Implementation Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
