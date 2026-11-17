@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-17T03:39:31.168863Z",
+    "generated_at": "2026-11-17T15:52:46.530958Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 444
+    "total_count": 450
   },
   "stats": {
-    "total_jobs": 444,
-    "evaluated_jobs": 444,
-    "high_matches": 444,
+    "total_jobs": 450,
+    "evaluated_jobs": 450,
+    "high_matches": 450,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 83,
-      "linkedin_guest": 197,
-      "linkedin_posts": 85,
+      "itpro_lk": 85,
+      "linkedin_guest": 200,
+      "linkedin_posts": 86,
       "rooster_jobs": 18,
       "topjobs_lk": 61
     },
@@ -845,6 +845,129 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526812219691577344",
+      "external_id": "7526812219691577344",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "Ankit Kumar (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/meankitkumar_fullstackdeveloper-remotejobs-contractjobs-activity-7526812219691577344-LJwF",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dVGYCA4Y\n👤 Posted by: Ankit Kumar\n\n---\n🔔 Position Open! | Full Stack Developer\n📍 Remote | 💰 Pay discussed during screening | 💼 Contract | 🌍 Eligible Countries: United States\n\nAbout the role\nShape how large language models learn to write and judge full-stack code. You will build evaluation datasets and verification methods that push model capabilities across the software engineering cycle.\n\nWhat you'll do\n✅ Curating code examples and crafting precise solutions across Python and JavaScript stacks, with extra work in C/C++, Java, Rust and Go.\n✅ Reviewing AI-generated backend and frontend code for efficiency, scalability and reliability.\n✅ Building agents that check code quality and flag error patterns in full-stack applications.\n✅ Designing automatic verification mechanisms for software engineering tasks and testing model behavior across prototyping, architecture, API design and launch.\n\nWhat you'll need\n✅ Three or more years of software engineering experience.\n✅ Strong full-stack skills in Python and JavaScript, including React and Node.js, with comfort moving between backend and frontend codebases.\n✅ A record of deploying production-grade software and solid grasp of architecture, debugging and code review.\n✅ Clear written and verbal communication for structured evaluation rationales.\n\n👉 Apply here: https://lnkd.in/dVGYCA4Y\n\n#FullStackDeveloper #RemoteJobs #ContractJobs #Hiring #TechJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-13",
+      "discovered_at": "2026-11-17T15:52:38.968312",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Ankit Kumar (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ankit Kumar (LinkedIn Post) for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491171350",
+      "external_id": "4491171350",
+      "source": "linkedin_guest",
+      "title": "Full Stack Engineer",
+      "company": "Arca.ph",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-engineer-at-arca-ph-4491171350",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-17T15:52:33.328456",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer",
+          "Company: Arca.ph"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Arca.ph for Full Stack Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491138946",
+      "external_id": "4491138946",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Moresand Technologies",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-at-moresand-technologies-4491138946",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-17T15:52:22.067449",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core",
+          "Entity Framework Core",
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core Web Api",
+          "Spring Boot",
+          "React"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Moresand Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Moresand Technologies for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6132,6 +6255,116 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15803",
+      "external_id": "15803",
+      "source": "itpro_lk",
+      "title": "Java Engineers (VA Fixing)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15803/java-engineers-va-fixing-at-orysys-limited/",
+      "description": "Software engineering opening on ITPro.lk: Java Engineers (VA Fixing) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-17T15:52:42.803602",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Engineers (VA Fixing)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Java Engineers (VA Fixing). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15804",
+      "external_id": "15804",
+      "source": "itpro_lk",
+      "title": "IFS Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15804/ifs-software-engineer-at-xitricon/",
+      "description": "Software engineering opening on ITPro.lk: IFS Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-17T15:52:41.021971",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: IFS Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for IFS Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475544452",
+      "external_id": "4475544452",
+      "source": "linkedin_guest",
+      "title": "R Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/r-engineer-at-sme-careers-4475544452",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-17T15:52:27.967686",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: R Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for R Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
