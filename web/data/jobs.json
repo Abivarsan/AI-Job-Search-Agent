@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T19:30:28.784454Z",
+    "generated_at": "2026-11-17T03:39:31.168863Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 442
+    "total_count": 444
   },
   "stats": {
-    "total_jobs": 442,
-    "evaluated_jobs": 442,
-    "high_matches": 442,
+    "total_jobs": 444,
+    "evaluated_jobs": 444,
+    "high_matches": 444,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 82,
+      "itpro_lk": 83,
       "linkedin_guest": 197,
-      "linkedin_posts": 84,
+      "linkedin_posts": 85,
       "rooster_jobs": 18,
       "topjobs_lk": 61
     },
@@ -845,6 +845,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528190713608605696",
+      "external_id": "7528190713608605696",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer",
+      "company": "LIM",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/lim_limagency-hiring-fullstackdeveloper-activity-7528190713608605696-ZAdj",
+      "description": "📩 Apply / Contact Email: staffaug@golim.com\n👤 Posted by: LIM\n\n---\nLIM is hiring a Full Stack Developer for a fully remote role open to candidates based in the United States. Hands-on experience with both Ruby and Python is required.\n\nYou’ll build and extend web applications that support our client’s products and daily operations. The work spans front-end features, back-end services, and scripts that help staff complete routine tasks. You’ll collaborate remotely with developers, clinical staff, operations teams, and business leaders.\n\nA key part of the job is explaining technical decisions in plain English. For example, you’ll help a clinical or operations manager understand a system issue, how it affects their team, and what needs to happen next.\n\nWhat you’ll do\n\n-Build and maintain secure features using Ruby, Python, and Angular.\n-Develop REST APIs and scripts for browser and API workflows.\n-Work with SQL data and write unit and integration tests.\n-Troubleshoot issues across applications and advise colleagues on design and implementation.\n-Turn clinical and operational requirements into features that support the people using the product.\n\nWhat you’ll bring\n\n-At least five years of application development experience, with hands-on work in both Ruby and Python.\n-Experience building web applications across the front end and back end.\n-Familiarity with Angular 20+, JavaScript, HTML, CSS, SQL, and RSpec.\n-A working knowledge of AWS, networking, and application security.\n-Fluent spoken and written English.\n\nExperience with Linux, AWS deployments and ECS, GitHub, MySQL or PostgreSQL administration, XML parsing, and UI automation is a plus.\n\nSend your CV to staffaug@golim.com with “Full Stack Developer” in the subject line.\n\n#LIMAgency #Hiring #FullStackDeveloper #Ruby #Python",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-16",
+      "discovered_at": "2026-11-17T03:39:25.985903",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: LIM"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LIM for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6093,6 +6132,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15800",
+      "external_id": "15800",
+      "source": "itpro_lk",
+      "title": "Software Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15800/software-engineer-intern-at-d-help-hub-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-17T03:39:28.036105",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
