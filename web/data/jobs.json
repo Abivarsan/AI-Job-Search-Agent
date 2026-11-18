@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T00:54:10.467357Z",
+    "generated_at": "2026-11-18T11:28:13.505249Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 467
+    "total_count": 474
   },
   "stats": {
-    "total_jobs": 467,
-    "evaluated_jobs": 467,
-    "high_matches": 467,
+    "total_jobs": 474,
+    "evaluated_jobs": 474,
+    "high_matches": 474,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 85,
-      "linkedin_guest": 203,
+      "itpro_lk": 87,
+      "linkedin_guest": 206,
       "linkedin_posts": 86,
       "rooster_jobs": 18,
-      "topjobs_lk": 62,
+      "topjobs_lk": 64,
       "xpress_jobs": 13
     },
     "min_match_score_threshold": 70
@@ -885,6 +885,82 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001572592",
+      "external_id": "0001572592",
+      "source": "topjobs_lk",
+      "title": "Junior IT Support Engineer",
+      "company": "Atlas Global BPO (Pvt) Ltd",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=16&ac=DEFZZZ&jc=0001572592&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Atlas Global BPO (Pvt) Ltd. Location: Colombo, Sri Lanka. Closing: Wed Dec 02 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 18 2026",
+      "discovered_at": "2026-11-18T11:28:03.313000",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior IT Support Engineer",
+          "Company: Atlas Global BPO (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Atlas Global BPO (Pvt) Ltd for Junior IT Support Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491153969",
+      "external_id": "4491153969",
+      "source": "linkedin_guest",
+      "title": "Full Stack Software Engineer",
+      "company": "Wood Couture",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-software-engineer-at-wood-couture-4491153969",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-18T11:27:46.051094",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer",
+          "Company: Wood Couture"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Wood Couture for Full Stack Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6479,6 +6555,191 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15817",
+      "external_id": "15817",
+      "source": "itpro_lk",
+      "title": "Intern - Software Development",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15817/intern-software-development-at-arrogance-technologies-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Intern - Software Development at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T11:28:09.493019",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - Software Development",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern - Software Development. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15822",
+      "external_id": "15822",
+      "source": "itpro_lk",
+      "title": "Software Engineering Intern (Full-Stack & UI/UX Design)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15822/software-engineering-intern-full-stack-uiux-design-at-pied-piper-innovation-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Intern (Full-Stack & UI/UX Design) at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T11:28:07.492602",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Intern (Full-Stack & UI/UX Design)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Intern (Full-Stack & UI/UX Design). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001572536",
+      "external_id": "0001572536",
+      "source": "topjobs_lk",
+      "title": "Data Engineer",
+      "company": "ORYSYS Limited",
+      "location": "Colombo 2, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=20&ac=DEFZZZ&jc=0001572536&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: ORYSYS Limited. Location: Colombo 2, Sri Lanka. Closing: Wed Dec 02 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 18 2026",
+      "discovered_at": "2026-11-18T11:28:05.317956",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer",
+          "Company: ORYSYS Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ORYSYS Limited for Data Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4490848517",
+      "external_id": "4490848517",
+      "source": "linkedin_guest",
+      "title": "DevOps Engineer - Platform",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devops-engineer-platform-at-ifs-4490848517",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-18T11:27:57.538178",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevOps Engineer - Platform",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for DevOps Engineer - Platform. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491807923",
+      "external_id": "4491807923",
+      "source": "linkedin_guest",
+      "title": "SAP ABAP Developer (S/4HANA)",
+      "company": "SkillzsearchPR",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/sap-abap-developer-s-4hana-at-skillzsearchpr-4491807923",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-18T11:27:52.077570",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: SAP ABAP Developer (S/4HANA)",
+          "Company: SkillzsearchPR"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SkillzsearchPR for SAP ABAP Developer (S/4HANA). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
