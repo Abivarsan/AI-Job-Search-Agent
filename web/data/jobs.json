@@ -1,28 +1,68 @@
 {
   "meta": {
-    "generated_at": "2026-11-17T15:52:46.530958Z",
+    "generated_at": "2026-11-18T00:54:10.467357Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 450
+    "total_count": 467
   },
   "stats": {
-    "total_jobs": 450,
-    "evaluated_jobs": 450,
-    "high_matches": 450,
+    "total_jobs": 467,
+    "evaluated_jobs": 467,
+    "high_matches": 467,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 85,
-      "linkedin_guest": 200,
+      "linkedin_guest": 203,
       "linkedin_posts": 86,
       "rooster_jobs": 18,
-      "topjobs_lk": 61
+      "topjobs_lk": 62,
+      "xpress_jobs": 13
     },
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "li_4491710446",
+      "external_id": "4491710446",
+      "source": "linkedin_guest",
+      "title": "Junior Fullstack React & Node Developer - Remote Work | REF#305551",
+      "company": "BairesDev",
+      "location": "Cajamarca, Peru",
+      "workplace_type": "Remote",
+      "apply_url": "https://pe.linkedin.com/jobs/view/junior-fullstack-react-node-developer-remote-work-ref%23305551-at-bairesdev-4491710446",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-18T00:53:29.219223",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Fullstack React & Node Developer - Remote Work | REF#305551",
+          "Company: BairesDev"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4490693041",
       "external_id": "4490693041",
@@ -845,6 +885,190 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_352518",
+      "external_id": "352518",
+      "source": "xpress_jobs",
+      "title": "Junior Client Relationship Executive Enterprise Software Solutions Inf",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/352518/junior-client-relationship-executive-enterprise-software-solutions-infox-global-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Junior Client Relationship Executive Enterprise Software Solutions Infox Global Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/352518/junior-client-relationship-executive-enterprise-software-solutions-infox-global-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:54:03.009167",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Client Relationship Executive Enterprise Software Solutions Inf",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Junior Client Relationship Executive Enterprise Software Solutions Inf. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_354054",
+      "external_id": "354054",
+      "source": "xpress_jobs",
+      "title": "Junior Software Developer Hiring Talent",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/354054/junior-software-developer-hiring-talent",
+      "description": "Vacancy on Xpress.jobs: Junior Software Developer Hiring Talent. Apply directly at https://xpress.jobs/jobs/view/354054/junior-software-developer-hiring-talent.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:54:00.997713",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Developer Hiring Talent",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Junior Software Developer Hiring Talent. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_351720",
+      "external_id": "351720",
+      "source": "xpress_jobs",
+      "title": "Operation Assistant Junior Executive Inventory Male Java Lounge",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/351720/operation-assistant-junior-executive-inventory-male-java-lounge",
+      "description": "Vacancy on Xpress.jobs: Operation Assistant Junior Executive Inventory Male Java Lounge. Apply directly at https://xpress.jobs/jobs/view/351720/operation-assistant-junior-executive-inventory-male-java-lounge.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:56.949785",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Operation Assistant Junior Executive Inventory Male Java Lounge",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Operation Assistant Junior Executive Inventory Male Java Lounge. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_349716",
+      "external_id": "349716",
+      "source": "xpress_jobs",
+      "title": "Associate Software Engineer Department Of It Sri Lanka Institute Of In",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/349716/associate-software-engineer-department-of-it-sri-lanka-institute-of-information-technology-sliit",
+      "description": "Vacancy on Xpress.jobs: Associate Software Engineer Department Of It Sri Lanka Institute Of Information Technology Sliit. Apply directly at https://xpress.jobs/jobs/view/349716/associate-software-engineer-department-of-it-sri-lanka-institute-of-information-technology-sliit.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:44.810687",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer Department Of It Sri Lanka Institute Of In",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Associate Software Engineer Department Of It Sri Lanka Institute Of In. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4467067179",
+      "external_id": "4467067179",
+      "source": "linkedin_guest",
+      "title": "Associate System Engineer",
+      "company": "Riskonnect, Inc.",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-system-engineer-at-riskonnect-inc-4467067179",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-11-18T00:53:23.521823",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate System Engineer",
+          "Company: Riskonnect, Inc."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Riskonnect, Inc. for Associate System Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6255,6 +6479,412 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_351894",
+      "external_id": "351894",
+      "source": "xpress_jobs",
+      "title": "Software Engineer Abap Developer Lanka Tiles Plc",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/351894/software-engineer-abap-developer-lanka-tiles-plc",
+      "description": "Vacancy on Xpress.jobs: Software Engineer Abap Developer Lanka Tiles Plc. Apply directly at https://xpress.jobs/jobs/view/351894/software-engineer-abap-developer-lanka-tiles-plc.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:54:07.064090",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Abap Developer Lanka Tiles Plc",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Software Engineer Abap Developer Lanka Tiles Plc. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_349491",
+      "external_id": "349491",
+      "source": "xpress_jobs",
+      "title": "Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/349491/trainee-sales-assistant-sausiri-property-developers-co-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/349491/trainee-sales-assistant-sausiri-property-developers-co-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:54:05.056672",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_352275",
+      "external_id": "352275",
+      "source": "xpress_jobs",
+      "title": "Commi 123 Hot Kitchen Pastry Bakery Cake Department Ambuldeniya Java L",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/352275/commi-123-hot-kitchen-pastry-bakery-cake-department-ambuldeniya-java-lounge",
+      "description": "Vacancy on Xpress.jobs: Commi 123 Hot Kitchen Pastry Bakery Cake Department Ambuldeniya Java Lounge. Apply directly at https://xpress.jobs/jobs/view/352275/commi-123-hot-kitchen-pastry-bakery-cake-department-ambuldeniya-java-lounge.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:58.987262",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Commi 123 Hot Kitchen Pastry Bakery Cake Department Ambuldeniya Java L",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Commi 123 Hot Kitchen Pastry Bakery Cake Department Ambuldeniya Java L. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_351760",
+      "external_id": "351760",
+      "source": "xpress_jobs",
+      "title": "Technical Officer Site Supervisor Coral Property Developers Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/351760/technical-officer-site-supervisor-coral-property-developers-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Technical Officer Site Supervisor Coral Property Developers Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/351760/technical-officer-site-supervisor-coral-property-developers-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:54.932096",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Officer Site Supervisor Coral Property Developers Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Technical Officer Site Supervisor Coral Property Developers Pvt Ltd. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_350773",
+      "external_id": "350773",
+      "source": "xpress_jobs",
+      "title": "Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/350773/secretary-cum-admin-officer-colombo-04-coral-property-developers-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/350773/secretary-cum-admin-officer-colombo-04-coral-property-developers-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:52.920000",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_351653",
+      "external_id": "351653",
+      "source": "xpress_jobs",
+      "title": "Google Workspace Administrators Appsheet Specialists Dms Software Tech",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/351653/google-workspace-administrators-appsheet-specialists-dms-software-technologies-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Google Workspace Administrators Appsheet Specialists Dms Software Technologies Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/351653/google-workspace-administrators-appsheet-specialists-dms-software-technologies-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:50.883803",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Google Workspace Administrators Appsheet Specialists Dms Software Tech",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Google Workspace Administrators Appsheet Specialists Dms Software Tech. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_351641",
+      "external_id": "351641",
+      "source": "xpress_jobs",
+      "title": "Oracle Application Technical Consultant Dms Software Technologies Pvt ",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/351641/oracle-application-technical-consultant-dms-software-technologies-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Oracle Application Technical Consultant Dms Software Technologies Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/351641/oracle-application-technical-consultant-dms-software-technologies-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:48.860909",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Oracle Application Technical Consultant Dms Software Technologies Pvt ",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Oracle Application Technical Consultant Dms Software Technologies Pvt . Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_352334",
+      "external_id": "352334",
+      "source": "xpress_jobs",
+      "title": "Sericenow Developer Hcl Technologies Lanka Private Limited",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/352334/sericenow-developer-hcl-technologies-lanka-private-limited",
+      "description": "Vacancy on Xpress.jobs: Sericenow Developer Hcl Technologies Lanka Private Limited. Apply directly at https://xpress.jobs/jobs/view/352334/sericenow-developer-hcl-technologies-lanka-private-limited.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:46.846332",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sericenow Developer Hcl Technologies Lanka Private Limited",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Sericenow Developer Hcl Technologies Lanka Private Limited. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_350058",
+      "external_id": "350058",
+      "source": "xpress_jobs",
+      "title": "Executive Server Infrastructure System Software Singer Sri Lanka Plc",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/350058/executive-server-infrastructure-system-software-singer-sri-lanka-plc",
+      "description": "Vacancy on Xpress.jobs: Executive Server Infrastructure System Software Singer Sri Lanka Plc. Apply directly at https://xpress.jobs/jobs/view/350058/executive-server-infrastructure-system-software-singer-sri-lanka-plc.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-18T00:53:42.771827",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Executive Server Infrastructure System Software Singer Sri Lanka Plc",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Executive Server Infrastructure System Software Singer Sri Lanka Plc. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001572349",
+      "external_id": "0001572349",
+      "source": "topjobs_lk",
+      "title": "Software Developer - AI & Business Automation",
+      "company": "Company Name Withheld",
+      "location": "Horana, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=DEFZZZ&jc=0001572349&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Company Name Withheld. Location: Horana, Sri Lanka. Closing: Tue Dec 01 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Tue Nov 17 2026",
+      "discovered_at": "2026-11-18T00:53:40.727809",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer - AI & Business Automation",
+          "Company: Company Name Withheld"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Company Name Withheld for Software Developer - AI & Business Automation. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4475543504",
+      "external_id": "4475543504",
+      "source": "linkedin_guest",
+      "title": "Scala Engineer",
+      "company": "SME Careers",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/scala-engineer-at-sme-careers-4475543504",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "13 hours ago",
+      "discovered_at": "2026-11-18T00:53:35.094315",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Scala Engineer",
+          "Company: SME Careers"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at SME Careers for Scala Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
