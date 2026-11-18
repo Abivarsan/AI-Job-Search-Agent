@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T11:28:13.505249Z",
+    "generated_at": "2026-11-18T20:23:22.057661Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 474
+    "total_count": 477
   },
   "stats": {
-    "total_jobs": 474,
-    "evaluated_jobs": 474,
-    "high_matches": 474,
+    "total_jobs": 477,
+    "evaluated_jobs": 477,
+    "high_matches": 477,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 87,
-      "linkedin_guest": 206,
-      "linkedin_posts": 86,
+      "linkedin_guest": 208,
+      "linkedin_posts": 87,
       "rooster_jobs": 18,
       "topjobs_lk": 64,
       "xpress_jobs": 13
@@ -885,6 +885,84 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528622356198563840",
+      "external_id": "7528622356198563840",
+      "source": "linkedin_posts",
+      "title": "Full Stack Engineer",
+      "company": "Bruno Freire (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/brunofreireitrecruiter_fullstack-softwareengineer-remotework-activity-7528622356198563840-yCSr",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/etyuqbvQ\n👤 Posted by: Bruno Freire\n\n---\n🚀 ¡Buscamos Full Stack Engineer!\n\n¿Cuentas con sólida experiencia desarrollando arquitecturas web escalables de extremo a extremo y buscando un nuevo reto profesional en el mercado internacional? Estamos reclutando para una posición técnica de alta exigencia.\n\n💼 Detalles clave de la posición:\n\nRol: Full Stack Engineer\nUbicación: 100% Remoto (LatAm / Global)\nRequisito indispensable: Inglés C1 fluido\n\nSi tienes la capacidad de diseñar sistemas robustos, conectar backend y frontend con excelencia técnica y quieres formar parte de proyectos retribuidos competitivamente en dólares, postúlate directamente aquí:\n\n👉 https://lnkd.in/etyuqbvQ\n\n¿Conoces a alguien ideal para este puesto? ¡Etiquétalo en los comentarios o compártale esta oportunidad! 🌐\n\n#FullStack #SoftwareEngineer #RemoteWork #TechRecruiting #Hiring #JavaScript #TypeScript #React #NodeJS",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-18",
+      "discovered_at": "2026-11-18T20:23:03.479244",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Engineer",
+          "Company: Bruno Freire (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Bruno Freire (LinkedIn Post) for Full Stack Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491863411",
+      "external_id": "4491863411",
+      "source": "linkedin_guest",
+      "title": "Software Engineer II",
+      "company": "Pearson",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-ii-at-pearson-4491863411",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-18T20:20:59.644680",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          ".Net",
+          "Java",
+          "Git"
+        ],
+        "missing_skills": [
+          "Asp.Net Core",
+          "Asp.Net Core Web Api",
+          "Entity Framework Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer II",
+          "Company: Pearson"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pearson for Software Engineer II. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6555,6 +6633,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491828139",
+      "external_id": "4491828139",
+      "source": "linkedin_guest",
+      "title": "AI Engineer",
+      "company": "Smart Legal",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-engineer-at-smart-legal-4491828139",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-18T20:21:05.003850",
+      "status": "EVALUATED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI Engineer",
+          "Company: Smart Legal"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Smart Legal for AI Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
