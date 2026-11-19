@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-11-19T02:28:42.194424Z",
+    "generated_at": "2026-11-19T11:26:57.951454Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 483
+    "total_count": 502
   },
   "stats": {
-    "total_jobs": 483,
-    "evaluated_jobs": 483,
-    "high_matches": 483,
+    "total_jobs": 502,
+    "evaluated_jobs": 502,
+    "high_matches": 502,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 89,
-      "linkedin_guest": 208,
+      "itpro_lk": 93,
+      "linkedin_guest": 213,
       "linkedin_posts": 90,
       "rooster_jobs": 18,
-      "topjobs_lk": 65,
-      "xpress_jobs": 13
+      "topjobs_lk": 70,
+      "xpress_jobs": 18
     },
     "min_match_score_threshold": 70
   },
@@ -885,6 +885,228 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_354771",
+      "external_id": "354771",
+      "source": "xpress_jobs",
+      "title": "Associate Software Engineer Department Of It Sri Lanka Institute Of In",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/354771/associate-software-engineer-department-of-it-sri-lanka-institute-of-information-technology-sliit",
+      "description": "Vacancy on Xpress.jobs: Associate Software Engineer Department Of It Sri Lanka Institute Of Information Technology Sliit. Apply directly at https://xpress.jobs/jobs/view/354771/associate-software-engineer-department-of-it-sri-lanka-institute-of-information-technology-sliit.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:48.586864",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer Department Of It Sri Lanka Institute Of In",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Associate Software Engineer Department Of It Sri Lanka Institute Of In. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15826",
+      "external_id": "15826",
+      "source": "itpro_lk",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15826/associate-software-engineer-at-codecrafters/",
+      "description": "Software engineering opening on ITPro.lk: Associate Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:44.473079",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15833",
+      "external_id": "15833",
+      "source": "itpro_lk",
+      "title": "Junior Software Engineers",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15833/junior-software-engineers-at-d-help-hub-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: Junior Software Engineers at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:38.487110",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineers",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Junior Software Engineers. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573301",
+      "external_id": "0001573301",
+      "source": "topjobs_lk",
+      "title": "Associate Software Engineer - AI | BI",
+      "company": "Company Name Withheld",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=DEFZZZ&jc=0001573301&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Company Name Withheld. Location: Colombo, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T11:26:32.389567",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer - AI | BI",
+          "Company: Company Name Withheld"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Company Name Withheld for Associate Software Engineer - AI | BI. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573302",
+      "external_id": "0001573302",
+      "source": "topjobs_lk",
+      "title": "Associate Project Coordinator - Agile (Software Development)",
+      "company": "Company Name Withheld",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=DEFZZZ&jc=0001573302&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Company Name Withheld. Location: Colombo, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T11:26:30.387906",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Project Coordinator - Agile (Software Development)",
+          "Company: Company Name Withheld"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Company Name Withheld for Associate Project Coordinator - Agile (Software Development). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491379432",
+      "external_id": "4491379432",
+      "source": "linkedin_guest",
+      "title": "Graduate Associate (Hardware Acceretation)",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/graduate-associate-hardware-acceretation-at-lseg-4491379432",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-19T11:25:59.318789",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Graduate Associate (Hardware Acceretation)",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Graduate Associate (Hardware Acceretation). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6746,6 +6968,484 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_354566",
+      "external_id": "354566",
+      "source": "xpress_jobs",
+      "title": "Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/354566/trainee-sales-assistant-sausiri-property-developers-co-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/354566/trainee-sales-assistant-sausiri-property-developers-co-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:54.549163",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Trainee Sales Assistant Sausiri Property Developers Co Pvt Ltd. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_355137",
+      "external_id": "355137",
+      "source": "xpress_jobs",
+      "title": "Uiux Designer Front End Developer Colombo Venturecorp Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/355137/uiux-designer-front-end-developer-colombo-venturecorp-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Uiux Designer Front End Developer Colombo Venturecorp Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/355137/uiux-designer-front-end-developer-colombo-venturecorp-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:52.584264",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Uiux Designer Front End Developer Colombo Venturecorp Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Uiux Designer Front End Developer Colombo Venturecorp Pvt Ltd. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_355140",
+      "external_id": "355140",
+      "source": "xpress_jobs",
+      "title": "Finance Intern Head Office Nugegoda Java Lounge",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/355140/finance-intern-head-office-nugegoda-java-lounge",
+      "description": "Vacancy on Xpress.jobs: Finance Intern Head Office Nugegoda Java Lounge. Apply directly at https://xpress.jobs/jobs/view/355140/finance-intern-head-office-nugegoda-java-lounge.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:50.584522",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Finance Intern Head Office Nugegoda Java Lounge",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Finance Intern Head Office Nugegoda Java Lounge. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_355111",
+      "external_id": "355111",
+      "source": "xpress_jobs",
+      "title": "Executive Server Infrastructure System Software Singer Sri Lanka Plc",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/355111/executive-server-infrastructure-system-software-singer-sri-lanka-plc",
+      "description": "Vacancy on Xpress.jobs: Executive Server Infrastructure System Software Singer Sri Lanka Plc. Apply directly at https://xpress.jobs/jobs/view/355111/executive-server-infrastructure-system-software-singer-sri-lanka-plc.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:46.594107",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Executive Server Infrastructure System Software Singer Sri Lanka Plc",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Executive Server Infrastructure System Software Singer Sri Lanka Plc. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15827",
+      "external_id": "15827",
+      "source": "itpro_lk",
+      "title": "Software Engineering Internship",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15827/software-engineering-internship-at-codecrafters/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineering Internship at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:42.462510",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineering Internship",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineering Internship. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15828",
+      "external_id": "15828",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15828/software-engineer-at-codecrafters/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T11:26:40.469623",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573137",
+      "external_id": "0001573137",
+      "source": "topjobs_lk",
+      "title": "Full Stack Developer",
+      "company": "Axis Technologies (Pvt) Ltd",
+      "location": "Homagama, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=13&ac=DEFZZZ&jc=0001573137&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Axis Technologies (Pvt) Ltd. Location: Homagama, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T11:26:36.455949",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer",
+          "Company: Axis Technologies (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Axis Technologies (Pvt) Ltd for Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573209",
+      "external_id": "0001573209",
+      "source": "topjobs_lk",
+      "title": "Java Engineer (VA Fixing)",
+      "company": "ORYSYS Limited",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=DEFZZZ&jc=0001573209&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: ORYSYS Limited. Location: Colombo 3, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T11:26:34.414515",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Engineer (VA Fixing)",
+          "Company: ORYSYS Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ORYSYS Limited for Java Engineer (VA Fixing). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573547",
+      "external_id": "0001573547",
+      "source": "topjobs_lk",
+      "title": "Software Engineer",
+      "company": "MBSL Insurance Co. Ltd",
+      "location": "Colombo 10, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001573547&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: MBSL Insurance Co. Ltd. Location: Colombo 10, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T11:26:28.314344",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: MBSL Insurance Co. Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MBSL Insurance Co. Ltd for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492133782",
+      "external_id": "4492133782",
+      "source": "linkedin_guest",
+      "title": "Microsoft 365 Engineer",
+      "company": "Skaleart",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/microsoft-365-engineer-at-skaleart-4492133782",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "46 minutes ago",
+      "discovered_at": "2026-11-19T11:26:23.023685",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Microsoft 365 Engineer",
+          "Company: Skaleart"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Skaleart for Microsoft 365 Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492425266",
+      "external_id": "4492425266",
+      "source": "linkedin_guest",
+      "title": "Back End Developer",
+      "company": "UNIBENCH",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/back-end-developer-at-unibench-4492425266",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "27 minutes ago",
+      "discovered_at": "2026-11-19T11:26:17.006205",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Back End Developer",
+          "Company: UNIBENCH"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at UNIBENCH for Back End Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491390912",
+      "external_id": "4491390912",
+      "source": "linkedin_guest",
+      "title": "Engineer - Operation Center",
+      "company": "Virtusa",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/engineer-operation-center-at-virtusa-4491390912",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "40 minutes ago",
+      "discovered_at": "2026-11-19T11:26:10.535495",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Engineer - Operation Center",
+          "Company: Virtusa"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Virtusa for Engineer - Operation Center. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4483862022",
+      "external_id": "4483862022",
+      "source": "linkedin_guest",
+      "title": "Machine Learning Engineer",
+      "company": "IronOne",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/machine-learning-engineer-at-ironone-4483862022",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-19T11:26:04.863746",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Machine Learning Engineer",
+          "Company: IronOne"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IronOne for Machine Learning Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
