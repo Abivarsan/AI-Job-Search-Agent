@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-19T11:26:57.951454Z",
+    "generated_at": "2026-11-19T20:25:40.037036Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 502
+    "total_count": 507
   },
   "stats": {
-    "total_jobs": 502,
-    "evaluated_jobs": 502,
-    "high_matches": 502,
+    "total_jobs": 507,
+    "evaluated_jobs": 507,
+    "high_matches": 507,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 93,
-      "linkedin_guest": 213,
+      "itpro_lk": 94,
+      "linkedin_guest": 216,
       "linkedin_posts": 90,
       "rooster_jobs": 18,
-      "topjobs_lk": 70,
+      "topjobs_lk": 71,
       "xpress_jobs": 18
     },
     "min_match_score_threshold": 70
@@ -885,6 +885,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492153239",
+      "external_id": "4492153239",
+      "source": "linkedin_guest",
+      "title": "Associate Solutions Specialist",
+      "company": "RCS2 Technologies",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-solutions-specialist-at-rcs2-technologies-4492153239",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-19T20:25:28.547779",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Solutions Specialist",
+          "Company: RCS2 Technologies"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at RCS2 Technologies for Associate Solutions Specialist. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492147775",
+      "external_id": "4492147775",
+      "source": "linkedin_guest",
+      "title": "Graduate Associate (Cyber Security)",
+      "company": "LSEG",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/graduate-associate-cyber-security-at-lseg-4492147775",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-19T20:25:22.606413",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Graduate Associate (Cyber Security)",
+          "Company: LSEG"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at LSEG for Graduate Associate (Cyber Security). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -6968,6 +7042,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15839",
+      "external_id": "15839",
+      "source": "itpro_lk",
+      "title": "System Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15839/system-engineer-at-softvil-technologies/",
+      "description": "Software engineering opening on ITPro.lk: System Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T20:25:36.616603",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: System Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for System Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573591",
+      "external_id": "0001573591",
+      "source": "topjobs_lk",
+      "title": "Full Stack Developer Intern",
+      "company": "Medcube USA",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001573591&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Medcube USA. Location: Colombo 3, Sri Lanka. Closing: Thu Dec 03 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 19 2026",
+      "discovered_at": "2026-11-19T20:25:34.576743",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Intern",
+          "Company: Medcube USA"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Medcube USA for Full Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492480597",
+      "external_id": "4492480597",
+      "source": "linkedin_guest",
+      "title": "L2 Software Engineer",
+      "company": "KAL",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/l2-software-engineer-at-kal-4492480597",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-19T20:25:16.459897",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: L2 Software Engineer",
+          "Company: KAL"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at KAL for L2 Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
