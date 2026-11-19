@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T20:23:22.057661Z",
+    "generated_at": "2026-11-19T02:28:42.194424Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 477
+    "total_count": 483
   },
   "stats": {
-    "total_jobs": 477,
-    "evaluated_jobs": 477,
-    "high_matches": 477,
+    "total_jobs": 483,
+    "evaluated_jobs": 483,
+    "high_matches": 483,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 87,
+      "itpro_lk": 89,
       "linkedin_guest": 208,
-      "linkedin_posts": 87,
+      "linkedin_posts": 90,
       "rooster_jobs": 18,
-      "topjobs_lk": 64,
+      "topjobs_lk": 65,
       "xpress_jobs": 13
     },
     "min_match_score_threshold": 70
@@ -888,6 +888,119 @@
       }
     },
     {
+      "id": "itpro_15824",
+      "external_id": "15824",
+      "source": "itpro_lk",
+      "title": "Associate Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15824/associate-software-engineer-at-codecrafters/",
+      "description": "Software engineering opening on ITPro.lk: Associate Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T02:28:38.876977",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15825",
+      "external_id": "15825",
+      "source": "itpro_lk",
+      "title": "Associate – Software Engineer (Full-Stack)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15825/associate-software-engineer-full-stack-at-cognasisai/",
+      "description": "Software engineering opening on ITPro.lk: Associate – Software Engineer (Full-Stack) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-19T02:28:37.072428",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate – Software Engineer (Full-Stack)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Associate – Software Engineer (Full-Stack). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7519161158235426816",
+      "external_id": "7519161158235426816",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (Trainee Internship)",
+      "company": "ITX Digital Services (PVT) LTD",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/were-hiring-full-stack-developer-trainee-share-7519161158235426816-zA4z",
+      "description": "📩 Apply / Contact Email: careers@itxdigitalservices.com\n🔗 Direct Link in Post: https://lnkd.in/dBB8a5ED, https://lnkd.in/g-7ppeVf\n👤 Posted by: ITX Digital Services (PVT) LTD\n\n---\nWE’RE HIRING – FULL STACK DEVELOPER (TRAINEE INTERNSHIP)\n\nITX Digital Services (PVT) LTD is looking for a motivated and enthusiastic Full Stack Developer Trainee to join our growing team.\n\nThis is an excellent opportunity for university undergraduates to gain real-world industry experience, work on live client projects, and develop practical skills in modern web technologies.\n\nKey Responsibilities\n\nAssist in developing and maintaining web applications\nWork with HTML, CSS, JavaScript, PHP, and Node.js\nWork with MySQL databases\nCollaborate on UI/UX implementation\nTest, debug, and optimize applications\nSupport deployment and server-side tasks\n\nRequirements\n\nUndergraduate in IT, Computer Science, Software Engineering, or a related field\nBasic knowledge of front-end and back-end development\nFamiliarity with HTML, CSS, JavaScript, PHP, and MySQL\nWillingness to learn and work as part of a team\nGood problem-solving and time-management skills\nGitHub profile, portfolio, or academic projects will be an advantage\n\nLocation: ITX Digital Services (PVT) LTD, 174/1/A, Viskampura Road, Hokandara South, Sri Lanka, 10118.\n\nHow to Apply\nSend your CV to: careers@itxdigitalservices.com\nApply online: https://lnkd.in/dBB8a5ED\nApply - https://lnkd.in/g-7ppeVf\n\nStart your professional journey with ITX Digital Services and turn your technical knowledge into real-world experience. We look forward to welcoming passionate future developers to our team.\n\nITX Digital Services (PVT) LTD\nITX Digital Services Group of Companies",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-10-22",
+      "discovered_at": "2026-11-19T02:28:30.708519",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Trainee Internship)",
+          "Company: ITX Digital Services (PVT) LTD"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITX Digital Services (PVT) LTD for Full Stack Developer (Trainee Internship). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
       "id": "lipost_7528622356198563840",
       "external_id": "7528622356198563840",
       "source": "linkedin_posts",
@@ -939,7 +1052,7 @@
       "experience_level": "Associate / Entry Level",
       "posted_date": "3 hours ago",
       "discovered_at": "2026-11-18T20:20:59.644680",
-      "status": "EVALUATED",
+      "status": "NOTIFIED",
       "user_status": "NEW",
       "user_notes": "",
       "evaluation": {
@@ -6636,6 +6749,117 @@
       }
     },
     {
+      "id": "topjobs_0001573056",
+      "external_id": "0001573056",
+      "source": "topjobs_lk",
+      "title": "Application Developer - Night Shift",
+      "company": "Legacy Health (Pvt) Ltd",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=DEFZZZ&jc=0001573056&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Legacy Health (Pvt) Ltd. Location: Colombo 3, Sri Lanka. Closing: Wed Dec 02 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 18 2026",
+      "discovered_at": "2026-11-19T02:28:34.270401",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Application Developer - Night Shift",
+          "Company: Legacy Health (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Legacy Health (Pvt) Ltd for Application Developer - Night Shift. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7526661424681562112",
+      "external_id": "7526661424681562112",
+      "source": "linkedin_posts",
+      "title": "Software Engineer - Backend",
+      "company": "Part-Time Jobs With Writing | Remote, Work From Home & Flexible Roles",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/remote-wfh-jobs-education-jobs_fullyremote-remotejobs-softwareengineer-activity-7526661424681562112-o5jm",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gS7r4MFc\n👤 Posted by: Part-Time Jobs With Writing | Remote, Work From Home & Flexible Roles\n\n---\n📢 HIRING: Software Engineer - Backend | FULLY REMOTE | $50–$100/hr\n\nBackend engineers with strong hands-on experience in Python, Java, Rust, Go, C++, or TypeScript may find this contract role a direct match for their day-to-day skills. This Fully Remote Software Engineer – Backend position centers on building realistic, verifiable coding challenges drawn from real software engineering work.\n\nYou will create tasks that test the ability to diagnose subtle bugs, implement non-trivial features, refactor existing code, and optimize performance. Work includes designing reproducible environments, writing clear verifiers, and ensuring each problem is solvable and unambiguous. Strong algorithmic thinking, solid code quality instincts, and comfort with debugging and testing are essential.\n\nThis Fully Remote contractor opportunity suits professionals who already ship backend systems and can work independently on project-based tasks (roughly 15 hours per week). Significant practical experience in at least one of the listed languages, combined with a firm grasp of data structures, algorithms, and software engineering fundamentals, is expected. No prior AI experience is required—your engineering expertise drives the work.\n\nQualified professionals can review the complete job description, requirements, and application details here:  \nhttps://lnkd.in/gS7r4MFc\n\n#FullyRemote #RemoteJobs #SoftwareEngineer #BackendEngineer #Python #Java #Rust #RemoteContractJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-12",
+      "discovered_at": "2026-11-19T02:28:32.493313",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer - Backend",
+          "Company: Part-Time Jobs With Writing | Remote, Work From Home & Flexible Roles"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Part-Time Jobs With Writing | Remote, Work From Home & Flexible Roles for Software Engineer - Backend. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7527656758018826240",
+      "external_id": "7527656758018826240",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Front End",
+      "company": "Pasandi Viswani (LinkedIn Post)",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/pasandi-viswani_were-hiring-role-software-engineer-share-7527656758018826240-KpYw",
+      "description": "👤 Posted by: Pasandi Viswani\n\n---\nWe're Hiring! \n💼 Role: Software Engineer – Front End \n📍 Work Arrangement: Remote + Occasional Meets at our Colombo 5 office – Sri Lanka\n🕒 General Work Hours: Between 12.30PM – 10.30PM (WFH) Sri Lankan Time",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-15",
+      "discovered_at": "2026-11-19T02:28:28.792798",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Front End",
+          "Company: Pasandi Viswani (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Pasandi Viswani (LinkedIn Post) for Software Engineer Front End. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
       "id": "li_4491828139",
       "external_id": "4491828139",
       "source": "linkedin_guest",
@@ -6648,7 +6872,7 @@
       "experience_level": "Associate / Entry Level",
       "posted_date": "5 hours ago",
       "discovered_at": "2026-11-18T20:21:05.003850",
-      "status": "EVALUATED",
+      "status": "NOTIFIED",
       "user_status": "NEW",
       "user_notes": "",
       "evaluation": {
