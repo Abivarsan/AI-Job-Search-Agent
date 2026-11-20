@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T11:16:24.550132Z",
+    "generated_at": "2026-11-20T19:56:31.443404Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 514
+    "total_count": 518
   },
   "stats": {
-    "total_jobs": 514,
-    "evaluated_jobs": 514,
-    "high_matches": 514,
+    "total_jobs": 518,
+    "evaluated_jobs": 518,
+    "high_matches": 518,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 96,
-      "linkedin_guest": 217,
+      "itpro_lk": 97,
+      "linkedin_guest": 220,
       "linkedin_posts": 91,
       "rooster_jobs": 18,
       "topjobs_lk": 74,
@@ -7117,6 +7117,152 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15852",
+      "external_id": "15852",
+      "source": "itpro_lk",
+      "title": "Full Stack Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15852/full-stack-developer-intern-at-synctox-software-solutions/",
+      "description": "Software engineering opening on ITPro.lk: Full Stack Developer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-20T19:56:27.217008",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491931468",
+      "external_id": "4491931468",
+      "source": "linkedin_guest",
+      "title": "Security Engineer",
+      "company": "Surge Global",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/security-engineer-at-surge-global-4491931468",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-20T19:56:21.685449",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Security Engineer",
+          "Company: Surge Global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Surge Global for Security Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4491929470",
+      "external_id": "4491929470",
+      "source": "linkedin_guest",
+      "title": "QA Engineer",
+      "company": "Surge Global",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/qa-engineer-at-surge-global-4491929470",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "4 hours ago",
+      "discovered_at": "2026-11-20T19:56:16.225160",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: Surge Global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Surge Global for QA Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492987159",
+      "external_id": "4492987159",
+      "source": "linkedin_guest",
+      "title": "DevNetOps Engineer",
+      "company": "Capgemini Engineering",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/devnetops-engineer-at-capgemini-engineering-4492987159",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-20T19:56:10.526245",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: DevNetOps Engineer",
+          "Company: Capgemini Engineering"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Capgemini Engineering for DevNetOps Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
