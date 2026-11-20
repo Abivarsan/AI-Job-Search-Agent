@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T02:12:59.905038Z",
+    "generated_at": "2026-11-20T11:16:24.550132Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 507
+    "total_count": 514
   },
   "stats": {
-    "total_jobs": 507,
-    "evaluated_jobs": 507,
-    "high_matches": 507,
+    "total_jobs": 514,
+    "evaluated_jobs": 514,
+    "high_matches": 514,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 94,
-      "linkedin_guest": 216,
-      "linkedin_posts": 90,
+      "itpro_lk": 96,
+      "linkedin_guest": 217,
+      "linkedin_posts": 91,
       "rooster_jobs": 18,
-      "topjobs_lk": 71,
+      "topjobs_lk": 74,
       "xpress_jobs": 18
     },
     "min_match_score_threshold": 70
@@ -885,6 +885,81 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001573771",
+      "external_id": "0001573771",
+      "source": "topjobs_lk",
+      "title": "Associate Software Engineer - Full Stack",
+      "company": "Dockyard Total Solutions (Pvt) Ltd",
+      "location": "Colombo 14, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=DEFZZZ&jc=0001573771&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Dockyard Total Solutions (Pvt) Ltd. Location: Colombo 14, Sri Lanka. Closing: Fri Dec 04 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 20 2026",
+      "discovered_at": "2026-11-20T11:16:17.707862",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer - Full Stack",
+          "Company: Dockyard Total Solutions (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dockyard Total Solutions (Pvt) Ltd for Associate Software Engineer - Full Stack. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528716956544159744",
+      "external_id": "7528716956544159744",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "CognasisAI",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/cognasisai_we-are-hiring-an-associate-software-engineer-activity-7528716956544159744-kg2S",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gFd8AH4x\n👤 Posted by: CognasisAI\n\n---\nWe are hiring an Associate - Software Engineer (Full-Stack) at CognasisAI.\n\nYou will build and ship full-stack features that take our AI products from idea to production. You will work across our AI projects and a Flutter project, owning features end to end across frontend, backend, Supabase and AWS deployment. We move fast with AI-assisted development, and we keep the code clean, tested and safe to release.\n\nMust-haves:\n• Hands-on DevOps experience on AWS: Amplify, ECS, Docker, IAM basics and CloudWatch\n• Trunk-based development: short-lived branches, small pull requests, frequent merges to main and feature flags\n\nWhat you will need:\n• 1+ year of professional experience building both frontend and backend in production\n• React or Next.js with TypeScript\n• Backend APIs in Node.js or Python, with solid SQL and data modelling\n• Hands-on Supabase: Postgres, auth, row-level security, storage and edge functions\n• CI/CD pipelines such as GitHub Actions\n• Daily use of AI coding assistants like Claude Code or Cursor, with the judgement to review, test and correct their output\n• Clear English and confidence on calls with UK clients\n\nNice to have:\n• Flutter and Dart\n• Building with LLMs: RAG, tool calling or AI agents\n• Infrastructure as Code: AWS CDK, Terraform or CloudFormation\n• Integrations with Microsoft Dynamics 365 Business Central or Xero\n\nEngagement:\n• Full-time or contract, fully remote\n• Working hours overlapping UK afternoons (Sri Lanka evening) for client calls and release windows\n• Hiring within Sri Lanka only\n\nApply via our careers page:\nhttps://lnkd.in/gFd8AH4x",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-18",
+      "discovered_at": "2026-11-20T11:16:12.176253",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: CognasisAI"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CognasisAI for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7042,6 +7117,191 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15847",
+      "external_id": "15847",
+      "source": "itpro_lk",
+      "title": "Backend Software Engineering Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15847/backend-software-engineering-intern-at-adeona-technologies/",
+      "description": "Software engineering opening on ITPro.lk: Backend Software Engineering Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-20T11:16:21.417188",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Backend Software Engineering Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Backend Software Engineering Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15849",
+      "external_id": "15849",
+      "source": "itpro_lk",
+      "title": "Intern (PHP Laravel) Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15849/intern-php-laravel-software-engineer-at-inbizsys-private-limited/",
+      "description": "Software engineering opening on ITPro.lk: Intern (PHP Laravel) Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-20T11:16:19.553821",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern (PHP Laravel) Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern (PHP Laravel) Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574042",
+      "external_id": "0001574042",
+      "source": "topjobs_lk",
+      "title": "Technical Support Engineer",
+      "company": "Kent Ridge (Pvt) Ltd",
+      "location": "Kandy, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=DEFZZZ&jc=0001574042&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Kent Ridge (Pvt) Ltd. Location: Kandy, Sri Lanka. Closing: Fri Dec 04 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 20 2026",
+      "discovered_at": "2026-11-20T11:16:15.850557",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Support Engineer",
+          "Company: Kent Ridge (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Kent Ridge (Pvt) Ltd for Technical Support Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574200",
+      "external_id": "0001574200",
+      "source": "topjobs_lk",
+      "title": "Intern - UI/UX Engineer",
+      "company": "Epic Lanka (Pvt) Ltd",
+      "location": "Battaramulla, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=0000000484&jc=0001574200&ec=0000000651&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Epic Lanka (Pvt) Ltd. Location: Battaramulla, Sri Lanka. Closing: Fri Dec 04 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 20 2026",
+      "discovered_at": "2026-11-20T11:16:14.024270",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern - UI/UX Engineer",
+          "Company: Epic Lanka (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Epic Lanka (Pvt) Ltd for Intern - UI/UX Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4492534910",
+      "external_id": "4492534910",
+      "source": "linkedin_guest",
+      "title": "Full Stack Software Engineer - Affiliate Platform (AI-Accelerated Development)",
+      "company": "NEXT Ventures",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-software-engineer-affiliate-platform-ai-accelerated-development-at-next-ventures-4492534910",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-20T11:16:04.590992",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Mysql"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer - Affiliate Platform (AI-Accelerated Development)",
+          "Company: NEXT Ventures"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at NEXT Ventures for Full Stack Software Engineer - Affiliate Platform (AI-Accelerated Development). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
