@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T02:05:31.372316Z",
+    "generated_at": "2026-11-21T10:52:31.832848Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 519
+    "total_count": 521
   },
   "stats": {
-    "total_jobs": 519,
-    "evaluated_jobs": 519,
-    "high_matches": 519,
+    "total_jobs": 521,
+    "evaluated_jobs": 521,
+    "high_matches": 521,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 97,
+      "itpro_lk": 99,
       "linkedin_guest": 220,
       "linkedin_posts": 91,
       "rooster_jobs": 18,
@@ -7117,6 +7117,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15854",
+      "external_id": "15854",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15854/software-engineer-at-mbsl-insurance-co-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-21T10:52:27.955120",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15858",
+      "external_id": "15858",
+      "source": "itpro_lk",
+      "title": "Frontend Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15858/frontend-developer-at-sawiya-foundation/",
+      "description": "Software engineering opening on ITPro.lk: Frontend Developer at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-21T10:52:26.057868",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Frontend Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Frontend Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
