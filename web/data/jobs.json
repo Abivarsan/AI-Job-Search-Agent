@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T19:56:31.443404Z",
+    "generated_at": "2026-11-21T02:05:31.372316Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 518
+    "total_count": 519
   },
   "stats": {
-    "total_jobs": 518,
-    "evaluated_jobs": 518,
-    "high_matches": 518,
+    "total_jobs": 519,
+    "evaluated_jobs": 519,
+    "high_matches": 519,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -19,7 +19,7 @@
       "linkedin_posts": 91,
       "rooster_jobs": 18,
       "topjobs_lk": 74,
-      "xpress_jobs": 18
+      "xpress_jobs": 19
     },
     "min_match_score_threshold": 70
   },
@@ -7117,6 +7117,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_355115",
+      "external_id": "355115",
+      "source": "xpress_jobs",
+      "title": "Software Developer Assist Island Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/355115/software-developer-assist-island-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Software Developer Assist Island Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/355115/software-developer-assist-island-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-21T02:05:27.313985",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Developer Assist Island Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Software Developer Assist Island Pvt Ltd. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
