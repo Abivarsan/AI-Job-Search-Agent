@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T11:00:54.220697Z",
+    "generated_at": "2026-11-22T19:26:10.988745Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 524
+    "total_count": 525
   },
   "stats": {
-    "total_jobs": 524,
-    "evaluated_jobs": 524,
-    "high_matches": 524,
+    "total_jobs": 525,
+    "evaluated_jobs": 525,
+    "high_matches": 525,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 100,
       "linkedin_guest": 221,
-      "linkedin_posts": 92,
+      "linkedin_posts": 93,
       "rooster_jobs": 18,
       "topjobs_lk": 74,
       "xpress_jobs": 19
@@ -24,6 +24,45 @@
     "min_match_score_threshold": 70
   },
   "jobs": [
+    {
+      "id": "lipost_7526495707449466880",
+      "external_id": "7526495707449466880",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer",
+      "company": "Fratello InnoTech Private Limited",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/fratello-innotech-private-limited_heizen-heizenhiring-associatesoftwareengineer-activity-7526495707449466880-X1z3",
+      "description": "📩 Apply / Contact Email: fratelloinnotech@gmail.com\n🔗 Direct Link in Post: https://lnkd.in/gbk4Q2hy\n👤 Posted by: Fratello InnoTech Private Limited\n\n---\nTitle: Heizen IS HIRING | Associate Software Engineer | 0–2 Years | Remote Hyderabad | ₹6–8 LPA\n\n Description:\n Exciting Job Opportunity at Heizen!\nHeizen, an AI-powered software services startup, is hiring Associate Software Engineers to join its growing engineering team.\nThis is a great opportunity for freshers and early-career developers interested in software development, AI-powered technologies, and building real-world applications.\n Location: Remote – Hyderabad\n Job Role: Associate Software Engineer\n Experience: 0–2 Years\n Salary: ₹6–8 LPA Fixed + Performance Bonus + ESOPs\n Qualification: Bachelor's Degree in Computer Science, Engineering, or a related field\n Key Responsibilities:\nDevelop frontend and backend applications.\nWork with REST APIs, databases, and cloud technologies.\nParticipate in code reviews and feature development.\nPerform software testing and debugging.\nCollaborate with experienced engineers and product teams.\n Required Skills:\nPython, Java, JavaScript, or TypeScript\nObject-Oriented Programming (OOP)\nData Structures and Algorithms\nSQL / NoSQL Databases\nREST APIs\nGit and Version Control\nProblem-Solving and Communication Skills\n Benefits:\nRemote Work Opportunities\nLearning & Development Budget\nMentorship from Senior Engineers\nAnnual Retreats and Offsites\nCareer Growth Opportunities\n Apply Now:\nhttps://lnkd.in/gbk4Q2hy\n\n Recommended by Fratello Innotech Pvt Ltd\n Contact: 7893636382\n Email: \nfratelloinnotech@gmail.com\n\n For more information, check the job description and apply through the official link.\n Tags:\n#Heizen #HeizenHiring #AssociateSoftwareEngineer #SoftwareEngineer #FreshersJobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-12",
+      "discovered_at": "2026-11-22T19:26:07.507878",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 95,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Typescript",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: Fratello InnoTech Private Limited"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Fratello InnoTech Private Limited for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
     {
       "id": "li_4491710446",
       "external_id": "4491710446",
