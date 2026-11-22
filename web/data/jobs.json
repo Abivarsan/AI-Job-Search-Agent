@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T01:08:13.316826Z",
+    "generated_at": "2026-11-22T11:00:54.220697Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 521
+    "total_count": 524
   },
   "stats": {
-    "total_jobs": 521,
-    "evaluated_jobs": 521,
-    "high_matches": 521,
+    "total_jobs": 524,
+    "evaluated_jobs": 524,
+    "high_matches": 524,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 99,
-      "linkedin_guest": 220,
-      "linkedin_posts": 91,
+      "itpro_lk": 100,
+      "linkedin_guest": 221,
+      "linkedin_posts": 92,
       "rooster_jobs": 18,
       "topjobs_lk": 74,
       "xpress_jobs": 19
@@ -885,6 +885,45 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528775889988521984",
+      "external_id": "7528775889988521984",
+      "source": "linkedin_posts",
+      "title": "Full Stack Developer (Remote)",
+      "company": "Flipped",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/thaarani-j-b12327231_hiring-fullstackdeveloper-remotejobs-share-7528775889988521984-Nlyf",
+      "description": "📩 Apply / Contact Email: thaarani@flipped.ai.\n👤 Posted by: Thaarani J\n\n---\nWe’re Hiring: Full Stack Developer (Remote) \nOur client, is looking for an experienced Full Stack Developer to architect, build, and deploy scalable, end-to-end production applications.\nRole Overview:\nExperience: Minimum 2 Years\nLocation: Remote (Work From Home)\nCompensation: ₹3.5 LPA (Negotiable for exceptionally strong candidates based on interview performance)\nEligibility: Open strictly to candidates residing in South India\n\nWhat We’re Looking For:\nCore Stack: Strong expertise in JavaScript, TypeScript, React.js, Next.js, and Node.js.\nArchitecture & APIs: Experience with microservices, distributed systems, REST APIs, and GraphQL.\nDatabases & Caching: Proficiency in PostgreSQL, MongoDB, Redis, query optimization, and indexing.\nCloud & DevOps: Hands-on knowledge of AWS/Azure/GCP, Docker, Kubernetes, and CI/CD pipelines.\nSecurity & Performance: Solid understanding of OAuth2, JWT, RBAC, OWASP standards, concurrency, and troubleshooting production bottlenecks.\n\nHow to Apply: Interested candidates who meet the criteria can share their updated resume directly at thaarani@flipped.ai.\n#Hiring #FullStackDeveloper #RemoteJobs #TechHiring #ReactJS #NodeJS #TypeScript #SoftwareEngineering #SouthIndiaJobs #WorkFromHome",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-18",
+      "discovered_at": "2026-11-22T11:00:48.741393",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Developer (Remote)",
+          "Company: Flipped"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Flipped for Full Stack Developer (Remote). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7117,6 +7156,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15863",
+      "external_id": "15863",
+      "source": "itpro_lk",
+      "title": "Software Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15863/software-engineer-intern-at-perpova-developers/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-22T11:00:50.748453",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4493127966",
+      "external_id": "4493127966",
+      "source": "linkedin_guest",
+      "title": "Game Developer Intern – Unity / Unreal Engine",
+      "company": "Yunash",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/game-developer-intern-%E2%80%93-unity-unreal-engine-at-yunash-4493127966",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-22T11:00:42.165768",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Git"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Game Developer Intern – Unity / Unreal Engine",
+          "Company: Yunash"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Yunash for Game Developer Intern – Unity / Unreal Engine. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
