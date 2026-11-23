@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T01:30:47.477061Z",
+    "generated_at": "2026-11-23T12:10:08.811846Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 525
+    "total_count": 532
   },
   "stats": {
-    "total_jobs": 525,
-    "evaluated_jobs": 525,
-    "high_matches": 525,
+    "total_jobs": 532,
+    "evaluated_jobs": 532,
+    "high_matches": 532,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 100,
-      "linkedin_guest": 221,
+      "linkedin_guest": 224,
       "linkedin_posts": 93,
       "rooster_jobs": 18,
-      "topjobs_lk": 74,
+      "topjobs_lk": 78,
       "xpress_jobs": 19
     },
     "min_match_score_threshold": 70
@@ -924,6 +924,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574733",
+      "external_id": "0001574733",
+      "source": "topjobs_lk",
+      "title": "Associate Functional Consultant",
+      "company": "Blue Lotus 360° (Pvt) Ltd",
+      "location": "Colombo 3, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=7&ac=DEFZZZ&jc=0001574733&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Blue Lotus 360° (Pvt) Ltd. Location: Colombo 3, Sri Lanka. Closing: Mon Dec 07 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 23 2026",
+      "discovered_at": "2026-11-23T12:10:00.118156",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Functional Consultant",
+          "Company: Blue Lotus 360° (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Blue Lotus 360° (Pvt) Ltd for Associate Functional Consultant. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4493397587",
+      "external_id": "4493397587",
+      "source": "linkedin_guest",
+      "title": "Associate Operations Engineer",
+      "company": "Virtusa",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-operations-engineer-at-virtusa-4493397587",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-23T12:09:52.356454",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Operations Engineer",
+          "Company: Virtusa"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Virtusa for Associate Operations Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7195,6 +7269,191 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574535",
+      "external_id": "0001574535",
+      "source": "topjobs_lk",
+      "title": "Risk & Governance Engineer",
+      "company": "Innobot Health",
+      "location": "Kotte, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=9&ac=DEFZZZ&jc=0001574535&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Innobot Health. Location: Kotte, Sri Lanka. Closing: Mon Dec 07 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 23 2026",
+      "discovered_at": "2026-11-23T12:10:05.305439",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Risk & Governance Engineer",
+          "Company: Innobot Health"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Innobot Health for Risk & Governance Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574727",
+      "external_id": "0001574727",
+      "source": "topjobs_lk",
+      "title": "Software Engineer",
+      "company": "HDFC Bank",
+      "location": "Colombo 2, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=8&ac=DEFZZZ&jc=0001574727&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: HDFC Bank. Location: Colombo 2, Sri Lanka. Closing: Mon Dec 07 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 23 2026",
+      "discovered_at": "2026-11-23T12:10:01.898636",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: HDFC Bank"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HDFC Bank for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001574862",
+      "external_id": "0001574862",
+      "source": "topjobs_lk",
+      "title": "Data Engineer (1)",
+      "company": "Assetline Finance PLC",
+      "location": "Battaramulla, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=1&ac=0000000376&jc=0001574862&ec=0000000493&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Assetline Finance PLC. Location: Battaramulla, Sri Lanka. Closing: Thu Nov 26 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Mon Nov 23 2026",
+      "discovered_at": "2026-11-23T12:09:58.322947",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Data Engineer (1)",
+          "Company: Assetline Finance PLC"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Assetline Finance PLC for Data Engineer (1). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4493618012",
+      "external_id": "4493618012",
+      "source": "linkedin_guest",
+      "title": "Intern – System Engineer (NTI)",
+      "company": "ZILLIONe",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-%E2%80%93-system-engineer-nti-at-zillione-4493618012",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-23T12:09:46.816241",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern – System Engineer (NTI)",
+          "Company: ZILLIONe"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ZILLIONe for Intern – System Engineer (NTI). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4493778207",
+      "external_id": "4493778207",
+      "source": "linkedin_guest",
+      "title": "Front-end & Back-end Developers - Industry Experience Bootcamp and Internship",
+      "company": "Ahken labs",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/front-end-back-end-developers-industry-experience-bootcamp-and-internship-at-ahken-labs-4493778207",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 minutes ago",
+      "discovered_at": "2026-11-23T12:09:41.122626",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Front-end & Back-end Developers - Industry Experience Bootcamp and Internship",
+          "Company: Ahken labs"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Ahken labs for Front-end & Back-end Developers - Industry Experience Bootcamp and Internship. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
