@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T02:06:43.903912Z",
+    "generated_at": "2026-11-24T13:30:53.848460Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 532
+    "total_count": 537
   },
   "stats": {
-    "total_jobs": 532,
-    "evaluated_jobs": 532,
-    "high_matches": 532,
+    "total_jobs": 537,
+    "evaluated_jobs": 537,
+    "high_matches": 537,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 100,
-      "linkedin_guest": 224,
+      "linkedin_guest": 229,
       "linkedin_posts": 93,
       "rooster_jobs": 18,
       "topjobs_lk": 78,
@@ -7269,6 +7269,189 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494314068",
+      "external_id": "4494314068",
+      "source": "linkedin_guest",
+      "title": "Product Engineer",
+      "company": "Boostify",
+      "location": "North Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/product-engineer-at-boostify-4494314068",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "9 hours ago",
+      "discovered_at": "2026-11-24T13:30:46.353728",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Product Engineer",
+          "Company: Boostify"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Boostify for Product Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494336401",
+      "external_id": "4494336401",
+      "source": "linkedin_guest",
+      "title": "Intern – Enterprise Engineer",
+      "company": "South Asian Technologies (Pvt) Ltd.",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-%E2%80%93-enterprise-engineer-at-south-asian-technologies-pvt-ltd-4494336401",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-24T13:30:40.382270",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "C#",
+          "Java"
+        ],
+        "missing_skills": [
+          ".Net",
+          "Asp.Net Core",
+          "Asp.Net Core Web Api"
+        ],
+        "pros": [
+          "Target role match: Intern – Enterprise Engineer",
+          "Company: South Asian Technologies (Pvt) Ltd."
+        ],
+        "concerns": [],
+        "summary": "Opportunities at South Asian Technologies (Pvt) Ltd. for Intern – Enterprise Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494316340",
+      "external_id": "4494316340",
+      "source": "linkedin_guest",
+      "title": "AI/ML Engineer Financial Services",
+      "company": "CreditSource",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/ai-ml-engineer-financial-services-at-creditsource-4494316340",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-24T13:30:34.534487",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI/ML Engineer Financial Services",
+          "Company: CreditSource"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CreditSource for AI/ML Engineer Financial Services. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494063751",
+      "external_id": "4494063751",
+      "source": "linkedin_guest",
+      "title": "Software Engineer",
+      "company": "Zatput",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-engineer-at-zatput-4494063751",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-24T13:30:29.105454",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Zatput"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Zatput for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494306757",
+      "external_id": "4494306757",
+      "source": "linkedin_guest",
+      "title": "Embedded Software Developer",
+      "company": "Talent Studio",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/embedded-software-developer-at-talent-studio-4494306757",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-24T13:30:23.720906",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Embedded Software Developer",
+          "Company: Talent Studio"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Talent Studio for Embedded Software Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
