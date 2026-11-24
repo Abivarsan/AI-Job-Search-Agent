@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T13:30:53.848460Z",
+    "generated_at": "2026-11-24T23:51:04.259112Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 537
+    "total_count": 539
   },
   "stats": {
-    "total_jobs": 537,
-    "evaluated_jobs": 537,
-    "high_matches": 537,
+    "total_jobs": 539,
+    "evaluated_jobs": 539,
+    "high_matches": 539,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 100,
+      "itpro_lk": 101,
       "linkedin_guest": 229,
-      "linkedin_posts": 93,
+      "linkedin_posts": 94,
       "rooster_jobs": 18,
       "topjobs_lk": 78,
       "xpress_jobs": 19
@@ -7269,6 +7269,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15888",
+      "external_id": "15888",
+      "source": "itpro_lk",
+      "title": "Software Engineer Internship",
+      "company": "Sri Lankan Tech Company",
+      "location": "Kurunegala, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15888/software-engineer-internship-at-cygnus-one-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Internship at Sri Lankan Tech Company (Kurunegala, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-24T23:51:01.107103",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Internship",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Internship. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528412860117577728",
+      "external_id": "7528412860117577728",
+      "source": "linkedin_posts",
+      "title": "Software Engineer (Remote)",
+      "company": "Aneesh Nair (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/aneesh-nair-_were-hiring-software-engineer-remote-share-7528412860117577728-mIUf",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dHN9gw5s\n👤 Posted by: Aneesh Nair\n\n---\n🛠️ We’re Hiring - Software Engineer (Remote)\n\nSeaBuddy is a Singapore-based maritime-tech platform on a mission to redefine crew welfare as safety-critical infrastructure. Rooted in social neuroscience and organizational psychology, we build tools that strengthen trust, connection, and belonging across fleets - from secure crew communication to AI-driven wellbeing insights and psychological assessments.\n\nWe work with global shipping companies to move beyond checklists and deliver measurable outcomes - stronger safety performance, higher crew retention, and more resilient teams at sea.\n\nWe’re looking for a developer who’s hungry to build, learn, and make a real impact from day one.\n\n🎯 What You’ll Be Doing:\n• Build and maintain features across the SeaBuddy Crew App and Admin Dashboard\n•  Contribute to backend APIs and integrations that power our platform\n•  Work on OTA updates, bug fixes, and performance improvements\n•  Collaborate with the Operations and Product team on new feature rollouts\n•  Write clean, maintainable code and participate in code reviews\n•  Help shape the technical direction of a growing product\n\n✅ What We’re Looking For:\n• Foundational experience or strong personal projects in React Native or React\n• Familiarity with backend technologies - Node.js, REST APIs, or similar\n• Understanding of version control with Git and basic deployment workflows\n• A problem-solving mindset with attention to detail\n• Good English communication - you’ll be collaborating async with multiple remote teams\nBonus: experience with Expo or any Maritime/SaaS product.\n\n💙 Why SeaBuddy:\n• Your code will be used by real seafarers across global fleets from day one\n• Real-world social impact for the global maritime community\n• Direct exposure to product, operations, and growth\n• Lean, collaborative team where your ideas shape the product\n\n📍 Remote/Onsite - Delhi NCR\n💼 Full-Time\nClick the link to apply - https://lnkd.in/dHN9gw5s\n\nNote: Applications without a portfolio or project samples will not be considered.",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-17",
+      "discovered_at": "2026-11-24T23:50:59.117163",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer (Remote)",
+          "Company: Aneesh Nair (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Aneesh Nair (LinkedIn Post) for Software Engineer (Remote). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
