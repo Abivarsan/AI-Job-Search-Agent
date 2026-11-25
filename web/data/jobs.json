@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T08:08:11.797347Z",
+    "generated_at": "2026-11-25T19:07:25.886949Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 552
+    "total_count": 564
   },
   "stats": {
-    "total_jobs": 552,
-    "evaluated_jobs": 552,
-    "high_matches": 552,
+    "total_jobs": 564,
+    "evaluated_jobs": 564,
+    "high_matches": 564,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 101,
-      "linkedin_guest": 232,
-      "linkedin_posts": 96,
+      "itpro_lk": 104,
+      "linkedin_guest": 236,
+      "linkedin_posts": 99,
       "rooster_jobs": 18,
-      "topjobs_lk": 79,
-      "xpress_jobs": 26
+      "topjobs_lk": 80,
+      "xpress_jobs": 27
     },
     "min_match_score_threshold": 70
   },
@@ -924,6 +924,119 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7525813134796668928",
+      "external_id": "7525813134796668928",
+      "source": "linkedin_posts",
+      "title": "FULL STACK DEVELOPER ( Sri lankans Only )",
+      "company": "Deepani Rathnayake (LinkedIn Post)",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/deepani-rathnayake-ba8326107_vacancy-full-stack-developer-sri-lankans-activity-7525813134796668928-d2Va",
+      "description": "📩 Apply / Contact Email: pani0512@yahoo.com\n👤 Posted by: Deepani Rathnayake\n\n---\nVACANCY – FULL STACK DEVELOPER ( Sri lankans Only )\n\nCompany: A Leading IT Company\nLocation: Union Place, Colombo\n\nJoin Our Growing Technology Team!\nA leading IT company located in Union Place, Colombo, is looking for a skilled, innovative, and passionate Full Stack Developer to join its dynamic technology team.\n\nThe ideal candidate should have experience in developing and maintaining web applications, with strong knowledge of both front-end and back-end technologies.\n\nKey Responsibilities\nDesign, develop, and maintain scalable web applications.\nDevelop responsive and user-friendly front-end interfaces.\nBuild and maintain back-end applications, APIs, and database systems.\nIntegrate third-party services and external APIs.\nIdentify, troubleshoot, and resolve technical issues.\nEnsure application performance, security, and scalability.\nCollaborate with project managers, designers, and other developers.\nParticipate in code reviews and continuously improve development processes.\n\nRequirements\nBachelor's degree, diploma, or equivalent qualification in Software Engineering, Computer Science, Information Technology, or a related field.\nProven experience in full-stack software development.\nStrong knowledge of HTML, CSS, JavaScript, and modern front-end frameworks.\nExperience with back-end technologies and frameworks.\nGood knowledge of databases such as MySQL, PostgreSQL, or MongoDB.\nExperience in API development and integration.\nFamiliarity with Git and version control systems.\nStrong analytical, problem-solving, and communication skills.\n\nHow to Apply\n\nInterested candidates are invited to forward their updated CVs to:\nEmail: pani0512@yahoo.com\n\nJoin our team and be part of an exciting journey in technology and innovation!",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-10",
+      "discovered_at": "2026-11-25T19:07:10.680351",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Mysql",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: FULL STACK DEVELOPER ( Sri lankans Only )",
+          "Company: Deepani Rathnayake (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Deepani Rathnayake (LinkedIn Post) for FULL STACK DEVELOPER ( Sri lankans Only ). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7530871761106739201",
+      "external_id": "7530871761106739201",
+      "source": "linkedin_posts",
+      "title": "Software Engineer Intern",
+      "company": "CYGNUS ONE",
+      "location": "Kurunegala, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/cygnusone_wearehiring-softwareengineerintern-softwareengineering-activity-7530871761106739201-JKC3",
+      "description": "📩 Apply / Contact Email: hrm@cygnusonesl.com\n👤 Posted by: CYGNUS ONE\n\n---\n🚀 WE’RE HIRING: SOFTWARE ENGINEER INTERN\n🏢 Cygnus ONE (Pvt) Ltd | Odoo Silver Partner in Sri Lanka\n📍 Location: Kurunegala Branch\n\nPassionate about coding and solving real business challenges? Start your software engineering career with Cygnus ONE and gain practical experience in Odoo ERP development, business applications, and system integrations.\nKey Responsibilities\n• Assist with developing and customizing Odoo modules under the guidance of senior developers.\n• Write, test, debug, and document code.\n• Support API integrations and data exchange between business systems.\n• Investigate software issues and assist with bug fixes.\n• Collaborate with functional consultants and developers to understand requirements.\n• Participate in code reviews and follow team development standards.\n• Assist with testing, deployment preparation, and technical documentation.\n\nQualifications & Requirements\n• Currently pursuing or recently completed a degree, diploma, or equivalent qualification in Software Engineering, Computer Science, IT, or a related field.\n• Basic programming knowledge, preferably in Python and JavaScript.\n• Understanding of object-oriented programming, databases, and SQL.\n• Familiarity with HTML, CSS, Git, and REST APIs is an advantage.\n• Knowledge of Odoo, PostgreSQL, or Linux is an added advantage.\n• Strong logical thinking, problem-solving skills, and attention to detail.\n• Willingness to learn, accept feedback, and work collaboratively.\n• Academic, personal, or open-source projects are an advantage.\n\nWhat You’ll Gain\n• Hands-on experience working on business software projects.\n• Guidance from experienced developers.\n• Exposure to ERP development, integrations, testing, and deployment processes.\n• Opportunities to strengthen your coding, teamwork, and communication skills.\n\n📩 APPLY NOW\nSend your CV to hrm@cygnusonesl.com\nInclude your GitHub or portfolio link, if available.\nEmail subject: Application – Software Engineer Internship\n📞 076 180 3411\nBuild your software engineering career with Cygnus ONE!\n#WeAreHiring #SoftwareEngineerIntern #SoftwareEngineering #Internship #Python #OdooDevelopment #CygnusONE #KurunegalaJobs #SriLankaJobs #ITCareers",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-24",
+      "discovered_at": "2026-11-25T19:07:08.730880",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: CYGNUS ONE"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at CYGNUS ONE for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494903179",
+      "external_id": "4494903179",
+      "source": "linkedin_guest",
+      "title": "Associate Engineer – Tools & Automation",
+      "company": "HCLTech Sri Lanka",
+      "location": "Colombo District, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-engineer-%E2%80%93-tools-automation-at-hcltech-sri-lanka-4494903179",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "10 hours ago",
+      "discovered_at": "2026-11-25T19:06:47.379226",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Engineer – Tools & Automation",
+          "Company: HCLTech Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at HCLTech Sri Lanka for Associate Engineer – Tools & Automation. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7382,6 +7495,337 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_353454",
+      "external_id": "353454",
+      "source": "xpress_jobs",
+      "title": "Sales Officers Male One Realty Developers",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/353454/sales-officers-male-one-realty-developers",
+      "description": "Vacancy on Xpress.jobs: Sales Officers Male One Realty Developers. Apply directly at https://xpress.jobs/jobs/view/353454/sales-officers-male-one-realty-developers.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T19:07:22.539681",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Sales Officers Male One Realty Developers",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Sales Officers Male One Realty Developers. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15895",
+      "external_id": "15895",
+      "source": "itpro_lk",
+      "title": "Software Engineer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15895/software-engineer-intern-at-prudence-engineering-services-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer Intern at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T19:07:20.541533",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15898",
+      "external_id": "15898",
+      "source": "itpro_lk",
+      "title": "Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15898/software-engineer-at-lime-automation/",
+      "description": "Software engineering opening on ITPro.lk: Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T19:07:18.473909",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15901",
+      "external_id": "15901",
+      "source": "itpro_lk",
+      "title": "AI-Native Software Developer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15901/ai-native-software-developer-at-synasys-ltd/",
+      "description": "Software engineering opening on ITPro.lk: AI-Native Software Developer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T19:07:16.529980",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI-Native Software Developer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for AI-Native Software Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001575279",
+      "external_id": "0001575279",
+      "source": "topjobs_lk",
+      "title": "AI & Backend Engineer (Python)",
+      "company": "MintHRM",
+      "location": "Colombo 6, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=10&ac=DEFZZZ&jc=0001575279&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: MintHRM. Location: Colombo 6, Sri Lanka. Closing: Wed Dec 09 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 25 2026",
+      "discovered_at": "2026-11-25T19:07:14.588285",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: AI & Backend Engineer (Python)",
+          "Company: MintHRM"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at MintHRM for AI & Backend Engineer (Python). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7528781619051110400",
+      "external_id": "7528781619051110400",
+      "source": "linkedin_posts",
+      "title": "Web Developer",
+      "company": "Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP, SHRM (LinkedIn Post)",
+      "location": "Remote\nJob Type",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hr-desmond_hiring-remote-full-stack-web-developer-share-7528781619051110400-g7cC",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/dGvPXMrP, https://lnkd.in/eTwvNcKe\n👤 Posted by: Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP, SHRM\n\n---\nHiring!!!\nRemote \n\n\nFull Stack Web Developer  \n​💻 Passionate about building dynamic web applications and creating seamless digital experiences?  \n​Join the xis.ai Development Team and help develop, maintain, and optimize web applications. We’re looking for someone with strong front-end and back-end skills who enjoys solving problems and building efficient, user-friendly solutions.  \n​Location: Remote\nJob Type: Full-time\nExperience: 1+ years  \n​Ready to apply?\nSubmit your application through the form below:\n👉 https://lnkd.in/dGvPXMrP\n\n\nFollow borderless for more opportunities \n\nhttps://lnkd.in/eTwvNcKe\n\n\nWhatsApp channel \nhttps://lnkd.in/eMjRYbnX",
+      "experience_level": "Junior (1-2 Years)",
+      "posted_date": "2026-11-18",
+      "discovered_at": "2026-11-25T19:07:12.656104",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Web Developer",
+          "Company: Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP, SHRM (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Desmond Igbinoba  ACIPM, ACIHRM, CPM, PMP, SHRM (LinkedIn Post) for Web Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4493405919",
+      "external_id": "4493405919",
+      "source": "linkedin_guest",
+      "title": "Intern Data Engineering",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/intern-data-engineering-at-ifs-4493405919",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-25T19:07:03.373389",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Data Engineering",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for Intern Data Engineering. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494790930",
+      "external_id": "4494790930",
+      "source": "linkedin_guest",
+      "title": "Cloud Engineer",
+      "company": "Skaleart",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/cloud-engineer-at-skaleart-4494790930",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "8 hours ago",
+      "discovered_at": "2026-11-25T19:06:57.792960",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Cloud Engineer",
+          "Company: Skaleart"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Skaleart for Cloud Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494629025",
+      "external_id": "4494629025",
+      "source": "linkedin_guest",
+      "title": "Technical Onboarding Engineer - IFS Logistics",
+      "company": "IFS",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/technical-onboarding-engineer-ifs-logistics-at-ifs-4494629025",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "7 hours ago",
+      "discovered_at": "2026-11-25T19:06:52.657427",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Onboarding Engineer - IFS Logistics",
+          "Company: IFS"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at IFS for Technical Onboarding Engineer - IFS Logistics. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
