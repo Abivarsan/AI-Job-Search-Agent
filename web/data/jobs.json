@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T23:51:04.259112Z",
+    "generated_at": "2026-11-25T08:08:11.797347Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 539
+    "total_count": 552
   },
   "stats": {
-    "total_jobs": 539,
-    "evaluated_jobs": 539,
-    "high_matches": 539,
+    "total_jobs": 552,
+    "evaluated_jobs": 552,
+    "high_matches": 552,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 101,
-      "linkedin_guest": 229,
-      "linkedin_posts": 94,
+      "linkedin_guest": 232,
+      "linkedin_posts": 96,
       "rooster_jobs": 18,
-      "topjobs_lk": 78,
-      "xpress_jobs": 19
+      "topjobs_lk": 79,
+      "xpress_jobs": 26
     },
     "min_match_score_threshold": 70
   },
@@ -924,6 +924,119 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7530363705134317568",
+      "external_id": "7530363705134317568",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Alpha Software",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/hiring-fullstackdeveloper-mern-share-7530363705134317568-Gy9I",
+      "description": "📩 Apply / Contact Email: info@alphasoftware.co.in\n👤 Posted by: Alpha Software\n\n---\nWe are hiring a Full-Stack Developer (AI) at Alpha Software. Remote.\nWe are a software studio in Lucknow. We build web apps, mobile apps and AI agents (chat, WhatsApp and voice) for startups and growing businesses. We are adding to the team, and we want someone who enjoys building real products.\nThe role\n- Full-time, fully remote\n- 0 to 2 years of experience, freshers welcome\n- Salary: 7 to 12 LPA, based on skills and interview\n- Stack: MERN (MongoDB, Express, React, Node.js) or Java Spring Boot\nWhat you will work on\n- Web apps and APIs, from the database to the screen\n- AI features using OpenAI, Claude and Gemini\n- Chatbots and voice agents that answer customers and book appointments\n- Deployment on AWS and Docker\nWhat we look for\n- A solid base in MERN or Spring Boot\n- One or two projects you can show on GitHub\n- Clear communication, because you will work directly with the founder and the team\nHow the process works: a short call, a small practical task (about 2 to 3 hours), then a technical discussion.\nTo apply, send your resume and GitHub link to info@alphasoftware.co.in with the subject \"Full-Stack AI Developer - Your Name\".\nKnow someone who would be a good fit? Please share this post.\n\n\n#hiring #fullstackdeveloper #mern #springboot #aidevelopment #remotejobs #freshers #softwarejobs #lucknow",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-22",
+      "discovered_at": "2026-11-25T08:07:52.719321",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Alpha Software"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Alpha Software for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494796114",
+      "external_id": "4494796114",
+      "source": "linkedin_guest",
+      "title": "Hospitality AI Deployment Engineer — Voice, Integrations & Automation",
+      "company": "The Good Voice AI",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/hospitality-ai-deployment-engineer-%E2%80%94-voice-integrations-automation-at-the-good-voice-ai-4494796114",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "1 hour ago",
+      "discovered_at": "2026-11-25T08:07:41.639708",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Javascript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Hospitality AI Deployment Engineer — Voice, Integrations & Automation",
+          "Company: The Good Voice AI"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at The Good Voice AI for Hospitality AI Deployment Engineer — Voice, Integrations & Automation. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494782389",
+      "external_id": "4494782389",
+      "source": "linkedin_guest",
+      "title": "Junior Software Engineer",
+      "company": "Talent Studio",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/junior-software-engineer-at-talent-studio-4494782389",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2 hours ago",
+      "discovered_at": "2026-11-25T08:07:35.694314",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Junior Software Engineer",
+          "Company: Talent Studio"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Talent Studio for Junior Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7269,6 +7382,376 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356579",
+      "external_id": "356579",
+      "source": "xpress_jobs",
+      "title": "Intern Wordpress Developer Remote Visionary Design Vanguard",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "Remote",
+      "apply_url": "https://xpress.jobs/jobs/view/356579/intern-wordpress-developer-remote-visionary-design-vanguard",
+      "description": "Vacancy on Xpress.jobs: Intern Wordpress Developer Remote Visionary Design Vanguard. Apply directly at https://xpress.jobs/jobs/view/356579/intern-wordpress-developer-remote-visionary-design-vanguard.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:08:08.467005",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern Wordpress Developer Remote Visionary Design Vanguard",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Intern Wordpress Developer Remote Visionary Design Vanguard. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356731",
+      "external_id": "356731",
+      "source": "xpress_jobs",
+      "title": "Technical Officer Site Supervisor Coral Property Developers Pvt Ltd",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/356731/technical-officer-site-supervisor-coral-property-developers-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Technical Officer Site Supervisor Coral Property Developers Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/356731/technical-officer-site-supervisor-coral-property-developers-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:08:06.707517",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Technical Officer Site Supervisor Coral Property Developers Pvt Ltd",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Technical Officer Site Supervisor Coral Property Developers Pvt Ltd. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_355798",
+      "external_id": "355798",
+      "source": "xpress_jobs",
+      "title": "Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/355798/secretary-cum-admin-officer-colombo-04-coral-property-developers-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/355798/secretary-cum-admin-officer-colombo-04-coral-property-developers-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:08:04.970696",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Secretary Cum Admin Officer Colombo 04 Coral Property Developers Pvt L. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356294",
+      "external_id": "356294",
+      "source": "xpress_jobs",
+      "title": "Oracle Application Technical Consultant Dms Software Technologies Pvt ",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/356294/oracle-application-technical-consultant-dms-software-technologies-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Oracle Application Technical Consultant Dms Software Technologies Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/356294/oracle-application-technical-consultant-dms-software-technologies-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:08:03.213377",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Oracle Application Technical Consultant Dms Software Technologies Pvt ",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Oracle Application Technical Consultant Dms Software Technologies Pvt . Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356293",
+      "external_id": "356293",
+      "source": "xpress_jobs",
+      "title": "Google Workspace Administrators Appsheet Specialists Dms Software Tech",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/356293/google-workspace-administrators-appsheet-specialists-dms-software-technologies-pvt-ltd",
+      "description": "Vacancy on Xpress.jobs: Google Workspace Administrators Appsheet Specialists Dms Software Technologies Pvt Ltd. Apply directly at https://xpress.jobs/jobs/view/356293/google-workspace-administrators-appsheet-specialists-dms-software-technologies-pvt-ltd.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:08:01.453137",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Google Workspace Administrators Appsheet Specialists Dms Software Tech",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Google Workspace Administrators Appsheet Specialists Dms Software Tech. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356784",
+      "external_id": "356784",
+      "source": "xpress_jobs",
+      "title": "Software Engineer Abap Developer Lanka Tiles Plc",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/356784/software-engineer-abap-developer-lanka-tiles-plc",
+      "description": "Vacancy on Xpress.jobs: Software Engineer Abap Developer Lanka Tiles Plc. Apply directly at https://xpress.jobs/jobs/view/356784/software-engineer-abap-developer-lanka-tiles-plc.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:07:59.709220",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer Abap Developer Lanka Tiles Plc",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Software Engineer Abap Developer Lanka Tiles Plc. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "xpress_356212",
+      "external_id": "356212",
+      "source": "xpress_jobs",
+      "title": "Computer Programmer Government Sector",
+      "company": "Sri Lankan Employer (via XpressJobs)",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://xpress.jobs/jobs/view/356212/computer-programmer-government-sector",
+      "description": "Vacancy on Xpress.jobs: Computer Programmer Government Sector. Apply directly at https://xpress.jobs/jobs/view/356212/computer-programmer-government-sector.",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-25T08:07:57.987496",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Computer Programmer Government Sector",
+          "Company: Sri Lankan Employer (via XpressJobs)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Employer (via XpressJobs) for Computer Programmer Government Sector. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001575077",
+      "external_id": "0001575077",
+      "source": "topjobs_lk",
+      "title": "QA Engineer",
+      "company": "ZeloraTech (Pvt) Ltd",
+      "location": "Colombo 6, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=2&ac=DEFZZZ&jc=0001575077&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: ZeloraTech (Pvt) Ltd. Location: Colombo 6, Sri Lanka. Closing: Wed Dec 09 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 25 2026",
+      "discovered_at": "2026-11-25T08:07:56.214714",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: QA Engineer",
+          "Company: ZeloraTech (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ZeloraTech (Pvt) Ltd for QA Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7529118692652027904",
+      "external_id": "7529118692652027904",
+      "source": "linkedin_posts",
+      "title": "Full Stack Node.js Developer (Remote Full-time)",
+      "company": "Oleksandr Kobylinskyi (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://ua.linkedin.com/posts/oleksandr-kobylinskyi-2a2b1b428_nodejs-nestjs-fullstackdeveloper-activity-7529118692652027904-rE4I",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/ekwMck2V\n👤 Posted by: Oleksandr Kobylinskyi\n\n---\nWe are hiring: Full Stack Node.js Developer (Remote, Full-time)\nВакансія: Full Stack Developer (Node.js, NestJS, React) | Remote Україна\nB2B contract | Middle+ / Senior | overlap with US time zones\n\nМій знайомий підсилює продуктову команду і шукає full stack розробника на Node.js.\nПродукт довгограючий, людину беруть не під один спринт, а щоб залишилась і росла разом з проєктом.\n\nКого шукають:\n- Node.js + NestJS на рівні, коли архітектура застосунку і структура модулів не викликають питань\n- React і TypeScript як щоденний інструмент, впевнена робота на фронті та беку одночасно\n- PostgreSQL і проєктування REST API, а не лише написання ендпоінтів за готовою специфікацією\n\nПлюсом буде:\n- Досвід оптимізації запитів і роботи з продакшн навантаженням на PostgreSQL\n\nУмови:\n- Remote, Україна, потрібен перетин по годинах зі США\n- English B2 і вище\n- Full-time, B2B\n\nЯк відгукнутись (будь-який зручний варіант):\nПодати заявку можна за посиланням, і вам напише рекрутер: https://lnkd.in/ekwMck2V\n\n#NodeJS #NestJS #FullStackDeveloper #React #TypeScript #PostgreSQL #RemoteJobs #Hiring #ITJobsUkraine #Вакансія",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-19",
+      "discovered_at": "2026-11-25T08:07:54.468032",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Node.js Developer (Remote Full-time)",
+          "Company: Oleksandr Kobylinskyi (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Oleksandr Kobylinskyi (LinkedIn Post) for Full Stack Node.js Developer (Remote Full-time). Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494796264",
+      "external_id": "4494796264",
+      "source": "linkedin_guest",
+      "title": "Full Stack Software Engineer (AI-First)",
+      "company": "Recruitable",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/full-stack-software-engineer-ai-first-at-recruitable-4494796264",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "35 minutes ago",
+      "discovered_at": "2026-11-25T08:07:47.462671",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full Stack Software Engineer (AI-First)",
+          "Company: Recruitable"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Recruitable for Full Stack Software Engineer (AI-First). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
