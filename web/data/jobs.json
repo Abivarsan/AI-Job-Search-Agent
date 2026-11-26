@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T19:07:25.886949Z",
+    "generated_at": "2026-11-26T03:28:18.914103Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 564
+    "total_count": 566
   },
   "stats": {
-    "total_jobs": 564,
-    "evaluated_jobs": 564,
-    "high_matches": 564,
+    "total_jobs": 566,
+    "evaluated_jobs": 566,
+    "high_matches": 566,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 104,
-      "linkedin_guest": 236,
+      "linkedin_guest": 237,
       "linkedin_posts": 99,
       "rooster_jobs": 18,
-      "topjobs_lk": 80,
+      "topjobs_lk": 81,
       "xpress_jobs": 27
     },
     "min_match_score_threshold": 70
@@ -924,6 +924,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001575492",
+      "external_id": "0001575492",
+      "source": "topjobs_lk",
+      "title": "Oracle ERP Cloud Functional Consultants & Associate Functional Consultants (2)",
+      "company": "Deloitte",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=15&ac=0000000311&jc=0001575492&ec=0000000410&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Deloitte. Location: Sri Lanka. Closing: Thu Dec 10 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Wed Nov 25 2026",
+      "discovered_at": "2026-11-26T03:28:15.269552",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Oracle ERP Cloud Functional Consultants & Associate Functional Consultants (2)",
+          "Company: Deloitte"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Deloitte for Oracle ERP Cloud Functional Consultants & Associate Functional Consultants (2). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7495,6 +7532,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494955551",
+      "external_id": "4494955551",
+      "source": "linkedin_guest",
+      "title": "Internship-Full Stack Engineer (focused on front end)",
+      "company": "Modern Innovations Pty Ltd",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/internship-full-stack-engineer-focused-on-front-end-at-modern-innovations-pty-ltd-4494955551",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "6 hours ago",
+      "discovered_at": "2026-11-26T03:28:09.258309",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Internship-Full Stack Engineer (focused on front end)",
+          "Company: Modern Innovations Pty Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Modern Innovations Pty Ltd for Internship-Full Stack Engineer (focused on front end). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
