@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T03:28:18.914103Z",
+    "generated_at": "2026-11-26T16:44:47.029699Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 566
+    "total_count": 571
   },
   "stats": {
-    "total_jobs": 566,
-    "evaluated_jobs": 566,
-    "high_matches": 566,
+    "total_jobs": 571,
+    "evaluated_jobs": 571,
+    "high_matches": 571,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 104,
-      "linkedin_guest": 237,
+      "itpro_lk": 105,
+      "linkedin_guest": 239,
       "linkedin_posts": 99,
       "rooster_jobs": 18,
-      "topjobs_lk": 81,
+      "topjobs_lk": 83,
       "xpress_jobs": 27
     },
     "min_match_score_threshold": 70
@@ -924,6 +924,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001575555",
+      "external_id": "0001575555",
+      "source": "topjobs_lk",
+      "title": "Associate Designer",
+      "company": "Association of Accounting Technicians of Sri Lanka (AAT)",
+      "location": "Colombo 5, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=13&ac=DEFZZZ&jc=0001575555&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Association of Accounting Technicians of Sri Lanka (AAT). Location: Colombo 5, Sri Lanka. Closing: Thu Dec 10 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 26 2026",
+      "discovered_at": "2026-11-26T16:44:41.214437",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Designer",
+          "Company: Association of Accounting Technicians of Sri Lanka (AAT)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Association of Accounting Technicians of Sri Lanka (AAT) for Associate Designer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494997143",
+      "external_id": "4494997143",
+      "source": "linkedin_guest",
+      "title": "Associate Network Engineer",
+      "company": "V S Information Systems (Pvt) Ltd",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/associate-network-engineer-at-v-s-information-systems-pvt-ltd-4494997143",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 hours ago",
+      "discovered_at": "2026-11-26T16:44:28.589268",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Network Engineer",
+          "Company: V S Information Systems (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at V S Information Systems (Pvt) Ltd for Associate Network Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7532,6 +7606,117 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15905",
+      "external_id": "15905",
+      "source": "itpro_lk",
+      "title": "Intern – Software Engineer",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15905/intern-software-engineer-at-olee-ai-llc/",
+      "description": "Software engineering opening on ITPro.lk: Intern – Software Engineer at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-26T16:44:43.232205",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Intern – Software Engineer",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Intern – Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001575900",
+      "external_id": "0001575900",
+      "source": "topjobs_lk",
+      "title": "Mobile App Publishing & Release Specialist (iOS & Android) | Full Stack Developer | Mobile App Developer",
+      "company": "360 Dominance",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=3&ac=DEFZZZ&jc=0001575900&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: 360 Dominance. Location: Colombo, Sri Lanka. Closing: Thu Dec 10 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Thu Nov 26 2026",
+      "discovered_at": "2026-11-26T16:44:39.201577",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Mobile App Publishing & Release Specialist (iOS & Android) | Full Stack Developer | Mobile App Developer",
+          "Company: 360 Dominance"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at 360 Dominance for Mobile App Publishing & Release Specialist (iOS & Android) | Full Stack Developer | Mobile App Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4495273692",
+      "external_id": "4495273692",
+      "source": "linkedin_guest",
+      "title": "Experienced Android Developer",
+      "company": "Flat Rock Technology 🧩",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/experienced-android-developer-at-flat-rock-technology-%F0%9F%A7%A9-4495273692",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "5 hours ago",
+      "discovered_at": "2026-11-26T16:44:33.975699",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Spring Boot",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Experienced Android Developer",
+          "Company: Flat Rock Technology 🧩"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Flat Rock Technology 🧩 for Experienced Android Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
