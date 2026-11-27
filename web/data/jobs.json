@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T11:59:33.096338Z",
+    "generated_at": "2026-11-27T21:05:42.847384Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 581
+    "total_count": 582
   },
   "stats": {
-    "total_jobs": 581,
-    "evaluated_jobs": 581,
-    "high_matches": 581,
+    "total_jobs": 582,
+    "evaluated_jobs": 582,
+    "high_matches": 582,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
@@ -16,7 +16,7 @@
     "source_breakdown": {
       "itpro_lk": 106,
       "linkedin_guest": 242,
-      "linkedin_posts": 104,
+      "linkedin_posts": 105,
       "rooster_jobs": 18,
       "topjobs_lk": 84,
       "xpress_jobs": 27
@@ -7797,6 +7797,42 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7529144333258625025",
+      "external_id": "7529144333258625025",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Sebastian Sascha Rose (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/posts/sebastian-sascha-rose_laravel-php-fullstack-activity-7529144333258625025-mtZo",
+      "description": "👤 Posted by: Sebastian Sascha Rose\n\n---\nWir suchen Verstärkung für unser IT-Team bei Bears with Benefits!\n\nFür unsere selbst entwickelte Unternehmensapplikation auf Basis von Laravel suchen wir eine:n Full-Stack Developer. Die Applikation verbindet unsere Shopify-Shops, unser ERP, Marktplätze und Fulfillment-Partner und ist das Herzstück unseres E-Commerce. Dazu kommt unser eigenes React-Frontend.\n\nWas dich erwartet: ein eigenes Tech-Produkt statt Agenturgeschäft, direkter Einfluss auf unsere Systemarchitektur und ein Team, das KI-gestützt arbeitet, aber Wert darauf legt, Systeme wirklich zu verstehen und langfristig stabile Lösungen zu bauen.\n\nMünchen oder Remote (innerhalb Deutschlands) · Start ab Januar 2027 · Vollzeit\n\nWenn du jemanden kennst, der oder die gut passen würde, freue ich mich übers Teilen oder eine kurze Nachricht.\n\n#Laravel #PHP #FullStack #Hiring #München",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-19",
+      "discovered_at": "2026-11-27T21:05:38.862191",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Sebastian Sascha Rose (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sebastian Sascha Rose (LinkedIn Post) for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
