@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T16:44:47.029699Z",
+    "generated_at": "2026-11-27T01:39:17.702998Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 571
+    "total_count": 574
   },
   "stats": {
-    "total_jobs": 571,
-    "evaluated_jobs": 571,
-    "high_matches": 571,
+    "total_jobs": 574,
+    "evaluated_jobs": 574,
+    "high_matches": 574,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
       "itpro_lk": 105,
-      "linkedin_guest": 239,
-      "linkedin_posts": 99,
+      "linkedin_guest": 241,
+      "linkedin_posts": 100,
       "rooster_jobs": 18,
       "topjobs_lk": 83,
       "xpress_jobs": 27
@@ -7606,6 +7606,115 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7529144432579899392",
+      "external_id": "7529144432579899392",
+      "source": "linkedin_posts",
+      "title": "Full-Stack Developer",
+      "company": "Sebastian Sascha Rose (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://de.linkedin.com/posts/sebastian-sascha-rose_laravel-php-fullstack-activity-7529144432579899392-JNz_",
+      "description": "👤 Posted by: Sebastian Sascha Rose\n\n---\nWir suchen Verstärkung für unser IT-Team bei Bears with Benefits!\n\nFür unsere selbst entwickelte Unternehmensapplikation auf Basis von Laravel suchen wir eine:n Full-Stack Developer. Die Applikation verbindet unsere Shopify-Shops, unser ERP, Marktplätze und Fulfillment-Partner und ist das Herzstück unseres E-Commerce. Dazu kommt unser eigenes React-Frontend.\n\nWas dich erwartet: ein eigenes Tech-Produkt statt Agenturgeschäft, direkter Einfluss auf unsere Systemarchitektur und ein Team, das KI-gestützt arbeitet, aber Wert darauf legt, Systeme wirklich zu verstehen und langfristig stabile Lösungen zu bauen.\n\nMünchen oder Remote (innerhalb Deutschlands) · Start ab Januar 2027 · Vollzeit\n\nWenn du jemanden kennst, der oder die gut passen würde, freue ich mich übers Teilen oder eine kurze Nachricht.\n\n#Laravel #PHP #FullStack #Hiring #München #Remote",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-19",
+      "discovered_at": "2026-11-27T01:39:14.182304",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "React"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-Stack Developer",
+          "Company: Sebastian Sascha Rose (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sebastian Sascha Rose (LinkedIn Post) for Full-Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4494999223",
+      "external_id": "4494999223",
+      "source": "linkedin_guest",
+      "title": "Software Quality Assurance Intern",
+      "company": "Wood Couture",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/software-quality-assurance-intern-at-wood-couture-4494999223",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "17 hours ago",
+      "discovered_at": "2026-11-27T01:39:08.871181",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Quality Assurance Intern",
+          "Company: Wood Couture"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Wood Couture for Software Quality Assurance Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4495061517",
+      "external_id": "4495061517",
+      "source": "linkedin_guest",
+      "title": "Automation Engineer",
+      "company": "Dijital Team",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/automation-engineer-at-dijital-team-4495061517",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "12 minutes ago",
+      "discovered_at": "2026-11-27T01:39:02.710464",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Typescript",
+          "Git"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Automation Engineer",
+          "Company: Dijital Team"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Dijital Team for Automation Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
