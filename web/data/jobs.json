@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T01:39:17.702998Z",
+    "generated_at": "2026-11-27T11:59:33.096338Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 574
+    "total_count": 581
   },
   "stats": {
-    "total_jobs": 574,
-    "evaluated_jobs": 574,
-    "high_matches": 574,
+    "total_jobs": 581,
+    "evaluated_jobs": 581,
+    "high_matches": 581,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 105,
-      "linkedin_guest": 241,
-      "linkedin_posts": 100,
+      "itpro_lk": 106,
+      "linkedin_guest": 242,
+      "linkedin_posts": 104,
       "rooster_jobs": 18,
-      "topjobs_lk": 83,
+      "topjobs_lk": 84,
       "xpress_jobs": 27
     },
     "min_match_score_threshold": 70
@@ -924,6 +924,197 @@
         ],
         "concerns": [],
         "summary": "Opportunities at BairesDev for Junior Fullstack React & Node Developer - Remote Work | REF#305551. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "topjobs_0001576421",
+      "external_id": "0001576421",
+      "source": "topjobs_lk",
+      "title": "Software Engineer / Associate Software Engineer",
+      "company": "Afisol (Pvt) Ltd",
+      "location": "Colombo 1, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.topjobs.lk/employer/JobAdvertismentServlet?rid=5&ac=DEFZZZ&jc=0001576421&ec=DEFZZZ&pg=applicant/vacancybyfunctionalarea.jsp",
+      "description": "Software opening on TopJobs.lk. Company: Afisol (Pvt) Ltd. Location: Colombo 1, Sri Lanka. Closing: Fri Dec 11 2026",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Fri Nov 27 2026",
+      "discovered_at": "2026-11-27T11:59:27.708173",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer / Associate Software Engineer",
+          "Company: Afisol (Pvt) Ltd"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Afisol (Pvt) Ltd for Software Engineer / Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7529264602103218176",
+      "external_id": "7529264602103218176",
+      "source": "linkedin_posts",
+      "title": "FullStack Developer",
+      "company": "Catalina Pascual (LinkedIn Post)",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://es.linkedin.com/posts/catalinapascual_fullstack-hiring-fullstackdeveloper-activity-7529264602103218176-hUeT",
+      "description": "👤 Posted by: Catalina Pascual\n\n---\nWe're hiring! 🚀 #FullStack Developer | 📍100% remote desde Argentina\n\nEn Shapely buscamos alguien con 4+ años de experiencia en JavaScript / TypeScript, Node.js y React, que use AI tools en su día a día y quiera crecer en una startup con impacto real! \n\n English is a MUST! 🇺🇸\n\nAplicá en el link 👇 o mandame DM! \n\n#Hiring #FullStackDeveloper #RemoteJobs #HealthTech",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-19",
+      "discovered_at": "2026-11-27T11:59:25.778343",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "React",
+          "Typescript",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: FullStack Developer",
+          "Company: Catalina Pascual (LinkedIn Post)"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Catalina Pascual (LinkedIn Post) for FullStack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7530411333788557313",
+      "external_id": "7530411333788557313",
+      "source": "linkedin_posts",
+      "title": "Associate Software Engineer",
+      "company": "RemoteHub Global",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://www.linkedin.com/posts/remotehubglobal_associate-software-engineer-activity-7530411333788557313-Mz7F",
+      "description": "🔗 Direct Link in Post: https://lnkd.in/gvjfBg-x\n👤 Posted by: RemoteHub Global\n\n---\n#hiring\r\nAssociate Software Engineer \r\n\r\n\r\nDeltek\r\n\r\n\r\nFULL TIME\r\n$1200000 - $1600000\r\nFresher\r\nRemote\r\n, India\r\n\nAbout this job\r\nDeltek is hiring for the position of Associate Software Engineer. This listing gives you a quick overview of the opportunity, including the pay range, the type of employment, the experience level and the work mode, all shown in the tags at the top of this page.\r\nBefore you apply, take a few minutes to go through the complete job posting on the employer's official application page. That is where you will find the full list of responsibilities, required skills, qualifications and any application deadlines.\r\nIf the role looks like a good fit for your background, update your resume so that it highlights the skills and experience most relevant to this position, then apply directly using the button below.\r\nTips before you apply\r\n\r\nRead the full job description on the employer's page and check that you meet the main requirements.\r\nTailor your resume and cover letter to the role instead of sending a generic copy.\r\nApply as early as you can, since openings can close without notice.\r\nNever pay any fee to apply for a job, and be careful when sharing personal or financial details.\r\n\r\n\r\nHow to apply\r\nApplications are handled directly by the employer. Click the button below to open the official application page.\r\n\r\nApply now\r\n\r\n\r\nDisclaimer: This job listing has been collected from a third-party source and is shared for informational purposes only. We are not affiliated with, endorsed by or connected to Deltek or the employer, and we do not take part in their hiring, interviews or selection process. We do not guarantee the accuracy of the details or that the position is still open, and we are not responsible for the outcome of any application. All applications are submitted directly on the employer's own page, so please verify the details with the employer before sharing any personal information.\r\n.\r\n\nhttps://lnkd.in/gvjfBg-x",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-22",
+      "discovered_at": "2026-11-27T11:59:23.755822",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Associate Software Engineer",
+          "Company: RemoteHub Global"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at RemoteHub Global for Associate Software Engineer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7531975499426807808",
+      "external_id": "7531975499426807808",
+      "source": "linkedin_posts",
+      "title": "Java Full Stack Developer",
+      "company": "DirectFN Sri Lanka",
+      "location": "Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/directfn-sri-lanka_teamdirectfn-javafullstackdeveloper-java-activity-7531975499426807808-Ssww",
+      "description": "📩 Apply / Contact Email: careers@directfn.com\n🔗 Direct Link in Post: https://directfn.lk/\n👤 Posted by: DirectFN Sri Lanka\n\n---\n🚀 We're Hiring - Java Full Stack Developer\n\nWhat we're looking for\n\n◼️Bachelor's degree in Computer Science, Information Technology or a related field.\n◼️Minimum of 3-5+ years of professional experience\n◼️Core Java: Object-oriented programming (OOP), collections, multithreading, exception handling, and JVM fundamentals.\n◼️Spring Ecosystem: Spring Framework, Spring Boot, Spring MVC, and Spring Security (authentication, authorization, JWT, OAuth).\n◼️APIs & Architecture: Building RESTful APIs, microservices basics, design patterns, and system design fundamentals.\n◼️Build Tools: Maven\n\nFrontend Development\n\n◼️Core Web: HTML5, CSS3 (responsive design, accessibility\n◼️TypeScript: Static typing and error checking for larger codebases.\n◼️UI Frameworks: React.js\n◼️Databases & ORM\n\n◼️Relational Databases: SQL queries and database design using Oracle.\n◼️ORM & Caching: Hibernate, Spring Data JPA, caching with Redis\n\n📩 Send your resumes to careers@directfn.com\n🌐 https://directfn.lk/\n\nApply now and be part of #TeamDirectFN\n\n#JavaFullStackDeveloper #JAVA #OOP #HTML5 #SpringBoot #wearehiring #applynow #techjobs",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "2026-11-27",
+      "discovered_at": "2026-11-27T11:59:21.826802",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Typescript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Java Full Stack Developer",
+          "Company: DirectFN Sri Lanka"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at DirectFN Sri Lanka for Java Full Stack Developer. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "lipost_7531758438805065729",
+      "external_id": "7531758438805065729",
+      "source": "linkedin_posts",
+      "title": "Software Engineer",
+      "company": "ITJobs.lk",
+      "location": "Kelaniya, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://www.linkedin.com/posts/itjobs-lk_itjobslk-sri-softwareengineer-activity-7531758438805065729-KLxb",
+      "description": "📩 Apply / Contact Email: hello@itjobs.lk\n👤 Posted by: ITJobs.lk\n\n---\n🚀 INTERNATIONAL IT TALENT SPOTLIGHT | SOFTWARE TECHNICAL LEAD\n\nAn accomplished Software Technical Lead / Senior Software Engineer from Sri Lanka is seeking exciting international career opportunities.\n\nWith 8+ years of experience in software engineering and technical leadership, he brings strong expertise in designing and delivering scalable, high-performance enterprise applications, microservices, real-time data processing and AI-powered solutions.\n\n💼 Career Experience\nTechnical Lead (April 2025 – Present)\nAssociate Technical Lead (August 2022 – November 2024)\nSenior Software Engineer (May 2021 – August 2022)\nSenior Software Engineer (June 2020 – May 2021)\nAssociate Consultant – Technology (July 2019 – June 2020)\nSoftware Engineer (July 2018 – July 2019)\n\n🎓 Academic Qualification\n✔️ BSc (Hons) in Software Engineering – University of Kelaniya, Sri Lanka.\n\n🏅 Professional Certifications\n✔️ AWS Certified Solutions Architect – Associate\n✔️ AWS Certified Developer – Associate\n✔️ Claude Certified Architect Foundations\n✔️ IBM Data Scientist Master Program – In Progress\n\n💻 Technical Expertise\nJava, Kotlin, JavaScript, Python, Spring Boot, React, FastAPI, OpenFin, Microservices, Low-Latency Architecture, Generative AI, LangChain, Agentic Coding Workflows, Kafka, Apache Beam, Apache Flink, Databricks, PostgreSQL, MongoDB, Redis, Docker, AWS, Azure, GCP, Jenkins, ArgoCD, Bitbucket, Datadog, Grafana, Claude, Unit & Integration Testing.\n\n⭐ Selected Career Achievements\n✔️ Led a team of 5 engineers in modernising an enterprise e-trading platform.\n✔️ Managed data backfill processing over 90 million data points with zero discrepancies.\n✔️ Developed an AI chatbot that improved response times by 60%.\nContributed to microservices solutions that reduced order processing time by 40%.\n✔️ Developed a service provisioning engine processing over 1.5 million requests daily.\n✔️ Experienced in technical architecture, team leadership, mentoring, stakeholder management and end-to-end solution delivery.\n\n🌍 Open to International Opportunities\nHe is interested in overseas opportunities in Software Engineering, Senior Software Engineering, Technical Leadership and Software Architecture.\n\nEmployers and international recruiters looking for skilled technology professionals are welcome to connect with ITJobs.lk.\n\n📩 hello@itjobs.lk\n✆ +94 74 2617414\n🌐 www.itjobs.lk\n\n#ITJobsLK #Sri LankanITTalent #SoftwareEngineer #TechnicalLead #GlobalTalent #Hiring #InternationalCareers #TechRecruitment",
+      "experience_level": "Internship / Trainee",
+      "posted_date": "2026-11-26",
+      "discovered_at": "2026-11-27T11:59:19.990954",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 85,
+        "match_verdict": "STRONG_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Javascript"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Software Engineer",
+          "Company: ITJobs.lk"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at ITJobs.lk for Software Engineer. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
@@ -7606,6 +7797,80 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15915",
+      "external_id": "15915",
+      "source": "itpro_lk",
+      "title": "MERN Stack Developer Intern",
+      "company": "Sri Lankan Tech Company",
+      "location": "Remote",
+      "workplace_type": "Remote",
+      "apply_url": "https://itpro.lk/job/15915/mern-stack-developer-intern-at-codecrafters/",
+      "description": "Software engineering opening on ITPro.lk: MERN Stack Developer Intern at Sri Lankan Tech Company (Remote).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-27T11:59:29.553248",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: MERN Stack Developer Intern",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for MERN Stack Developer Intern. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "li_4495082575",
+      "external_id": "4495082575",
+      "source": "linkedin_guest",
+      "title": "Solution Engineer – ICT and AI Technologies",
+      "company": "Envoy Ortus OCEANIA",
+      "location": "Colombo, Western Province, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://lk.linkedin.com/jobs/view/solution-engineer-%E2%80%93-ict-and-ai-technologies-at-envoy-ortus-oceania-4495082575",
+      "description": "",
+      "experience_level": "Associate / Entry Level",
+      "posted_date": "3 hours ago",
+      "discovered_at": "2026-11-27T11:59:14.545340",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Solution Engineer – ICT and AI Technologies",
+          "Company: Envoy Ortus OCEANIA"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Envoy Ortus OCEANIA for Solution Engineer – ICT and AI Technologies. Relevant for candidates with Python/Full Stack background."
       }
     },
     {
