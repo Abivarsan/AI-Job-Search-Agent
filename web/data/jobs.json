@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T21:05:42.847384Z",
+    "generated_at": "2026-11-28T07:28:34.901008Z",
     "app_name": "AI Job Search Agent",
     "candidate_name": "Abivarsan Ketheeswaran",
-    "total_count": 582
+    "total_count": 583
   },
   "stats": {
-    "total_jobs": 582,
-    "evaluated_jobs": 582,
-    "high_matches": 582,
+    "total_jobs": 583,
+    "evaluated_jobs": 583,
+    "high_matches": 583,
     "bookmarked_count": 0,
     "applied_count": 0,
     "omitted_count": 0,
     "interviewing_count": 0,
     "source_breakdown": {
-      "itpro_lk": 106,
+      "itpro_lk": 107,
       "linkedin_guest": 242,
       "linkedin_posts": 105,
       "rooster_jobs": 18,
@@ -7797,6 +7797,43 @@
         ],
         "concerns": [],
         "summary": "Opportunities at Torentify for Full Stack Developer - Remote. Relevant for candidates with Python/Full Stack background."
+      }
+    },
+    {
+      "id": "itpro_15918",
+      "external_id": "15918",
+      "source": "itpro_lk",
+      "title": "Full-stack Software Engineer (contract)",
+      "company": "Sri Lankan Tech Company",
+      "location": "Colombo, Sri Lanka",
+      "workplace_type": "On-site",
+      "apply_url": "https://itpro.lk/job/15918/full-stack-software-engineer-contract-at-creativex-technology-pvt-ltd/",
+      "description": "Software engineering opening on ITPro.lk: Full-stack Software Engineer (contract) at Sri Lankan Tech Company (Colombo, Sri Lanka).",
+      "experience_level": "Entry / Associate",
+      "posted_date": "Recent",
+      "discovered_at": "2026-11-28T07:28:31.436944",
+      "status": "NOTIFIED",
+      "user_status": "NEW",
+      "user_notes": "",
+      "evaluation": {
+        "match_score": 75,
+        "match_verdict": "MODERATE_MATCH",
+        "experience_fit": "Suitable for entry to associate software engineers.",
+        "matching_skills": [
+          "Software Engineering",
+          "Problem Solving"
+        ],
+        "missing_skills": [
+          "C#",
+          ".Net",
+          "Asp.Net Core"
+        ],
+        "pros": [
+          "Target role match: Full-stack Software Engineer (contract)",
+          "Company: Sri Lankan Tech Company"
+        ],
+        "concerns": [],
+        "summary": "Opportunities at Sri Lankan Tech Company for Full-stack Software Engineer (contract). Relevant for candidates with Python/Full Stack background."
       }
     },
     {
